@@ -2,17 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Observer : MonoBehaviour
+public partial class GameManager 
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // This is the Observer
+    // Treat this as the input layer for the GameManager
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // // public void E_ChangeBackdrops(){} // Feeds to director, smoothly transitioning backdrops.
+
+    // // public void E_SwapCharacter(){} // Feeds to director, which smoothly transitions characters
+
+    // public void E_ChangeLocale(){}
 }

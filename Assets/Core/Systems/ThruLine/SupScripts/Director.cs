@@ -2,17 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Director : MonoBehaviour
+public partial class GameManager
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // This is the Director.
+    // All actions flow from here.
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+    
 }
