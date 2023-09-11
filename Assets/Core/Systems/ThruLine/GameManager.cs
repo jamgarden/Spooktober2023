@@ -15,8 +15,20 @@ public partial class GameManager : MonoBehaviour
     [SerializeField]
     private LocaleSO currentLocale;
 
+    [SerializeField]
+    private GameObject Stage;
+
+    [SerializeField]
+    private GameObject MainMenu;
+
+    [SerializeField]
+    private List<LocaleSO> LocaleList;
+
     void Start(){
         Debug.Log(currentLocale.Name);
+        
+
+        Debug.Log(currentLocale.BGList[0].name);
         // We need to have a savegame.json file with 3 slots on it. 
         // This is where we should read that.  
 
@@ -25,16 +37,25 @@ public partial class GameManager : MonoBehaviour
 
     // Observer functions
 
-    public void StartGameEvent(string targetScene)
+    public void StartGameEvent(int index)
     {
         Debug.Log("This is where the game starts");
-        // targetScene defaults to chosen loadSceneTarget
-        // but is overridable for forced transitions.
-        if(targetScene ==""){
-            SwitchStudio(loadSceneTarget);
-        }
+        // Switch to starting area locale
+        foreach(LocaleSO locale in LocaleList)
+        {
 
-        SwitchStudio(targetScene);
+            if (locale.Name == "Dorm")
+            {
+                currentLocale = locale;
+                Debug.Log("Found Dorm");
+            }
+        }
+        // Sets backdrop to index 1 of current locale, which is called "Menu"
+        setBackDropEMIT(index);
+        // TEMPORARY - go directly into game without selecting save game
+
+        // Disable the menu
+        MainMenu.SetActive(false);
         
         
     }
