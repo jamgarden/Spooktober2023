@@ -10,10 +10,10 @@ Casey: "Freakaversity, a place that makes even your wildest of dreams pale in co
 Casey: "Some people have implied that I'm lying, and some that I exaggerate"
 Casey: "WELL, let me tell you, today, I'm going to give you a tour all around the place. Not just that, you'll get to meet my roomie, Phoebe!"
 Casey: "Yes, the very same one who can walk over the ceiling!"
-<<Take Casey out for this one, they're holding the camera>>
+// <<Take Casey out for this one, they're holding the camera>>
 Casey: "So, this is the corridor, isn't it amazing? Come on, follow me to the room!"
-<<Footsteps and door opening>>
-<<Phoebe Appears>>
+// <<Footsteps and door opening>>
+// <<Phoebe Appears>>
 Casey: "And this is Phoebe, everyone!"
 Phoebe: "Oh? Are you doing one of your Vlogs???"
 Casey: "Yeah, you're live on BooTube Pheebs!"
@@ -33,7 +33,7 @@ Casey: "We'll definitely document that later. So, what are your aspirations here
 Phoebe: "Oh oh!!! I want to learn enough about agronomics and farming to seed an entire desert!!!"
 Casey: "Wow, that's amazing Pheebs! Last but not least, can you do the neck trick?"
 Phoebe: "I THOUGHT YOU'D NEVER ASK!"
-<<head spins 360>>
+// <<head spins 360>>
 Casey: "HOW DID YOU DO THAT?!"
 Phoebe: "I JUST EAT MY VEGGIES EVERYDAY!"
 Casey: "Wow ladies and gentlemen and others, you just saw it! Wait, Phoebe, look"
@@ -44,8 +44,8 @@ Casey: "I wouldn't say FAMOUS famous..."
 Phoebe: "VIRAL?"
 Casey: "Wouldn't say either..."
 Phoebe: "LET ME SEE"
-<<any sound that can imply the camera passes to another hand, maybe spinning the background too>>
-<<Take phoebe out, now put Casey. Phoebe holds the camera>>
+// <<any sound that can imply the camera passes to another hand, maybe spinning the background too>>
+// <<Take phoebe out, now put Casey. Phoebe holds the camera>>
 Phoebe: "OMG OMG OMG!!!!"
 Casey: "Uhm, Phoebe, give me that!"
 Phoebe: "Why hello world! Come on Casey, tell us what you wanna do!"
@@ -57,8 +57,8 @@ Casey: "SO, cool"
 Phoebe: "Alright, time to find the others!"
 Casey: "No wait, I didn't tell anyone else yet!!!"
 Phoebe: "EVEN BETTER!!!"
-<<fade to black, running sounds>>
-<<fade into messhole, put bayley sad in it>>
+// <<fade to black, running sounds>>
+// <<fade into messhole, put bayley sad in it>>
 Phoebe: "HEY BAYLEY!"
 <<regular bayley now>>
 Bayley: "Oh, hey Pheebs! Casey! What are you doing with that camera?"
@@ -79,11 +79,11 @@ Phoebe: "So why don't you show everyone one of those crazy barks of yours?!!!"
 Bayley: "Uhm cause we're in the messhole?"
 Casey: "Aw come on, just one!!!"
 Bayley: "Alright, here it goes.............."
-<<bark>>
+// <<bark>>
 Phoebe: "WOW, THE VIEWERS JUST WENT EVEN HIGHER!!!"
 Casey: "Holy May!"
 Bayley: "Oh? Let me see let me see!!!"
-<<Siegfried joins>>
+// <<Siegfried joins>>
 Siegfried: "Could you turn down the volume of your pathetic, commonplace noises, peasants??"
 Casey: "Oh, hey Sieg"
 Phoebe: "Eat your soup in silence, vampire!"
@@ -92,13 +92,13 @@ Siegfried: "You know I'm right if even the furry agrees with me"
 Bayley: "Hey don't push it, you twat!"
 Gee: "What's with the ruckus you lot? Are we fighting each other again?"
 Casey: "Oh, hey Gee!"
-<<blushed bayley>>
+// <<blushed bayley>>
 Bayley: "Oh... hehe... hi Gee..."
 Phoebe: "OH! THE COMMENTS ARE SAYING THAT..."
 Casey finally snatches the camera out of Phoebe's hand and shuts her up
 Casey: "So, Sieg, Gee, what do you do in Freakaversity?"
 Siegfried: "I listen to idiotic freaks every single day"
-<<Siegfried takes off>>
+// <<Siegfried takes off>>
 Gee: "Oh oh, you know, the usual! I eat veincorice, go to my classes, hang out with the edgy vampire and my bro... Study to become a..."
 Bee: "Hey, what's going on?"
 Casey: "Oh hey Bee! What are you doing here?"
@@ -120,15 +120,15 @@ Gee: "Yeah, I think my youngest part is my pinky toe..."
 Bee: "Yeeeah, they tend to smash into things first"
 Casey: "Yeah... they always do right?"
 Casey: "Oh wait, battery is getting low..."
-<<Casey up front, no one else, still in messhole>>
+// <<Casey up front, no one else, still in messhole>>
 Casey: "I'll show you more in my next vlog you guys, glad to see you around!"
 Phoebe: "BYE STRANGERS!"
-<<fade to black, .rec animation out>>
+// <<fade to black, .rec animation out>>
 <<jump Dorm1>>
 ===
 title: Dorm1
 ---
-<<back to dorm room>>
+// <<back to dorm room>>
 Phoebe: "Case', have you been awake all night watching the statistics?"
 -> "WE'RE OVER ONE MILLION VIEWS NOW PHEEBS!!!!"
 -> "No, not at all..."

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using Yarn;
 using Yarn.Unity;
 
@@ -47,13 +48,14 @@ public partial class GameManager : MonoBehaviour
         MainMenu.SetActive(false);
         Stage.SetActive(true);
         // Sets backdrop to index 1 of current locale, which is called "Menu"
-        setBackDropEMIT(index);
+        setBackDropEMIT(0);
         // TEMPORARY - go directly into game without selecting save game
         // need to make players select a save game
         // Disable the menu
 
         // Set the current node for the dialogue system, and start
         dialogueRunner.StartDialogue("Intro");
+        Debug.Log(currentLocale.Name, Stage.GetComponentInChildren<Image>().gameObject);
     }
 
 
