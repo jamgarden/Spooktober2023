@@ -1,8 +1,8 @@
 ﻿title: Intro
 tags:
 ---
-<<change_background -1 Corridor>>
-<<add_background -1 recanimation>>
+//<<change_background -1 Corridor>>
+//<<add_background -1 recanimation>> // We should be able to do this with a command.
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"
 Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"
 Casey: "I'm here at the most prestigious college ever, of which regular people know oh so very little about"

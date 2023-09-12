@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Yarn;
+using Yarn.Unity;
 
 public partial class GameManager : MonoBehaviour
 {
@@ -10,7 +12,7 @@ public partial class GameManager : MonoBehaviour
     private string loadSceneTarget = "Gameplay"; //
 
     [SerializeField]
-    private string[] Background;
+    private DialogueRunner dialogueRunner;
 
     [SerializeField]
     private LocaleSO currentLocale;
@@ -41,23 +43,17 @@ public partial class GameManager : MonoBehaviour
     {
         Debug.Log("This is where the game starts");
         // Switch to starting area locale
-        foreach(LocaleSO locale in LocaleList)
-        {
-
-            if (locale.Name == "Dorm")
-            {
-                currentLocale = locale;
-                Debug.Log("Found Dorm");
-            }
-        }
+        currentLocale = LocaleList[index];
+        MainMenu.SetActive(false);
+        Stage.SetActive(true);
         // Sets backdrop to index 1 of current locale, which is called "Menu"
         setBackDropEMIT(index);
         // TEMPORARY - go directly into game without selecting save game
-
+        // need to make players select a save game
         // Disable the menu
-        MainMenu.SetActive(false);
-        
-        
+
+        // Set the current node for the dialogue system, and start
+        dialogueRunner.StartDialogue("Intro");
     }
 
 
