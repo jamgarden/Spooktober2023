@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using Yarn;
+using Yarn.Unity;
 
 public partial class GameManager : MonoBehaviour
 {
@@ -10,7 +13,7 @@ public partial class GameManager : MonoBehaviour
     private string loadSceneTarget = "Gameplay"; //
 
     [SerializeField]
-    private string[] Background;
+    private DialogueRunner dialogueRunner;
 
     [SerializeField]
     private LocaleSO currentLocale;
@@ -23,6 +26,17 @@ public partial class GameManager : MonoBehaviour
 
     [SerializeField]
     private List<LocaleSO> LocaleList;
+
+    [SerializeField]
+    private List<CharacterSO> StagedCharacters;
+
+    [SerializeField]
+    private List<CharacterSO> CastOfCharacters;
+
+    // private enum StagePosition{ FarLeft, Left, Center, Right, FarRight };
+
+    [SerializeField]
+    private List<Image> Positions;
 
     void Start(){
         Debug.Log(currentLocale.Name);
@@ -41,23 +55,21 @@ public partial class GameManager : MonoBehaviour
     {
         Debug.Log("This is where the game starts");
         // Switch to starting area locale
-        foreach(LocaleSO locale in LocaleList)
-        {
-
-            if (locale.Name == "Dorm")
-            {
-                currentLocale = locale;
-                Debug.Log("Found Dorm");
-            }
-        }
-        // Sets backdrop to index 1 of current locale, which is called "Menu"
-        setBackDropEMIT(index);
-        // TEMPORARY - go directly into game without selecting save game
-
-        // Disable the menu
+        currentLocale = LocaleList[index];
         MainMenu.SetActive(false);
-        
-        
+        Stage.SetActive(true);
+
+
+        // Sets backdrop to index 1 of current locale, which is set to the first gameplay
+        // Locale. Changing locale and setting backdrop effectively 
+        setBackDropEMIT(0);
+        // TEMPORARY - go directly into game without selecting save game
+        // need to make players select a save game
+        // Disable the menu
+
+        // Set the current node for the dialogue system, and start
+        dialogueRunner.StartDialogue("Intro");
+        Debug.Log(currentLocale.Name, Stage.GetComponentInChildren<Image>().gameObject);
     }
 
 
