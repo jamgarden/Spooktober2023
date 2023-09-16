@@ -216,6 +216,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2879660551270626990}
     - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: Positions.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: Background.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -223,6 +227,26 @@ PrefabInstance:
       propertyPath: LocaleList.Array.size
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: Positions.Array.data[0]
+      value: 
+      objectReference: {fileID: 6722563443190047709}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: Positions.Array.data[1]
+      value: 
+      objectReference: {fileID: 112078869458371404}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: Positions.Array.data[2]
+      value: 
+      objectReference: {fileID: 4589917066788257348}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: Positions.Array.data[3]
+      value: 
+      objectReference: {fileID: 3707126871856691538}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: Positions.Array.data[4]
+      value: 
+      objectReference: {fileID: 8181470779751480793}
     - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: Background.Array.data[0]
       value: Test1
@@ -239,6 +263,14 @@ PrefabInstance:
       propertyPath: LocaleList.Array.data[1]
       value: 
       objectReference: {fileID: 11400000, guid: dfbdc6d6298bbe3479efe4c53ae0ad44, type: 2}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: CastOfCharacters.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: CastOfCharacters.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 701836743f931c044bf476450c9c5d65, type: 2}
     - target: {fileID: 4858927719424284314, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -494,7 +526,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -230, y: -128}
+  m_AnchoredPosition: {x: -390, y: -128}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &65702891691196577
@@ -1445,7 +1477,19 @@ MonoBehaviour:
   useTypewriterEffect: 1
   onCharacterTyped:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   typewriterEffectSpeed: 120
   continueButton: {fileID: 2199329844742589566}
   holdTime: 1
@@ -3220,7 +3264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390, y: -128}
+  m_AnchoredPosition: {x: -230, y: -128}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &8980282748436027037

@@ -1,10 +1,12 @@
 ﻿title: Intro
 tags:
 ---
-//<<change_background -1 Corridor>>
-//<<add_background -1 recanimation>> // We should be able to do this with a command.
+// <<change_background -1 Corridor>>
+// <<add_background -1 recanimation>> // We should be able to do this with a command.
+<<Place ThruLine TestDude Right>>
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"
 Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"
+<<Clear ThruLine>>
 Casey: "I'm here at the most prestigious college ever, of which regular people know oh so very little about"
 Casey: "Freakaversity, a place that makes even your wildest of dreams pale in comparison"
 Casey: "Some people have implied that I'm lying, and some that I exaggerate"
@@ -60,7 +62,7 @@ Phoebe: "EVEN BETTER!!!"
 // <<fade to black, running sounds>>
 // <<fade into messhole, put bayley sad in it>>
 Phoebe: "HEY BAYLEY!"
-<<regular bayley now>>
+// <<regular bayley now>>
 Bayley: "Oh, hey Pheebs! Casey! What are you doing with that camera?"
 Casey: "Uhm... we're... uhm... live on BooTube?"
 Bayley: "No kidding? That's so cool!! Hey mom, hey dad!!!!"

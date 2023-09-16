@@ -27,6 +27,17 @@ public partial class GameManager : MonoBehaviour
     [SerializeField]
     private List<LocaleSO> LocaleList;
 
+    [SerializeField]
+    private List<CharacterSO> StagedCharacters;
+
+    [SerializeField]
+    private List<CharacterSO> CastOfCharacters;
+
+    // private enum StagePosition{ FarLeft, Left, Center, Right, FarRight };
+
+    [SerializeField]
+    private List<Image> Positions;
+
     void Start(){
         Debug.Log(currentLocale.Name);
         
@@ -47,7 +58,10 @@ public partial class GameManager : MonoBehaviour
         currentLocale = LocaleList[index];
         MainMenu.SetActive(false);
         Stage.SetActive(true);
-        // Sets backdrop to index 1 of current locale, which is called "Menu"
+
+
+        // Sets backdrop to index 1 of current locale, which is set to the first gameplay
+        // Locale. Changing locale and setting backdrop effectively 
         setBackDropEMIT(0);
         // TEMPORARY - go directly into game without selecting save game
         // need to make players select a save game
