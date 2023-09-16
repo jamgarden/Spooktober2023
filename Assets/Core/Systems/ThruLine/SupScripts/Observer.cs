@@ -41,7 +41,18 @@ public partial class GameManager
         }
         else
         {
+            foreach(CharacterSO character in StagedCharacters)
+            {
+                if(character.Name == characterName)
+                {
+                    Debug.Log("They're already up here!");
+                    // fire off move event
+                    MoveCharacter_Emit(character, getStagePos(position));
+                    return;
+                }
+            }
             StagedCharacters.Add(characterHolder);
+            characterHolder.Position = position;
         }
 
         // And let's call our Director from here:
@@ -50,10 +61,14 @@ public partial class GameManager
     }
 
     [YarnCommand("Clear")]
-    public void Clear_Event()
+    public void Clear_Event(string position = "All")
     {
         // check to see if all need to be cleared
-        ClearStageAll_Emit();
+        if(position == "All")
+        {
+            ClearStageAll_Emit();
+            StagedCharacters.Clear();
+        }
     }
 
 }

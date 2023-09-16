@@ -8,6 +8,8 @@ public class CharacterSO : ScriptableObject
 {
     public string Name;
 
+    public string Position;
+
     // public Sprite Portrait;
     public Sprite Neutral;
     public Sprite Sad;

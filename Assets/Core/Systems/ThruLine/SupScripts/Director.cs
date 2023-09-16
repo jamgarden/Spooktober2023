@@ -61,6 +61,60 @@ public partial class GameManager
         {
             position.sprite = null;
         }
+        foreach(CharacterSO character in StagedCharacters)
+        {
+            character.Position = null;
+        }
         Debug.Log("Stage cleared!");
     }
+
+    public void ClearPosition_Emit(string position)
+    {
+        bool found = false;
+        foreach(Image pos in Positions)
+        {
+            if(pos.name == position)
+            {
+                pos.sprite = null;
+                found = true;
+            }
+        }
+        foreach(CharacterSO character in StagedCharacters)
+        {
+            if(character.Position == position)
+            {
+                character.Position = null;
+                StagedCharacters.Remove(character);
+            }
+        }
+    }
+
+
+    public void MoveCharacter_Emit(CharacterSO character, GameObject position)
+    {
+        ClearPosition_Emit(position.name);
+        Image image = position.GetComponent<Image>();
+        getStagePos(character.Position).GetComponent<Image>().sprite = null;
+        image.sprite = character.Neutral; // Please note that this is neutral and needs to be changed
+        character.Position = position.name;
+    }
+
+    // ***********************************************
+
+    private GameObject getStagePos(string position)
+    {
+        foreach(Image pos in Positions)
+        {
+            if(pos.gameObject.name == position)
+            {
+                // this means we found it
+                return pos.gameObject;
+            }
+        }
+        Debug.LogError("Uh Oh! I couldn't find that position! The listed position is: " + position);
+        return null;
+    }
+
+
+    //private void findStagedCharacter
 }
