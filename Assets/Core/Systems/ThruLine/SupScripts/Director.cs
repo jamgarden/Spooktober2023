@@ -17,7 +17,7 @@ public partial class GameManager
 
     public void Place_Emit(CharacterSO character, string position, bool flip = false)
     {
-
+        Vector2 spriteSize = character.Neutral.rect.size;
         // get StagedCharacter by name
         // switch stage position sprite to StagedCharacter by emotion label.
         // switch case for emotion strings
@@ -27,23 +27,28 @@ public partial class GameManager
 
             case "FarLeft": 
                 Debug.Log("FarLeft PING *************");
+                Positions[0].rectTransform.sizeDelta = spriteSize;
                 Positions[0].sprite = StagedCharacters.Last().Neutral;
                 break;
             case "Left":
                 Debug.Log("Left PING **************");
+                Positions[1].rectTransform.sizeDelta = spriteSize;
                 Positions[1].sprite = StagedCharacters.Last().Neutral;
                 break;
             case "Center":
                 Debug.Log("Center PING ****************");
+                Positions[2].rectTransform.sizeDelta = spriteSize;
                 Positions[2].sprite = StagedCharacters.Last().Neutral;
                 break;
             case "Right":
                 Debug.Log("Right PING *****************");
+                Positions[3].rectTransform.sizeDelta = spriteSize;
                 Positions[3].sprite = StagedCharacters.Last().Neutral;
                 //Positions[3].gameObject.transform.localScale = new Vector3(-1, 1, 1);
                 break;
             case "FarRight":
                 Debug.Log("FarRight PING ***************");
+                Positions[4].rectTransform.sizeDelta = spriteSize;
                 Positions[4].sprite = StagedCharacters.Last().Neutral;
                 //Positions[3].gameObject.transform.localScale = new Vector3(-1, 1, 1);
                 break;
@@ -85,13 +90,18 @@ public partial class GameManager
             Debug.LogError("Hey, we couldn't find that position at Director. Clear failed!");
             return;
         }
+        CharacterSO heldForClear = null;
         foreach(CharacterSO character in StagedCharacters)
         {
             if(character.Position == position)
             {
                 character.Position = null;
-                StagedCharacters.Remove(character);
+                heldForClear = character;
             }
+        }
+        if(heldForClear != null)
+        {
+            StagedCharacters.Remove(heldForClear);
         }
     }
 
