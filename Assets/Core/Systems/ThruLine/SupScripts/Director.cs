@@ -77,7 +77,13 @@ public partial class GameManager
             {
                 pos.sprite = null;
                 found = true;
+
             }
+        }
+        if (!found)
+        {
+            Debug.LogError("Hey, we couldn't find that position at Director. Clear failed!");
+            return;
         }
         foreach(CharacterSO character in StagedCharacters)
         {
