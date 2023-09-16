@@ -64,10 +64,14 @@ public partial class GameManager
     public void Clear_Event(string position = "All")
     {
         // check to see if all need to be cleared
-        if(position == "All")
+        if (position == "All")
         {
             ClearStageAll_Emit();
             StagedCharacters.Clear();
+        }
+        else
+        {
+            ClearPosition_Emit(position);
         }
     }
 
