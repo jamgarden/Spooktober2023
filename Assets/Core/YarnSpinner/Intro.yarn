@@ -895,7 +895,32 @@ Siegfried: "He's the principal"
 Gee: "...I sneezed."
 Gee proceeds to sneeze very fakely
 Gee: "See? Sneezed"
-May: "Allright sneezy gang, listen up. Your task is to scare everyone in the next town, village, city, or whatever you lot call it these days!"
+May: "Allright sneezy gang, listen up. I didn't tell the fuuulll story back there"
+May: "'Cause you know, we'd never hear the end o'it!"
+May: "So, saving you all the tantrum I'm about to hear..."
+May: "I'm bringing the townsfolk over here!"
+-> "Wait, what?"
+    May: "Ya heard, Casius Klein!"
+    Casey: "The only ones freaking out... will be the monsters!"
+    Siegfried: "To see you everyday is already a pain, and you're half trouble."
+    May: "Hahaha isn't that great? Everyone going bonkers!!!"
+-> "That's..."
+    May: "Amazing, I know!"
+    Siegfried: "Insane, I'd say"
+    May: "Insanely good, I'd say!"
+    Siegfried: "Insanely bad"
+    May: "Insanely badly good!"
+    Siegfried: "...I hate you all"
+    Gee: "Haha come on Sieggy!"
+    Bee: "Yeah man... It'll be fun"
+    Siegfried: He remains silent, seems like he's considering it
+-> "That's brilliant!"
+    May: "I know, right?!!!"
+    Siegfried: "Did you fell on your head or something?"
+    Casey: "Do invite some italians too!"
+    May: "Oh, oh!!! I love italian food!"
+    Siegfried: "You twat..."
+May: "So, you lot are gonna have to scare the crap out o'them!"
 -> "How are we gonna do that?"
     May: "Aw come on, you lot are monsters! It's in your DNA."
 -> "Is there like, a way to bypass that?"
@@ -917,7 +942,7 @@ Siegfried: "Pathetic..." Begins to google the dropbear
 Bee: "...AAahhh!!!!" Delayed reaction
 Gee: "I ain't falling on that again!"
 May: "Ah right, you were on my course last year! But never say never, Gee!"
-May: "Now, listen up kiddos. You might have some problems to solve here before heading to town"
+May: "Now, listen. It's gonna be hard, okay? But don't quit just yet. I know you have it in ya'!"
 May: "And you'll need all hands on board if you wanna pull a 10/10 on this!"
 Casey: "Wait, is this like... a test?"
 May: "You bet! Now, drop by my office later. I might need some help with something!"
@@ -925,17 +950,23 @@ May: "You bet! Now, drop by my office later. I might need some help with somethi
 May throws a smoke bomb to the floor and takes off!
 Phoebe: "...SHE'S AWESOME!...cofcof"
 Casey: "Yeah...cofcof"
-Bayley: "Almost... cofcof... makes me wish... cofcof... I'd actually study!"
+Bayley: "Almost... cofcof... makes me wish... cofcof... I studied physics!"
 Gee: "She's the best! Don't worry, you'll get used to the smoke"
 Bee: "Yeah! Didn't had her but boy, were my first experiments smoky..."
-Siegfried: Rolls his eyes "Whatever, I'll be in the library. Drop by when you're ready to leave."
-Casey: "I should contact my friend back in town, Mookie. He might be able to investigate some... victims?"
+Siegfried: Rolls his eyes "Whatever, I'll be in the library."
+Casey: "I should contact my friend back in town, Mookie. He might be able to make it too!"
+Phoebe: "Oh!!! Your friend Mookie?!!! I SOOO want to meet him!!"
+Phoebe: "I'll drop by the dorm, gotta get ready to freak them all!!!"
 Bayley: "Sounds great! I'll be at the messhall... as usual!"
-Phoebe: "I'll drop by the dorm!"
 Bee: "Oh oh, are we saying what we're doing? I'm gonna do some weird things in the lab!!!"
 Gee: "No Bee, you're coming with me to the next class, remember?"
 Bee: "Oh... right... boomer..."
 Gee punches him in the arm, as they take their leave
 Casey: "Allright... where to now?"
+<<jump CorridorChoosing1>>
+===
+title: CorridorChoosing1
+---
+<<background corridor>>
 
 ===
