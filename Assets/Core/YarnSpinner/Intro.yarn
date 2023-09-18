@@ -6,6 +6,7 @@ tags:
 <<Place ThruLine TestDude Right>>
 <<Place ThruLine Dudette Left>>
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"
+//<<declare $IntroScript = False as bool>>
 <<Place ThruLine TestDude>>
 Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"
 //<<Clear ThruLine>>
@@ -963,6 +964,7 @@ Gee: "No Bee, you're coming with me to the next class, remember?"
 Bee: "Oh... right... boomer..."
 Gee punches him in the arm, as they take their leave
 Casey: "Allright... where to now?"
+//<<set $IntroScript to True>>
 <<jump CorridorChoosing1>>
 ===
 title: CorridorChoosing1

@@ -461,7 +461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yarnProject: {fileID: 7545569452688597077, guid: e8ad4d1dc3168f24085429ebd0cf5b0c, type: 3}
+  yarnProject: {fileID: 0}
   _variableStorage: {fileID: 4734583222332341477}
   dialogueViews:
   - {fileID: 3737398484438483772}

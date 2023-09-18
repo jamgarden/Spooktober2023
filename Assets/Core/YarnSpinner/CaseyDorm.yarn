@@ -1,0 +1,16 @@
+﻿title: CaseyDorm
+tags:
+---
+<<if $IntroScript = False>>
+
+<<elseif $IntroScript = True>>
+You drop yourself by the dorm. The mere sight of your bed makes you wish you could take a nap.
+However, there's a town to scare, and very little time to rest!
+What are you gonna do here?
+-> Go back to the corridor
+    <<jump CorridorScript>>
+-> Talk with Phoebe
+Casey: "Hey Pheebs"
+Phoebe: "Oh, there you are! Look at this!!"
+<<endif>>
+===
