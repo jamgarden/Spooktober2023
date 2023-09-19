@@ -115,6 +115,16 @@ public partial class GameManager
         character.Position = position.name;
     }
 
+
+    public void ChangeLocale_Emit(LocaleSO locale, int index)
+    {
+        previousLocale = currentLocale;
+        currentLocale = locale;
+
+        setBackDropEMIT(index);
+
+    }
+
     // ***********************************************
 
     private GameObject getStagePos(string position)
@@ -133,4 +143,32 @@ public partial class GameManager
 
 
     //private void findStagedCharacter
+
+    private LocaleSO GetLocaleSO(string locale)
+    {
+
+        foreach(LocaleSO place in LocaleList)
+        {
+            if(place.Name == locale)
+            {
+                return place;
+            }
+        }
+        Debug.LogError("Yoooo, we couldn't find that location! Locale: " + locale);
+        return DebugLocale;
+    }
+
+    private CharacterSO GetCharacterSO(string name)
+    {
+
+        foreach(CharacterSO character in CastOfCharacters)
+        {
+            if(character.Name == name)
+            {
+                return character;
+            }
+        }
+        Debug.LogError("Yoo, we couldn't find that character. Here's a demon instead. :P");
+        return DebugCharacter;
+    }
 }
