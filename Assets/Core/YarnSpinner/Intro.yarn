@@ -7,12 +7,15 @@ tags:
 <<Place ThruLine Dudette Left>>
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"
 <<Place ThruLine TestDude>>
+<<Travel ThruLine Menu 0>>
 Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"
 //<<Clear ThruLine>>
+<<Place ThruLine Nobody>>
 Casey: "I'm here at the most prestigious college ever, of which regular people know oh so very little about"
 Casey: "Freakaversity, a place that makes even your wildest of dreams pale in comparison"
 Casey: "Some people have implied that I'm lying, and some that I exaggerate"
 Casey: "WELL, let me tell you, today, I'm going to give you a tour all around the place. Not just that, you'll get to meet my roomie, Phoebe!"
+<<Travel ThruLine Hell>>
 Casey: "Yes, the very same one who can walk over the ceiling!"
 // <<Take Casey out for this one, they're holding the camera>>
 Casey: "So, this is the corridor, isn't it amazing? Come on, follow me to the room!"

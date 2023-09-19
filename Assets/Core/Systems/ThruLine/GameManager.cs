@@ -9,14 +9,14 @@ using Yarn.Unity;
 public partial class GameManager : MonoBehaviour
 {
 
-    [SerializeField]
-    private string loadSceneTarget = "Gameplay"; //
-
+    [Header("Game State:")]
     [SerializeField]
     private DialogueRunner dialogueRunner;
 
     [SerializeField]
     private LocaleSO currentLocale;
+
+    private LocaleSO previousLocale;
 
     [SerializeField]
     private GameObject Stage;
@@ -25,18 +25,43 @@ public partial class GameManager : MonoBehaviour
     private GameObject MainMenu;
 
     [SerializeField]
-    private List<LocaleSO> LocaleList;
+    private List<LocaleSO> TravelPoints;
 
     [SerializeField]
     private List<CharacterSO> StagedCharacters;
 
+    [Header("Library")]
+    [SerializeField]
+    private List<Image> Positions;
+
+    [SerializeField]
+    private List<LocaleSO> LocaleList;
+
     [SerializeField]
     private List<CharacterSO> CastOfCharacters;
 
-    // private enum StagePosition{ FarLeft, Left, Center, Right, FarRight };
+
+    [Header("Debug Suite")]
+    [SerializeField]
+    private LocaleSO DebugLocale;
 
     [SerializeField]
-    private List<Image> Positions;
+    private CharacterSO DebugCharacter;
+
+    // debug sound
+    // debug music
+    // debug voiceline?
+
+
+
+
+
+
+
+
+
+
+
 
     void Start(){
         Debug.Log(currentLocale.Name);
