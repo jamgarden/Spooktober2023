@@ -1,0 +1,198 @@
+﻿title: Dorm
+tags:
+---
+<<Place ThruLine Casey Neutral Left>>
+Casey: "Sup Pheebs"
+<<Place ThruLine Phoebe Happy Right>>
+Phoebe: "Casey! Casey!! I just found this old book on how to scare people??"
+She has a book so big and tall you thoughg it was a fancy box
+<<Place ThruLine Phoebe Neutral Right>>
+Phoebe: "And like, it says that the best way is to count with the element of surprise!"
+Casey: "Oh yeah?"
+<<Place ThruLine Phoebe Happy Right>>
+Phoebe: "And then... BANG! You smash them with a club!"
+-> "From... what year is that book?"
+    <<Place ThruLine Phoebe Special Right>>
+    Phoebe: "Oh, it's illegible... but it has like three digits..."
+    Casey: "Thought so"
+    <<Place ThruLine Phoebe Neutral Right>>
+    Phoebe: "Oh oh! And a minus up front!"
+    Casey: "Yeah let's return this to the library..."
+-> "Freak yeah!"
+    <<Place ThruLine Phoebe Special Right>>
+    Phoebe: "However that's super mean, so I'll just go with the other option..."
+    <<Place ThruLine Casey Happy Left>>
+    Casey: "Throwing them downhill?"
+    <<Place ThruLine Phoebe Happy Right>>
+    Phoebe: "How did you know?!!"
+    <<Place ThruLine Casey Neutral Left>>
+    Casey: "Uhm... we're returning this to the library"
+-> "That's... umm... wrong?"
+    <<Place ThruLine Phoebe Special Right>>
+    Phoebe: "Worked for... Dario the third of Persia?..."
+    Casey: "I'm sure it did, let's get it to the library"
+<<Place ThruLine Phoebe Neutral Right>>
+Phoebe: "Oh this? I saw it in the trashcan outside!"
+<<Place ThruLine Phoebe Happy Right>>
+//thing falling or smashing sound
+She throws it off the window with no previous warning
+<<Place ThruLine Phoebe Neutral Right>>
+<<Place ThruLine Casey Special Left>>
+You rush to the window, only to see it landing in the trashcan of the garden.
+Casey: "Damn that's good aim"
+<<Place ThruLine Casey Neutral Left>>
+Phoebe: "You know how it goes... why do you even need two eyes..."
+<<Place ThruLine Phoebe Happy Right>>
+Phoebe: "When you can focus better with one?!"
+<<Place ThruLine Phoebe Neutral Right>>
+Casey: "Well, genetics was mean to us"
+<<Place ThruLine Phoebe Happy Right>>
+Phoebe: "Don't worry!!! It's easily fixed"
+-> "Wait what?"
+    <<Place ThruLine Casey Special Left>>
+    Too late, she's already about to...
+-> "Phoebe no!"
+    <<Place ThruLine Casey Special Left>>
+    Too late, she's already about to...
+-> "I really wanna see how! Get it? See haha"
+    <<Place ThruLine Casey Special Left>>
+    With no delay, she...
+<<Place ThruLine Casey Happy Left>>
+Snaps a pirate patch around your head!
+<<Place ThruLine Phoebe Neutral Right>>
+Phoebe: "Better?"
+<<Place ThruLine Casey Neutral Left>>
+Casey: "Yeah!"
+//<<dry hit>>
+You smash yourself against the door frame!
+<<Place ThruLine Phoebe Special Right>>
+Phoebe: "Hmm... wasn't that easy" Takes notes
+You take off the patch
+-> "You'll figure it out one day!"
+    <<Place ThruLine Phoebe Happy Right>>
+    Phoebe: "Oh, thank you!!!"
+-> "You might kill me one day!"
+    <<Place ThruLine Phoebe Happy Right>>
+    Phoebe: "You know it!"
+    <<Place ThruLine Casey Special Left>>
+    Casey: "...wait what?"
+    Phoebe: "Well, you ain't the only one who can crack a joke!"
+    <<Place ThruLine Casey Happy Left>>
+    Casey: "Tottaly got me there!"
+-> "Maybe has to do with the fact that you have one big eye and I have two small ones!"
+    Phoebe: "Right? It's very problematic!"
+    Casey: "Maybe that's why you can spin your neck like that"
+    <<Place ThruLine Phoebe Happy Right>>
+    Phoebe: "RIGHT?"
+<<Place ThruLine Phoebe Neutral Right>>
+<<Place ThruLine Casey Neutral Left>>
+Casey: "So I was wondering... hasn't Bayley been a bit nervous lately?"
+Phoebe: "Oh I don't think so? He was perfectly fine at the Principal's office until Gee arrived!"
+Casey: "Wait what?"
+Phoebe: "What you heard, Casester"
+Casey: "You do realize what that means, right?"
+<<Place ThruLine Phoebe Special Right>>
+Phoebe: "...should I?"
+-> "Bayley likes Gee!!!"
+    <<Place ThruLine Casey Happy Left>>
+-> "Pluto is a planet again!"
+    <<Place ThruLine Casey Happy Left>>
+    <<Place ThruLine Phoebe Angry Right>>
+    Phoebe: "WAIT, when did it stop being one?!!!"
+    <<Place ThruLine Casey Angry Left>>
+    Casey: "Ah you know, hooman bullcrap"
+    Phoebe: "Those bastards!"
+    <<Place ThruLine Casey Happy Left>>
+    Casey: "Anyway, besides that, I think Bayley likes Gee!"
+<<Place ThruLine Phoebe Neutral Right>>
+<<Place ThruLine Casey Neutral Left>>
+Phoebe: "That? Yeah that I know Case'. I thought you meant like, something else."
+Casey: "Like Pluto being a planet again?"
+Phoebe: "Yup"
+Casey: "So wait, why is that relevant?"
+<<Place ThruLine Phoebe Happy Right>>
+Phoebe: "Because Bayley is a Libra, Casey!!!"
+<<Place ThruLine Casey Special Left>>
+Casey: "Oh, that kind of stuff, yes"
+Phoebe: "You're studying astrophysics, you should know astrology too!"
+<<Place ThruLine Casey Neutral Left>>
+Casey: "How are those even related?"
+<<Place ThruLine Phoebe Neutral Right>>
+Phoebe: "Like, in everything?"
+<<Place ThruLine Casey Special Left>>
+Casey: "...you mean the horoscope matters in the movement of time and space?"
+Phoebe: "WELL YES, we monsters actually know how to do that right, you know?"
+-> "Then I'll look forward to learning it!"
+    <<Place ThruLine Casey Happy Left>>
+    <<Place ThruLine Phoebe Happy Right>>
+    Phoebe: "Freak yeah!"
+-> "When the moon eclipses the sun, I'll read it"
+    The light suddenly disapears
+    <<Place ThruLine Casey Special Left>>
+    Casey: "WHAT THE ACTUAL..."
+    <<Place ThruLine Phoebe Special Right>>
+    Phoebe: "It's just the lamp, Casey. We have to change it!"
+    Casey: "Oh my... I better learn that now, before it's the sun"
+-> "Is that on the program?"
+    <<Place ThruLine Phoebe Special Right>>
+    Phoebe: "Well, yeah? Duh!"
+<<Place ThruLine Casey Neutral Left>>
+<<Place ThruLine Phoebe Special Right>>
+Phoebe: "So in short, if pluto is relevant for humans again... that means..."
+Casey: "Yeah?..."
+<<Place ThruLine Phoebe Happy Right>>
+Phoebe: "We have to help Bayley out!"
+<<Place ThruLine Casey Happy Left>>
+Casey: "Freak yeah!!!"
+Phoebe: "Let's do an intervention!!!"
+<<Place ThruLine Phoebe Neutral Right>>
+<<Place ThruLine Casey Neutral Left>>
+Casey: "You mean like, set a trap for him to arrive here, and confront him so he spills the beans?"
+<<Place ThruLine Phoebe Happy Right>>
+<<Place ThruLine Casey Happy Left>>
+Phoebe: "SO IT'S NOT YOUR FIRST ONE, LET'S GOOOOOO!!!!!!"
+Casey: "YEAH!"
+//fade to black
+//funny music
+//come back
+<<jump Intervention>>
+===
+title: Intervention
+---
+<<Travel ThruLine CorridorEast>>
+<<Place ThruLine Bayley Happy Center>>
+Bayley: "Oh man... Casey said something about extra cake???"
+Bayley: "I better get there fast before Phoebe takes it!!!"
+<<Place ThruLine Nobody>>
+//fade to black, door opens
+<<Place ThruLine Bayley Special Center>>
+Bayley: "Oh... why is it all dark?"
+//lights go on
+<<Place ThruLine Casey Angry Left>>
+<<Place ThruLine Phoebe Angry Right>>
+The lights go on, revealing Casey and Phoebe there
+<<Place Thruline Phoebe Angry FarRight>>
+<<Place Thruline Casey Angry Right>>
+<<Place ThruLine Bayley Special FarLeft>>
+Bayley: "What is going on?... Where's the cake?"
+Silence remains...
+Bayley: "Wait, is this for that time I ate all the cake?"
+Bayley : "I swear, I don't know what got me there!!!"
+Casey: "It's not that, and you know it."
+Phoebe: "You know, they give better sentences to those who cooperate!"
+Bayley: "Uhm... that's all, for real. Unless you mean..."
+<<Place ThruLine Bayley Happy FarLeft>>
+Bayley: "When I put garlic into Siegfried's tea? I admit it, that was me!"
+<<Place Thruline Phoebe Happy FarRight>>
+<<Place Thruline Casey Happy Right>>
+Casey: "I knew it, you clever bastard!"
+Phoebe: "That was H I L A R I O U S !!!"
+Bayley: "RIGHT?!"
+<<Place Thruline Phoebe Neutral FarRight>>
+<<Place Thruline Casey Neutral Right>>
+<<Place ThruLine >>
+Casey: "But no, it's because we know something's going on"
+Phoebe: "And we wanna help!"
+<<Place ThruLine Bayley Special FarLeft>>
+Bayley: "What you mean?" He begins to sweat
+===
