@@ -1,32 +1,48 @@
 ﻿title: Intro
 tags:
 ---
-// <<change_background -1 Corridor>>
-// <<add_background -1 recanimation>> // We should be able to do this with a command.
-<<Place ThruLine TestDude Right>>
-<<Place ThruLine Dudette Left>>
+<<Travel ThruLine CorridorWest>>
+<<Place ThruLine Casey Happy Center>>
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"
+<<<<<<< Updated upstream
 <<Place ThruLine TestDude>>
 Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"
 //<<Clear ThruLine>>
+=======
+<<Place ThruLine Casey Neutral Center>>
+Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"
+>>>>>>> Stashed changes
 Casey: "I'm here at the most prestigious college ever, of which regular people know oh so very little about"
+<<Place ThruLine Casey Happy Center>>
 Casey: "Freakaversity, a place that makes even your wildest of dreams pale in comparison"
+<<Place ThruLine Casey Angry Center>>
 Casey: "Some people have implied that I'm lying, and some that I exaggerate"
+<<<<<<< Updated upstream
 Casey: "WELL, let me tell you, today, I'm going to give you a tour all around the place. Not just that, you'll get to meet my roomie, Phoebe!"
+=======
+<<Place ThruLine Casey Neutral Center>>
+Casey: "WELL, let me tell you"
+Casey: "Today, I'm going to give you a tour all around the place."
+<<Place ThruLine Casey Happy Center>>
+Casey: "Not just that, you'll get to meet my roomie, Phoebe!"
+>>>>>>> Stashed changes
 Casey: "Yes, the very same one who can walk over the ceiling!"
-// <<Take Casey out for this one, they're holding the camera>>
+<<Place ThruLine Nobody>>
 Casey: "So, this is the corridor, isn't it amazing? Come on, follow me to the room!"
 // <<Footsteps and door opening>>
 // <<Phoebe Appears>>
-Casey: "And this is Phoebe, everyone!"
-<<Place ThruLine Dudette FarRight>>
+Casey: "And... this is Phoebe, everyone!"
+<<Travel ThruLine Dormroom>>
+<<Place ThruLine Phoebe Neutral Center>>
 Phoebe: "Oh? Are you doing one of your Vlogs???"
 Casey: "Yeah, you're live on BooTube Pheebs!"
-<<Place ThruLine Dudette Center>>
+<<Place ThruLine Phoebe Happy Center>>
 Phoebe: "OMG OMG OMG!!!!!!"
 Phoebe: "HI MOM HI DAD!!!!"
 Casey: "I don't think they're watching..."
+<<Place ThruLine Phoebe Special Center>>
 Phoebe: "AW, BOOMER!"
+<<Place ThruLine Phoebe Neutral Center>>
 Casey: "So Pheebs, tell us a bit about yourself"
 Phoebe: "Ah well, you know, the usual. I wake at 4am, re-read yesterday's book, then exercise, feed the school's monster..."
 Casey: "Wait what?"
@@ -34,107 +50,189 @@ Phoebe: "What what?"
 Casey: "The monster part"
 Phoebe: "Oh, didn't you know? There's a monster canary in one of the towers!"
 Casey: "No way!"
+<<Place ThruLine Phoebe Happy Center>>
 Phoebe: "Yes way!"
+<<Place ThruLine Phoebe Neutral Center>>
 Casey: "We'll definitely document that later. So, what are your aspirations here in Freakaversity?"
-Phoebe: "Oh oh!!! I want to learn enough about agronomics and farming to seed an entire desert!!!"
+<<Place ThruLine Phoebe Neutral Center>>
+Phoebe: "Oh oh!!!"
+<<Place ThruLine Phoebe Special Center>>
+Phoebe: "I want to learn enough about agronomics and farming..."
+<<Place ThruLine Phoebe Happy Center>>
+Phoebe: "To seed an entire desert!!!"
+<<Place ThruLine Phoebe Neutral Center>>
 Casey: "Wow, that's amazing Pheebs! Last but not least, can you do the neck trick?"
+<<Place ThruLine Phoebe Happy Center>>
 Phoebe: "I THOUGHT YOU'D NEVER ASK!"
 // <<head spins 360>>
 Casey: "HOW DID YOU DO THAT?!"
+<<Place ThruLine Phoebe Happy Center>>
 Phoebe: "I JUST EAT MY VEGGIES EVERYDAY!"
+<<Place ThruLine Phoebe Neutral Center>>
 Casey: "Wow ladies and gentlemen and others, you just saw it! Wait, Phoebe, look"
 Phoebe: "What?"
 Casey: "Your trick, I don't know, there's like thousands of viewers all of a sudden!"
+<<Place ThruLine Phoebe Happy Center>>
 Phoebe: "I'M BOOTUBE FAMOUS?!!!!"
 Casey: "I wouldn't say FAMOUS famous..."
 Phoebe: "VIRAL?"
 Casey: "Wouldn't say either..."
 Phoebe: "LET ME SEE"
+<<Place ThruLine Nobody>>
 // <<any sound that can imply the camera passes to another hand, maybe spinning the background too>>
 // <<Take phoebe out, now put Casey. Phoebe holds the camera>>
 Phoebe: "OMG OMG OMG!!!!"
+<<Place ThruLine Casey Angry Center>>
 Casey: "Uhm, Phoebe, give me that!"
 Phoebe: "Why hello world! Come on Casey, tell us what you wanna do!"
 Casey: "That's MY line, I'm supposed to be behind the camera!"
 Phoebe: "Come one, one more time for our new fandom!!!!"
-Casey: "Well... guess you're right. I got a scholarship here to Freakaversity, and I'm in my early steps studying astrophysics!"
+<<Place ThruLine Casey Special Center>>
+Casey: "Well... guess you're right."
+<<Place ThruLine Casey Neutral Center>>
+Casey: "I got a scholarship here to Freakaversity, and I'm in my early steps studying astrophysics!"
 Phoebe: "With Prof. May! How cool is that?"
+<<Place ThruLine Casey Happy Center>>
 Casey: "SO, cool"
+<<Place ThruLine Casey Neutral Center>>
 Phoebe: "Alright, time to find the others!"
+<<Place ThruLine Casey Special Center>>
 Casey: "No wait, I didn't tell anyone else yet!!!"
 Phoebe: "EVEN BETTER!!!"
 // <<fade to black, running sounds>>
 // <<fade into messhole, put bayley sad in it>>
+<<Travel ThruLine Messhall>>
 Phoebe: "HEY BAYLEY!"
 // <<regular bayley now>>
+<<Place ThruLine Bayley Neutral Center>>
 Bayley: "Oh, hey Pheebs! Casey! What are you doing with that camera?"
+<<Place ThruLine Bayley Neutral Left>>
+<<Place ThruLine Casey Neutral Right>>
 Casey: "Uhm... we're... uhm... live on BooTube?"
+<<Place ThruLine Bayley Happy Left>>
 Bayley: "No kidding? That's so cool!! Hey mom, hey dad!!!!"
+<<Place ThruLine Bayley Neutral Left>>
 Casey: *Why do they all do that...?*
 Phoebe: "SO TELL US BAYLEY, FOR CASEY'S VLOG, WHO ARE YOU AND WHAT YOU DO?"
+<<Place ThruLine Bayley Happy Left>>
 Bayley: "I'm Bayley, and I'm on a soccer scholarship here at Freakaversity!"
 Phoebe: "HE'S PUTTING IT MILDLY GUYS, HE'S OUR SOCCER TEAM STAR!!!"
+<<Place ThruLine Bayley Special Left>>
 Bayley: "Oh, no, not that much!"
 Phoebe: "DON'T BE HUMBLE!!! PEOPLE LIKE COCKY ROCKSTARS, OR SHOULD I SAY, SOCCER STARS?"
 Casey: "Yeah man, didn't you make it as MVP last tournament?"
+<<Place ThruLine Bayley Sad Left>>
 Bayley: "Yeah... but we lost anyway..."
 Phoebe: "I'm sure you'll get it next year!"
+<<Place ThruLine Casey Angry Right>>
 Casey: "Yeah, they totally robbed us!"
+<<Place ThruLine Casey Neutral Right>>
+<<Place ThruLine Bayley Neutral Left>>
 Bayley: "I guess you're right about that, hehe..."
 Phoebe: "So why don't you show everyone one of those crazy barks of yours?!!!"
+<<Place ThruLine Bayley Special Left>>
 Bayley: "Uhm cause we're in the messhole?"
 Casey: "Aw come on, just one!!!"
+<<Place ThruLine Bayley Happy Left>>
 Bayley: "Alright, here it goes.............."
+<<Place ThruLine Bayley Special Left>>
+<<Place ThruLine Casey Special Right>>
+Bayley: "AAAAAWOOOOOOOOOOOOOOOOO"
 // <<bark>>
 Phoebe: "WOW, THE VIEWERS JUST WENT EVEN HIGHER!!!"
 Casey: "Holy May!"
+<<Place ThruLine Bayley Happy Left>>
+<<Place ThruLine Casey Neutral Right>>
 Bayley: "Oh? Let me see let me see!!!"
 // <<Siegfried joins>>
+<<Place ThruLine Bayley Neutral Right>>
+<<Place ThruLine Casey Neutral FarRight>>
+<<Place ThruLine Siegfried Neutral FarLeft>>
 Siegfried: "Could you turn down the volume of your pathetic, commonplace noises, peasants??"
 Casey: "Oh, hey Sieg"
 Phoebe: "Eat your soup in silence, vampire!"
 Bayley: "Hey easy guys, he's right on this one"
+<<Place ThruLine Siegfried Angry FarLeft>>
 Siegfried: "You know I'm right if even the furry agrees with me"
+<<Place ThruLine Bayley Angry Right>>
 Bayley: "Hey don't push it, you twat!"
+<<Place ThruLine Siegfried Neutral Left>>
+<<Place ThruLine Gee Neutral FarLeft>>
+<<Place ThruLine Bayley Neutral Right>>
+<<Place ThruLine Casey Neutral FarRight>>
 Gee: "What's with the ruckus you lot? Are we fighting each other again?"
+<<Place ThruLine Casey Happy Right>>
+<<Place ThruLine Bayley Neutral FarRight>>
 Casey: "Oh, hey Gee!"
 // <<blushed bayley>>
+<<Place ThruLine Bayley Special FarRight>>
 Bayley: "Oh... hehe... hi Gee..."
 Phoebe: "OH! THE COMMENTS ARE SAYING THAT..."
+//<<camera moving sounds again>>
+<<Place ThruLine Nobody>>
 Casey finally snatches the camera out of Phoebe's hand and shuts her up
+<<Place ThruLine Siegfried Neutral Left>>
+<<Place ThruLine Gee Neutral FarLeft>>
+<<Place ThruLine Bayley Neutral Right>>
+<<Place ThruLine Phoebe Neutral FarRight>>
 Casey: "So, Sieg, Gee, what do you do in Freakaversity?"
+<<Place ThruLine Siegfried Angry Center>>
 Siegfried: "I listen to idiotic freaks every single day"
 // <<Siegfried takes off>>
+<<Place ThruLine Nobody Left>>
+<<Place ThruLine Gee Happy Left>>
 Gee: "Oh oh, you know, the usual! I eat veincorice, go to my classes, hang out with the edgy vampire and my bro... Study to become a..."
+<<Place ThruLine Gee Neutral Left>>
+<<Place ThruLine Bee Neutral FarLeft>>
 Bee: "Hey, what's going on?"
 Casey: "Oh hey Bee! What are you doing here?"
+<<Place ThruLine Bee Happy FarLeft>>
 Bee: "Well, eating my brainspaghetti man, what else?"
+<<Place ThruLine Bee Neutral FarLeft>>
 Casey: "I don't know, maybe..."
+<<Place ThruLine Phoebe Happy FarRight>>
 Phoebe: "...staying alive?"
+<<Place ThruLine Bee Happy FarLeft>>
 Bee: "Hahahaha, you know it!"
+<<Place ThruLine Phoebe Neutral FarRight>>
+<<Place ThruLine Bee Neutral FarLeft>>
 Casey: "What do you study for, Bee?"
 Bee: "I'm in chemistry, man, I thought you knew?"
 Phoebe: "We do, but..."
+<<Place ThruLine Phoebe Happy FarRight>>
 Phoebe: "COMPLETE STRANGERS IN THE INTERNET DON'T!"
+<<Place ThruLine Gee Happy Left>>
 Gee: "WOOO ARE WE LIVE?"
+<<Place ThruLine Bee Happy FarLeft>>
 Bee: "Cooool man!"
 Gee: "HEY MOM HEY DAD!"
 Casey: *There we go again...*
+<<Place ThruLine Gee Neutral Left>>
+<<Place ThruLine Bee Neutral FarLeft>>
 Phoebe: "So how old are you lot?"
+<<Place ThruLine Bee Special FarLeft>>
 Bee: "Ah depends on the body part I guess..."
+<<Place ThruLine Gee Special Left>>
 Gee: "Yeah, I think my youngest part is my pinky toe..."
 Bee: "Yeeeah, they tend to smash into things first"
 Casey: "Yeah... they always do right?"
 Casey: "Oh wait, battery is getting low..."
+<<Place ThruLine Nobody>>
+// sound of camera shifting again
 // <<Casey up front, no one else, still in messhole>>
+<<Place ThruLine Casey Neutral Center>>
 Casey: "I'll show you more in my next vlog you guys, glad to see you around!"
+<<Place ThruLine Phoebe Happy Right>>
 Phoebe: "BYE STRANGERS!"
 // <<fade to black, .rec animation out>>
+<<Place ThruLine Nobody>>
 <<jump Dorm1>>
 ===
 title: Dorm1
 ---
+<<Travel ThruLine Dormroom>>
 // <<back to dorm room>>
+
 Phoebe: "Case', have you been awake all night watching the statistics?"
 -> "WE'RE OVER ONE MILLION VIEWS NOW PHEEBS!!!!"
 -> "No, not at all..."
