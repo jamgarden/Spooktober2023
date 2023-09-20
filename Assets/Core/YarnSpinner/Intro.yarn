@@ -249,20 +249,20 @@ Phoebe: "No Casey, it's wednesday!"
 -> "...I think I'm getting sick..."
     Phoebe: "Like heck you are"
     Phoebe grabs Casey by the collar and throws them to the shower
-    <<Whatever noise you think best for this>>
+    //<<Whatever noise you think best for this>>
 -> "Well you know what, I'm skipping class today"
     Phoebe: "Like heck you are"
     Phoebe grabs Casey by the collar and throws them to the shower
-    <<Whatever noise you think best for this>>
+    //<<Whatever noise you think best for this>>
 -> "WHAT? Allright, time to get ready anyways!"
 
 Phoebe: "I'LL GO GET US SOME COFFEE!!!!"
 She storms out like the road runner
-<<soa if we had a caricature sound for this, i'd die laughing>>
+//<<so if we had a caricature sound for this, i'd die laughing>>
 Casey: "Ugh... guess I'll have to wear sunglasses today..."
 Casey: "Watching statistics and comments all night is worse than a hangover"
 Casey: "However... holy cow, I can't wait to see how far it gets when I get back!!!!"
-<<switch to the corridor>>
+<<Travel ThruLine CorridorEast>>
 Bayley: "Hey Case'!"
 Casey: "Sup Bayls!"
 Bayley: "Duuude, I saw the video last night! It's like, thousands of views already!"
@@ -294,13 +294,13 @@ Casey: "I wouldn't make it today without a good coffee..."
 Casey: Takes a sip, and then makes a face
 Phoebe: "What's wrong?"
 Bayley: "Wait, Phoebe, did you tell Sarcophachef that it was for..."
-<<CG coffee>>
+//<<CG coffee>>
 And that's when everyone noticed... the tag in the coffee saying Casey 
-<<back to normal>>
+//<<back to normal>>
 Casey: "It's... watered down..."
 Phoebe: "HOW? WHY?!"
 Bayley: "Ah... remember when we stole that booze last year?..."
-<<Flashback>>
+//<<Flashback>>
 Phoebe: "I thought you guys aged it with Bee's potions!"
 Bee: "Nah, they did that with Gee so... bound to be a robbery or something hehe"
 Bayley: "Well, Sarcophachef realized it..."
@@ -323,7 +323,7 @@ Casey: "Guess it's class time..."
 ===
 title: class1
 ---
-<<Classroom>>
+<<Travel Thruline Classroom>>
 <<declare $BayleyCoffe = false as bool>>
 <<declare $PhoebeCoffee = false as bool>>
 <<declare $BeeCoffee = false as bool>>
@@ -443,6 +443,7 @@ Casey: "Allright, let's go to the messhall!"
 ===
 title: Messhall1
 ---
+<<Travel ThruLine Messhall>>
 <<if $PhoebeCoffee is true>>
 You reach the messhall in mid morning
 It wasn't the busiest time, just some people here and there finishing their breakfasts.
@@ -752,6 +753,7 @@ You get up, and take your leave to the courtyard...
 ===
 title: Courtyard1
 ---
+<<Travel ThruLine Courtyard>>
 You reach the courtyard in need for a mouthfull of fresh air.
 The thought of checking your phone acts as a beacon in your mind
 Constantly reminding you of that video out there.
@@ -814,6 +816,7 @@ Casey: "Woops, I better go!"
 ===
 title: principal1
 ---
+<<Travel Thruline PrincipalsOffice>>
 You reach the principal's office, and see the door open, almost inviting you in.
 -> Take a peak inside
     You pass on purpose the door to spy if there's someone inside.

@@ -9,13 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 613135265cab6bf4c8408300c3e76311, type: 3}
-  m_Name: DormLocale
+  m_Script: {fileID: 11500000, guid: c0fab304f5cb9694aabd9f75f0ec5aff, type: 3}
+  m_Name: Albatros
   m_EditorClassIdentifier: 
-  Name: Dormroom
-  Section: 1
-  BGList:
-  - {fileID: 21300000, guid: e106a5143d300e543952b97976c15d3d, type: 3}
-  canTravelTo: 0
-  linkedLocations: []
-  WhoIsHere: []
+  Name: Albatros
+  Position: 
+  Neutral: {fileID: 0}
+  Sad: {fileID: 0}
+  Happy: {fileID: 0}
+  Angry: {fileID: 0}
+  SpecialA: {fileID: 0}
+  SpecialB: {fileID: 0}

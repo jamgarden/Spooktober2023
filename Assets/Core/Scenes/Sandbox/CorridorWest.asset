@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 613135265cab6bf4c8408300c3e76311, type: 3}
-  m_Name: DormLocale
+  m_Name: CorridorWest
   m_EditorClassIdentifier: 
-  Name: Dormroom
-  Section: 1
+  Name: CorridorWest
+  Section: 0
   BGList:
-  - {fileID: 21300000, guid: e106a5143d300e543952b97976c15d3d, type: 3}
+  - {fileID: 21300000, guid: c93a039229495c240a8a328385e153d7, type: 3}
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []
