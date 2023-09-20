@@ -4,28 +4,18 @@ tags:
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"
-<<<<<<< Updated upstream
-<<Place ThruLine TestDude>>
-Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"
-//<<Clear ThruLine>>
-=======
 <<Place ThruLine Casey Neutral Center>>
 Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"
->>>>>>> Stashed changes
 Casey: "I'm here at the most prestigious college ever, of which regular people know oh so very little about"
 <<Place ThruLine Casey Happy Center>>
 Casey: "Freakaversity, a place that makes even your wildest of dreams pale in comparison"
 <<Place ThruLine Casey Angry Center>>
 Casey: "Some people have implied that I'm lying, and some that I exaggerate"
-<<<<<<< Updated upstream
-Casey: "WELL, let me tell you, today, I'm going to give you a tour all around the place. Not just that, you'll get to meet my roomie, Phoebe!"
-=======
 <<Place ThruLine Casey Neutral Center>>
 Casey: "WELL, let me tell you"
 Casey: "Today, I'm going to give you a tour all around the place."
 <<Place ThruLine Casey Happy Center>>
 Casey: "Not just that, you'll get to meet my roomie, Phoebe!"
->>>>>>> Stashed changes
 Casey: "Yes, the very same one who can walk over the ceiling!"
 <<Place ThruLine Nobody>>
 Casey: "So, this is the corridor, isn't it amazing? Come on, follow me to the room!"
