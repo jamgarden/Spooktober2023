@@ -208,13 +208,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2568897569293155198}
     - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: DebugLocale
+      value: 
+      objectReference: {fileID: 11400000, guid: a15c76ae0ed5bac4fb0e627c92d660d6, type: 2}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: currentLocale
       value: 
       objectReference: {fileID: 11400000, guid: 4e1e802ef740f69669926800aac62519, type: 2}
     - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: DebugCharacter
+      value: 
+      objectReference: {fileID: 11400000, guid: b880166a9e3bc214da5492872a26347c, type: 2}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: dialogueRunner
       value: 
       objectReference: {fileID: 2879660551270626990}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: loadSceneTarget
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: Positions.Array.size
       value: 5

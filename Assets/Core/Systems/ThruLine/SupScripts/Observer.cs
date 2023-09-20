@@ -18,46 +18,26 @@ public partial class GameManager
     [YarnCommand("Place")]
     public void Place_Event(string characterName = "TestDude", string position = "Left", bool flip = false)
     {
-        // Let's handle some preprocessing here:
-        // Let's put 
-
-        CharacterSO characterHolder = new CharacterSO();
         
-        bool flag = false;
-        foreach(CharacterSO character in CastOfCharacters)
+        CharacterSO characterHolder = GetCharacterSO(characterName);
+       
+        foreach(CharacterSO character in StagedCharacters)
         {
-            if(characterName == character.Name)
+            if(character.Name == characterHolder.Name)
             {
-                characterHolder = character;
-                flag = true;
-                Debug.LogWarning("Found character cached");
+                Debug.Log("They're already up here!");
+                // fire off move event
+                MoveCharacter_Emit(character, getStagePos(position));
+                return;
             }
         }
-
-        if(!flag)
-        {
-            Debug.LogError("That character wasn't found! Character name is: " + characterName);
-            return;
-        }
-        else
-        {
-            foreach(CharacterSO character in StagedCharacters)
-            {
-                if(character.Name == characterName)
-                {
-                    Debug.Log("They're already up here!");
-                    // fire off move event
-                    MoveCharacter_Emit(character, getStagePos(position));
-                    return;
-                }
-            }
-            StagedCharacters.Add(characterHolder);
-            characterHolder.Position = position;
-        }
+        StagedCharacters.Add(characterHolder);
+        characterHolder.Position = position;
+        
 
         // And let's call our Director from here:
         Place_Emit(characterHolder, position);
-
+        return;
     }
 
     [YarnCommand("Clear")]
@@ -75,4 +55,18 @@ public partial class GameManager
         }
     }
 
+    [YarnCommand("Travel")]
+    public void ChangeLocale_Event(string localeName = "MainMenu", int index = 0)
+    {
+
+        
+        ChangeLocale_Emit(GetLocaleSO(localeName), index);
+    }
+
+    [YarnCommand("LocaleList")]
+    public void LocaleList_Event()
+    {
+
+        // This fires when we request locations.
+    }
 }
