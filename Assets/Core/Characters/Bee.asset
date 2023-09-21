@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Bee
   Position: 
-  Neutral: {fileID: 0}
-  Sad: {fileID: 0}
-  Happy: {fileID: 0}
-  Angry: {fileID: 0}
-  SpecialA: {fileID: 0}
+  Neutral: {fileID: 21300000, guid: e00f385281c892d45b1388901b4b1fe6, type: 3}
+  Sad: {fileID: 21300000, guid: 693cfcd429355ea4ebc1e3ec68be1a2c, type: 3}
+  Happy: {fileID: 21300000, guid: 764ea7554c35fa24c81139c152c935ab, type: 3}
+  Angry: {fileID: 21300000, guid: d02d2ac1cf23585438936871d9ca33bc, type: 3}
+  SpecialA: {fileID: 21300000, guid: fb08a269ef1c34d43aa8a2f891d74ffb, type: 3}
   SpecialB: {fileID: 0}

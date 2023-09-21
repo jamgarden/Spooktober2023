@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Casey
   m_EditorClassIdentifier: 
   Name: Casey
-  Position: 
-  Neutral: {fileID: -586815934, guid: 1b8d40265814cac4992d39fb8269b8f5, type: 3}
-  Sad: {fileID: 2066760840, guid: 1b8d40265814cac4992d39fb8269b8f5, type: 3}
-  Happy: {fileID: -298978907, guid: 1b8d40265814cac4992d39fb8269b8f5, type: 3}
-  Angry: {fileID: 1750119806, guid: 1b8d40265814cac4992d39fb8269b8f5, type: 3}
-  SpecialA: {fileID: 745265546, guid: 1b8d40265814cac4992d39fb8269b8f5, type: 3}
-  SpecialB: {fileID: -748202781, guid: 1b8d40265814cac4992d39fb8269b8f5, type: 3}
+  Position: Left
+  Neutral: {fileID: 1839063359, guid: c539bc228878b504a85faa0593c40136, type: 3}
+  Sad: {fileID: 1967465445, guid: c539bc228878b504a85faa0593c40136, type: 3}
+  Happy: {fileID: -1702696545, guid: c539bc228878b504a85faa0593c40136, type: 3}
+  Angry: {fileID: 1146956468, guid: c539bc228878b504a85faa0593c40136, type: 3}
+  SpecialA: {fileID: -773684098, guid: c539bc228878b504a85faa0593c40136, type: 3}
+  SpecialB: {fileID: -478454393, guid: c539bc228878b504a85faa0593c40136, type: 3}

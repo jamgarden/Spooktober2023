@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0fab304f5cb9694aabd9f75f0ec5aff, type: 3}
+  m_Name: Sarcophachef
+  m_EditorClassIdentifier: 
+  Name: 
+  Position: 
+  Neutral: {fileID: -869886519, guid: 9d106f43bba6e6e4a94fac36dbba837c, type: 3}
+  Sad: {fileID: 0}
+  Happy: {fileID: -1115154110, guid: 9d106f43bba6e6e4a94fac36dbba837c, type: 3}
+  Angry: {fileID: -1196468443, guid: 9d106f43bba6e6e4a94fac36dbba837c, type: 3}
+  SpecialA: {fileID: 0}
+  SpecialB: {fileID: 0}

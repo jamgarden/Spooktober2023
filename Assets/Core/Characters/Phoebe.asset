@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Phoebe
   m_EditorClassIdentifier: 
   Name: Phoebe
-  Position: 
-  Neutral: {fileID: 384015738, guid: 940d935d12823f7428f9353e92e4ea92, type: 3}
-  Sad: {fileID: -161362581, guid: 940d935d12823f7428f9353e92e4ea92, type: 3}
-  Happy: {fileID: 739226899, guid: 940d935d12823f7428f9353e92e4ea92, type: 3}
-  Angry: {fileID: -588835782, guid: 940d935d12823f7428f9353e92e4ea92, type: 3}
-  SpecialA: {fileID: -613939780, guid: 940d935d12823f7428f9353e92e4ea92, type: 3}
-  SpecialB: {fileID: -748202781, guid: 1b8d40265814cac4992d39fb8269b8f5, type: 3}
+  Position: Left
+  Neutral: {fileID: 21300000, guid: f0bb77271b83c95488eb195477abfa64, type: 3}
+  Sad: {fileID: 21300000, guid: 2e378fa5e87e2c44093841c96e063256, type: 3}
+  Happy: {fileID: 21300000, guid: ef5fb5d265c807f4e8b1e9a0c8c20656, type: 3}
+  Angry: {fileID: 21300000, guid: 1a6d52f91e090e0499623716d6661463, type: 3}
+  SpecialA: {fileID: 21300000, guid: d301b2aa07ad44e47870dff048325cc2, type: 3}
+  SpecialB: {fileID: 21300000, guid: 10a80439905a65a478d7c7bc219b0b8e, type: 3}
