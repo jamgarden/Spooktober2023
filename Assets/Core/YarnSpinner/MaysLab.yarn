@@ -1,0 +1,99 @@
+﻿title: MaysLab
+tags:
+---
+<<if $MaysDoor is false>>
+The door is closed... it reads...
+"If the house is rocking, don't botter knocking!"
+Casey: "Looks like she isn't around..."
+    <<if $GeeExplained is true>>
+    Casey: "Uhm... What was it that Gee said?..."
+    Casey: "She's never in her office, but when she is, you can hear her from every area around it..."
+    <<elseif $GeeExplained is false>>
+    <<endif>>
+<<elseif $MaysDoor is true>>
+The door is completely open, and you hear a voice across all the noise...
+May: "If the house's rocking, don't botter knocking!"
+You enter, only to find a mess of an office.
+Papers scrambled everywhere, glass tubes broken, broken guitar strings, is that an empty pizza box?
+However, in the middle of it... there's a pyramid, made of glass, that completely catches your attention.
+May: "Oh, I see you have a good eye kid!"
+-> "What is this for?"
+    May: "Ah well..."
+-> "Is this for your new record?"
+    May: "How did you know, am I that obvious?"
+    Casey: "Oh no, it just looks so..."
+    May: "So MAY, ain't it?!"
+    Casey: "Yes!"
+    May: "Haha, I know right?!!"
+-> "Can I have an autograph?!"
+    May: "Sure thing"
+    She signs your forehead
+May: "So, it's like this pyramid, made of glass..."
+Casey: "Yeah?"
+May: "Yeah and that's about it"
+Casey: "...for real?"
+May: "Yeah, you can go now, I just wanted you to see it!"
+Casey: "Uhm..."
+May: "Nah, just joking. Come on, open that courtain!"
+//sound of courtain opening
+As soon as you open the courtain, a ray of light smashes against the pyramid.
+What happens next, makes you scream in terror...
+-> AAAAAAAAAAAAAAAAAAA
+-> AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+-> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+May rushes to close the window.
+May: "Woops, I think ya' weren't ready for that"
+You try to compose yourself. WHAT WAS THAT?
+-> "That's... not black... nor white..."
+    May: "Nor grey!"
+-> "What... in the name of god..."
+    May: "I know right? So coool"
+-> "Did you... broke the matrix?..."
+    May: "I did!!!!"
+May: "You just saw the truth of this world!"
+Casey: "The... what..."
+May: "BLACK AND WHITE AIN'T THE ONLY COLOURS IN THIS WORLD, KIDDO!"
+Casey: "..."
+You faint
+//fade to black
+//funny music
+//fade back in
+May: "Ohhh, wake up, Castor!"
+Casey: "Casey..."
+May: "Yes, Maisy! Here, have some veincorice!"
+-> "Veincorice?"
+    May: "Aw come on, your friend Gee loves it!"
+    She eats a piece. Looks like Licorice...
+    Casey: "Sure why not"
+    It tastes reaaaaally good!
+-> "No, thank you"
+    May: "Yer' loss, mate!"
+    She eats a piece.
+May: "So, what I needed you for. We're gonna do a show at Oktoberfest this year!"
+Casey: "Oh my god, for real? King is getting back together?!!!"
+May: "Yeah yeah, I know so cool right?! But listen up. My final act, will blow everyone's minds!"
+May: "I'm gonna use this device, powered by my steampunk machine!"
+Casey: "You what?"
+May: "What you saw, those flashy colours? That's described as a Rainbow in one of the most ancient texts I discovered from our own catacombs!"
+Casey: "A rainbow?..."
+May: "And I'll make it shine behind me when we hit the solo!"
+-> "Show THAT to everyone else? They'll die out of fear!"
+    May: "Ain't that great? It will even top that time I faked to be a dropbear!!!"
+-> "You're insane"
+    May: "Why thank you!!!"
+-> "THAT'S AWESOME!!!"
+    May: "RIGHT?! FINALLY SOMEONE UNDERSTANDS!"
+May: "So, Candace, would you like to fire this up?"
+Casey: "Me? Why me?"
+May: "Because thanks to your friend and you, last year, when you went into the catacombs and drew all ghosts out..."
+May: "I've got to convince them to let me read the ancient texts"
+-> "No way I'm doing that"
+    May: "Then I'll have to ask your friend to do it!"
+    Casey: "I mean, I'm tottaly in!"
+    May: "Thought so!"
+-> "I'd be honored"
+    May: "Allrighty!"
+-> "Do I even have a say on this?"
+    May: "Nah, come on, let me teach you how to operate it!"
+<<endif>>
+===

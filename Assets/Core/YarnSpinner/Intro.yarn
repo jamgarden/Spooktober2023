@@ -1,6 +1,8 @@
 ﻿title: Intro
 tags:
 ---
+<<declare $MaysDoor = false as bool>>
+<<declare $GeeExplained = false as bool>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"
@@ -444,6 +446,11 @@ Casey: "Allright, let's go to the messhall!"
 title: Messhall1
 ---
 <<Travel ThruLine Messhall>>
+<<declare $PhoebeExplodeVar1 = false as bool>>
+<<declare $PhoebeExplodeVar2 = false as bool>>
+<<declare $PhoebeExplodeVar3 = false as bool>>
+<<declare $PhoebeExplodeVar4 = false as bool>>
+<<declare $PhoebeExplodeVar5 = false as bool>>
 <<if $PhoebeCoffee is true>>
 You reach the messhall in mid morning
 It wasn't the busiest time, just some people here and there finishing their breakfasts.
@@ -539,6 +546,33 @@ No reply.
     Casey:
     -> "No Phoebe!!!"
         You try to stop Phoebe, but... She's burning hot! You burn your hand in the attempt
+        Phoebe begins to shake...
+        Bayley: "Oh no, oh no!!!!"
+        Bee: "Oh don't tell me she..."
+        Casey: "She wh--"
+        Bayley a grabs Casey before they even have time to finish.
+        Bee flips a table for cover and Bayley jumps behind it with Casey.
+        KBOOOOOOOOMMMMMM.
+        Casey: "WHAT HAPPENED??!!!"
+        Bayley: "Phoebe exploded"
+        Casey:
+        -> "She WHAT?!"
+        -> "I told her not to..."
+        -> "Did that mummy do THAT?!"
+            Bayley: "No! It's Phoebe, didn't you know she's part bomb?"
+            -> Part what?
+                Bee: "Bomb. Y'know, those rounded monsters that tend to explode"
+                Bee: "They look like nothing happened afterwards"
+                Bayley: "I think it was from her mother side..."
+                Casey: "But is Phoebe ok!!!!??!?!??"
+            -> Like those monsters from that game? Those that explode?
+                Bee: "Yeah!!"
+                Casey: "So is she alright?!"
+            -> Wasn't she a cyclops?
+                Bee: "Mostly, but we all have some relatives from other species"
+                Bee: "Unless you're like Siegfried, who claims to be pure blooded"
+                Bayley: "I bet my dinner that he's bluffing on that!"
+                Casey: "But what about Phoebe?!!!"
     -> "Kick his bandaged ass!!!"
         Phoebe begins to shake...
         Bayley: "Oh no, oh no!!!!"
@@ -644,8 +678,8 @@ No reply.
     You try a sip...
     Casey: "Hey, it's good!"
     Phoebe: "Told you I'd solve it!"
-<<declare $PhoebeExplodeVar = 0>>
-<<set $PhoebeExplodeVar = 1>>
+
+<<set $PhoebeExplodeVar1 to true>>
 
 <<elseif $BayleyCoffee is true>>
 Bayley: "Hey Sarcophaguy!"

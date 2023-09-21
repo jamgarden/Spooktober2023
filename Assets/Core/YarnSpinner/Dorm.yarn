@@ -195,4 +195,140 @@ Casey: "But no, it's because we know something's going on"
 Phoebe: "And we wanna help!"
 <<Place ThruLine Bayley Special FarLeft>>
 Bayley: "What you mean?" He begins to sweat
+Casey: "..."
+Phoebe: "THAT YOU LIKE GEE, BAYLEY!"
+Bayley: "WHHHHHAAAATT???? WHO TOLD YOU THAT?!"
+Bayley: "WAS THAT VAMPIRE TWAT?!"
+-> "No! It's just so obvious!"
+    Bayley: "...that obvious so she could tell?"
+    Phoebe: "No, not that much!"
+    Bayley: "Are you saying that to make me feel better?"
+    Casey: "Nah, only Phoebe figured it out"
+    Bayley: "Pluto being a planet again?"
+    Casey: "WHY DOES EVERYONE KNOW ABOUT THE HOROSCOPE?"
+    Bayley: "Ours is actually accuarate!"
+-> "Wait what, he knows that?"
+    Bayley: "I don't know... maybe?"
+    Phoebe: "OMG! Did you try to befriend him to ask about Gee?!!!"
+    Bayley: "TOTTALY NOT!"
+    Casey: "You've been insulting him extra lately..."
+    Casey: "That's kinda like asking him to be your friend"
+    Casey: "I know that by experience mind you"
+-> "Nah, Phoebe realized because of the planets"
+    Bayley: "Oh, Pluto gave me away?!"
+    Casey: "WHY DOES EVERYONE KNOW ABOUT THE HOROSCOPE?"
+    Bayley: "Ours is actually accuarate!"
+Bayley: "So wait a minute. This is what the intervention was for?"
+Phoebe: "...maybe"
+Bayley: "Did you guys pulled a whole intervention just to support me?"
+-> "What are friends for, right?"
+-> "We're just a couple of shippers"
+-> "We're really procrastinating the scaring people thing, huh?"
+
+Bayley: "Hahaha you lot are the best!"
+Bayley: "I just, need some info on Gee! She's a mystery man!"
+Bayley: "And we get along really well, but I don't even know her classes!"
+Casey: "Well... what does she study?"
+Bayley: "I DON'T KNOW! And it's too obvious if I ask Bee"
+Bayley: "And the vampire twat doesn't even seem to know!"
+Phoebe: "I remember I did a course with her last year..."
+Phoebe: "She said she was going to study..."
+Casey: "Yeah?"
+Phoebe: "Study..."
+Bayley: "Pheebs?"
+Phoebe: "............."
+She begins to shake
+Bayley: "Oh no!"
+<<if $PhoebeExplodeVar1 is true>>
+<<set $PhoebeExplodeVar2 to true>>
+Casey: "OH NO SHE'S GONNA EXPLODE AGAIN!!!"
+Bayley: "FAST, WE GOTTA DO SOMETHING!!!"
+-> Throw her out of the window
+    <<Place ThruLine Casey Special FarRight>>
+    <<Place Thruline Bayley Special Right>>
+    You and Bayley grab Phoebe and begin to approach the window
+    <<Place ThruLine Casey Special Right>>
+    <<Place Thruline Bayley Special Center>>
+    She's begining to boil...
+    <<Place ThruLine Casey Special Center>>
+    <<Place Thruline Bayley Special Left>>
+    There goes the steam out her head...
+    <<Place ThruLine Casey Special Left>>
+    <<Place Thruline Bayley Special FarLeft>>
+    OUT THE WINDOW SHE GOES!
+    Casey: "I hope she lands on..."
+    KBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMM
+    Casey: "I hope she's..."
+    Phoebe: "Sup?" And she's allready back!
+-> Use the fire extinguishor
+    <<Place ThruLine Casey Special FarRight>>
+    <<Place Thruline Bayley Special FarLeft>>
+    <<Place Thruline Phoebe Special Center>>
+    Casey: "AAAAAAAAAAAAAAA"
+    Bayley: "AAAAAAAAAAAAAAAAA"
+    Phoebe seems to stop steaming out of her head
+    Bayley: "KEEP GOING IT'S WORKING!"
+    Casey: "MINE'S RUNNING OUT OF FOAM!!!!"
+    Bayley: "USE THE ICE CREAM FROM THE MINIBAR!"
+    Casey: "How did you kn..."
+    Bayley: "JUST DO IT!"
+    You throw the ice cream over her head...
+    Phoebe begins to blink
+    Phoebe: "OH! IT SNOWED!!!!"
+-> Show her some animal pictures
+    Casey: "PHOEBE! LOOK AT THIS CUTE PUPPY ON THE PHONE!"
+    She stops shaking
+    Bayley: "OR THIS KITTY CAT!!!"
+    She blinks
+    Phoebe: "AWWWWW LOOK AT THEM!!!!!!!!!"
+    She confiscates the phones
+    Phoebe: "Precious precious little fluffy kitty and doggy!!!!"
+    Bayley: "Pheeew, that was close"
+    Casey: "You tell me"
+<<elseif $PhoebeExplodeVar1 is false>>
+<<set $PhoebeExplodeVar1 to true>>
+Casey: "What's going on?!!"
+Bayley: "Run Casey!"
+Casey: "Run wha-"
+Bayley grabs you and jumps out of the room. He quickly gets up and closes the door
+//explosion
+KBOOOOOOOOMMMMMM
+-> "WHAT THE..."
+-> "PHOEBE!!!!!"
+-> "AAAAAAAAAAAAAAAA"
+Bayley: "Calm down, calm down, she's fine!"
+Casey: "How can she be fine, she just exploded!!!!"
+Bayley: "This happens some times! Her mom is part Bomb!"
+-> Part what?
+    Bayley: "Bomb. You know, those rounded monsters that tend to explode"
+    Bayley: "They look like nothing happened afterwards"
+    Casey: "But is Phoebe ok!!!!??!?!??"
+-> Like those monsters from that game? Those that explode?
+    Bayley: "Yeah!!"
+    Casey: "So is she alright?!"
+-> Wasn't she a cyclops?
+    Bayley: "Mostly, but we all have some relatives from other species"
+    Bayley: "Unless you're like Siegfried, who claims to be pure blooded"
+    Bayley: "But I bet my dinner that he's bluffing on that!"
+    Casey: "But what about Phoebe?!!!"
+The door opens, Phoebe comes out as if nothing had ever happened
+Phoebe: "Sup guys, what are you doing outside?"
+<<endif>>
+//fade to black
+//funny music
+//fade in
+Bayley: "So you don't know either"
+Phoebe: "No, but you could just ask her?"
+Casey: "Yeah man!"
+Bayley: "Sounds like I'll have to try my luck then!"
+Phoebe: "YEAH!"
+Casey: "GO BAYLEY, GO BAYLEY, GO BAYLEY!"
+Phoebe: "GO BAYLEY, GO BAYLEY, GO BAYLEY!"
+Bayley takes off, but the dynamic duo is still working something out...
+Phoebe: "We're tottaly making them run into each other right?"
+Casey: "When the time comes, we'll leave them alone, in the face of danger itself..."
+Phoebe: "Danger?"
+Casey: "I don't know it just sounded good!"
+Casey: "But at any grouping chance we got, we pair them and cross fingers!"
+Phoebe: "Freak Yeah!"
 ===
