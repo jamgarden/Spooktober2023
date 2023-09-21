@@ -15,7 +15,7 @@ MonoBehaviour:
   Name: Messhall
   Section: 0
   BGList:
-  - {fileID: 21300000, guid: 6c8828c7022539146ad1cbe1c097604a, type: 3}
+  - {fileID: 21300000, guid: c11984337dcb9f04c9ba98dcdfebee3d, type: 3}
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []

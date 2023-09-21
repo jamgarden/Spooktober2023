@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Bayley
   m_EditorClassIdentifier: 
   Name: Bayley
-  Position: 
-  Neutral: {fileID: 21300000, guid: e1b5590a1b2b91d4db0fd2bb514c69ad, type: 3}
-  Sad: {fileID: 21300000, guid: 594f584c8c9038a4d8ad3be557def12b, type: 3}
-  Happy: {fileID: 21300000, guid: c4b5d29824fc26645b5bd7b13078e949, type: 3}
-  Angry: {fileID: 21300000, guid: 439993807d7dab74ebdb0221c13993c9, type: 3}
-  SpecialA: {fileID: 21300000, guid: 543980e83336e53488277cd839141dad, type: 3}
-  SpecialB: {fileID: 21300000, guid: 3b704dde9fe92ce4e82eed268ef7ee0b, type: 3}
+  Position: Left
+  Neutral: {fileID: 1536241626, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
+  Sad: {fileID: -1175882541, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
+  Happy: {fileID: -1816137071, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
+  Angry: {fileID: 1751888830, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
+  SpecialA: {fileID: 567470123, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
+  SpecialB: {fileID: -1133396930, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}

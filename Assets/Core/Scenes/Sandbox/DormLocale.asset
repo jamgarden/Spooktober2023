@@ -15,7 +15,7 @@ MonoBehaviour:
   Name: Dormroom
   Section: 1
   BGList:
-  - {fileID: 21300000, guid: e106a5143d300e543952b97976c15d3d, type: 3}
+  - {fileID: 21300000, guid: e458908ad2baee848a28c20d019886eb, type: 3}
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []

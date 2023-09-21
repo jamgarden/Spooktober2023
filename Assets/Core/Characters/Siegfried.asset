@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Siegfried
   Position: 
-  Neutral: {fileID: 21300000, guid: 5195721a168ed2142a5c92c313d84f3f, type: 3}
-  Sad: {fileID: 21300000, guid: 267be75158ec5014985f5a1802a5c382, type: 3}
-  Happy: {fileID: 21300000, guid: d9eb450c507d7cd4d81c62a6ca09fe97, type: 3}
-  Angry: {fileID: 21300000, guid: c9aa7df43fba269479c7f8d06701aabc, type: 3}
-  SpecialA: {fileID: 21300000, guid: 5edb2646603caf04095f35c9e46f4ef1, type: 3}
-  SpecialB: {fileID: 21300000, guid: cdf54f4a08a8b064f928c11b24398690, type: 3}
+  Neutral: {fileID: 48318962, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
+  Sad: {fileID: 1766978534, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
+  Happy: {fileID: -1843528155, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
+  Angry: {fileID: 1590019965, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
+  SpecialA: {fileID: 1498913424, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
+  SpecialB: {fileID: 578733803, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}

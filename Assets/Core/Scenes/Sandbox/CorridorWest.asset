@@ -15,7 +15,7 @@ MonoBehaviour:
   Name: CorridorWest
   Section: 0
   BGList:
-  - {fileID: 21300000, guid: c93a039229495c240a8a328385e153d7, type: 3}
+  - {fileID: 21300000, guid: 31c788da4ec65894989850f419de3fcb, type: 3}
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []

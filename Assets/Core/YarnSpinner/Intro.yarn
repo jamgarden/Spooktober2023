@@ -4,7 +4,6 @@ tags:
 <<declare $MaysDoor = false as bool>>
 <<declare $GeeExplained = false as bool>>
 <<Travel ThruLine CorridorWest>>
-<<Place ThruLine Casey>>
 <<Place ThruLine Casey Happy Center>>
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"
 <<Place ThruLine Casey Neutral Center>>

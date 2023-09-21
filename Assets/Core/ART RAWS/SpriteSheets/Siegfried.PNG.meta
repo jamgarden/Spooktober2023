@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 2.5
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Siegfried_Neutral
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1040.125
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cd0404d33775543bdd2730e47144ee
+      internalID: 48318962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Siegfried_Happy
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 1040.125
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf4b0c45035ad14b9f5bd27a19c1234
+      internalID: -1843528155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Siegfried_Sad
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 0
+        width: 1040.125
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae1926544e1b864db737792fe194f84
+      internalID: 1766978534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Siegfried_Scared
+      rect:
+        serializedVersion: 2
+        x: 3118
+        y: 0
+        width: 1040
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9678bf7d7a07b34459ab4a8984a7ee36
+      internalID: -1487347685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Siegfried_OnionMouthOpen
+      rect:
+        serializedVersion: 2
+        x: 4160
+        y: 0
+        width: 1040.125
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ea2aaba947298419e1d128fd993a35
+      internalID: -857155947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Siegfried_OnionMouthClosed
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 0
+        width: 1040
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352f71c040a52d84aacfb1d89093ba59
+      internalID: 1498913424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Siegfried_Angry
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 0
+        width: 1040.125
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22337db89d5eb7c4cb1edab22065f973
+      internalID: 1590019965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Siegfried_Furious
+      rect:
+        serializedVersion: 2
+        x: 7280
+        y: 0
+        width: 1040.125
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3332648681a857f4f8fac6917beb74af
+      internalID: 578733803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +287,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Siegfried_Angry: 1590019965
+      Siegfried_Furious: 578733803
+      Siegfried_Happy: -1843528155
+      Siegfried_Neutral: 48318962
+      Siegfried_OnionMouthClosed: 1498913424
+      Siegfried_OnionMouthOpen: -857155947
+      Siegfried_Sad: 1766978534
+      Siegfried_Scared: -1487347685
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

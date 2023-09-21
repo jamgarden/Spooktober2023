@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Gee
   Position: 
-  Neutral: {fileID: 21300000, guid: 466d044a900b8b842add914e735be291, type: 3}
-  Sad: {fileID: 21300000, guid: f5769f51007acd1408536f9553c20101, type: 3}
-  Happy: {fileID: 21300000, guid: a371d779ad0787042b1a8f0c2caf1484, type: 3}
-  Angry: {fileID: 21300000, guid: 32a35f7500955c345a9df8207843b1c8, type: 3}
-  SpecialA: {fileID: 21300000, guid: f043edfeb7302104d9ca21b2b3982256, type: 3}
+  Neutral: {fileID: -1248404446, guid: 58626884b7c463e469a5d598650e6363, type: 3}
+  Sad: {fileID: -350321234, guid: 58626884b7c463e469a5d598650e6363, type: 3}
+  Happy: {fileID: 258657876, guid: 58626884b7c463e469a5d598650e6363, type: 3}
+  Angry: {fileID: 559559991, guid: 58626884b7c463e469a5d598650e6363, type: 3}
+  SpecialA: {fileID: -1660877743, guid: 58626884b7c463e469a5d598650e6363, type: 3}
   SpecialB: {fileID: 0}
