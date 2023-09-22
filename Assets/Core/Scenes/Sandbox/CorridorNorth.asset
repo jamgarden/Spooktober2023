@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: 
   Section: 0
-  BGList: []
+  BGList:
+  - {fileID: 21300000, guid: 31c788da4ec65894989850f419de3fcb, type: 3}
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []

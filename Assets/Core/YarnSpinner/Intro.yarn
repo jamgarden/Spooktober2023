@@ -3,44 +3,49 @@ tags:
 ---
 <<declare $MaysDoor = false as bool>>
 <<declare $GeeExplained = false as bool>>
+<<declare $SarcophachefQuestDone = false as bool>>
+<<declare $GeeQuestDone = false as bool>>
+<<declare $BayleyQuestDone = false as bool>>
+<<declare $PhoebeQuestDone = false as bool>>
+<<declare $MaysQuest = false as bool>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
-Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"
+Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"#line:001
 <<Place ThruLine Casey Neutral Center>>
-Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"
-Casey: "I'm here at the most prestigious college ever, of which regular people know oh so very little about"
+Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"#line:002
+Casey: "I'm here at the most prestigious college ever, of which regular people know oh so very little about"#line:003
 <<Place ThruLine Casey Happy Center>>
-Casey: "Freakaversity, a place that makes even your wildest of dreams pale in comparison"
+Casey: "Freakaversity, a place that makes even your wildest of dreams pale in comparison"#line:004
 <<Place ThruLine Casey Angry Center>>
-Casey: "Some people have implied that I'm lying, and some that I exaggerate"
+Casey: "Some people have implied that I'm lying, and some that I exaggerate"#line:005
 <<Place ThruLine Casey Neutral Center>>
-Casey: "WELL, let me tell you"
-Casey: "Today, I'm going to give you a tour all around the place."
+Casey: "WELL, let me tell you"#line:006
+Casey: "Today, I'm going to give you a tour all around the place."#line:007
 <<Place ThruLine Casey Happy Center>>
-Casey: "Not just that, you'll get to meet my roomie, Phoebe!"
-Casey: "Yes, the very same one who can walk over the ceiling!"
+Casey: "Not just that, you'll get to meet my roomie, Phoebe!"#line:008
+Casey: "Yes, the very same one who can walk over the ceiling!"#line:009
 <<Place ThruLine Nobody>>
-Casey: "So, this is the corridor, isn't it amazing? Come on, follow me to the room!"
+Casey: "So, this is the corridor, isn't it amazing? Come on, follow me to the room!"#line:010
 // <<Footsteps and door opening>>
-// <<Phoebe Appears>>
-Casey: "And... this is Phoebe, everyone!"
 <<Travel ThruLine Dormroom>>
 <<Place ThruLine Phoebe Neutral Center>>
-Phoebe: "Oh? Are you doing one of your Vlogs???"
-Casey: "Yeah, you're live on BooTube Pheebs!"
+Casey: "And... this is Phoebe, everyone!"#line:011
+<<Place ThruLine Phoebe Neutral Center>>
+Phoebe: "Oh? Are you doing one of your Vlogs???"#line:012
+Casey: "Yeah, you're live on BooTube Pheebs!"#line:013
 <<Place ThruLine Phoebe Happy Center>>
-Phoebe: "OMG OMG OMG!!!!!!"
-Phoebe: "HI MOM HI DAD!!!!"
-Casey: "I don't think they're watching..."
+Phoebe: "OMG OMG OMG!!!!!!"#line:014
+Phoebe: "HI MOM HI DAD!!!!"#line:015
+Casey: "I don't think they're watching..."#line:016
 <<Place ThruLine Phoebe Special Center>>
-Phoebe: "AW, BOOMER!"
+Phoebe: "AW, BOOMER!"#line:017
 <<Place ThruLine Phoebe Neutral Center>>
 Casey: "So Pheebs, tell us a bit about yourself"
-Phoebe: "Ah well, you know, the usual. I wake at 4am, re-read yesterday's book, then exercise, feed the school's monster..."
+Phoebe: "Ah well, you know, the usual. I wake at 4am, re-read yesterday's book, then exercise, feed the school's monster..."#line:018
 Casey: "Wait what?"
 Phoebe: "What what?"
 Casey: "The monster part"
-Phoebe: "Oh, didn't you know? There's a monster canary in one of the towers!"
+Phoebe: "Oh, didn't you know? There's a monster canary in one of the towers!"#line:019
 Casey: "No way!"
 <<Place ThruLine Phoebe Happy Center>>
 Phoebe: "Yes way!"
@@ -49,40 +54,40 @@ Casey: "We'll definitely document that later. So, what are your aspirations here
 <<Place ThruLine Phoebe Neutral Center>>
 Phoebe: "Oh oh!!!"
 <<Place ThruLine Phoebe Special Center>>
-Phoebe: "I want to learn enough about agronomics and farming..."
+Phoebe: "I want to learn enough about agronomics and farming..."#line:020
 <<Place ThruLine Phoebe Happy Center>>
-Phoebe: "To seed an entire desert!!!"
+Phoebe: "To seed an entire desert!!!"#line:021
 <<Place ThruLine Phoebe Neutral Center>>
 Casey: "Wow, that's amazing Pheebs! Last but not least, can you do the neck trick?"
 <<Place ThruLine Phoebe Happy Center>>
-Phoebe: "I THOUGHT YOU'D NEVER ASK!"
+Phoebe: "I THOUGHT YOU'D NEVER ASK!"#line:022
 // <<head spins 360>>
-Casey: "HOW DID YOU DO THAT?!"
+Casey: "HOW DID YOU DO THAT?!"#line:023
 <<Place ThruLine Phoebe Happy Center>>
-Phoebe: "I JUST EAT MY VEGGIES EVERYDAY!"
+Phoebe: "I JUST EAT MY VEGGIES EVERYDAY!"#line:024
 <<Place ThruLine Phoebe Neutral Center>>
 Casey: "Wow ladies and gentlemen and others, you just saw it! Wait, Phoebe, look"
 Phoebe: "What?"
 Casey: "Your trick, I don't know, there's like thousands of viewers all of a sudden!"
 <<Place ThruLine Phoebe Happy Center>>
-Phoebe: "I'M BOOTUBE FAMOUS?!!!!"
+Phoebe: "I'M BOOTUBE FAMOUS?!!!!"#line:025
 Casey: "I wouldn't say FAMOUS famous..."
-Phoebe: "VIRAL?"
+Phoebe: "VIRAL?"#line:026
 Casey: "Wouldn't say either..."
 Phoebe: "LET ME SEE"
 <<Place ThruLine Nobody>>
 // <<any sound that can imply the camera passes to another hand, maybe spinning the background too>>
 // <<Take phoebe out, now put Casey. Phoebe holds the camera>>
-Phoebe: "OMG OMG OMG!!!!"
+Phoebe: "OMG OMG OMG!!!!"#line:014
 <<Place ThruLine Casey Angry Center>>
 Casey: "Uhm, Phoebe, give me that!"
 Phoebe: "Why hello world! Come on Casey, tell us what you wanna do!"
-Casey: "That's MY line, I'm supposed to be behind the camera!"
+Casey: "That's MY line, I'm supposed to be behind the camera!"#line:027
 Phoebe: "Come one, one more time for our new fandom!!!!"
 <<Place ThruLine Casey Special Center>>
 Casey: "Well... guess you're right."
 <<Place ThruLine Casey Neutral Center>>
-Casey: "I got a scholarship here to Freakaversity, and I'm in my early steps studying astrophysics!"
+Casey: "I got a scholarship here to Freakaversity, and I'm in my early steps studying astrophysics!"#line:028
 Phoebe: "With Prof. May! How cool is that?"
 <<Place ThruLine Casey Happy Center>>
 Casey: "SO, cool"

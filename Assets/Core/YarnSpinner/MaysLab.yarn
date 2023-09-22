@@ -10,8 +10,11 @@ Casey: "Looks like she isn't around..."
     Casey: "She's never in her office, but when she is, you can hear her from every area around it..."
     <<elseif $GeeExplained is false>>
     <<endif>>
+-> Go back
+    <<jump Conmutator>>
 <<elseif $MaysDoor is true>>
 The door is completely open, and you hear a voice across all the noise...
+<<endif>>
 May: "If the house's rocking, don't botter knocking!"
 You enter, only to find a mess of an office.
 Papers scrambled everywhere, glass tubes broken, broken guitar strings, is that an empty pizza box?
@@ -83,6 +86,7 @@ May: "And I'll make it shine behind me when we hit the solo!"
     May: "Why thank you!!!"
 -> "THAT'S AWESOME!!!"
     May: "RIGHT?! FINALLY SOMEONE UNDERSTANDS!"
+<<set $MaysQuest to true>>
 May: "So, Candace, would you like to fire this up?"
 Casey: "Me? Why me?"
 May: "Because thanks to your friend and you, last year, when you went into the catacombs and drew all ghosts out..."
@@ -95,5 +99,60 @@ May: "I've got to convince them to let me read the ancient texts"
     May: "Allrighty!"
 -> "Do I even have a say on this?"
     May: "Nah, come on, let me teach you how to operate it!"
-<<endif>>
+May proceeds to explain you how to operate the machine...
+May: "So we adjust the power couplings here..."
+You begin to tweak a knob
+May: "NOT SO MUCH!"
+Casey: "AAAAAAAAA"
+A screw goes flying away, and stabs itself in the wall.
+The remaining steam coming out at high pressure makes you sweat your face off!
+May: "Ah don't worry, that happens!" She shows her arm under her sleeve, filled with several scars.
+She just tweaks the knobs and gets the machine to stop.
+May: "Allrighty, go get that screw and let's put it back in!"
+-> "Isn't this like, super dangerous?"
+    May: "Well, duh, yeah! It'd be boring otherwise"
+-> "Damn this is so cool"
+    May: "I think you'll be a great student of mine, Cassie!"
+    Casey: *Oh my god she nearly got my name right!!!!!*
+-> "I really think we should..."
+    May: "Put the screw with the steam going anyway, so it seals under pressure and the particles melt..."
+    May: "...making the screw fuse with the chasis, so it'll never ever ever go flying out again?"
+    Casey: "..." I was gonna say quit, but sounds like a bad idea now...
+    Casey: "Yes, that!"
+    May: "OOOOHHHH, YER' A GENIUS!"
+<<jump knobcombination>>
+===
+title: knobcombination
+---
+<<declare $keyknobs = false as bool>>
+May: "Well, listen now. You'll have to tweak the first knob up to eleven."
+May: "The second up to 5. The third up to 9, and the last one up to 4."
+May: "Got it?"
+Casey: "Yes"
+May: "Did you noted it down?"
+Casey: "Yes?"
+May: "Not you, the one behind you"
+Casey: "Who?"
+May: "Nevermind, not talking to you Cassius!"
+Casey: "...?"
+May: "Allright, do ask me to repeat it again if you need to."
+    -> Repeat the combination
+        <<set $keyknobs to true>>
+        <<jump knobcombination>>
+    -> You're fine, your memory is great!
+    <<if $keyknobs is true>>
+    -> Yeah I noted it down this time!
+        May: "Great! Counting on you too!"
+    <<endif>>
+May: "Well, I'll leave you practicing it. I'm gonna go practice for our show!"
+//door slam
+May slams the door and begins to rip off her guitar... meanwhile, you begin to practice with the machine...
+At the risk of being murdered by a flying screw... isn't it exciting?!
+//fade to black
+//funny guitar music
+//fade back in
+Casey: "Well... I better get going now. Feels like the gears are starting to move..."
+Casey: "I wonder how will this affect others?..."
+You take off!
+<<jump Conmutator>>
 ===
