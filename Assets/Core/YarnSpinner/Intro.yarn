@@ -1079,19 +1079,46 @@ Bayley: "Almost... cofcof... makes me wish... cofcof... I studied physics!"
 Gee: "She's the best! Don't worry, you'll get used to the smoke"
 Bee: "Yeah! Didn't had her but boy, were my first experiments smoky..."
 Siegfried: Rolls his eyes "Whatever, I'll be in the library."
-Casey: "I should contact my friend back in town, Mookie. He might be able to make it too!"
-Phoebe: "Oh!!! Your friend Mookie?!!! I SOOO want to meet him!!"
-Phoebe: "I'll drop by the dorm, gotta get ready to freak them all!!!"
+Phoebe: "I'll drop by the dorm later, gotta get ready to freak them all!!!"
 Bayley: "Sounds great! I'll be at the messhall... as usual!"
 Bee: "Oh oh, are we saying what we're doing? I'm gonna do some weird things in the lab!!!"
 Gee: "No Bee, you're coming with me to the next class, remember?"
 Bee: "Oh... right... boomer..."
 Gee punches him in the arm, as they take their leave
-Casey: "Allright... where to now?"
-<<jump CorridorChoosing1>>
+<<Place ThruLine Casey Center>>
+Casey: "Allright... guess I'll be back to the dorm. I need a nap..."
+<<Place Thruline Nobody>>
+<<jump Dorm2>>
 ===
-title: CorridorChoosing1
+title: Dorm2
 ---
-<<background corridor>>
-
+<<Travel ThruLine Dormroom>>
+//funny music
+Casey: "That nap felt way longer than usual..."
+Casey: "Oh right, it's been a few days without me updating! So..."
+Casey: "The following days to the video going viral, just kept going madness."
+Casey: "May organized all of Oktoberfest herself... and announced King's reunion..."
+Casey: "Pretty much every human in the realm wanted to come to the castle..."
+Casey: "The principal went nuts, I don't think I've ever seen him so angry before... I filmed a bit!"
+<<Travel ThruLine PrincipalsOffice>>
+Principal: "WHAT? YOU WANT HUMANS TO COME HERE?"
+Principal: "WHAT? DID YOU ALREADY... WHAT?!!!!!!!!"
+Albatros: "Come on man, it ain't that big of a deal. Thousands of years are enought for the masses to change!"
+May: "Yeah don't be a prude Princy."
+Principal: "YOU... YOU PIECE OF...!!!!!!!!!!!!!"
+<<Travel ThruLine Dormroom>>
+Casey: "Yeah I had to stop recording, It'd be compromising if you heard what he said afterwards..."
+Casey: "I heard that he's on some of the herbs Prof. May gave him"
+Casey: "You know, to chill a bit and all that"
+Casey: "So... Today's the day. All the humans that bought their tickets, are gonna be staying at the castle"
+Casey: "And this is our chance to scare them away from here, for good!"
+Albatros: "Or dance the night away!"
+Casey: "Grandpa I told you you can't appear in videos!"
+Albatros: "But they can see me when I use this sheet!!!"
+Casey: "They see a guy under a blanket, they won't believe noone's under it"
+Albatros: "Ahhh... you kids are no fun."
+The blanket falls to the floor motionless
+Casey: "They'll think it was some vfx..."
+Casey: "Allright, time to scare you all people!"
+<<jump Conmutator>>
 ===

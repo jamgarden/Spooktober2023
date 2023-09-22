@@ -1,0 +1,61 @@
+﻿title: Courtyard
+tags:
+---
+<<Travel ThruLine Courtyard>>
+<<if $GeeExplained is true>>
+-> Set the ambush with Gee
+    <<jump Ambush>>
+-> Go back
+    <<jump Conmutator>>
+<<elseif $GeeExplained is false>>
+-> You don't really have much to do here yet...
+    <<jump Conmutator>>
+<<endif>>
+
+===
+title: Ambush
+---
+There she was, Gee waiting behind a tree. You decide to approach
+Gee: "Good, you're right on time. Also, what is Phoebe doing here?"
+Phoebe: "I just felt like scaring people!"
+Casey: "She's been reading this book on how to scare people? She's gotten pretty good at it"
+Gee: "Allright, the more the merrier!"
+Gee: "Listen, this is the plan. Bee and his stoner cult are gonna pass through here at some point"
+Gee: "So, our task is to choose the best possible moment to scare them off"
+Gee: "There's 3 trees along here, so we can ambush them when they reach the middle"
+Gee: "However, our timing has to be impecable! If we scare them out of term, we'll fail!"
+Gee: "So the one in the middle tree will call when to strike. Then we all jump at once!"
+Gee: "We'll approach silently from all angles, and when they least expect it..."
+Gee: "RAAAAARRRRRRRR BRAAAAIIINNNNSSSSS"
+Phoebe: "AAAAAAAAAA"
+Casey: "AAAAAAAAAAAAAAAAAA"
+Gee: Facepalms...
+Gee: "This is going to be a long night..."
+Bee: "So, as I was saying, the carnivorous plant suddenly broke free, man!"
+Gee: "HE'S APPROACHING, GO HIDE BEHIND THE TREES COME ON!"
+You run to the trees, but who takes the middle tree?
+-> Phoebe
+    <<jump PhoebeMiddle>>
+-> Casey
+    <<jump CaseyMiddle>>
+-> Gee
+    <<jump GeeMiddle>>
+===
+title: PhoebeMiddle
+---
+Cult: "Ohhh, and what happened then?"
+Bee: "We just sat down and talked things through, man..."
+Bee: "You can't solve everything with brute force, you know?"
+Cult: "Oh you're so wise"
+Bee: "Nah, I just like to think on how to make this a better world, you know?"
+Cult: "Spoken like a true saviour!"
+Bee: "Hehe, if you say so! So guys, what do you want to do?"
+Cult: "We just want to listen to more of your stories, master"
+Bee: "Oh but I'm not a master yet... haven't finished my degree!"
+Cult: "Hahahahahahaha you're so funny"
+-> Call the attack
+    Phoebe does the signal...
+    You 3 approach slowly from the sides...
+    
+-> Wait
+===

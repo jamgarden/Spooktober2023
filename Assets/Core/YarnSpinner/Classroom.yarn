@@ -1,0 +1,89 @@
+﻿title: Classroom
+tags:
+---
+<<Travel ThruLine Classroom>>
+Seems like the place is empty... too many humans around to focus, maybe?
+However, true to her word, there's Gee, studying in one of the tables.
+-> Go back to the corridor
+    <<jump Conmutator>>
+-> Say Hi
+Casey: "Hey Gee!"
+Gee: "Oh, it's you halfie!"
+-> "Excuse me?"
+    Gee: "Come on, you know I'm joking. Sit down"
+    Casey: "So, how's it going?"
+-> "Haha how you doing?"
+Gee: "Could *bee* better."
+Casey: "Huh? What you mean?"
+Gee: "I'm studying for my finals, yet Bee is nowhere to be seen"
+Casey: "And he should?"
+Gee: "YES, HE SHOULD. He promised to help me study this!"
+-> "Well but what does he know about your career?"
+    Gee: "It's Bee, he knows everything about everything!"
+-> "Damn Bee, allways dispersing himself"
+    Gee: "No, it's even worse now."
+-> "I mean, you should study by yourself"
+    A pencil sharpener flies straight to your forehead.
+    Damn, it hurt a lot, but you feel like you deserved it.
+Gee: "Problem here is... the humans are keeping him busy"
+Casey: "What?!"
+Gee: "YES! They have him TRAPPED"
+Casey: "Oh my god, we have to do something!"
+Gee: "We can't..."
+Casey: "What you mean?"
+Gee: "He's... uhm... their leader..."
+-> "Their what?"
+    Gee: "Their leader, you deaf dumbass!"
+    Casey: "That hardly explains anything..."
+    Gee: She groans... but doesn't argue your logic
+-> "Didn't you said they trapped him?"
+    Gee: "Yes, and made him their leader!"
+    Casey: "How does that even... work?!"
+Gee: "Look, this happened before."
+Gee: "One time, we went to Greece on vacations, right?"
+Casey: "Right"
+Gee: "And Bee... well you know him, he likes to smoke stuff"
+Gee: "So... he saw this plant over there... they call it Oregano"
+-> "That stuff you throw on food?"
+    Gee: "Yeah..."
+-> "What's that?"
+    Gee: "A plant you use to like, throw over the food"
+-> "Did he... smoke... Oregano?"
+    Gee: "Don't skip the story!"
+Gee: "But yes... in short, he began to smoke it"
+Gee: "And other tourists were like... so interested in that"
+-> "Gee... did your brother raised a cult on Oregano?"
+    Gee: "Well... yes"
+-> "Gee... did your brother began dealing Oregano?"
+    Gee: "No! Worse..."
+-> "What the actual freak?"
+    Gee: "In short..."
+Gee: "He raised a cult on Oregano..."
+Casey: "HOW IS THAT EVEN POSSIBLE?"
+Gee: "IT'S THE WAY HE TALKS! HE'S ALL LIKE, PHILOSOPHER STYLE"
+Gee: "YOU KNOW, HE'S LIKE DIOGENES, ALL WEIRD BUT WISE???"
+Casey: "HOW CAN HE BE A GREEK PHILOSOPHER PROFECING ON OREGANO?"
+Gee: "I. DON'T. KNOW."
+Gee breaks a pencil while saying so
+Gee: "All I know, is that no one's helping me with my test"
+Gee: "And heck, I'm so stressed on this I can't even prank those dummy humans."
+Gee: "No offense meant"
+Casey: "None taken. So... do you want me to talk with Bee?"
+Gee: "Nah, that won't work"
+Casey: "How so?"
+Gee: "He's not aware... that he has a cult. He just think, they are his friends"
+Casey: "Oh, I see..."
+Gee: "But, if we could scare those humans out for good.."
+Gee: "That did the trick last time!"
+Casey: "Spooking some humans? Count us in!"
+Gee: "Allright, bring Phoebe to the Couryard, and we'll set an ambush on those stoners!"
+Casey: "You got it!"
+Gee: "Oh, by the way, did May ask you to go to her office?"
+Casey: "Yeah, why?"
+Gee: "She's never in her office, but when she is, you can hear her from all sorrounding areas"
+<<set $GeeExplained to true>>
+Casey: "How so?"
+Gee: "Haha, you'll see!"
+Allright... so where to now?
+<<jump Conmutator>>
+===
