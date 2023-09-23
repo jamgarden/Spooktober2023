@@ -376,3 +376,24 @@ You take off, disregarding Phoebe's advice!
 Now... where could you find Ursula?...
 <<jump Conmutator>>
 ===
+title: DormroomUrsy
+---
+<<Travel ThruLine Dormroom>>
+//fade back in
+After that last explosion, you all went on a funny trip around the castle and had a great time
+Turns out, Ursula was just like Phoebe, but shy and insecure!
+All she needed, was just to be welcomed to the family
+Casey: "Allright, so you think that will be the end of the explosions?"
+Ursula: "Should be. That last one was the last of our tension blowing off"
+Bayley: "So wait, how come you remember, but Phoebe doesn't?"
+Ursula: "Well... she's just playing the fool"
+Casey: "Wait, Phoebe can play the fool?!"
+Ursula: "There's a lot you don't know about her!"
+Bayley: "Do tell!!!"
+Ursula: "Well... I used to call her Peebe because..."
+Phoebe: "AAAAAAAAAAAAAAND I think we have some important stuff to do! Come on, to the corridor everyone!"
+<<set $PhoebeQuestDone to true>>
+And Phoebe pushes everyone out...
+So, what else are you missing before Oktoberfest?...
+<<jump Conmutator>>
+===

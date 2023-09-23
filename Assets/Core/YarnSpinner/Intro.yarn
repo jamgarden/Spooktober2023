@@ -78,7 +78,7 @@ Phoebe: "LET ME SEE"
 <<Place ThruLine Nobody>>
 // <<any sound that can imply the camera passes to another hand, maybe spinning the background too>>
 // <<Take phoebe out, now put Casey. Phoebe holds the camera>>
-Phoebe: "OMG OMG OMG!!!!"#line:014
+Phoebe: "OMG OMG OMG!!!!"#line:014a
 <<Place ThruLine Casey Angry Center>>
 Casey: "Uhm, Phoebe, give me that!"
 Phoebe: "Why hello world! Come on Casey, tell us what you wanna do!"
@@ -95,14 +95,14 @@ Casey: "SO, cool"
 Phoebe: "Alright, time to find the others!"
 <<Place ThruLine Casey Special Center>>
 Casey: "No wait, I didn't tell anyone else yet!!!"
-Phoebe: "EVEN BETTER!!!"
+Phoebe: "EVEN BETTER!!!"#line:029
 // <<fade to black, running sounds>>
 // <<fade into messhole, put bayley sad in it>>
 <<Travel ThruLine Messhall>>
-Phoebe: "HEY BAYLEY!"
+Phoebe: "HEY BAYLEY!"#line:030
 // <<regular bayley now>>
 <<Place ThruLine Bayley Neutral Center>>
-Bayley: "Oh, hey Pheebs! Casey! What are you doing with that camera?"
+Bayley: "Oh, hey Pheebs! Casey! What are you doing with that camera?"#line:031
 <<Place ThruLine Bayley Neutral Left>>
 <<Place ThruLine Casey Neutral Right>>
 Casey: "Uhm... we're... uhm... live on BooTube?"
