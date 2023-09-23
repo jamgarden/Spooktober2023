@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0fab304f5cb9694aabd9f75f0ec5aff, type: 3}
-  m_Name: MathTeacher
+  m_Name: Mario
   m_EditorClassIdentifier: 
-  Name: MathTeacher
+  Name: Mario
   Position: 
-  Neutral: {fileID: -1496450365, guid: ca288790a946a5c4f810071806290fdf, type: 3}
+  Neutral: {fileID: -964990759, guid: 92cccc05ab7b4445d881839532a0a002, type: 3}
   Sad: {fileID: 0}
-  Happy: {fileID: -1175514059, guid: ca288790a946a5c4f810071806290fdf, type: 3}
-  Angry: {fileID: 0}
+  Happy: {fileID: -51165591, guid: 92cccc05ab7b4445d881839532a0a002, type: 3}
+  Angry: {fileID: -569038118, guid: 92cccc05ab7b4445d881839532a0a002, type: 3}
   SpecialA: {fileID: 0}
   SpecialB: {fileID: 0}
