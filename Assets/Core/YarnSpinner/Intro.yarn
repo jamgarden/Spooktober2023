@@ -105,38 +105,38 @@ Phoebe: "HEY BAYLEY!"#line:030
 Bayley: "Oh, hey Pheebs! Casey! What are you doing with that camera?"#line:031
 <<Place ThruLine Bayley Neutral Left>>
 <<Place ThruLine Casey Neutral Right>>
-Casey: "Uhm... we're... uhm... live on BooTube?"
+Casey: "Uhm... we're... uhm... live on BooTube?"#line:032
 <<Place ThruLine Bayley Happy Left>>
-Bayley: "No kidding? That's so cool!! Hey mom, hey dad!!!!"
+Bayley: "No kidding? That's so cool!! Hey mom, hey dad!!!!"#line:033
 <<Place ThruLine Bayley Neutral Left>>
-Casey: *Why do they all do that...?*
-Phoebe: "SO TELL US BAYLEY, FOR CASEY'S VLOG, WHO ARE YOU AND WHAT YOU DO?"
+Casey: *Why do they all do that...?*#line:034
+Phoebe: "SO TELL US BAYLEY, FOR CASEY'S VLOG, WHO ARE YOU AND WHAT YOU DO?"#line:035
 <<Place ThruLine Bayley Happy Left>>
-Bayley: "I'm Bayley, and I'm on a soccer scholarship here at Freakaversity!"
-Phoebe: "HE'S PUTTING IT MILDLY GUYS, HE'S OUR SOCCER TEAM STAR!!!"
+Bayley: "I'm Bayley, and I'm on a soccer scholarship here at Freakaversity!"#line:036
+Phoebe: "HE'S PUTTING IT MILDLY GUYS, HE'S OUR SOCCER TEAM STAR!!!"#line:037
 <<Place ThruLine Bayley Special Left>>
-Bayley: "Oh, no, not that much!"
-Phoebe: "DON'T BE HUMBLE!!! PEOPLE LIKE COCKY ROCKSTARS, OR SHOULD I SAY, SOCCER STARS?"
-Casey: "Yeah man, didn't you make it as MVP last tournament?"
+Bayley: "Oh, no, not that much!"#line:038
+Phoebe: "DON'T BE HUMBLE!!! PEOPLE LIKE COCKY ROCKSTARS, OR SHOULD I SAY, SOCCER STARS?"#line:039
+Casey: "Yeah man, didn't you make it as MVP last tournament?"#line:040
 <<Place ThruLine Bayley Sad Left>>
-Bayley: "Yeah... but we lost anyway..."
+Bayley: "Yeah... but we lost anyway..."#line:041
 Phoebe: "I'm sure you'll get it next year!"
 <<Place ThruLine Casey Angry Right>>
 Casey: "Yeah, they totally robbed us!"
 <<Place ThruLine Casey Neutral Right>>
 <<Place ThruLine Bayley Neutral Left>>
-Bayley: "I guess you're right about that, hehe..."
+Bayley: "I guess you're right about that, hehe..."#line:042
 Phoebe: "So why don't you show everyone one of those crazy barks of yours?!!!"
 <<Place ThruLine Bayley Special Left>>
 Bayley: "Uhm cause we're in the messhole?"
 Casey: "Aw come on, just one!!!"
 <<Place ThruLine Bayley Happy Left>>
-Bayley: "Alright, here it goes.............."
+Bayley: "Alright, here it goes.............."#line:043
 <<Place ThruLine Bayley Special Left>>
 <<Place ThruLine Casey Special Right>>
-Bayley: "AAAAAWOOOOOOOOOOOOOOOOO"
+Bayley: "AAAAAWOOOOOOOOOOOOOOOOO"#line:044
 // <<bark>>
-Phoebe: "WOW, THE VIEWERS JUST WENT EVEN HIGHER!!!"
+Phoebe: "WOW, THE VIEWERS JUST WENT EVEN HIGHER!!!"#line:045
 Casey: "Holy May!"
 <<Place ThruLine Bayley Happy Left>>
 <<Place ThruLine Casey Neutral Right>>
@@ -145,26 +145,26 @@ Bayley: "Oh? Let me see let me see!!!"
 <<Place ThruLine Bayley Neutral Right>>
 <<Place ThruLine Casey Neutral FarRight>>
 <<Place ThruLine Siegfried Neutral FarLeft>>
-Siegfried: "Could you turn down the volume of your pathetic, commonplace noises, peasants??"
+Siegfried: "Could you turn down the volume of your pathetic, commonplace noises, peasants??"#line:046
 Casey: "Oh, hey Sieg"
-Phoebe: "Eat your soup in silence, vampire!"
+Phoebe: "Eat your soup in silence, vampire!"#line:047
 Bayley: "Hey easy guys, he's right on this one"
 <<Place ThruLine Siegfried Angry FarLeft>>
-Siegfried: "You know I'm right if even the furry agrees with me"
+Siegfried: "You know I'm right if even the furry agrees with me"#line:048
 <<Place ThruLine Bayley Angry Right>>
-Bayley: "Hey don't push it, you twat!"
+Bayley: "Hey don't push it, you twat!"#line:049
 <<Place ThruLine Siegfried Neutral Left>>
 <<Place ThruLine Gee Neutral FarLeft>>
 <<Place ThruLine Bayley Neutral Right>>
 <<Place ThruLine Casey Neutral FarRight>>
-Gee: "What's with the ruckus you lot? Are we fighting each other again?"
+Gee: "What's with the ruckus you lot? Are we fighting each other again?"#line:050
 <<Place ThruLine Casey Happy Right>>
 <<Place ThruLine Bayley Neutral FarRight>>
 Casey: "Oh, hey Gee!"
 // <<blushed bayley>>
 <<Place ThruLine Bayley Special FarRight>>
-Bayley: "Oh... hehe... hi Gee..."
-Phoebe: "OH! THE COMMENTS ARE SAYING THAT..."
+Bayley: "Oh... hehe... hi Gee..."#line:051
+Phoebe: "OH! THE COMMENTS ARE SAYING THAT..."#line:052
 //<<camera moving sounds again>>
 <<Place ThruLine Nobody>>
 Casey finally snatches the camera out of Phoebe's hand and shuts her up
@@ -174,53 +174,53 @@ Casey finally snatches the camera out of Phoebe's hand and shuts her up
 <<Place ThruLine Phoebe Neutral FarRight>>
 Casey: "So, Sieg, Gee, what do you do in Freakaversity?"
 <<Place ThruLine Siegfried Angry Center>>
-Siegfried: "I listen to idiotic freaks every single day"
+Siegfried: "I listen to idiotic freaks every single day"#line:053
 // <<Siegfried takes off>>
 <<Place ThruLine Nobody Left>>
 <<Place ThruLine Gee Happy Left>>
-Gee: "Oh oh, you know, the usual! I eat veincorice, go to my classes, hang out with the edgy vampire and my bro... Study to become a..."
+Gee: "Oh oh, you know, the usual! I eat veincorice, go to my classes, hang out with the edgy vampire and my bro... Study to become a..."#line:054
 <<Place ThruLine Gee Neutral Left>>
 <<Place ThruLine Bee Neutral FarLeft>>
-Bee: "Hey, what's going on?"
+Bee: "Hey, what's going on?"#line:055
 Casey: "Oh hey Bee! What are you doing here?"
 <<Place ThruLine Bee Happy FarLeft>>
-Bee: "Well, eating my brainspaghetti man, what else?"
+Bee: "Well, eating my brainspaghetti man, what else?"#line:056
 <<Place ThruLine Bee Neutral FarLeft>>
 Casey: "I don't know, maybe..."
 <<Place ThruLine Phoebe Happy FarRight>>
-Phoebe: "...staying alive?"
+Phoebe: "...staying alive?"#line:057
 <<Place ThruLine Bee Happy FarLeft>>
-Bee: "Hahahaha, you know it!"
+Bee: "Hahahaha, you know it!"#line:058
 <<Place ThruLine Phoebe Neutral FarRight>>
 <<Place ThruLine Bee Neutral FarLeft>>
 Casey: "What do you study for, Bee?"
-Bee: "I'm in chemistry, man, I thought you knew?"
+Bee: "I'm in chemistry, man, I thought you knew?"#line:059
 Phoebe: "We do, but..."
 <<Place ThruLine Phoebe Happy FarRight>>
-Phoebe: "COMPLETE STRANGERS IN THE INTERNET DON'T!"
+Phoebe: "COMPLETE STRANGERS IN THE INTERNET DON'T!"#line:060
 <<Place ThruLine Gee Happy Left>>
-Gee: "WOOO ARE WE LIVE?"
+Gee: "WOOO ARE WE LIVE?"#line:061
 <<Place ThruLine Bee Happy FarLeft>>
 Bee: "Cooool man!"
-Gee: "HEY MOM HEY DAD!"
-Casey: *There we go again...*
+Gee: "HEY MOM HEY DAD!"#line:062
+Casey: *There we go again...*#line:063
 <<Place ThruLine Gee Neutral Left>>
 <<Place ThruLine Bee Neutral FarLeft>>
 Phoebe: "So how old are you lot?"
 <<Place ThruLine Bee Special FarLeft>>
-Bee: "Ah depends on the body part I guess..."
+Bee: "Ah depends on the body part I guess..."#line:064
 <<Place ThruLine Gee Special Left>>
-Gee: "Yeah, I think my youngest part is my pinky toe..."
-Bee: "Yeeeah, they tend to smash into things first"
+Gee: "Yeah, I think my youngest part is my pinky toe..."#line:065
+Bee: "Yeeeah, they tend to smash into things first"#line:066
 Casey: "Yeah... they always do right?"
-Casey: "Oh wait, battery is getting low..."
+Casey: "Oh wait, battery is getting low..."#line:067
 <<Place ThruLine Nobody>>
 // sound of camera shifting again
 // <<Casey up front, no one else, still in messhole>>
 <<Place ThruLine Casey Neutral Center>>
-Casey: "I'll show you more in my next vlog you guys, glad to see you around!"
+Casey: "I'll show you more in my next vlog you guys, glad to see you around!"#line:068
 <<Place ThruLine Phoebe Happy Right>>
-Phoebe: "BYE STRANGERS!"
+Phoebe: "BYE STRANGERS!"#line:069
 // <<fade to black, .rec animation out>>
 <<Place ThruLine Nobody>>
 <<jump Dorm1>>
@@ -238,7 +238,7 @@ Phoebe: "Case', have you been awake all night watching the statistics?"
     The video has reached a million views by now.
 -> "I can explain..."
     She approaches the PC monitor and with a swift move, points it at her.
-Phoebe: "HOLLY MOLLY RIGATONI!!!!"
+Phoebe: "HOLLY MOLLY RIGATONI!!!!"#line:070
 Casey: "There's like, lots of comments about your neck trick!"
 Phoebe: "What's that about my eye?" She says, peeking into the screen
 -> "They say it's a very pretty eye!"
@@ -263,12 +263,12 @@ Phoebe: "No Casey, it's wednesday!"
     //<<Whatever noise you think best for this>>
 -> "WHAT? Allright, time to get ready anyways!"
 
-Phoebe: "I'LL GO GET US SOME COFFEE!!!!"
+Phoebe: "I'LL GO GET US SOME COFFEE!!!!"#line:071
 She storms out like the road runner
 //<<so if we had a caricature sound for this, i'd die laughing>>
-Casey: "Ugh... guess I'll have to wear sunglasses today..."
-Casey: "Watching statistics and comments all night is worse than a hangover"
-Casey: "However... holy cow, I can't wait to see how far it gets when I get back!!!!"
+Casey: "Ugh... guess I'll have to wear sunglasses today..."#line:072
+Casey: "Watching statistics and comments all night is worse than a hangover"#line:073
+Casey: "However... holy cow, I can't wait to see how far it gets when I get back!!!!"#line:074
 <<Travel ThruLine CorridorEast>>
 Bayley: "Hey Case'!"
 Casey: "Sup Bayls!"
@@ -283,8 +283,8 @@ Bayley: "Duuude, I saw the video last night! It's like, thousands of views alrea
 -> "I've been watching statistics all night!!!"
     Bayley: "Oh, that's why you've got the sunglasses?"
     Casey: "Yeah..."
-Bee: "Sup my dudes... what's that Case', hangover again?"
-Casey: "Statistics..."
+Bee: "Sup my dudes... what's that Case', hangover again?"#line:075
+Casey: "Statistics..."#line:076
 Bee: "Boo, much worse!"
 Bayley: "Been there... I did a reel on eating a burger in one bite, and it went viral"
 Bayley: "I've been asked how to do it for months now..."
@@ -304,15 +304,15 @@ Bayley: "Wait, Phoebe, did you tell Sarcophachef that it was for..."
 //<<CG coffee>>
 And that's when everyone noticed... the tag in the coffee saying Casey 
 //<<back to normal>>
-Casey: "It's... watered down..."
-Phoebe: "HOW? WHY?!"
+Casey: "It's... watered down..."#line:077
+Phoebe: "HOW? WHY?!"#line:078
 Bayley: "Ah... remember when we stole that booze last year?..."
 //<<Flashback>>
 Phoebe: "I thought you guys aged it with Bee's potions!"
 Bee: "Nah, they did that with Gee so... bound to be a robbery or something hehe"
 Bayley: "Well, Sarcophachef realized it..."
 Casey: "He didn't like the replacements..."
-Casey: "So he's been watering down EVERYTHING I order…"
+Casey: "So he's been watering down EVERYTHING I order…"#line:079
 Bee: "Man, how long can a mummy hold a grudge?"
 -> "THOUSANDS OF YEARS, APPARENTLY." Sips coffee angrily
 -> "Enough to ruin my entire college experience"
@@ -336,7 +336,7 @@ title: class1
 <<declare $BeeCoffee = false as bool>>
 Casey: *This was gonna be a long day, and the fact that we began with advanced calculus was the cherry on the top of the pie.*
 Math teacher: "Today we're gonna learn how to calculate the rotation of a body in 0 gravity"
-Casey: *Oh boy...*
+Casey: *Oh boy...*#line:080
 Math teacher: He began to explain different equations on the black board, explaining the math behind the phenomenon
 -> Why did I sign up for astrophysics?
     The class keeps going and you barely manage to keep up.
@@ -366,7 +366,7 @@ Math teacher: He began to explain different equations on the black board, explai
 
 -> This is the end, my only friend, the end ♫
     Math Teacher: "Casey, save the singing lessons for music class."
-    Siegfried: "Fame gone to your head, twat?"
+    Siegfried: "Fame gone to your head, twat?"#line:081
     Casey: "Uhm… sorry…"
     Math Teacher: "...Right. Let's get back to it."
 
@@ -376,7 +376,7 @@ You keep yourself together for the rest of it, or so you think.
 In between exercises, the chat from the corridor comes back.
 Bayley: "Man, I totally get you. It's crazy to be famous overnight!!"
 Bee: "Yeeeah man, you can like, sell your own merch now!"
-Phoebe: "Oh oh, what if you sell little cups? Like, for cats and dogs!!!"
+Phoebe: "Oh oh, what if you sell little cups? Like, for cats and dogs!!!"#line:082
 -> That's most certainly the best idea I've heard in years
     Phoebe: "RIGHT?! LET'S ORDER SOME!!!"
     Bayley: "Oh oh, and what about endorsement?"
@@ -395,12 +395,12 @@ Phoebe: "Oh oh, what if you sell little cups? Like, for cats and dogs!!!"
     Bee: "I want five!"
     Casey: "Oh boy..."
 -> I just wanna go back to beeeeddddddd
-    Bee: "Hey man, I bet I have something to keep you up in my bag!"
+    Bee: "Hey man, I bet I have something to keep you up in my bag!"#line:083
     Phoebe: "Like, gummy bears?"
     Bayley: "Please tell me it's gummy bears!"
     Casey: "There's just no way it's gummy bears guys"
     Bee rustles around inside his bag for a moment.
-    Bee: "Gummy bears!"
+    Bee: "Gummy bears!"#line:084
     Phoebe and Bayley: "YAY!"
     Casey: You begin to wonder if the world is upside down this morning or what.
 
@@ -469,17 +469,17 @@ No reply.
     Phoebe: "No! He sold me watered down coffee, and you tell me this has been going on for months!?"
     Casey: "It's fine, don't sweat it"
     And just when you thought she was buying it, you yawn out of reflex
-    Phoebe: "Oh no, not on my watch. Listen to me you over-bandaged mummy!*
+    Phoebe: "Oh no, not on my watch. Listen to me you over-bandaged mummy!*#line:085
     Sarcophachef finally pays attention to Phoebe. He didn't look all that friendly before...
     But now?
     He looked even worse.
-    Phoebe: "How can you be so mean to little Casey here???"
-    Phoebe: "They're the nicest, most squishiest little half monster this place has ever seen!!!"
-    Phoebe: "You should be ashamed, depriving a college student of their coffee???!!!"
-    Phoebe: "Heck how do you think they'll pull through!? It's savage!"
-    Phoebe: "I don't care how many people you condemned to death in Egypt"
-    Phoebe: "Or how many pyramids you built"
-    Phoebe: "You better quit with this grudge thing or..."
+    Phoebe: "How can you be so mean to little Casey here???"#line:086
+    Phoebe: "They're the nicest, most squishiest little half monster this place has ever seen!!!"#line:087
+    Phoebe: "You should be ashamed, depriving a college student of their coffee???!!!"#line:088
+    Phoebe: "Heck how do you think they'll pull through!? It's savage!"#line:089
+    Phoebe: "I don't care how many people you condemned to death in Egypt"#line:090
+    Phoebe: "Or how many pyramids you built"#line:091
+    Phoebe: "You better quit with this grudge thing or..."#line:092
     Sarcophachef looks at Phoebe, and pours water in the stew...
     Phoebe begins to grow buffer by the second.
     You fear the worst
@@ -514,13 +514,13 @@ No reply.
                 Bee: "Unless you're like Siegfried, who claims to be pure blooded"
                 Bayley: "I bet my dinner that he's bluffing on that!"
                 Casey: "But what about Phoebe?!!!"
-    Phoebe: "Sup guys?"
+    Phoebe: "Sup guys?"#line:093
     Without even a scratch on her face, Phoebe walks behind the table
     As though nothing had ever happened.
     Casey: "Phoebe! are you alright?!"
     Phoebe: "Why wouldn't be?"
     Casey: "You just... EXPLODED?!"
-    Phoebe: "Huh, I don't recall that! That would've been fun though."
+    Phoebe: "Huh, I don't recall that! That would've been fun though."#line:094
     Phoebe: "Here, your coffee!"
     She hands Casey a cup of coffee.
     Casey: "But... but..."
@@ -538,13 +538,13 @@ No reply.
    Sarcophachef finally pays attention to Phoebe. He didn't look all that friendly before...
     But now?
     He looked even worse.
-    Phoebe: "How can you be so mean to little Casey here???"
-    Phoebe: "They're the nicest, most squishiest little half monster this place has ever seen!!!"
-    Phoebe: "You should be ashamed, depriving a college student of their coffee???!!!"
-    Phoebe: "Heck how do you think they'll pull through!? It's savage!"
-    Phoebe: "I don't care how many people you condemned to death in Egypt"
-    Phoebe: "Or how many pyramids you built"
-    Phoebe: "You better quit with this grudge thing or..."
+    Phoebe: "How can you be so mean to little Casey here???"#line:086a
+    Phoebe: "They're the nicest, most squishiest little half monster this place has ever seen!!!"#line:087a
+    Phoebe: "You should be ashamed, depriving a college student of their coffee???!!!"#line:088a
+    Phoebe: "Heck how do you think they'll pull through!? It's savage!"#line:089a
+    Phoebe: "I don't care how many people you condemned to death in Egypt"#line:090a
+    Phoebe: "Or how many pyramids you built"#line:091a
+    Phoebe: "You better quit with this grudge thing or..."#line:092a
     Sarcophachef looks at Phoebe, and pours water in the stew...
     Phoebe begins to grow buffer by the second.
     You fear the worst
@@ -627,13 +627,13 @@ No reply.
     Sarcophachef finally pays attention to Phoebe. He didn't look all that friendly before...
     But now?
     He looked even worse.
-    Phoebe: "How can you be so mean to little Casey here???"
-    Phoebe: "They're the nicest, most squishiest little half monster this place has ever seen!!!"
-    Phoebe: "You should be ashamed, depriving a college student of their coffee???!!!"
-    Phoebe: "Heck how do you think they'll pull through!? It's savage!"
-    Phoebe: "I don't care how many people you condemned to death in Egypt"
-    Phoebe: "Or how many pyramids you built"
-    Phoebe: "You better quit with this grudge thing or..."
+    Phoebe: "How can you be so mean to little Casey here???"#line:086b
+    Phoebe: "They're the nicest, most squishiest little half monster this place has ever seen!!!"#line:087b
+    Phoebe: "You should be ashamed, depriving a college student of their coffee???!!!"#line:088b
+    Phoebe: "Heck how do you think they'll pull through!? It's savage!"#line:089b
+    Phoebe: "I don't care how many people you condemned to death in Egypt"#line:090b
+    Phoebe: "Or how many pyramids you built"#line:091b
+    Phoebe: "You better quit with this grudge thing or..."#line:092b
     Sarcophachef looks at Phoebe, and pours water in the stew...
     Phoebe begins to grow buffer by the second.
     You fear the worst
@@ -691,10 +691,10 @@ Bayley: "Hey Sarcophaguy!"
 Sarcophachef raises an eyebrow.
 Bayley: "One coffee for the taking, please"
 Sarcophachef looks at Bayley. Then looks at the tables where Casey is sitting.
-Bayley: "Hey man, come on, drop that"
-Bayley: "They're a nice kid, I was the brain behind all that!"
+Bayley: "Hey man, come on, drop that"#line:095
+Bayley: "They're a nice kid, I was the brain behind all that!"#line:096
 Sarcophachef sighs.
-Bayley: "I tell you what, make an exception for today, and these 5 bucks are going straight into that nice tip jar, huh?"
+Bayley: "I tell you what, make an exception for today, and these 5 bucks are going straight into that nice tip jar, huh?"#line:097
 Sarcophachef raises an eyebrow again.
 -> Pay more
     Bayley: "Fine fine... what about $10?"
@@ -797,35 +797,35 @@ You reach the courtyard in need for a mouthfull of fresh air.
 The thought of checking your phone acts as a beacon in your mind
 Constantly reminding you of that video out there.
 It is then, when someone distracts you from picking it up.
-Albatros: "Why the long face, so--, youngling?"
+Albatros: "Why the long face, so--, youngling?"#line:098
 There he was, a ghost you knew very well.
 Albatros, your great great grandparent, the one that revealed your origins to you.
 The one that told you how in fact, you descended from a lost line of monsters
 One able to perform amazing deeds with the sheer power of their mind, the most human-looking of them all.
 Ever since that revelation, your relationship with him has reached the point of you even calling him gramps.
-Casey: "Oh, hey gramps"
+Casey: "Oh, hey gramps"#line:099
 Casey: "Not much, really. Just... A bit of a long story"
 Albatros: "Oh, don't worry, I already heard all about it"
 Casey: "About... The video?"
-Albatros: "Yes, the principal is as pissed off as last year, maybe even more haha!"
+Albatros: "Yes, the principal is as pissed off as last year, maybe even more haha!"#line:101
 Ah yes, the Principal. A goat-like monster who was kind of a stickler for rules, but with imagination to mold them to his liking.
 He decided, after the ghost cometee pushed hard on it, to send you the invitation to the school, and let your kin be admited again amongst other monsters.
 However, his temperament was quite volatile...
 Casey: "W...what?!!"
-Albatros: "Something about exposing the entire school and ruining the monster legacy, these kids today don't understand, and more blablabla."
-Albatros: "He's such a prude!"
+Albatros: "Something about exposing the entire school and ruining the monster legacy, these kids today don't understand, and more blablabla."#line:102
+Albatros: "He's such a prude!"#line:103
 The weight of the world falls over your shoulders. You knew it, something smelled wrong from the very start.
 Casey: "So that's what I've been feeling all morning...?"
-Albatros: "Ah, seems like our classes on using your mental powers are working!"
-Albatros: "We're not far from begining to try telekinesis! You could even do it on that vampire smug!"
-Casey: "No gramps, we're friends now"
+Albatros: "Ah, seems like our classes on using your mental powers are working!"#line:104
+Albatros: "We're not far from begining to try telekinesis! You could even do it on that vampire smug!"#line:105
+Casey: "No gramps, we're friends now"#line:106
 Albatros: "Sure sure, then on the principal!"
-Casey: "Gramps, you're NOT helping"
-Albatros: "Ah well, I guess one forgets to worry after hundreds of years..."
-Albatros: "Look, back in the day, the very sight of a monster was reason for torches and swords"
-Albatros: "Now, to see them laughing and finding us funny? Heck, we would have avoided that entire massacre!"
-Albatros: "You did a great thing, Casey. You brought us closer to live in harmony"
-Albatros: "Whatever the principal says, tell'im where he can put it!!!"
+Casey: "Gramps, you're NOT helping"#line:107
+Albatros: "Ah well, I guess one forgets to worry after hundreds of years..."#line:108
+Albatros: "Look, back in the day, the very sight of a monster was reason for torches and swords"#line:109
+Albatros: "Now, to see them laughing and finding us funny? Heck, we would have avoided that entire massacre!"#line:110
+Albatros: "You did a great thing, Casey. You brought us closer to live in harmony"#line:111
+Albatros: "Whatever the principal says, tell'im where he can put it!!!"#line:112
 You can't help but to smile to your grandpa's afirmations...
 Last year, you discovered the reason your kin was banned from the monster community
 Albatros was spoted in the human's town far too many times, to the point they've got suspicious.
@@ -833,24 +833,24 @@ After following him, they found that he was a monster, and not only that...
 They found their secret hideout.
 An insane battle broke out, and during the mourning of the dead comrades, a decision was taken on the spot.
 Albatros and his kin, banned for good... until now.
-Casey: "You know gramps... I think that helped a lot actually"
+Casey: "You know gramps... I think that helped a lot actually"#line:113
 Albatros: A smile can be seen in the ghost's face
-Casey: "But... I'm affraid it could get out of control"
-Albatros: "Casey, you cannot predict the future. Not yet at least"
-Albatros: "But I can tell you... a positive action, like those of you and your buddies..."
-Albatros: "Can only end up in a positive reaction."
+Casey: "But... I'm affraid it could get out of control"#line:114
+Albatros: "Casey, you cannot predict the future. Not yet at least"#line:115
+Albatros: "But I can tell you... a positive action, like those of you and your buddies..."#line:116
+Albatros: "Can only end up in a positive reaction."#line:117
 Casey: "You think so?"
-Albatros: "Yeah! Hundreds of years of experience, bo--- kid!"
+Albatros: "Yeah! Hundreds of years of experience, bo--- kid!"#line:118
 Casey: "Haha, you really are from another time after all, I guess"
-Albatros: "Well... what can I tell you?"
-Albatros: "Dead and living it, youngster! Now, I gotta catch up on my salsa classes. See you around!"
+Albatros: "Well... what can I tell you?"#line:119
+Albatros: "Dead and living it, youngster! Now, I gotta catch up on my salsa classes. See you around!"#line:120
 Casey: "See you, gramps"
-Albatros: "And remember... Let it be, and just have fun. It's all meaningless in the end!!!"
+Albatros: "And remember... Let it be, and just have fun. It's all meaningless in the end!!!"#line:121
 Easy when you're a ghost. However... You feel a bit better now, for some reason.
 The philosophy of simpler times keeps you at ease, at least until you hear the sound of the principal's angry voice from the window...
-Principal: "CASEY MCTAGONIST, TO MY OFFICE"
-Principal: "N O W"
-Casey: "Woops, I better go!"
+Principal: "CASEY MCTAGONIST, TO MY OFFICE"#line:122
+Principal: "N O W"#line:123
+Casey: "Woops, I better go!"#line:124
 <<jump principal1>>
 ===
 title: principal1
@@ -863,10 +863,10 @@ You reach the principal's office, and see the door open, almost inviting you in.
     -> Enter
         You go in...
     -> Wait outside
-        Principal: "MCTAGONIST, GET INSIDE ALREADY!"
+        Principal: "MCTAGONIST, GET INSIDE ALREADY!"#line:125
         You go in...
 -> Sit down in the waiting chairs
-    Principal: "MCTAGONIST, GET INSIDE ALREADY!"
+    Principal: "MCTAGONIST, GET INSIDE ALREADY!"#line:125a
     You go in...
 -> Just enter
 You go in...
@@ -878,42 +878,42 @@ Bee: He's just looking outside the window, siting as if he were taking a nap.
 Siegfried: Arms crossed, his expresion resembles one of smelling a fart.
 You take a sit next to who you'd be calling Fart Face, if you weren't at the principal's office.
 Principal: He closes the door, and then adresses everyone.
-Principal: "Where did I go wrong with you lot?" He begins explaining
-Principal: "I gave you all chances, all pardons. I explained the very essence of this college to you all more times than I can remember"
-Principal: "Last year, I gave you a task. One, that to my surprise, you completed perfectly."
-Principal: "Oktoberfest was a complete success, thanks to your team work..."
+Principal: "Where did I go wrong with you lot?" He begins explaining#line:126
+Principal: "I gave you all chances, all pardons. I explained the very essence of this college to you all more times than I can remember"#line:127
+Principal: "Last year, I gave you a task. One, that to my surprise, you completed perfectly."#line:128
+Principal: "Oktoberfest was a complete success, thanks to your team work..."#line:129
 -> "We're the best, ain't we?"
-    Principal: "NO."
+    Principal: "NO."#line:130
 -> "But?..."
     Principal: "BUT..."
 -> "I think my grandpa is call..."
-    Principal: "NO ONE LEAVES."
+    Principal: "NO ONE LEAVES."#line:131
     Pretty clearly spoken.
 Principal: "As I was saying..." You can see the vein in his forehead pumping loads of blood.
-Principal: "It all went uphill, until your deeds prooved to be a mere courtain"
-Principal: "One that blocked the true nature of your actions..."
-Principal: "YOU STOLE THE ALCOHOL FOR THE PARTY."
-Bayley: "Damn mummy man, he told us off!"
-Gee: "Grudgy bastard!"
-Principal: "YOU MADE A PROHIBITED POTION TO MAKE THE GARDEN GROW!"
+Principal: "It all went uphill, until your deeds prooved to be a mere courtain"#line:132
+Principal: "One that blocked the true nature of your actions..."#line:133
+Principal: "YOU STOLE THE ALCOHOL FOR THE PARTY."#line:134
+Bayley: "Damn mummy man, he told us off!"#line:135
+Gee: "Grudgy bastard!"#line:136
+Principal: "YOU MADE A PROHIBITED POTION TO MAKE THE GARDEN GROW!"#line:137
 Phoebe: "Oh no, he found out!!!"
-Bee: "I thought the word banned was for like, banned from the classroom"
-Principal: "LET'S NOT EVEN TALK ABOUT ENTERING THE CASTLE'S RUINS!"
-Siegfried: "Whatever..."
-Casey: "But we..."
-Principal: "BUT NOTHING. AND NOW, NOW???"
-Principal: "NOW YOU DECIDED TO SHOW YOURSELVES, AS YOU ARE, AS A MERE JOKE TO HUMANS!!!!!!!!!"
-Principal: "For thousands of years, we've shown ourselves as scary beasts, with claws and fangs, to keep those hungry murderers away from us!"
-Principal: "AND IN ONE SINGLE SWIPE, You blew it all"
-Principal: "People laughing at your head spinning? At you replacing your pinky toe? THEY SHOULD FEAR THE MERE SIGHT OF YOUR BRAINS!"
-Principal: "But no, you did mere comedy for them."
-Principal: "And now... we've been unmasked, they know our true nature..."
+Bee: "I thought the word banned was for like, banned from the classroom!"#line:138
+Principal: "LET'S NOT EVEN TALK ABOUT ENTERING THE CASTLE'S RUINS!"#line:139
+Siegfried: "Whatever..."#line:140
+Casey: "But we..."#line:141
+Principal: "BUT NOTHING. AND NOW, NOW???"#line:142
+Principal: "NOW YOU DECIDED TO SHOW YOURSELVES, AS YOU ARE, AS A MERE JOKE TO HUMANS!!!!!!!!!"#line:143
+Principal: "For thousands of years, we've shown ourselves as scary beasts, with claws and fangs, to keep those hungry murderers away from us!"#line:144
+Principal: "AND IN ONE SINGLE SWIPE, You blew it all"#line:145
+Principal: "People laughing at your head spinning? At you replacing your pinky toe? THEY SHOULD FEAR THE MERE SIGHT OF YOUR BRAINS!"#line:146
+Principal: "But no, you did mere comedy for them."#line:147
+Principal: "And now... we've been unmasked, they know our true nature..."#line:148
 -> "Ferocious mean monsters?"
-    Principal: "DID YOU EVEN HEARD WHAT I SAID?"
+    Principal: "DID YOU EVEN HEARD WHAT I SAID?"#line:149
 -> "Heartwarming lovely monsters?"
-    Principal: "DON'T SAY IT OUT LOUD"
+    Principal: "DON'T SAY IT OUT LOUD"#line:150
 -> "A bunch of looneys?"
-    Principal: "WORSE. NICE, GOOD MONSTERS!!!!"
+    Principal: "WORSE. NICE, GOOD MONSTERS!!!!"#line:151
 
 The principal seems to be steaming from his ears. What should you do?
 -> Try to defend your actions
@@ -923,55 +923,55 @@ The principal seems to be steaming from his ears. What should you do?
     Principal: "..."
     Principal: "Do you know what happened after you all went on vacations, right?"
     No sound can be heard...
-    Principal: "The plants... *kept* growing."
-    Bee: Whispering "Oh... I don't like the sound of that..."
-    Principal: "THIS LOOKED LIKE A FREAKIN' GREEN HOUSE!!!"
-    Principal: "Even if our head chemist stoped the overgrowth, we had to cut it all... BY HAND."
-    Gee: "Yeah but, what does it have to do with the booze? We replaced that one!"
-    Bayley: "And we also sent the poltergueist back home for good!"
+    Principal: "The plants... *kept* growing."#line:152
+    Bee: Whispering "Oh... I don't like the sound of that..."#line:153
+    Principal: "THIS LOOKED LIKE A FREAKIN' GREEN HOUSE!!!"#line:154
+    Principal: "Even if our head chemist stoped the overgrowth, we had to cut it all... BY HAND."#line:155
+    Gee: "Yeah but, what does it have to do with the booze? We replaced that one!"#line:156
+    Bayley: "And we also sent the poltergueist back home for good!"#line:157
     Principal: "..."
     The principal pulls out a bowl of stew...
     Bayley: "Oh no..."
     Casey: "You too?..."
-    Principal: "IT'S WATERED DOWN, THANKS TO YOU LOT"
-    Siegfried: "What does any of this have to do with the catacombs?"
-    Principal: "You destroyed several chambers, what, did you thought we didn't know that's where the spiders live?"
-    Principal: "THEY ARE MONSTERS TOO, YOU PAIR OF AIRHEADS!"
+    Principal: "IT'S WATERED DOWN, THANKS TO YOU LOT"#line:158
+    Siegfried: "What does any of this have to do with the catacombs?"#line:159
+    Principal: "You destroyed several chambers, what, did you thought we didn't know that's where the spiders live?"#line:160
+    Principal: "THEY ARE MONSTERS TOO, YOU PAIR OF AIRHEADS!"#line:161
     Casey: "Oh..."
     Principal: "There's reasons people don't go there, and that's because it's *their* territory!"
     Principal: "Do you have any idea what it is to discuss with the Spider Queen?!!!"
     Principal: "She's worse than the Borg Queen, dammit!"
 -> Just say it was all your fault
-    Casey: "It... it was all my fault, Principal."
-    Casey: "I put everyone up to that..."
-    Siegfried: "Yeah sure, like if anyone listened to a squishy halfling like you."
-    Siegfried: "All I did was my own doing."
-    Phoebe: "I tottaly overgrowth the garden by my own will!!!"
-    Bayley: "Stealing booze? Tottaly my idea"
-    Gee: "And mine. I even wanted to steal some of that salami too..."
-    Bee: "It was so fun to brew all those things!!! I don't regret it one bit"
-    Casey: "Guys... you're not helping"
-    Principal: "McTagonist is right for once."
+    Casey: "It... it was all my fault, Principal."#line:162
+    Casey: "I put everyone up to that..."#line:163
+    Siegfried: "Yeah sure, like if anyone listened to a squishy halfling like you."#line:164
+    Siegfried: "All I did was my own doing."#line:165
+    Phoebe: "I tottaly overgrowth the garden by my own will!!!"#line:166
+    Bayley: "Stealing booze? Tottaly my idea"#line:167
+    Gee: "And mine. I even wanted to steal some of that salami too..."#line:168
+    Bee: "It was so fun to brew all those things!!! I don't regret it one bit"#line:169
+    Casey: "Guys... you're not helping"#line:170
+    Principal: "McTagonist is right for once."#line:171
     Casey: "But all we did was to ensure the best posible experience!"
     Phoebe: "Yeah! That Garden NEEDED to be brought back to life!"
     Bayley: "And that would be *your* job, sir, not ours!"
     Principal: "..."
     Principal: "Do you know what happened after you all went on vacations, right?"
     No sound can be heard...
-    Principal: "The plants... *kept* growing."
-    Bee: Whispering "Oh... I don't like the sound of that..."
-    Principal: "THIS LOOKED LIKE A FREAKIN' GREEN HOUSE!!!"
-    Principal: "Even if our head chemist stoped the overgrowth, we had to cut it all... BY HAND."
-    Gee: "Yeah but, what does it have to do with the booze? We replaced that one!"
-    Bayley: "And we also sent the poltergueist back home for good!"
+    Principal: "The plants... *kept* growing."#line:152a
+    Bee: Whispering "Oh... I don't like the sound of that..."#line:153a
+    Principal: "THIS LOOKED LIKE A FREAKIN' GREEN HOUSE!!!"#line:154a
+    Principal: "Even if our head chemist stoped the overgrowth, we had to cut it all... BY HAND."#line:155a
+    Gee: "Yeah but, what does it have to do with the booze? We replaced that one!"#line:156a
+    Bayley: "And we also sent the poltergueist back home for good!"#line:157a
     Principal: "..."
     The principal pulls out a bowl of stew...
     Bayley: "Oh no..."
     Casey: "You too?..."
-    Principal: "IT'S WATERED DOWN, THANKS TO YOU LOT"
-    Siegfried: "What does any of this have to do with the catacombs?"
-    Principal: "You destroyed several chambers, what, did you thought we didn't know that's where the spiders live?"
-    Principal: "THEY ARE MONSTERS TOO, YOU PAIR OF AIRHEADS!"
+    Principal: "IT'S WATERED DOWN, THANKS TO YOU LOT"#line:158a
+    Siegfried: "What does any of this have to do with the catacombs?"#line:159a
+    Principal: "You destroyed several chambers, what, did you thought we didn't know that's where the spiders live?"#line:160a
+    Principal: "THEY ARE MONSTERS TOO, YOU PAIR OF AIRHEADS!"#line:161a
     Casey: "Oh..."
     Principal: "There's reasons people don't go there, and that's because it's *their* territory!"
     Principal: "Do you have any idea what it is to discuss with the Spider Queen?!!!"
@@ -980,27 +980,27 @@ The principal seems to be steaming from his ears. What should you do?
 Principal: "So what's it gonna be this time, huh?" He picks up a punishment book
 Bayley: "Oh man here we go again..."
 Knock Knock
-Principal: "Huh?"
-May: "Heyoooo my dudes an dudettes!"
+Principal: "Huh?"#line:172
+May: "Heyoooo my dudes an dudettes!"#line:173
 Everyone: "Professor May!!!"
 Principal: "May what are you doing here?!"
-May: "Ah you know, just droping by, saying hello, you know, I feel like brainstorming!"
-Principal: "Brainst... what?"
-May: "Ah you're too old for that!"
+May: "Ah you know, just droping by, saying hello, you know, I feel like brainstorming!"#line:174
+Principal: "Brainst... what?"#line:175
+May: "Ah you're too old for that!"#line:176
 Enought to make the principal's temper go on again
-Principal: "YOU'RE OLDER THAN ME, YOU JUST DRANK A REJUVENATION POTION!"
-May: "Hey, I just took my moonlight baths properly, that's all! No need to call me a cheater!!!"
-May: "So kiddos, I saw your video! That was so fun!!!"
+Principal: "YOU'RE OLDER THAN ME, YOU JUST DRANK A REJUVENATION POTION!"#line:177
+May: "Hey, I just took my moonlight baths properly, that's all! No need to call me a cheater!!!"#line:178
+May: "So kiddos, I saw your video! That was so fun!!!"#line:179
 -> "THANK YOU PROFESSOR MAY!!!"
     May: "Ah, it's nothing really!"
 -> "In your face, Principal"
     Principal: "YOU'RE NOT OFF THE HOOK YET, KID"
 May: "So, I had like, this idea right?"
-May: "The Principal is angry because you lot threw down the veil, which, come on, we did that with King in the 80's"
-May: "So, what if this year, we go by tradition?"
+May: "The Principal is angry because you lot threw down the veil, which, come on, we did that with King in the 80's"#line:180
+May: "So, what if this year, we go by tradition?"#line:181
 Principal: "Wait, what?"
-May: "Yeah! Send them off to scare people, like good old times!"
-Principal: "That's... that's a great idea actually"
+May: "Yeah! Send them off to scare people, like good old times!"#line:182
+Principal: "That's... that's a great idea actually"#line:183
 May: "Hehe told you, brainstorming is good!!!"
 -> "Scare... people?"
     May: "Well yes, a tradition as old as time for us monsters!"
@@ -1008,63 +1008,64 @@ May: "Hehe told you, brainstorming is good!!!"
     Siegfried: "Or you without make up, twat"
 -> "We'll give them Sarcophachef's food!"
     May: "Hey, we don't want to *kill* them, you know? Hahaha!"
-Principal: "So that way you can make monsters scary again... Yes, and you'll have to film it all"
-Principal: "Show them it was all a trick to make them lower their guard!"
+Principal: "So that way you can make monsters scary again... Yes, and you'll have to film it all"#line:184
+Principal: "Show them it was all a trick to make them lower their guard!"#line:185
 Casey: "But..."
-May: Whispering "Don't push it Case'"
+May: Whispering "Don't push it Case'"#line:186
 You shut up, wouldn't be wise to go against May's advice
-Principal: "Ah yes, this will be great! Go on, go Freak The Town!"
+Principal: "Ah yes, this will be great! Go on, go Freak The Town!"#line:187
 The principal gets up and begins to urge everyone out, specially professor May.
 <<door slam>>
 <<background corridor>>
 By the time you all reach the outside, the door gets slammed right behind the last one to get out.
-Gee: "HEY WHATCH OUT YOU ..."
+Gee: "HEY WHATCH OUT YOU ..."#line:188
 Siegfried: "Seems like you still know what's best"
-Gee: "I didn't finish that because... uhm..."
+Gee: "I didn't finish that because... uhm..."#line:189
 Siegfried: "He's the principal"
-Gee: "...I sneezed."
-Gee proceeds to sneeze very fakely
-Gee: "See? Sneezed"
-May: "Allright sneezy gang, listen up. I didn't tell the fuuulll story back there"
+Gee: "...I sneezed."#line:190
+Gee proceeds to sneeze very fakely#line:191
+Gee: "See? Sneezed"#line:192
+May: "Allright sneezy gang, listen up."#line:193
+May: "I didn't tell the fuuulll story back there"
 May: "'Cause you know, we'd never hear the end o'it!"
-May: "So, saving you all the tantrum I'm about to hear..."
-May: "I'm bringing the townsfolk over here!"
+May: "So, saving you all the tantrum I'm about to hear..."#line:194
+May: "I'm bringing the townsfolk over here!"#line:195
 -> "Wait, what?"
-    May: "Ya heard, Casius Klein!"
+    May: "Ya heard, Casius Klein!"#line:196
     Casey: "The only ones freaking out... will be the monsters!"
-    Siegfried: "To see you everyday is already a pain, and you're half trouble."
-    May: "Hahaha isn't that great? Everyone going bonkers!!!"
+    Siegfried: "To see you everyday is already a pain, and you're half trouble."#line:197
+    May: "Hahaha isn't that great? Everyone going bonkers!!!"#line:198
 -> "That's..."
-    May: "Amazing, I know!"
-    Siegfried: "Insane, I'd say"
-    May: "Insanely good, I'd say!"
-    Siegfried: "Insanely bad"
-    May: "Insanely badly good!"
-    Siegfried: "...I hate you all"
+    May: "Amazing, I know!"#line:199a
+    Siegfried: "Insane, I'd say"#line:200
+    May: "Insanely good, I'd say!"#line:201
+    Siegfried: "Insanely bad"#line:202
+    May: "Insanely badly good!"#line:203
+    Siegfried: "...I hate you all"#line:204
     Gee: "Haha come on Sieggy!"
     Bee: "Yeah man... It'll be fun"
     Siegfried: He remains silent, seems like he's considering it
 -> "That's brilliant!"
-    May: "I know, right?!!!"
+    May: "I know, right?!!!"#line:199
     Siegfried: "Did you fell on your head or something?"
     Casey: "Do invite some italians too!"
     May: "Oh, oh!!! I love italian food!"
-    Siegfried: "You twat..."
-May: "So, you lot are gonna have to scare the crap out o'them!"
+    Siegfried: "You twat..."#line:205
+May: "So, you lot are gonna have to scare the crap out o'them!"#line:206
 -> "How are we gonna do that?"
-    May: "Aw come on, you lot are monsters! It's in your DNA."
+    May: "Aw come on, you lot are monsters! It's in your DNA."#line:207
 -> "Is there like, a way to bypass that?"
-    May: "Nope. It's that or hanging from your pinky toes"
-    Bee: "Nooo, not again!!!! Mine are new!!!"
+    May: "Nope. It's that or hanging from your pinky toes"#line:208
+    Bee: "Nooo, not again!!!! Mine are new!!!"#line:209
 -> "How far can we actually go with that?"
-    May: "No physical harm. Psicologicaly? Well up to you, but nothing some pair of months therapy can't solve!"
-May: "So, let's say, an example. Ever heard of the dropbear?"
+    May: "No physical harm. Psicologicaly? Well up to you, but nothing some pair of months therapy can't solve!"#line:210
+May: "So, let's say, an example. Ever heard of the dropbear?"#line:211
 -> "The what?"
-    May: "The carnivorous Koala who drops from the trees to make you it's lunch... RAWR!"
+    May: "The carnivorous Koala who drops from the trees to make you it's lunch... RAWR!"#line:212
 -> "The carnivorous Koala more dangerous than every spider in australia?"
-    May: "Close enought, you forgot the part it falls from the trees and... RAWR!"
+    May: "Close enought, you forgot the part it falls from the trees and... RAWR!"#line:213
 -> "The bear who drops from trees to brutally murder you?"
-    May: "Yes! But looks like a Koala! And goes like RAWR!"
+    May: "Yes! But looks like a Koala! And goes like RAWR!"#line:214
 May's impression of the dropbear seem to throw you back a little.
 Bayley: "That was... amazing! I tottaly felt the chill down my spine!"
 Phoebe: "I WANNA SLEEP WITH THE LIGHTS ON!!!!"
@@ -1075,14 +1076,14 @@ May: "Ah right, you were on my course last year! But never say never, Gee!"
 May: "Now, listen. It's gonna be hard, okay? But don't quit just yet. I know you have it in ya'!"
 May: "And you'll need all hands on board if you wanna pull a 10/10 on this!"
 Casey: "Wait, is this like... a test?"
-May: "You bet! Now, drop by my office later. I might need some help with something!"
+May: "You bet! Now, drop by my office later. I might need some help with something!"#line:215
 <<little explosion>>
 May throws a smoke bomb to the floor and takes off!
-Phoebe: "...SHE'S AWESOME!...cofcof"
-Casey: "Yeah...cofcof"
-Bayley: "Almost... cofcof... makes me wish... cofcof... I studied physics!"
-Gee: "She's the best! Don't worry, you'll get used to the smoke"
-Bee: "Yeah! Didn't had her but boy, were my first experiments smoky..."
+Phoebe: "...SHE'S AWESOME!...cofcof"#line:216
+Casey: "Yeah...cofcof"#line:217
+Bayley: "Almost... cofcof... makes me wish... cofcof... I studied physics!"#line:218
+Gee: "She's the best! Don't worry, you'll get used to the smoke"#line:219
+Bee: "Yeah! Didn't had her but boy, were my first experiments smoky..."#line:220
 Siegfried: Rolls his eyes "Whatever, I'll be in the library."
 Phoebe: "I'll drop by the dorm later, gotta get ready to freak them all!!!"
 Bayley: "Sounds great! I'll be at the messhall... as usual!"
@@ -1106,24 +1107,24 @@ Casey: "May organized all of Oktoberfest herself... and announced King's reunion
 Casey: "Pretty much every human in the realm wanted to come to the castle..."
 Casey: "The principal went nuts, I don't think I've ever seen him so angry before... I filmed a bit!"
 <<Travel ThruLine PrincipalsOffice>>
-Principal: "WHAT? YOU WANT HUMANS TO COME HERE?"
-Principal: "WHAT? DID YOU ALREADY... WHAT?!!!!!!!!"
-Albatros: "Come on man, it ain't that big of a deal. Thousands of years are enought for the masses to change!"
-May: "Yeah don't be a prude Princy."
-Principal: "YOU... YOU PIECE OF...!!!!!!!!!!!!!"
+Principal: "WHAT? YOU WANT HUMANS TO COME HERE?"#line:221
+Principal: "WHAT? DID YOU ALREADY... WHAT?!!!!!!!!"#line:222
+Albatros: "Come on man, it ain't that big of a deal. Thousands of years are enought for the masses to change!"#line:224
+May: "Yeah don't be a prude Princy."#line:225
+Principal: "YOU... YOU PIECE OF...!!!!!!!!!!!!!"#line:226
 <<Travel ThruLine Dormroom>>
 Casey: "Yeah I had to stop recording, It'd be compromising if you heard what he said afterwards..."
 Casey: "I heard that he's on some of the herbs Prof. May gave him"
 Casey: "You know, to chill a bit and all that"
 Casey: "So... Today's the day. All the humans that bought their tickets, are gonna be staying at the castle"
-Casey: "And this is our chance to scare them away from here, for good!"
-Albatros: "Or dance the night away!"
-Casey: "Grandpa I told you you can't appear in videos!"
-Albatros: "But they can see me when I use this sheet!!!"
-Casey: "They see a guy under a blanket, they won't believe noone's under it"
-Albatros: "Ahhh... you kids are no fun."
+Casey: "And this is our chance to scare them away from here, for good!"#line:227
+Albatros: "Or dance the night away!"#line:228
+Casey: "Grandpa I told you you can't appear in videos!"#line:229
+Albatros: "But they can see me when I use this sheet!!!"#line:230
+Casey: "They see a guy under a blanket, they won't believe noone's under it"#line:231
+Albatros: "Ahhh... you kids are no fun."#line:232
 The blanket falls to the floor motionless
 Casey: "They'll think it was some vfx..."
-Casey: "Allright, time to scare you all people!"
+Casey: "Allright, time to scare you all people!"#line:233
 <<jump Conmutator>>
 ===

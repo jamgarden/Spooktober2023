@@ -9,45 +9,45 @@ Casey: "Yeah, we better watch out... we don't want to get into a fight with her"
 Casey: "If she's anywhere near as strong as Phoebe, we're screwed"
 Bayley: "Yeah... but maybe..."
 Casey: "Huh?"
-Bayley: "Maybe we could tend her a trap!"
+Bayley: "Maybe we could tend her a trap!"#line:342
 Casey: "How so?"
-Bayley: "She didn't like you. She purposedly elbowed your ribs"
+Bayley: "She didn't like you. She purposedly elbowed your ribs"#line:343
 -> "Oh no... no way!"
-    Bayley: "Yes, yes way!"
-    Casey: "I already had to eat half a lasagna alone!"
-    Casey: "Let's not even talk about the explosive incidents"
-    Casey: "Heck, last year I ran for my life like 5 times!!!"
-    Bayley: "And you're GREAT at it!"
-    Casey: "Uggghhh!!!!"
+    Bayley: "Yes, yes way!"#line:344
+    Casey: "I already had to eat half a lasagna alone!"#line:345
+    Casey: "Let's not even talk about the explosive incidents"#line:346
+    Casey: "Heck, last year I ran for my life like 5 times!!!"#line:347
+    Bayley: "And you're GREAT at it!"#line:348
+    Casey: "Uggghhh!!!!"#line:349
 -> "Are you trying to use me as bait, Bayley?!"
-    Bayley: "Oh, no, not at all..." Suspicious whistles
-    Casey: "But?..."
-    Bayley: "But if you insist!"
-    Casey: "AW COME ON! I'M ALLWAYS THE ONE RUNNING AWAY FOR MY LIFE!"
-    Bayley: "Well, we all have our thing! And you're fast!"
-    Casey: "I'M FAST BECAUSE YOU ALL TRY TO MURDER ME!"
-    Bayley: "Hey now, not all!"
-    Casey: "Yeah you're right, sorry, overreacted"
-    Bayley: "No worries man"
+    Bayley: "Oh, no, not at all..." Suspicious whistles#line:350
+    Casey: "But?..."#line:351
+    Bayley: "But if you insist!"#line:352
+    Casey: "AW COME ON! I'M ALLWAYS THE ONE RUNNING AWAY FOR MY LIFE!"#line:353
+    Bayley: "Well, we all have our thing! And you're fast!"#line:354
+    Casey: "I'M FAST BECAUSE YOU ALL TRY TO MURDER ME!"#line:355
+    Bayley: "Hey now, not all!"#line:356
+    Casey: "Yeah you're right, sorry, overreacted"#line:357
+    Bayley: "No worries man"#line:358
 -> "So we should ambush her with an electrified net?"
     Bayley: "Well I was thinking more into..."
     -> "Oh no... no way!"
-        Bayley: "Yes, yes way!"
-        Casey: "I already had to eat half a lasagna alone!"
-        Casey: "Let's not even talk about the explosive incidents"
-        Casey: "Heck, last year I ran for my life like 5 times!!!"
-        Bayley: "And you're GREAT at it!"
-        Casey: "Uggghhh!!!!"
+        Bayley: "Yes, yes way!"#line:344a
+        Casey: "I already had to eat half a lasagna alone!"#line:345a
+        Casey: "Let's not even talk about the explosive incidents"#line:346a
+        Casey: "Heck, last year I ran for my life like 5 times!!!"#line:347a
+        Bayley: "And you're GREAT at it!"#line:348a
+        Casey: "Uggghhh!!!!"#line:349a
     -> "Are you trying to use me as bait, Bayley?!"
-        Bayley: "Oh, no, not at all..." Suspicious whistles
-        Casey: "But?..."
-        Bayley: "But if you insist!"
-        Casey: "AW COME ON! I'M ALLWAYS THE ONE RUNNING AWAY FOR MY LIFE!"
-        Bayley: "Well, we all have our thing! And you're fast!"
-        Casey: "I'M FAST BECAUSE YOU ALL TRY TO MURDER ME!"
-        Bayley: "Hey now, not all!"
-        Casey: "Yeah you're right, sorry, overreacted"
-        Bayley: "No worries man"
+        Bayley: "Oh, no, not at all..." Suspicious whistles#line:350a
+        Casey: "But?..."#line:351a
+        Bayley: "But if you insist!"#line:352a
+        Casey: "AW COME ON! I'M ALLWAYS THE ONE RUNNING AWAY FOR MY LIFE!"#line:353a
+        Bayley: "Well, we all have our thing! And you're fast!"#line:354a
+        Casey: "I'M FAST BECAUSE YOU ALL TRY TO MURDER ME!"#line:355a
+        Bayley: "Hey now, not all!"#line:356a
+        Casey: "Yeah you're right, sorry, overreacted"#line:357a
+        Bayley: "No worries man"#line:358a
 Bayley: "So, you stay put here, and look as punchable as posible!"
 Casey: "How do I even do that?"
 Bayley: "Just... imitate Siegfried!"
@@ -58,113 +58,113 @@ You begin to walk around the place, looking as pompous as you can.
 Some tourist humans aproach...
 -> Call them peasants
     Crowd: "Hey what's your problem twat?!"
-    Casey: "I'm just better than you"
+    Casey: "I'm just better than you"#line:359
     Crowd: "Yeah, sure, you look like a pompous dork"
-    Casey: "Thank you!" Damn I'm such a good actor
+    Casey: "Thank you!" Damn I'm such a good actor#line:360
 -> Tell them to stop wasting air
     Crowd: "We paid our tax for air mind you, onionhead"
     Casey: "Wait what?"
     Crowd: "See?"
-    Casey: "Holy molly May charged you all the air as well?"
+    Casey: "Holy molly May charged you all the air as well?"#line:361
     Crowd: "It's worth it every penny, twat!"
-    Casey: "Damn, May's awesome"
+    Casey: "Damn, May's awesome"#line:362
 -> Just do as Siegfried does when he eats garlic
     You begin to puff your cheeks and call yourself a vampire twat
-    Casey: "I'M A TWATITTY TWATY TWAT GARLIC BAD BAD BAD!"
+    Casey: "I'M A TWATITTY TWATY TWAT GARLIC BAD BAD BAD!"#line:363
     The people just look at you as weirded out as posible, and nearly run AWAY
-    Casey: "Wow that's the closest I've been to scare someone!"
+    Casey: "Wow that's the closest I've been to scare someone!"#line:364
 Suddenly, they begin to run away!
-Casey: "Huh? Oh, yeah, that will show you!"
+Casey: "Huh? Oh, yeah, that will show you!"#line:365
 You feel a presence behind you
-Casey: "Oh no... you're behind me, aren't you"
-Voice: "One..."
-Casey: "Oh you're giving me advantage to run?"
-Voice: "Two..."
-Casey: "How nice of you, see ya!"
-Bayley: "RUN CASEY, RUN!"
-Bayley: "AWOOOOOOOOOO!!!!"
-Casey: "AAAAAAAAAAAAAAAAAAAAAA"
+Casey: "Oh no... you're behind me, aren't you"#line:366
+Voice: "One..."#line:367
+Casey: "Oh you're giving me advantage to run?"#line:368
+Voice: "Two..."#line:369
+Casey: "How nice of you, see ya!"#line:370
+Bayley: "RUN CASEY, RUN!"#line:371
+Bayley: "AWOOOOOOOOOO!!!!"#line:044b
+Casey: "AAAAAAAAAAAAAAAAAAAAAA"#line:290a
 You try to run like hell, but it's no use. Someone's grabing your shirt.
-Ursula: "I'm not a vampire, halfie"
+Ursula: "I'm not a vampire, halfie"#line:372
 She lets go
 Bayley: "Wait, you're not gonna fight us?"
-Ursula: "No need to. You ain't humans, it ain't fun"
+Ursula: "No need to. You ain't humans, it ain't fun"#line:373
 Casey: "But, why did you hit me in the corridor before?"
-Ursula: "...I triped and blamed it on you"
+Ursula: "...I triped and blamed it on you"#line:374
 Casey: "You what?!"
-Ursula: "Hey, it's a free college last I checked."
+Ursula: "Hey, it's a free college last I checked."#line:375
 Bayley: "So wait, you're Ursula right?"
-Ursula: "What, I'm that famous already?"
+Ursula: "What, I'm that famous already?"#line:376
 Casey: "Not really..."
 She looks at you menacingly
 Casey: "More like Phoebe's cousin"
 Ursula: "...I see, so she sent you?"
 Casey: "No! She didn't wanted us to come"
 Bayley: "We wanted to ask you for help!"
-Ursula: "Me? Help?"
+Ursula: "Me? Help?"#line:377
 She begins to laugh
-Ursula: "I eat nails for breakfast EVERYDAY"
+Ursula: "I eat nails for breakfast EVERYDAY"#line:378
 -> Try to be tough "So what?"
 -> "...nails?"
 -> "Holy molly rigatoni"
 She looks menacingly for a second, before continuing
-Ursula: "Without milk."
-Bayley: "HEY, WAIT A MINUTE, THAT'S TOO MUCH!"
-Casey: "Y...YEAH, r-right?"
+Ursula: "Without milk."#line:379
+Bayley: "HEY, WAIT A MINUTE, THAT'S TOO MUCH!"#line:380
+Casey: "Y...YEAH, r-right?"#line:381
 Ursula: "Why would I help you?"
 Casey: "Phoebe told us you used to be like besties, what happened?"
 She seems to get angry at this, and pushes you away
-Ursula: "Leave the past in the past, halfie. Before you actually piss me off!"
+Ursula: "Leave the past in the past, halfie. Before you actually piss me off!"#line:382
 Bayley: "Oh no!" Bayley goes up front
-Bayley: "She's our friend, and we won't let her keep exploding like that just because you don't want to talk about it!"
-Ursula: "And did SHE talk about it? Huh?"
+Bayley: "She's our friend, and we won't let her keep exploding like that just because you don't want to talk about it!"#line:383
+Ursula: "And did SHE talk about it? Huh?"#line:384
 Casey: "..."
 Bayley: "..."
-Ursula: "Thought so. Now get out of here, and stop imitating that vampire. Gosh, you were so punchable I'm regreting it"
+Ursula: "Thought so. Now get out of here, and stop imitating that vampire. Gosh, you were so punchable I'm regreting it"#line:385
 -> "No! I'm not going until you two solve this."
 -> "...but I'll be back!"
-    Bayley: "Back now." Shows his fangs
+    Bayley: "Back now." Shows his fangs#line:386
 -> "Bye bye thank you for your time!"
     Bayley stops you, and turns you around again
-    Bayley: "We're not going anywhere" He shows his fangs
-Ursula: "Oh, is that so then? Don't say I didn't warn you!"
+    Bayley: "We're not going anywhere" He shows his fangs#line:386a
+Ursula: "Oh, is that so then? Don't say I didn't warn you!"#line:387
 She begins to groan, looks like she's about to buff like Phoebe!
-Casey: "Holy freak! She's gonna...!!!"
-Bayley: "AWOOOOOOO!!!!!"
+Casey: "Holy freak! She's gonna...!!!"#line:388
+Bayley: "AWOOOOOOO!!!!!"#line:044c
 He barks Ursula to the ground instantly! The people around the place run away scared!
-Casey: "...dammit I didn't film it! But YEAH YOU DID IT BAYL!"
-Ursula: "I... uhm... you'll.... you'll pay...."
-Bayley: "You don't want to hurt us, do you?"
-Ursula: "I'm... too strong... to loose my time..." She seems nervous
+Casey: "...dammit I didn't film it! But YEAH YOU DID IT BAYL!"#line:389
+Ursula: "I... uhm... you'll.... you'll pay...."#line:390
+Bayley: "You don't want to hurt us, do you?"#line:391
+Ursula: "I'm... too strong... to loose my time..." She seems nervous#line:392
 -> "You've been..."
 -> "Don't tell me you..."
 -> "Finish her off Bayley!"
     Seriously, you gotta stop answering the wrong one.
     -> "You've been..."
     -> "Don't tell me you..."
-Casey: "You were bluffing... all along?"
-Ursula: "I... I..."
-Phoebe: "URSY!!!!!!!!!!!!!!!!!"
+Casey: "You were bluffing... all along?"#line:393
+Ursula: "I... I..."#line:394
+Phoebe: "URSY!!!!!!!!!!!!!!!!!"#line:395
 Phoebe comes in RUNNING
-Phoebe: "WHAT DID THEY DO TO YOU?!!! ARE YOU OKAY? OMG BAYLEY I SWEAR IF YOU..."
-Ursula: "No, no, they didn't do anything wrong" She says
-Ursula: "I... I was just being mean to them..."
-Ursula: "And Bayley called my bluf..."
-Bayley: "Nails without milk? Haha I saw that in a tv show"
-Phoebe: "Why did you do that?! You were so nice all the time!!!"
-Ursula: "I was affraid that if I got into this college and I wasn't scary..."
-Ursula: "People would be mean to me"
-Ursula: "And I didn't want to trouble you because you allways cover my back..."
-Ursula: "I wanted to stand by myself..."
-Phoebe: "Oh Ursy... YOU SHOULD HAVE SAID SO BEFORE!"
+Phoebe: "WHAT DID THEY DO TO YOU?!!! ARE YOU OKAY? OMG BAYLEY I SWEAR IF YOU..."#line:396
+Ursula: "No, no, they didn't do anything wrong" She says#line:397
+Ursula: "I... I was just being mean to them..."#line:398
+Ursula: "And Bayley called my bluf..."#line:399
+Bayley: "Nails without milk? Haha I saw that in a tv show"#line:400
+Phoebe: "Why did you do that?! You were so nice all the time!!!"#line:401
+Ursula: "I was affraid that if I got into this college and I wasn't scary..."#line:402
+Ursula: "People would be mean to me"#line:403
+Ursula: "And I didn't want to trouble you because you allways cover my back..."#line:404
+Ursula: "I wanted to stand by myself..."#line:405
+Phoebe: "Oh Ursy... YOU SHOULD HAVE SAID SO BEFORE!"#line:406
 Ursula: "...?"
-Phoebe: "COME ON, I'LL TAKE YOU TO THE GYM, YOU'LL BE SO RIPPED YOU'LL PUNCH EVERY DUMB VAMPIRE HERE TO THE MOON AND BACK!"
-Ursula: "...YEAH, LET'S GO!"
-Phoebe: "YEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"
-Ursula: "HAAAAAAAAAWWWWWWWWWWWWWWWW!!!!!!!!!"
+Phoebe: "COME ON, I'LL TAKE YOU TO THE GYM, YOU'LL BE SO RIPPED YOU'LL PUNCH EVERY DUMB VAMPIRE HERE TO THE MOON AND BACK!"#line:407
+Ursula: "...YEAH, LET'S GO!"#line:408
+Phoebe: "YEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"#line:409
+Ursula: "HAAAAAAAAAWWWWWWWWWWWWWWWW!!!!!!!!!"#line:410
 They begin to shake
-Bayley: "OH MY GOD CASEY"
-Casey: "RUN BAYLEY RUN!!!!!!!"
+Bayley: "OH MY GOD CASEY"#line:411
+Casey: "RUN BAYLEY RUN!!!!!!!"#line:412
 KBOOOOOOOOOOOOOOOM
 //fade to black
 //funny music in the middle

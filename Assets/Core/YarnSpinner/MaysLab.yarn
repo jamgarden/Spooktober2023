@@ -15,7 +15,7 @@ Casey: "Looks like she isn't around..."
 <<elseif $MaysDoor is true>>
 The door is completely open, and you hear a voice across all the noise...
 <<endif>>
-May: "If the house's rocking, don't botter knocking!"
+May: "If the house's rocking, don't botter knocking!"#line:312
 You enter, only to find a mess of an office.
 Papers scrambled everywhere, glass tubes broken, broken guitar strings, is that an empty pizza box?
 However, in the middle of it... there's a pyramid, made of glass, that completely catches your attention.
@@ -25,19 +25,19 @@ May: "Oh, I see you have a good eye kid!"
 -> "Is this for your new record?"
     May: "How did you know, am I that obvious?"
     Casey: "Oh no, it just looks so..."
-    May: "So MAY, ain't it?!"
+    May: "So MAY, ain't it?!"#line:313
     Casey: "Yes!"
-    May: "Haha, I know right?!!"
+    May: "Haha, I know right?!!"#line:199b
 -> "Can I have an autograph?!"
     May: "Sure thing"
     She signs your forehead
-May: "So, it's like this pyramid, made of glass..."
+May: "So, it's like this pyramid, made of glass..."#line:314
 Casey: "Yeah?"
-May: "Yeah and that's about it"
+May: "Yeah and that's about it"#line:315
 Casey: "...for real?"
-May: "Yeah, you can go now, I just wanted you to see it!"
+May: "Yeah, you can go now, I just wanted you to see it!"#line:316
 Casey: "Uhm..."
-May: "Nah, just joking. Come on, open that courtain!"
+May: "Nah, just joking. Come on, open that courtain!"#line:317
 //sound of courtain opening
 As soon as you open the courtain, a ray of light smashes against the pyramid.
 What happens next, makes you scream in terror...
@@ -45,25 +45,25 @@ What happens next, makes you scream in terror...
 -> AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 -> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 May rushes to close the window.
-May: "Woops, I think ya' weren't ready for that"
+May: "Woops, I think ya' weren't ready for that"#line:318
 You try to compose yourself. WHAT WAS THAT?
 -> "That's... not black... nor white..."
     May: "Nor grey!"
 -> "What... in the name of god..."
-    May: "I know right? So coool"
+    May: "I know right? So coool"#line:199c
 -> "Did you... broke the matrix?..."
-    May: "I did!!!!"
-May: "You just saw the truth of this world!"
+    May: "I did!!!!"#line:199d
+May: "You just saw the truth of this world!"#line:319
 Casey: "The... what..."
-May: "BLACK AND WHITE AIN'T THE ONLY COLOURS IN THIS WORLD, KIDDO!"
+May: "BLACK AND WHITE AIN'T THE ONLY COLOURS IN THIS WORLD, KIDDO!"#line:320
 Casey: "..."
 You faint
 //fade to black
 //funny music
 //fade back in
-May: "Ohhh, wake up, Castor!"
+May: "Ohhh, wake up, Castor!"#line:321
 Casey: "Casey..."
-May: "Yes, Maisy! Here, have some veincorice!"
+May: "Yes, Maisy! Here, have some veincorice!"#line:322
 -> "Veincorice?"
     May: "Aw come on, your friend Gee loves it!"
     She eats a piece. Looks like Licorice...
@@ -72,25 +72,25 @@ May: "Yes, Maisy! Here, have some veincorice!"
 -> "No, thank you"
     May: "Yer' loss, mate!"
     She eats a piece.
-May: "So, what I needed you for. We're gonna do a show at Oktoberfest this year!"
+May: "So, what I needed you for. We're gonna do a show at Oktoberfest this year!"#line:323
 Casey: "Oh my god, for real? King is getting back together?!!!"
-May: "Yeah yeah, I know so cool right?! But listen up. My final act, will blow everyone's minds!"
-May: "I'm gonna use this device, powered by my steampunk machine!"
+May: "Yeah yeah, I know so cool right?! But listen up. My final act, will blow everyone's minds!"#line:324
+May: "I'm gonna use this device, powered by my steampunk machine!"#line:325
 Casey: "You what?"
-May: "What you saw, those flashy colours? That's described as a Rainbow in one of the most ancient texts I discovered from our own catacombs!"
+May: "What you saw, those flashy colours? That's described as a Rainbow in one of the most ancient texts I discovered from our own catacombs!"#line:326
 Casey: "A rainbow?..."
-May: "And I'll make it shine behind me when we hit the solo!"
+May: "And I'll make it shine behind me when we hit the solo!"#line:327
 -> "Show THAT to everyone else? They'll die out of fear!"
-    May: "Ain't that great? It will even top that time I faked to be a dropbear!!!"
+    May: "Ain't that great? It will even top that time I faked to be a dropbear!!!"#line:328
 -> "You're insane"
-    May: "Why thank you!!!"
+    May: "Why thank you!!!"#line:199e
 -> "THAT'S AWESOME!!!"
-    May: "RIGHT?! FINALLY SOMEONE UNDERSTANDS!"
+    May: "RIGHT?! FINALLY SOMEONE UNDERSTANDS!"#line:329
 <<set $MaysQuest to true>>
-May: "So, Candace, would you like to fire this up?"
+May: "So, Candace, would you like to fire this up?"#line:330
 Casey: "Me? Why me?"
 May: "Because thanks to your friend and you, last year, when you went into the catacombs and drew all ghosts out..."
-May: "I've got to convince them to let me read the ancient texts"
+May: "I've got to convince them to let me read the ancient texts!"#line:331
 -> "No way I'm doing that"
     May: "Then I'll have to ask your friend to do it!"
     Casey: "I mean, I'm tottaly in!"
@@ -100,9 +100,9 @@ May: "I've got to convince them to let me read the ancient texts"
 -> "Do I even have a say on this?"
     May: "Nah, come on, let me teach you how to operate it!"
 May proceeds to explain you how to operate the machine...
-May: "So we adjust the power couplings here..."
+May: "So we adjust the power couplings here..."#line:332
 You begin to tweak a knob
-May: "NOT SO MUCH!"
+May: "NOT SO MUCH!"#line:333
 Casey: "AAAAAAAAA"
 A screw goes flying away, and stabs itself in the wall.
 The remaining steam coming out at high pressure makes you sweat your face off!
@@ -110,16 +110,16 @@ May: "Ah don't worry, that happens!" She shows her arm under her sleeve, filled 
 She just tweaks the knobs and gets the machine to stop.
 May: "Allrighty, go get that screw and let's put it back in!"
 -> "Isn't this like, super dangerous?"
-    May: "Well, duh, yeah! It'd be boring otherwise"
+    May: "Well, duh, yeah! It'd be boring otherwise"#line:334
 -> "Damn this is so cool"
-    May: "I think you'll be a great student of mine, Cassie!"
+    May: "I think you'll be a great student of mine, Cassie!"#line:335
     Casey: *Oh my god she nearly got my name right!!!!!*
 -> "I really think we should..."
-    May: "Put the screw with the steam going anyway, so it seals under pressure and the particles melt..."
-    May: "...making the screw fuse with the chasis, so it'll never ever ever go flying out again?"
+    May: "Put the screw with the steam going anyway, so it seals under pressure and the particles melt..."#line:336
+    May: "...making the screw fuse with the chasis, so it'll never ever ever go flying out again?"#line:337
     Casey: "..." I was gonna say quit, but sounds like a bad idea now...
     Casey: "Yes, that!"
-    May: "OOOOHHHH, YER' A GENIUS!"
+    May: "OOOOHHHH, YER' A GENIUS!"#line:338
 <<jump knobcombination>>
 ===
 title: knobcombination
@@ -131,9 +131,9 @@ May: "Got it?"
 Casey: "Yes"
 May: "Did you noted it down?"
 Casey: "Yes?"
-May: "Not you, the one behind you"
+May: "Not you, the one behind you"#line:339
 Casey: "Who?"
-May: "Nevermind, not talking to you Cassius!"
+May: "Nevermind, not talking to you Cassius!"#line:340
 Casey: "...?"
 May: "Allright, do ask me to repeat it again if you need to."
     -> Repeat the combination
@@ -144,7 +144,7 @@ May: "Allright, do ask me to repeat it again if you need to."
     -> Yeah I noted it down this time!
         May: "Great! Counting on you too!"
     <<endif>>
-May: "Well, I'll leave you practicing it. I'm gonna go practice for our show!"
+May: "Well, I'll leave you practicing it. I'm gonna go practice for our show!"#line:341
 //door slam
 May slams the door and begins to rip off her guitar... meanwhile, you begin to practice with the machine...
 At the risk of being murdered by a flying screw... isn't it exciting?!

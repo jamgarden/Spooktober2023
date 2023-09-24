@@ -198,27 +198,27 @@ Phoebe: "And we wanna help!"
 <<Place ThruLine Bayley Special FarLeft>>
 Bayley: "What you mean?" He begins to sweat
 Casey: "..."
-Phoebe: "THAT YOU LIKE GEE, BAYLEY!"
-Bayley: "WHHHHHAAAATT???? WHO TOLD YOU THAT?!"
-Bayley: "WAS THAT VAMPIRE TWAT?!"
+Phoebe: "THAT YOU LIKE GEE, BAYLEY!"#line:275
+Bayley: "WHHHHHAAAATT???? WHO TOLD YOU THAT?!"#line:276
+Bayley: "WAS THAT VAMPIRE TWAT?!"#line:277
 -> "No! It's just so obvious!"
     Bayley: "...that obvious so she could tell?"
     Phoebe: "No, not that much!"
     Bayley: "Are you saying that to make me feel better?"
     Casey: "Nah, only Phoebe figured it out"
     Bayley: "Pluto being a planet again?"
-    Casey: "WHY DOES EVERYONE KNOW ABOUT THE HOROSCOPE?"
+    Casey: "WHY DOES EVERYONE KNOW ABOUT THE HOROSCOPE?"#line:278
     Bayley: "Ours is actually accuarate!"
 -> "Wait what, he knows that?"
     Bayley: "I don't know... maybe?"
-    Phoebe: "OMG! Did you try to befriend him to ask about Gee?!!!"
-    Bayley: "TOTTALY NOT!"
+    Phoebe: "OMG! Did you try to befriend him to ask about Gee?!!!"#line:279
+    Bayley: "TOTTALY NOT!"#line:280
     Casey: "You've been insulting him extra lately..."
     Casey: "That's kinda like asking him to be your friend"
     Casey: "I know that by experience mind you"
 -> "Nah, Phoebe realized because of the planets"
     Bayley: "Oh, Pluto gave me away?!"
-    Casey: "WHY DOES EVERYONE KNOW ABOUT THE HOROSCOPE?"
+    Casey: "WHY DOES EVERYONE KNOW ABOUT THE HOROSCOPE?"#line:278a
     Bayley: "Ours is actually accuarate!"
 Bayley: "So wait a minute. This is what the intervention was for?"
 Phoebe: "...maybe"
@@ -234,17 +234,17 @@ Casey: "Well... what does she study?"
 Bayley: "I DON'T KNOW! And it's too obvious if I ask Bee"
 Bayley: "And the vampire twat doesn't even seem to know!"
 Phoebe: "I remember I did a course with her last year..."
-Phoebe: "She said she was going to study..."
-Casey: "Yeah?"
-Phoebe: "Study..."
-Bayley: "Pheebs?"
+Phoebe: "She said she was going to study..."#line:281
+Casey: "Yeah?"#line:282
+Phoebe: "Study..."#line:283
+Bayley: "Pheebs?"#line:284
 Phoebe: "............."
 She begins to shake
-Bayley: "Oh no!"
+Bayley: "Oh no!"#line:285
 <<if $PhoebeExplodeVar1 is true>>
 <<set $PhoebeExplodeVar2 to true>>
-Casey: "OH NO SHE'S GONNA EXPLODE AGAIN!!!"
-Bayley: "FAST, WE GOTTA DO SOMETHING!!!"
+Casey: "OH NO SHE'S GONNA EXPLODE AGAIN!!!"#line:286
+Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
 -> Throw her out of the window
     <<Place ThruLine Casey Special FarRight>>
     <<Place Thruline Bayley Special Right>>
@@ -258,35 +258,35 @@ Bayley: "FAST, WE GOTTA DO SOMETHING!!!"
     <<Place ThruLine Casey Special Left>>
     <<Place Thruline Bayley Special FarLeft>>
     OUT THE WINDOW SHE GOES!
-    Casey: "I hope she lands on..."
+    Casey: "I hope she lands on..."#line:288
     KBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMM
-    Casey: "I hope she's..."
+    Casey: "I hope she's..."#line:289
     Phoebe: "Sup?" And she's allready back!
 -> Use the fire extinguishor
     <<Place ThruLine Casey Special FarRight>>
     <<Place Thruline Bayley Special FarLeft>>
     <<Place Thruline Phoebe Special Center>>
-    Casey: "AAAAAAAAAAAAAAA"
-    Bayley: "AAAAAAAAAAAAAAAAA"
+    Casey: "AAAAAAAAAAAAAAA"#line:290
+    Bayley: "AAAAAAAAAAAAAAAAA"#line:291
     Phoebe seems to stop steaming out of her head
-    Bayley: "KEEP GOING IT'S WORKING!"
-    Casey: "MINE'S RUNNING OUT OF FOAM!!!!"
-    Bayley: "USE THE ICE CREAM FROM THE MINIBAR!"
-    Casey: "How did you kn..."
-    Bayley: "JUST DO IT!"
+    Bayley: "KEEP GOING IT'S WORKING!"#line:292
+    Casey: "MINE'S RUNNING OUT OF FOAM!!!!"#line:293
+    Bayley: "USE THE ICE CREAM FROM THE MINIBAR!"#line:294
+    Casey: "How did you kn..."#line:295
+    Bayley: "JUST DO IT!"#line:296
     You throw the ice cream over her head...
     Phoebe begins to blink
-    Phoebe: "OH! IT SNOWED!!!!"
+    Phoebe: "OH! IT SNOWED!!!!"#line:297
 -> Show her some animal pictures
-    Casey: "PHOEBE! LOOK AT THIS CUTE PUPPY ON THE PHONE!"
+    Casey: "PHOEBE! LOOK AT THIS CUTE PUPPY ON THE PHONE!"#line:298
     She stops shaking
-    Bayley: "OR THIS KITTY CAT!!!"
+    Bayley: "OR THIS KITTY CAT!!!"#line:299
     She blinks
-    Phoebe: "AWWWWW LOOK AT THEM!!!!!!!!!"
+    Phoebe: "AWWWWW LOOK AT THEM!!!!!!!!!"#line:300
     She confiscates the phones
-    Phoebe: "Precious precious little fluffy kitty and doggy!!!!"
-    Bayley: "Pheeew, that was close"
-    Casey: "You tell me"
+    Phoebe: "Precious precious little fluffy kitty and doggy!!!!"#line:301
+    Bayley: "Pheeew, that was close"#line:302
+    Casey: "You tell me"#line:303
 <<elseif $PhoebeExplodeVar1 is false>>
 <<set $PhoebeExplodeVar1 to true>>
 Casey: "What's going on?!!"
@@ -354,24 +354,24 @@ Phoebe: "Oh, hey Casey"
 -> "Are you aware of your explosions?"
     Phoebe: "What?"
 Casey: "You know, we're all kinda worried about you"
-Casey: "We all know something's bugging you... so come on, you allways stand for us... let us stand for you!"
+Casey: "We all know something's bugging you... so come on, you allways stand for us... let us stand for you!"#line:413
 Phoebe lets go of her phone, and sits back on the bed
 Phoebe: "...where do I begin?"
 Phoebe: "My... cousin's here"
 Casey: "Your cousin? Which one?"
-Phoebe: "...my favorite ever cousin, Ursula"
+Phoebe: "...my favorite ever cousin, Ursula"#line:414
 Casey: "OH! The one you used to play all the time with???"
-Phoebe: "Yes! But... she's... changed"
+Phoebe: "Yes! But... she's... changed"#line:415
 Casey: "How so?"
-Phoebe: "She's... all dark... and never smiles..."
-Phoebe: "I heard she even scares other monsters, too!"
-Phoebe: "That's not the Ursy I remember..."
+Phoebe: "She's... all dark... and never smiles..."#line:416
+Phoebe: "I heard she even scares other monsters, too!"#line:417
+Phoebe: "That's not the Ursy I remember..."#line:418
 Casey: "And that's making you sad?"
-Phoebe: "...ys..." Completely inaudible Yes
+Phoebe: "...ys..." Completely inaudible Yes#line:419
 Casey: "Then leave it to us!"
-Phoebe: "But Casey, she's very mean! She'll crush you all if you cross her!"
-Casey: "I'll go with Bayley, don't worry, I have big backup!"
-Phoebe: "Casey, don't!!!"
+Phoebe: "But Casey, she's very mean! She'll crush you all if you cross her!"#line:420
+Casey: "I'll go with Bayley, don't worry, I have big backup!"#line:421
+Phoebe: "Casey, don't!!!"#line:422
 You take off, disregarding Phoebe's advice!
 Now... where could you find Ursula?...
 <<jump Conmutator>>
@@ -383,15 +383,15 @@ title: DormroomUrsy
 After that last explosion, you all went on a funny trip around the castle and had a great time
 Turns out, Ursula was just like Phoebe, but shy and insecure!
 All she needed, was just to be welcomed to the family
-Casey: "Allright, so you think that will be the end of the explosions?"
-Ursula: "Should be. That last one was the last of our tension blowing off"
-Bayley: "So wait, how come you remember, but Phoebe doesn't?"
-Ursula: "Well... she's just playing the fool"
-Casey: "Wait, Phoebe can play the fool?!"
-Ursula: "There's a lot you don't know about her!"
+Casey: "Allright, so you think that will be the end of the explosions?"#line:304
+Ursula: "Should be. That last one was the last of our tension blowing off"#line:305
+Bayley: "So wait, how come you remember, but Phoebe doesn't?"#line:306
+Ursula: "Well... she's just playing the fool"#line:307
+Casey: "Wait, Phoebe can play the fool?!"#line:308
+Ursula: "There's a lot you don't know about her!"#line:309
 Bayley: "Do tell!!!"
-Ursula: "Well... I used to call her Peebe because..."
-Phoebe: "AAAAAAAAAAAAAAND I think we have some important stuff to do! Come on, to the corridor everyone!"
+Ursula: "Well... I used to call her Peebe because..."#line:310
+Phoebe: "AAAAAAAAAAAAAAND I think we have some important stuff to do! Come on, to the corridor everyone!"#line:311
 <<set $PhoebeQuestDone to true>>
 And Phoebe pushes everyone out...
 So, what else are you missing before Oktoberfest?...
