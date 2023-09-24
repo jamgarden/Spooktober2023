@@ -12,25 +12,25 @@ Looks like those herbs are not kicking in yet... maybe try again later?
 You enter the Principal's office...
 Principal: "Oh, come on in Casey"
 He seems... so relaxed?
-Principal: "Sit down sit down. Listen to the music"
+Principal: "Sit down, sit down. Listen to the music"
 -> "So... jazzy"
     Principal: "Right? I love Jazz, and fusion"
-    Principal: "Reminds me of my time as an student..."
+    Principal: "Reminds me of my time as a student..."
     Principal: "And my hair, ha...haha..."
 -> "So... old"
     Principal: "Right? So old I even had hair when it came out"
 -> "So... boring"
     Principal: "Haha, kids today..."
 He's so chill it begins to scare you. This is even worse than him yelling.
-Casey: "I just... droped by to ask if you food is back to normal?"
-Principal: "Oh yes... well done. Have fun in Oktoberfest by the way"
+Casey: "I just... droped by to ask if your food is back to normal?"
+Principal: "Oh yes... well done. Have fun at Oktoberfest by the way"
 Principal: "I heard it's gonna be extra scary this year"
 Casey: "How so?"
-Principal: "Well, if you haven't talked with May... you might want to do it"
+Principal: "Well, if you haven't talked with May... you might want to do so"
 Casey: "Oh, right, May!"
-Casey: "Allright, gonna take off. See you Principal"
+Casey: "Alright, gonna take off. See you Principal"
 Principal: "See you, kid"
-You pretty much run out of the room. That was even more scarier than the dropbear story!
+You pretty much run out of the room. That was even scarier than the dropbear story!
 Now... where to?
 <<jump Conmutator>>
 <<endif>>
