@@ -1,0 +1,158 @@
+﻿title: MaysLab
+tags:
+---
+<<if $MaysDoor is false>>
+The door is closed... it reads...
+"If the house is rocking, don't botter knocking!"
+Casey: "Looks like she isn't around..."
+    <<if $GeeExplained is true>>
+    Casey: "Uhm... What was it that Gee said?..."
+    Casey: "She's never in her office, but when she is, you can hear her from every area around it..."
+    <<elseif $GeeExplained is false>>
+    <<endif>>
+-> Go back
+    <<jump Conmutator>>
+<<elseif $MaysDoor is true>>
+The door is completely open, and you hear a voice across all the noise...
+<<endif>>
+May: "If the house's rocking, don't botter knocking!"#line:312
+You enter, only to find a mess of an office.
+Papers scrambled everywhere, glass tubes broken, broken guitar strings, is that an empty pizza box?
+However, in the middle of it... there's a pyramid, made of glass, that completely catches your attention.
+May: "Oh, I see you have a good eye kid!"
+-> "What is this for?"
+    May: "Ah well..."
+-> "Is this for your new record?"
+    May: "How did you know, am I that obvious?"
+    Casey: "Oh no, it just looks so..."
+    May: "So MAY, ain't it?!"#line:313
+    Casey: "Yes!"
+    May: "Haha, I know right?!!"#line:199b
+-> "Can I have an autograph?!"
+    May: "Sure thing"
+    She signs your forehead
+May: "So, it's like this pyramid, made of glass..."#line:314
+Casey: "Yeah?"
+May: "Yeah and that's about it"#line:315
+Casey: "...for real?"
+May: "Yeah, you can go now, I just wanted you to see it!"#line:316
+Casey: "Uhm..."
+May: "Nah, just joking. Come on, open that courtain!"#line:317
+//sound of courtain opening
+As soon as you open the courtain, a ray of light smashes against the pyramid.
+What happens next, makes you scream in terror...
+-> AAAAAAAAAAAAAAAAAAA
+-> AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+-> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+May rushes to close the window.
+May: "Woops, I think ya' weren't ready for that"#line:318
+You try to compose yourself. WHAT WAS THAT?
+-> "That's... not black... nor white..."
+    May: "Nor grey!"
+-> "What... in the name of god..."
+    May: "I know right? So coool"#line:199c
+-> "Did you... broke the matrix?..."
+    May: "I did!!!!"#line:199d
+May: "You just saw the truth of this world!"#line:319
+Casey: "The... what..."
+May: "BLACK AND WHITE AIN'T THE ONLY COLOURS IN THIS WORLD, KIDDO!"#line:320
+Casey: "..."
+You faint
+//fade to black
+//funny music
+//fade back in
+May: "Ohhh, wake up, Castor!"#line:321
+Casey: "Casey..."
+May: "Yes, Maisy! Here, have some veincorice!"#line:322
+-> "Veincorice?"
+    May: "Aw come on, your friend Gee loves it!"
+    She eats a piece. Looks like Licorice...
+    Casey: "Sure why not"
+    It tastes reaaaaally good!
+-> "No, thank you"
+    May: "Yer' loss, mate!"
+    She eats a piece.
+May: "So, what I needed you for. We're gonna do a show at Oktoberfest this year!"#line:323
+Casey: "Oh my god, for real? King is getting back together?!!!"
+May: "Yeah yeah, I know so cool right?! But listen up. My final act, will blow everyone's minds!"#line:324
+May: "I'm gonna use this device, powered by my steampunk machine!"#line:325
+Casey: "You what?"
+May: "What you saw, those flashy colours? That's described as a Rainbow in one of the most ancient texts I discovered from our own catacombs!"#line:326
+Casey: "A rainbow?..."
+May: "And I'll make it shine behind me when we hit the solo!"#line:327
+-> "Show THAT to everyone else? They'll die out of fear!"
+    May: "Ain't that great? It will even top that time I faked to be a dropbear!!!"#line:328
+-> "You're insane"
+    May: "Why thank you!!!"#line:199e
+-> "THAT'S AWESOME!!!"
+    May: "RIGHT?! FINALLY SOMEONE UNDERSTANDS!"#line:329
+<<set $MaysQuest to true>>
+May: "So, Candace, would you like to fire this up?"#line:330
+Casey: "Me? Why me?"
+May: "Because thanks to your friend and you, last year, when you went into the catacombs and drew all ghosts out..."
+May: "I've got to convince them to let me read the ancient texts!"#line:331
+-> "No way I'm doing that"
+    May: "Then I'll have to ask your friend to do it!"
+    Casey: "I mean, I'm tottaly in!"
+    May: "Thought so!"
+-> "I'd be honored"
+    May: "Allrighty!"
+-> "Do I even have a say on this?"
+    May: "Nah, come on, let me teach you how to operate it!"
+May proceeds to explain you how to operate the machine...
+May: "So we adjust the power couplings here..."#line:332
+You begin to tweak a knob
+May: "NOT SO MUCH!"#line:333
+Casey: "AAAAAAAAA"
+A screw goes flying away, and stabs itself in the wall.
+The remaining steam coming out at high pressure makes you sweat your face off!
+May: "Ah don't worry, that happens!" She shows her arm under her sleeve, filled with several scars.
+She just tweaks the knobs and gets the machine to stop.
+May: "Allrighty, go get that screw and let's put it back in!"
+-> "Isn't this like, super dangerous?"
+    May: "Well, duh, yeah! It'd be boring otherwise"#line:334
+-> "Damn this is so cool"
+    May: "I think you'll be a great student of mine, Cassie!"#line:335
+    Casey: *Oh my god she nearly got my name right!!!!!*
+-> "I really think we should..."
+    May: "Put the screw with the steam going anyway, so it seals under pressure and the particles melt..."#line:336
+    May: "...making the screw fuse with the chasis, so it'll never ever ever go flying out again?"#line:337
+    Casey: "..." I was gonna say quit, but sounds like a bad idea now...
+    Casey: "Yes, that!"
+    May: "OOOOHHHH, YER' A GENIUS!"#line:338
+<<jump knobcombination>>
+===
+title: knobcombination
+---
+<<declare $keyknobs = false as bool>>
+May: "Well, listen now. You'll have to tweak the first knob up to eleven."
+May: "The second up to 5. The third up to 9, and the last one up to 4."
+May: "Got it?"
+Casey: "Yes"
+May: "Did you noted it down?"
+Casey: "Yes?"
+May: "Not you, the one behind you"#line:339
+Casey: "Who?"
+May: "Nevermind, not talking to you Cassius!"#line:340
+Casey: "...?"
+May: "Allright, do ask me to repeat it again if you need to."
+    -> Repeat the combination
+        <<set $keyknobs to true>>
+        <<jump knobcombination>>
+    -> You're fine, your memory is great!
+    <<if $keyknobs is true>>
+    -> Yeah I noted it down this time!
+        May: "Great! Counting on you too!"
+    <<endif>>
+May: "Well, I'll leave you practicing it. I'm gonna go practice for our show!"#line:341
+//door slam
+May slams the door and begins to rip off her guitar... meanwhile, you begin to practice with the machine...
+At the risk of being murdered by a flying screw... isn't it exciting?!
+//fade to black
+//funny guitar music
+//fade back in
+Casey: "Well... I better get going now. Feels like the gears are starting to move..."
+Casey: "I wonder how will this affect others?..."
+You take off!
+<<jump Conmutator>>
+===
