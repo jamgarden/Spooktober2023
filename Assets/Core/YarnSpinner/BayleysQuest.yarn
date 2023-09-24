@@ -33,9 +33,9 @@ With all the humans wandering around, surely it couldn't be too hard to find som
 Just as you're walking around a corner, someone bumps into you and elbows your ribs!
 Casey: "Ow…"
 Bayley starts to growl.
-Bayley: "Hey, what's your problem!?"
+Bayley: "Hey, what's your problem!?"#line:453
 The person who bumped into you turns around and sneers.
-[ursula, name hidden?]: "You."
+Cyclop Girl: "You."
 She quickly stomps off, leaving the two of you confused.
 -> Was that Phoebe?
     Bayley: "She looked kiiiinda like her…"
@@ -57,22 +57,22 @@ Suddenly, you hear a bunch of people screaming.
 Both of you turn around to see that rude person from before scaring a bunch of humans!
 Bayley: "Oh… she's good…"
 Bayley: "TOO good…"
-Casey: "C'mon, nothing that the MVP of the soccer team can't beat!"
-Bayley: "Case, you do remember that we lost, right?"
+Casey: "C'mon, nothing that the MVP of the soccer team can't beat!"#line:454
+Bayley: "Case, you do remember that we lost, right?"#line:455
 Casey: "You were still the MVP"
 Bayley: "That doesn't… whatever. Who are we scaring?"
 Casey: "Let's check the other end of the corridor"
 The two of you sneak down the corridor, hoping to come across an unsuspecting human.
 Casey: "Look, over there, there's a small group of people"
 Bayley: "I dunno…" 
-Casey: "C'monnnn… Just bark like you always do, it'll be fine!"
-Bayley: "If you say so"
+Casey: "C'monnnn… Just bark like you always do, it'll be fine!"#line:456
+Bayley: "If you say so"#line:457
 Bayley sneaks over towards the humans, careful not to be noticed. 
 He looks towards you, and you press record on your phone, giving him a thumbs up.
 He takes a deep breath, and…
 Just as he's about to bark, one of the humans turns around and bumps into Bayley, accidentally hitting his nose!
 He lets out a whimper, rubbing it to stop the pain.
-Bayley: "Owwwwwwwwwwww"
+Bayley: "Owwwwwwwwwwww"#line:458
 Human 1: "Awww, puppy!"
 Human 2: "He's too big to be a puppy, he's clearly a teddy bear!"
 Human 3: "Who's a good boy??"
@@ -80,7 +80,7 @@ You stop recording and run up to Bayley.
 Casey: "Are you ok?"
 Bayley: "Is my nose bleeding?"
 Casey: "No…  it looks fine to me"
-Bayley: "Phew!"
+Bayley: "Phew!"#line:459
 Human 1: "Is he your dog?"
 Casey: "Excuse me?"
 Human 2: "He's so well behaved, how often do you train him?"
@@ -92,14 +92,14 @@ Human 3: "You ARE a good boy, aren't you?"
     Human 3: "It doesn't matter what breed, he's such a good boy!"
     Bayley: "This is weird"
     Casey: "Really weird"
-    Casey: "He's a WEREWOLF. Y'know. Like the SCARY MONSTER!?"
-    Bayley growls and barks at the group, but they simply clap and cheer.
+    Casey: "He's a WEREWOLF. Y'know. Like the SCARY MONSTER!?"#line:460
+    Bayley growls and barks at the group, but they simply clap and cheer.#line:044d
     Humans: "GOOD DOG! GOOD DOG!! GOOD DOG!!!"
 -> You aren't scared?
     Human 1: "Why would we be?"
     Human 2: "It's safe inside the castle, right?"
     Human 3: "Why would they let us in otherwise?"
-    Casey: "But this is a big scary werewolf! With claws and fangs!"
+    Casey: "He's a WEREWOLF. Y'know. Like the SCARY MONSTER!?"#line:460a
     Bayley growls and barks at the group, but they simply clap and cheer.
     Humans: "GOOD DOG! GOOD DOG!! GOOD DOG!!!"
 Casey: "Okayyyyyyyy… We'll be leaving now"
@@ -107,7 +107,7 @@ You grab Bayley's arm and run away, hiding out of sight.
 You look at Bayley, he seems utterly defeated.
 Casey: "What the hell happened?"
 Bayley: "I don't know! One minute, I was preparing my best bark yet, the next…"
-Bayley: "THEY HIT MY NOSE AND IT HURT!!!"
+Bayley: "THEY HIT MY NOSE AND IT HURT!!!" #line:461
 Casey: "Uggghhhhhhhh"
 Bayley: "You're sure it isn't bleeding, right?"
 Casey: "Still nothing"
@@ -127,7 +127,7 @@ Casey: "Bayley, look. It's just one guy"
 Bayley: "Alright, stand back, I'm gonna scare him"
 You nod, hiding out of sight and pressing record. 
 Bayley takes a deep breath to prepare himself, then suddenly jumps in front of the human. 
-Bayley: "BARK BARK BARK!!!! AWWWWWWOOOOOOOOO!!!!!!!!"
+Bayley: "BARK BARK BARK!!!! AWWWWWWOOOOOOOOO!!!!!!!!"#line:462
 Aussie: "G'day mate, howsit goin'?"
 Bayley and Casey look at each other in confusion. This guy is utterly unphased.
 Bayley: "Did I even scare you?"
@@ -150,9 +150,9 @@ Casey: 'Is there ANYTHING that scares you?"
 Aussie: "Only ONE thing."
 Casey: "…which is?"
 Aussie: "Dropbears."
-Bayley: "Drop… bear?"
+Bayley: "Drop… bear?"#line:463
 Aussie: "Yeah mate. They're these… almost rabid koalas that drop down and maul ya"
-Bayley: "Surely that's not true… Koalas are too cute!"
+Bayley: "Surely that's not true… Koalas are too cute!"#line:464
 Aussie: "Nah, don't be fooled. There's plenty of stories of tourists getting crushed and kids going missing in the bush. It's quite unfortunate, really"
 -> Is there a way to… stop them?
     Aussie: "Nuh. Once they're on ya, you're as good as dead"
@@ -173,19 +173,19 @@ Bayley: "Well, thanks Mister…"
 Casey: "Yeah… See you around…"
 Aussie: "Smell ya later"
 You and Bayley begin to walk away slowly, turning to run away when suddenly-
-May: "DROP BEAR! RAAAHHHH!!!"
+May: "DROP BEAR! RAAAHHHH!!!"#line:465
 -> AAAAAAAAAAAAAAAAAA
 -> AAAAAAAAAAAAAAAAAA
 -> AAAAAAAAAAAAAAAAAA
 You fall to the ground in fear, preparing for your imminent death- but you hear laughter.
-May: "Hahahaa! You should see the look on your faces!"
+May: "Hahahaa! You should see the look on your faces!"#line:466
 Bayley: "PROFESSOR MAY!!!?!?!?!?!?!?"
 -> YOU WERE ACTUALLY A DROP BEAR!?
-    May: "Oh shush, you think I'd reveal myself if I wasn't?"
+    May: "Oh shush, you think I'd reveal myself if I wasn't?"#line:467
     Aussie: "Told ya drop bears were real, mate"
 -> WHY WOULD YOU SCARE US!?
     May: "You seemed like you needed some help"
-    May: "After all, there's not much that scares an Aussie"
+    May: "After all, there's not much that scares an Aussie"#line:468
     Aussie: "Too true, mate!"
 May: "Well, I've had my share of fun! "
 As quickly as she appeared, she disappeared in a cloud of smoke.
@@ -199,10 +199,10 @@ You say goodbye to the Aussie, and head back to the messhall.
 
 
 [messhall]
-Bayley: "I told you Case', I just don't think I'm scary enough."
+Bayley: "I told you Case', I just don't think I'm scary enough."#line:469
 -> Don't say that!
     Bayley: "It's true!!"
-    Bayley: "We didn't win this year's soccer tournament, and now I'm not even scary anymore…"
+    Bayley: "We didn't win this year's soccer tournament, and now I'm not even scary anymore…"#line:470
     Casey: 'You are scary!" 
     Casey: "Don't you remember how freaked out I was when we first met!?"
     Bayley: "Yeahh… You thought I was going to eat you"
@@ -214,7 +214,7 @@ Bayley: "I told you Case', I just don't think I'm scary enough."
     Bayley: "Just not to a group of people. Or an Aussie."
     Casey: "Yeah…"
     Casey: "But third time's a charm, right?"
-    Bayley: "I don't know…"
+    Bayley: "I don't know…"#line:471
 It seems like Bayley has a lot on his mind… 
 Let's leave him for now, and try something else.
 <<jump Conmutator>>

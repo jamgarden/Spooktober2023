@@ -54,21 +54,21 @@ Casey: "Wait what, 5? Not 7?"
 Mario: "I know how to do it with 7, but the kitchen here is quite small, I had to do it with less!"
 Casey: "So..."
 You see the bat arrive and morph right next to the window
-Casey: "SO... how do you even make that?"
+Casey: "SO... how do you even make that?"#line:505
 Mario: "It's so simple boy, you just make the salsa first, and then..."
 Fully morphed Siegfried begins to move across the ground as if he were levitating. He doesn't even make a sound
 Mario: "...you put the dough to rest for some minutes..."
 Siegfried is about to reach!
 Mario: "And the secret ingredient is..." He pulls something out of his pocked...
-Casey: "Oh no..."
+Casey: "Oh no..."#line:506
 As Siegfried is about to scare the italian guy...
 He lifts a full Garlic in the air, so fast that he hits Siegfried in the middle of the nose!
-Siegfried: "AGHHH NOOOO!!!!!" He falls in passing
+Siegfried: "AGHHH NOOOO!!!!!" He falls in passing#line:507
 Mario: "MADONNA SANTA!!!!"
 Mario runs to grab a broom
-Casey: "No wait, Mario!"
+Casey: "No wait, Mario!"#line:508
 He begins to hit Siegfried with it!
-Casey: "WAIT WAIT, HE WAS JUST... TRYING TO TASTE YOUR SALSA!"
+Casey: "WAIT WAIT, HE WAS JUST... TRYING TO TASTE YOUR SALSA!"#line:509
 Mario: "What? You know this guy?"
 Casey: "Yes, he's my friend... Uhm..."
 <<jump beginagain>>
@@ -78,8 +78,8 @@ title: beginagain
 -> "We where just trying to steal your Lasagne..."
     Mario: "WHAT? HOW DARE YOU!"
     Mario completely looses it, and smacks you with the broom too!
-    Casey: "AHHH, AHH!!!!"
-    Siegfried: "We died... against a powerful... enemy..."
+    Casey: "AHHH, AHH!!!!"#line:290b
+    Siegfried: "We died... against a powerful... enemy..."#line:510
     Mario keeps smacking you two with his broom, until he kicks you out of the room.
     Looks like you'll have to try again...
     <<jump beginagain>>
@@ -93,8 +93,8 @@ title: beginagain
     <<jump atthetable>>
 -> "Give me the secret ingredient or I'll break your spaghetti!"
     Mario completely looses it, and smacks you with the broom too!
-    Casey: "AHHH, AHH!!!!"
-    Siegfried: "We died... against a powerful... enemy..."
+    Casey: "AHHH, AHH!!!!"#line:290c
+    Siegfried: "We died... against a powerful... enemy..."#line:510a
     Mario keeps smacking you two with his broom, until he kicks you out of the room.
     Looks like you'll have to try again...
     <<jump beginagain>>
@@ -113,33 +113,33 @@ This is full of not only garlic, but every spice in the book.
     You begin to eat super fast while Siegfried makes time
     Mario: "What an apetite! I'll go fetch you some more!"
     As soon as Mario gets to the kitchen, you stare at Siegfried
-    Casey: "Fly the freak out of here, I'll hold him off!"
-    Siegfried: "No."
-    Casey: "No what? You're gonna die eating this! Even I can't tolerate this much spices"
-    Siegfried: "No, I'm tired of running."
+    Casey: "Fly the freak out of here, I'll hold him off!"#line:511
+    Siegfried: "No."#line:512
+    Casey: "No what? You're gonna die eating this! Even I can't tolerate this much spices"#line:513
+    Siegfried: "No, I'm tired of running."#line:514
     He stabs the lasagna with the fork, and eats the full piece.
-    Casey: "But man!"
+    Casey: "But man!"#line:515
     Siegfried seems to be crying, but he is relentless, he begins to eat more!
     Mario: "Oh, your friend finally began!"
     Mario drops the plate on you and watches Siegfried eat recklessly
     Mario: "Ain't it good, boy?"
     Siegfried is crying while eating...
-    Siegfried: "It's... so... good..."
+    Siegfried: "It's... so... good..."#line:516
     Mario: "Oh there boy, no need to cry! I'll give you some more!"
     This was going to be a long... long... dinner...
     <<jump TrueFriend>>
 -> Watch him eat in pain
-    Siegfried: "No, I'm tired of running."
+    Siegfried: "No, I'm tired of running."#line:514a
     He stabs the lasagna with the fork, and eats the full piece.
     Casey: "Wow!"
     Siegfried seems to be crying, but he is relentless, he begins to eat more!
     Mario: "Oh, your friend finally began! Gonna go fetch him another plate!"
     Siegfried is crying while eating...
-    Siegfried: "It's... so... good..."
+    Siegfried: "It's... so... good..."#line:516a
     Mario: "Oh there boy, no need to cry! I'll give you some more!"
     Mario takes off to the kitchen
     Siegfried: And then... he storms towards the window and takes off!
-    Casey: "WAIT!"
+    Casey: "WAIT!"#line:517
     Mario comes back automatically
     Mario: "Oh, where did your friend go?"
     Casey: "Ah... he was... uhm... the bathroom!"
@@ -151,31 +151,31 @@ This is full of not only garlic, but every spice in the book.
 title: TrueFriend
 ---
 You both roll out of the room...
-Casey: "I can't... move..."
-Siegfried: "It was... so... tasty..."
-Casey: "At least... we got... the recipe..."
-Siegfried: "I wanna die... Casey..."
-Siegfried: "Now that I know... what it is to eat garlic..."
-Siegfried: "It doesn't make any sense to keep on living..."
-Casey: "Don't say that... dude..."
-Casey: "I'm sure Bee... can make you some... replacement..."
-Siegfried: "I... hope so... ha...haha..."
-Casey: "Come on, let's take you... to sickbay..."
+Casey: "I can't... move..."#line:518
+Siegfried: "It was... so... tasty..."#line:519
+Casey: "At least... we got... the recipe..."#line:520
+Siegfried: "I wanna die... Casey..."#line:521
+Siegfried: "Now that I know... what it is to eat garlic..."#line:522
+Siegfried: "It doesn't make any sense to keep on living..."#line:523
+Casey: "Don't say that... dude..."#line:524
+Casey: "I'm sure Bee... can make you some... replacement..."#line:525
+Siegfried: "I... hope so... ha...haha..."#line:526
+Casey: "Come on, let's take you... to sickbay..."#line:527
 <<jump Dormnextday>>
 ===
 title: Asshole
 ---
 You roll out of the room, completely full
-Casey: "I think... I'm gonna... die..."
-Casey: "At least... I've got... the recipe..."
+Casey: "I think... I'm gonna... die..."#line:528
+Casey: "At least... I've got... the recipe..."#line:529
 Siegfried appears again, and morphs into human
-Siegfried: "You look like crap"
+Siegfried: "You look like crap, twat"#530
 Casey: "Thanks..."
-Siegfried: "Come on, let's get you to sickbay. Did you got the recipe?"
+Siegfried: "Come on, let's get you to sickbay. Did you got the recipe?"#line:531
 You wave it in the air, triumphant
-Siegfried: "I really have to talk with Bee now."
+Siegfried: "I really have to talk with Bee now."#line:532
 Casey: "Why?"
-Siegfried: "I need a replacement for garlic, that crap was so good."
-Casey: "Ha...haha..."
+Siegfried: "I need a replacement for garlic, that crap was so good."#line:533
+Casey: "Ha...haha..."#line:534
 <<jump Dormnextday>>
 ===

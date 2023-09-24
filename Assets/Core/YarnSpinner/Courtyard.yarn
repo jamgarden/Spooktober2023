@@ -16,46 +16,196 @@ tags:
 title: Ambush
 ---
 There she was, Gee waiting behind a tree. You decide to approach
-Gee: "Good, you're right on time. Also, what is Phoebe doing here?"
-Phoebe: "I just felt like scaring people!"
-Casey: "She's been reading this book on how to scare people? She's gotten pretty good at it"
-Gee: "Allright, the more the merrier!"
-Gee: "Listen, this is the plan. Bee and his stoner cult are gonna pass through here at some point"
+Gee: "Good, you're right on time."
+Gee: "Listen up, this is the plan. Bee and his stoner cult are gonna pass through here at some point"
 Gee: "So, our task is to choose the best possible moment to scare them off"
 Gee: "There's 3 trees along here, so we can ambush them when they reach the middle"
 Gee: "However, our timing has to be impecable! If we scare them out of term, we'll fail!"
+Casey: "Sure just let me put the camera right her-"
+Gee: "NO TIME!"
 Gee: "So the one in the middle tree will call when to strike. Then we all jump at once!"
 Gee: "We'll approach silently from all angles, and when they least expect it..."
-Gee: "RAAAAARRRRRRRR BRAAAAIIINNNNSSSSS"
-Phoebe: "AAAAAAAAAA"
-Casey: "AAAAAAAAAAAAAAAAAA"
+Gee: "RAAAAARRRRRRRR BRAAAAIIINNNNSSSSS"#line:555
+Phoebe: "AAAAAAAAAA"#line:556
+Casey: "AAAAAAAAAAAAAAAAAA"#line:290d
 Gee: Facepalms...
-Gee: "This is going to be a long night..."
-Bee: "So, as I was saying, the carnivorous plant suddenly broke free, man!"
-Gee: "HE'S APPROACHING, GO HIDE BEHIND THE TREES COME ON!"
-You run to the trees, but who takes the middle tree?
--> Phoebe
-    <<jump PhoebeMiddle>>
--> Casey
-    <<jump CaseyMiddle>>
--> Gee
-    <<jump GeeMiddle>>
+Gee: "This is going to be a long night..."#line:557
+Bee: "So, as I was saying, the carnivorous plant suddenly broke free, man!"#line:558
+Gee: "HE'S APPROACHING, GO HIDE BEHIND THE TREES COME ON!"#line:559
+You run to the trees
+<<jump ScaringMiniGame>>
 ===
-title: PhoebeMiddle
+title: ScaringMiniGame
 ---
+<<Place ThruLine Bee Neutral Right>>
+<<Place ThruLine Crowd Neutral FarRight>>
 Cult: "Ohhh, and what happened then?"
-Bee: "We just sat down and talked things through, man..."
-Bee: "You can't solve everything with brute force, you know?"
+Bee: "We just sat down and talked things through, man..."#line:560
+Bee: "You can't solve everything with brute force, you know?"#line:561
 Cult: "Oh you're so wise"
-Bee: "Nah, I just like to think on how to make this a better world, you know?"
+Bee: "Nah, I just like to think on how to make this a better world, you know?"#line:562
 Cult: "Spoken like a true saviour!"
-Bee: "Hehe, if you say so! So guys, what do you want to do?"
+Bee: "Hehe, if you say so! So guys, what do you want to do?"#line:563
 Cult: "We just want to listen to more of your stories, master"
-Bee: "Oh but I'm not a master yet... haven't finished my degree!"
+Bee: "Oh but I'm not a master yet... haven't finished my degree!"#line:564
 Cult: "Hahahahahahaha you're so funny"
 -> Call the attack
-    Phoebe does the signal...
-    You 3 approach slowly from the sides...
-    
+    You give the signal from the middle tree, and you all jump at once!
+    Gee: "RAAAAARRRRRRRR BRAAAAIIINNNNSSSSS"#line:555a
+    Casey: "...boo!"#line:565
+    Phoebe seems to far away to make it in time...
+    The crowd looks, perplexed and confused
+    Bee: "Hey, what's going on?"#line:055a
+    Gee: "Agh, do you all call that scaring?"#line:566
+    Gee: "You ruined it!..."#line:567
+    -> Try again
+        <<jump ScaringMiniGame>>
 -> Wait
+<<Place ThruLine Bee Neutral Center>>
+<<Place ThruLine Crowd Neutral Right>>
+Bee: "Hahaha if you say so!"
+Crowd: "Could you share with us your theory on the dropbear again?"
+Bee: "Haha you guys never get tired of that one, do you?"
+Bee: "Well, I'm sure that's all a lie, you know?"
+Bee: "There's no evolutive branch of the Koala going to the carnivorous side!"#line:568
+Bee: "The closest to that is Profesor May. She's part Koala"#line:569
+Bee: "And I've seen her eating meat!"#line:570
+Crowd: "Ohhhhhh!!!"
+-> Call the attack
+    You give the signal from the middle tree, and you all jump at once!
+    Gee: "RAAAAARRRRRRRR BRAAAAIIINNNNSSSSS"#line:555b
+    Phoebe makes haste to meet with you both and...
+    Clashes against Casey!
+    Casey: "OUCH"#line:571
+    Phoebe: "Woops, sorry!"
+    The crowd looks, perplexed and confused
+    Bee: "Hey, what's going on?"#line:055b
+    Gee: "Agh, do you all call that scaring?"#line:566a
+    Gee: "You ruined it!..."#line:567a
+    -> Try again
+        <<jump ScaringMiniGame>>
+-> Wait
+<<Place ThruLine Bee Neutral Left>>
+<<Place ThruLine Crowd Neutral Center>>
+Bee: "Also, I'm pretty something's going on lately"
+Crowd: "How so?"
+Bee: "Well, some of my plants are missing..."#line:572
+Bee: "Have any of you seen someone take them?"#line:573
+They quickly put their hands on their backs, as if hiding something
+Crowd: "No! But we'll find the thiefs, leader!"
+Bee: "Haha that's Bayley, not me!"#line:574
+Bee: "I just like brainspaghetti and potions, maaan!"#line:575
+-> Call the attack
+    You give the signal from the middle tree, and you all jump at once!
+    Gee: "RAAAAARRRRRRRR BRAAAAIIINNNNSSSSS"#line:555c
+    Casey: "...boo!"#line:565a
+    Phoebe: "AAAAAAAAA"#line:556a
+    Crowd: "??????!!!!!" They were about to jump out of fear...
+    But now, they seem confused and perplexed!
+    Phoebe: "Uhm..."
+    Gee: "Boo?..."#line:576
+    Casey: "He...hehe..."
+    Gee: "BOO?!!!!"#line:577
+    Bee: "...aaaAAAA!!!" Delayed reaction#line:578
+    Crowd: "Leader!!!!"
+    <<jump ambushfinale>>
+-> Wait
+    <<Place ThruLine Bee Neutral FarLeft>>
+    <<Place ThruLine Crowd Neutral Left>>
+    Gee: "Agh, they're already past the point!"
+    Gee: "You ruined it..."#line:567b
+    -> Try again
+        <<jump ScaringMiniGame>>
+===
+title: ambushfinale
+---
+Gee: "BOO? What do you think this is? Some 1930's horro movie?!"#line:579
+Casey: "Uhmm... sorry? I never scared anyone..."
+Gee: "THEN WHY DIDN'T YOU SAY SO FIRST!!!"#line:580
+Crowd: "?????"
+Bee: "Oh let'em be, Gee!! It was scary, right guys?"#line:581
+Crowd: "Yes yes yes!"
+Gee: "Oh, don't you even start you..."#line:582
+Gee is getting worked up real bad, but she's interrupted when the ground begins to shake...
+Gee: "Huh?"
+Casey: "Oh no"
+Gee: "What?"
+Casey: "RUN EVERYONE, RUN!!!!"#line:583
+Bee: "Wha-"
+KBOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMM
+You jumped just in time away from the explosion.
+As soon as you turn your head around, you see Phoebe in perfect shape!
+But you also see the crowd covered Bee, and Gee is right next to you.
+Phoebe: "What happened?"
+Crowd: "Yes leader, what happened?!"
+Bee: "Ah, you know, she just had a reaction..."#line:584
+Bee: "To her cyclopim cells in contact with the bominin cells going out of balance"#line:585
+Bee: "Mostly doed to my sister going feral!"#line:586
+Crowd: "Oh, so wise!!!"
+They begin to take him away
+Bee: "See you guys!!!!"#line:587
+Gee: "Ough..."
+-> "Sorry..."
+    Gee: "..."
+-> "Look at what you did!"
+    Gee: "..."
+-> "I guess we freaked up, huh?"
+    Gee: "..."
+Phoebe: "I'm so sorry Gee! I don't know what happened..."
+Gee: "It's fine, it's fine."#line:588
+Gee: "You know, I shouldn't have screamed at you, that was bad on my part..."#line:589
+Gee: "I'm just, aghhhh, so frustrated!!!"#line:590
+Gee: "Ever since I began my carreer on biochemistry, Bee's allways been there for me"#line:591
+Gee: "I guess... I got selfish"#line:592
+-> "It's fine Gee, we'll help you out"
+    Gee: "...thank you"#line:593
+-> "Don't worry, she'll be right!"
+    Gee: "...what?"
+    Casey: "I don't know, the Aussie guy said that and sounded cool..."
+    Gee: "...it has a nice ring to it" She smiles a bit#line:594
+-> "You did"
+    Phoebe slaps the back of your head
+    Casey: "Sorry, I mean, you did, but we're here for you!"
+    Gee: "...thank you"#line:593a
+You all take off to the cafeteria...
+<<jump ActualConclusionAmbush>>
+===
+title: ActualConclusionAmbush
+---
+<<Travel ThruLine Messhall>>
+As soon as you all arrive, you run into Bayley. He was helping Sarcophachef with some boxes
+Bayley: "Oh, hey! What's with the long faces?"
+Gee: "..."
+Bayley: "I think I can fix that!"
+Casey: "But she didn't say-"
+Phoebe grabs Casey by the collar, and pulls hims away
+Phoebe: "Let it play out!"
+Bayley arrives with a coup of icecream, carefully adorned with veincorice and other... things you wouldn't eat.
+Gee: "...thank you... hehe..."#line:595
+Bayley: "Why the long face?"
+Gee: "Ah... you know... dumb me realizing how dumb I am..."#line:596
+Bayley: "How so?"
+Gee: "Well..."
+She begins to tell their adventure in the courtyard, and how she blew it all off.
+Bayley: "Hey... no shame in not wanting to be alone, you know?"#line:597
+Gee: "Huh?"
+Bayley: "Studying..."
+Phoebe lifts a giant letter saying "BIOCHEMISTRY"
+Bayley: "Biochemistry doesn't sound like a joke"#line:598
+Gee: "Huh? You're the first one who remembers what I study"#line:599
+Bayley: "Hey, that's my job, after all"#line:600
+Gee: "Your job?"#line:601
+Bayley: "To look out for my team, silly"#line:602
+Gee begins to laugh very cutely
+Bayley: "Come on, I might be a bit dumb, but I'm sure I can help you study at least a bit!"#line:603
+Gee: "...allright...maybe... hehe"#line:604
+<<set $GeeQuestDone to true>>
+//fade to black
+//fade back in
+<<Travel ThruLine WestCorridor>>
+You and Phoebe run away from the place, and laugh as you walk throught the corridors
+Phoebe: "I bet you five those two are going to Oktoberfest together!"
+Casey: "I bet you 10!"
+Now that the gears have began to turn... you feel the festival getting closer. What else is left to do?
+<<jump Conmnutator>>
 ===
