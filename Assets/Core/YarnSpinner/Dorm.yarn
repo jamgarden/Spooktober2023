@@ -259,7 +259,7 @@ Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
     There goes the steam out her head...
     <<Place ThruLine Casey Special Left>>
     <<Place Thruline Bayley Special FarLeft>>
-    OUT THE WINDOW SHE GOES!
+    OUT THE WINDOW SHE GOES!#line:286Effort
     Casey: "I hope she lands on..."#line:288
     KBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMM
     Casey: "I hope she's..."#line:289
@@ -400,6 +400,16 @@ Ursula: "Well... I used to call her Peebe because..."#line:310
 Phoebe: "AAAAAAAAAAAAAAND I think we have some important stuff to do! Come on, to the corridor everyone!"#line:311
 <<set $PhoebeQuestDone to true>>
 And Phoebe pushes everyone out...
-So, what else are you missing before Oktoberfest?...
+//fade to black
+<<Travel ThruLine Courtyard>>
+//fade back in
+You take a sit on one of the chairs. It's been a long couple of days...
+And you haven't filmed anything good yet. Heck, you haven't checked your phone in this entire time!
+And you don't feel like doing it either...
+However, the sense of dispair hasn't quite gotten away yet.
+Despite your little achievements, feels like this year, you all failed...
+And you can tell Bayley, Phoebe and the others felt the same way at some point.
+Maybe still do... so, you decide on invitating them all to the dorm tonight, before the concert.
+Maybe together... you could was away the blues!
 <<jump Conmutator>>
 ===

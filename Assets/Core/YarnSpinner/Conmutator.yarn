@@ -66,8 +66,14 @@ title: ConmutatorWest
     <<jump ConmutatorWest>>
     <<endif>>
 -> Dorm
-    add Dorm3
-    <<if $BayleyQuestDone is false>>
+    <<if $AllQuests1 and $AllQuests2 and $AllQuests3 and $AllQuests4 is true>>
+    <<jump AlbatrosSpeech>>
+    <<elseif $AllQuests1 and $AllQuests2 and $AllQuests3 is true>>
+    <<jump Dorm3>>
+    <<elseif $FindUrsula is true>>
+    Casey: "No, gotta go find Ursula!"
+    <<jump ConmutatorWest>>
+    <<elseif $BayleyQuestDone is false>>
     <<Travel ThruLine Dormroom>>
     Casey: "Looks like Phoebe is at class.."
     Casey: "Should check some other place for now"

@@ -16,7 +16,13 @@ tags:
 <<declare $GoAheadWithSieggy = false as bool>>
 <<declare $DefeatTheCult = false as bool>>
 <<declare $NoMoreMesshall = false as bool>>
-<<jump Conmutator>>
+<<declare $AllQuests1 = false as bool>>
+<<declare $AllQuests2 = false as bool>>
+<<declare $AllQuests3 = false as bool>>
+<<declare $AllQuests4 = false as bool>>
+<<declare $AllQuests5 = false as bool>>
+<<declare $AllQuests6 = false as bool>>
+<<jump principal1>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!" #line:001
@@ -33,7 +39,7 @@ Casey: "Today, I'm going to give you a tour all around the place."#line:007
 <<Place ThruLine Casey Happy Center>>
 Casey: "Not just that, you'll get to meet my roomie, Phoebe!"#line:008
 Casey: "Yes, the very same one who can walk over the ceiling!"#line:009
-<<Place ThruLine Nobody>>
+//<<Place ThruLine Nobody>>
 Casey: "So, this is the corridor, isn't it amazing? Come on, follow me to the room!"#line:010
 // <<Footsteps and door opening>>
 <<Travel ThruLine Dormroom>>
@@ -84,7 +90,7 @@ Casey: "I wouldn't say FAMOUS famous..."
 Phoebe: "VIRAL?"#line:026
 Casey: "Wouldn't say either..."
 Phoebe: "LET ME SEE"
-<<Place ThruLine Nobody>>
+//<<Place ThruLine Nobody>>
 // <<any sound that can imply the camera passes to another hand, maybe spinning the background too>>
 // <<Take phoebe out, now put Casey. Phoebe holds the camera>>
 Phoebe: "OMG OMG OMG!!!!"#line:014a
@@ -175,7 +181,7 @@ Casey: "Oh, hey Gee!"
 Bayley: "Oh... hehe... hi Gee..."#line:051
 Phoebe: "OH! THE COMMENTS ARE SAYING THAT..."#line:052
 //<<camera moving sounds again>>
-<<Place ThruLine Nobody>>
+//<<Place ThruLine Nobody>>
 Casey finally snatches the camera out of Phoebe's hand and shuts her up
 <<Place ThruLine Siegfried Neutral Left>>
 <<Place ThruLine Gee Neutral FarLeft>>
@@ -185,7 +191,7 @@ Casey: "So, Sieg, Gee, what do you do in Freakaversity?"
 <<Place ThruLine Siegfried Angry Center>>
 Siegfried: "I listen to idiotic freaks every single day"#line:053
 // <<Siegfried takes off>>
-<<Place ThruLine Nobody Left>>
+//<<Place ThruLine Nobody Left>>
 <<Place ThruLine Gee Happy Left>>
 Gee: "Oh oh, you know, the usual! I eat veincorice, go to my classes, hang out with the edgy vampire and my bro... Study to become a..."#line:054
 <<Place ThruLine Gee Neutral Left>>
@@ -223,7 +229,7 @@ Gee: "Yeah, I think my youngest part is my pinky toe..."#line:065
 Bee: "Yeeeah, they tend to smash into things first"#line:066
 Casey: "Yeah... they always do right?"
 Casey: "Oh wait, battery is getting low..."#line:067
-<<Place ThruLine Nobody>>
+//<<Place ThruLine Nobody>>
 // sound of camera shifting again
 // <<Casey up front, no one else, still in messhole>>
 <<Place ThruLine Casey Neutral Center>>
@@ -231,14 +237,15 @@ Casey: "I'll show you more in my next vlog you guys, glad to see you around!"#li
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "BYE STRANGERS!"#line:069
 // <<fade to black, .rec animation out>>
-<<Place ThruLine Nobody>>
+//<<Place ThruLine Nobody>>
 <<jump Dorm1>>
 ===
 title: Dorm1
 ---
 <<Travel ThruLine Dormroom>>
 // <<back to dorm room>>
-
+<<Place ThruLine Phoebe Sass Right>>
+<<Place ThruLine Casey Neutral Left>>
 Phoebe: "Case', have you been awake all night watching the statistics?"
 -> "WE'RE OVER ONE MILLION VIEWS NOW PHEEBS!!!!"
 -> "No, not at all..."
@@ -247,105 +254,171 @@ Phoebe: "Case', have you been awake all night watching the statistics?"
     The video has reached a million views by now.
 -> "I can explain..."
     She approaches the PC monitor and with a swift move, points it at her.
+<<Place ThruLine Casey Happy Left>>
+<<Place ThruLine Phoebe Happy Right>>
 Phoebe: "HOLLY MOLLY RIGATONI!!!!"#line:070
 Casey: "There's like, lots of comments about your neck trick!"
+<<Place ThruLine Casey Neutral Left>>
+<<Place ThruLine Phoebe Neutral Right>>
 Phoebe: "What's that about my eye?" She says, peeking into the screen
 -> "They say it's a very pretty eye!"
+    <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "AWWW, you tell them to stop it!!!"
 -> "They say you use too much makeup"
+    <<Place ThruLine Phoebe Sass Right>>
     Phoebe: "WHAT? But I only use black and white..."
+    <<Place ThruLine Phoebe Angry Right>>
     Phoebe: "You tell them to go eat a carrot or something!"
 -> "Ah you know, they've never seen a cyclops before!"
+    <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "Hahaha you almost got me with that one!"
     She clearly thought that was a joke.
+<<Place ThruLine Casey Neutral Left>>
+<<Place ThruLine Phoebe Neutral Right>>
 Casey: "I'll say you said that"
+<<Place ThruLine Phoebe Happy Right>>
 Phoebe: "YES! Now get ready, we have class in like an hour!"
+<<Place ThruLine Casey OMG Left>>
 Casey: "Wait what? Wasn't it saturday?"
+<<Place ThruLine Phoebe Sass Right>>
 Phoebe: "No Casey, it's wednesday!"
 -> "...I think I'm getting sick..."
     Phoebe: "Like heck you are"
+    <<Place ThruLine Phoebe Sass FarLeft>>
     Phoebe grabs Casey by the collar and throws them to the shower
     //<<Whatever noise you think best for this>>
 -> "Well you know what, I'm skipping class today"
     Phoebe: "Like heck you are"
+    <<Place ThruLine Phoebe Sass FarLeft>>
     Phoebe grabs Casey by the collar and throws them to the shower
     //<<Whatever noise you think best for this>>
 -> "WHAT? Allright, time to get ready anyways!"
-
+//<<Place ThruLine Nobody>>
+<<Place ThruLine Phoebe Happy Center>>
 Phoebe: "I'LL GO GET US SOME COFFEE!!!!"#line:071
+//<<Place ThruLine Nobody>>
 She storms out like the road runner
 //<<so if we had a caricature sound for this, i'd die laughing>>
+<<Place ThruLine Casey Tired Center>>
 Casey: "Ugh... guess I'll have to wear sunglasses today..."#line:072
 Casey: "Watching statistics and comments all night is worse than a hangover"#line:073
+<<Place ThruLine Casey Happy Center>>
 Casey: "However... holy cow, I can't wait to see how far it gets when I get back!!!!"#line:074
 <<Travel ThruLine CorridorEast>>
+<<Place Nobody>>
+<<Place ThruLine Casey Hangover Left>>
+<<Place ThruLine Bayley Happy Right>>
 Bayley: "Hey Case'!"
 Casey: "Sup Bayls!"
 Bayley: "Duuude, I saw the video last night! It's like, thousands of views already!"
 -> "It reached a million two hours ago!!!!"
+    <<Place ThruLine Casey Sunglasses Left>>
     Bayley: "Sick yo! What's with the sunglasses?"
+    <<Place ThruLine Casey Hangover Left>>
     Casey: "Been up all night... watching statistics..."
+    <<Place ThruLine Bayley Think Right>>
     Bayley: "Yo..."
 -> "It keeps growing!!!"
+    <<Place ThruLine Casey Sunglasses Left>>
     Bayley: "I bet you were up all night watching that!"
     Casey: "What gave me away, the sunglasses?"
 -> "I've been watching statistics all night!!!"
+    <<Place ThruLine Casey Sunglasses Left>>
+    <<Place ThruLine Bayley Think Right>>
     Bayley: "Oh, that's why you've got the sunglasses?"
+    <<Place ThruLine Casey Hangover Left>>
     Casey: "Yeah..."
+<<Place ThruLine Bayley Neutral Right>>
+<<Place ThruLine Casey Hangover Left>>
+<<Place ThruLine Bee Neutral FarRight>>
 Bee: "Sup my dudes... what's that Case', hangover again?"#line:075
 Casey: "Statistics..."#line:076
+<<Place ThruLine Bee Angry FarRight>>
 Bee: "Boo, much worse!"
+<<Place ThruLine Bee Neutral FarRight>>
+<<Place ThruLine Bayley Think Right>>
 Bayley: "Been there... I did a reel on eating a burger in one bite, and it went viral"
+<<Place ThruLine Bayley Sad Right>>
 Bayley: "I've been asked how to do it for months now..."
+<<Place ThruLine Bayley Neutral Right>>
 Bayley: "And I mean, did you even see the video?!!"
 -> "Right? It's just so unreal how you do it!"
 -> "I bet you'd make a fortune in eating contests!"
 -> "Even I wonder how you do it!!!"
+<<Place ThruLine Casey Sunglasses Left>>
+<<Place ThruLine Bee Happy FarRight>>
 Bee: "Yeaaah man, humans can't keep up with your skills!"
+<<Place ThruLine Bayley Happy Right>>
 Bayley: "Haha shut it you lot!"
+<<Place ThruLine Phoebe Happy FarLeft>>
 Phoebe: "Hey hey hey!"
 Casey: "Oh, Pheebs, please tell me you brought it"
 Phoebe: "Sure thing, Case'"
 Casey: "I wouldn't make it today without a good coffee..."
+<<Place ThruLine Casey Hangover Left>>
 Casey: Takes a sip, and then makes a face
+<<Place ThruLine Phoebe Neutral FarLeft>>
 Phoebe: "What's wrong?"
+<<Place ThruLine Bayley Think Right>>
 Bayley: "Wait, Phoebe, did you tell Sarcophachef that it was for..."
 //<<CG coffee>>
+<<Place ThruLine Bayley Angry Right>>
+<<Place ThruLine Bee Angry FarRight>>
 And that's when everyone noticed... the tag in the coffee saying Casey 
 //<<back to normal>>
 Casey: "It's... watered down..."#line:077
+<<Place ThruLine Phoebe Angry FarLeft>>
 Phoebe: "HOW? WHY?!"#line:078
+<<Place ThruLine Bayley Think Right>>
+<<Place ThruLine Bee Neutral FarRight>>
 Bayley: "Ah... remember when we stole that booze last year?..."
 //<<Flashback>>
+<<Place ThruLine Phoebe Think FarLeft>>
+<<Place ThruLine Casey Hangover Left>>
 Phoebe: "I thought you guys aged it with Bee's potions!"
-Bee: "Nah, they did that with Gee so... bound to be a robbery or something hehe"
+<<Place ThruLine Bee Think FarRight>>
+Bee: "Nah, they did that with Gee so..."
+<<Place ThruLine Bee Happy FarRight>>
+Bee: "Bound to be a robbery or something hehe"
+<<Place ThruLine Phoebe Neutral FarLeft>>
+<<Place ThruLine Bee Neutral FarRight>>
 Bayley: "Well, Sarcophachef realized it..."
+<<Place ThruLine Casey Sunglasses Left>>
 Casey: "He didn't like the replacements..."
+<<Place ThruLine Casey Hangover Left>>
 Casey: "So he's been watering down EVERYTHING I order…"#line:079
 Bee: "Man, how long can a mummy hold a grudge?"
 -> "THOUSANDS OF YEARS, APPARENTLY." Sips coffee angrily
 -> "Enough to ruin my entire college experience"
 -> "Don't know, but I hope they take a 2000 year nap soon"
+<<Place ThruLine Bayley Think Right>>
 Bayley: "Yeah... they hold onto things. He did take my apologies about it but..."
+<<Place ThruLine Bayley Neutral Right>>
 Casey: "Not mine, nor Siegfried's. He even forgave Gee"
+<<Place ThruLine Phoebe Sass FarLeft>>
 Phoebe: "Well, I'm gonna tell a thing or two to that crazy mummy!"
 Casey: "No, you'll make it worse"
-<<Phoebe buffed>>
+<<Place ThruLine Phoebe Buffed FarLeft>>
 Phoebe: "Damn right you are, I'm gonna make *him* worse!"
+<<Place ThruLine Bee Happy FarRight>>
 Bee: "Calm down everyone, I'm sure you'll find a peaceful solution!"
-<<Bell rings>>
+You check the time... and you all are late
+<<Place ThruLine Phoebe Neutral FarLeft>>
+<<Place ThruLine Bee Neutral FarRight>>
 Casey: "Guess it's class time..."
 <<jump class1>>
 ===
 title: class1
 ---
-<<Travel Thruline Classroom>>
+<<Travel ThruLine Classroom>>
 <<declare $BayleyCoffe = false as bool>>
 <<declare $PhoebeCoffee = false as bool>>
 <<declare $BeeCoffee = false as bool>>
-Casey: *This was gonna be a long day, and the fact that we began with advanced calculus was the cherry on the top of the pie.*
+//<<Place ThruLine Nobody>>
+This was going to be a long day, and the fact that we began with advanced calculus was the cherry on the top of the pie.
+<<Place ThruLine MathTeacher Neutral Center>>
 Math teacher: "Today we're gonna learn how to calculate the rotation of a body in 0 gravity"
-Casey: *Oh boy...*#line:080
+Casey: Oh boy...#line:080
 Math teacher: He began to explain different equations on the black board, explaining the math behind the phenomenon
 -> Why did I sign up for astrophysics?
     The class keeps going and you barely manage to keep up.
@@ -356,10 +429,8 @@ Math teacher: He began to explain different equations on the black board, explai
     Casey: "The star chart looks amazing!"
     Or should we say, back from daydreaming?
     Everyone laughs
-    Match Teacher: You swear the match teacher actually smiled, but you can't be sure
+    Math Teacher: You swear the match teacher actually smiled, but you can't be sure
     Phoebe: "You're so funny!"
-
-
 -> Come on Casey, you gotta pay attention, this could save your rear some day!
     It'd be easier to pay attention if it wasn't so complex… 
     You decide to close your eyes to help you focus.
@@ -371,15 +442,11 @@ Math teacher: He began to explain different equations on the black board, explai
     Math Teacher: "...Glad we have your attention."
     Casey: Shrugs and scratches the back of their head
     Phoebe: "That was funny tho!"
-
-
 -> This is the end, my only friend, the end ♫
     Math Teacher: "Casey, save the singing lessons for music class."
     Siegfried: "Fame gone to your head, twat?"#line:081
     Casey: "Uhm… sorry…"
     Math Teacher: "...Right. Let's get back to it."
-
-
 The class goes on, and on... and on.
 You keep yourself together for the rest of it, or so you think.
 In between exercises, the chat from the corridor comes back.
@@ -419,7 +486,7 @@ You decide to let them ramble on with their train of thoughts
 In the meantime, you just limit yourself by trying to copy the exercises
 That way, you'll be able to reverse engineer them later
 Casey: "I gotta work my best this year, or I won't make it"
-Bayley: "Still having a tough time adapting to your rhythm, Case'?"
+Bayley: "Still having a tough time adapting to our rhythm, Case'?"
 Casey: "Yeah... monsters just do so much more than humans in the same time"
 Bee: "But man, you're part monster... you have it in ya'!"
 Phoebe: "We'll help you pull through as always!"
@@ -428,13 +495,13 @@ Casey: *Yet I'd really like to make it on my own for a change...*
 Casey: "This year I begin Astrophysics 1, and I just need to do my best"
 Casey: "I've prepared my whole life for this, you know?"
 Just as a passing breeze, the thoughts about going viral go away, and you remember what you're here for.
-Bayley: You'll make it dude. I heard Prof. May is the best!
-Phoebe: Yeah Casey, don't sweat it!
-Bee: Right on!
+Bayley: "You'll make it dude. I heard Prof. May is the best!"
+Phoebe: "Yeah Casey, don't sweat it!"
+Bee: "Right on!"
 Casey: "Yeahhhh… I guess so"
 Math teacher: "Allright, get out of here, we're done for today"
 You feel relieved, and take your exit to the hallway as soon as you can.
-<<corridor>>
+<<Travel ThruLine CorridorEast>>
 Coming to a monster college felt much like going back to highschool.
 At some point you realized that, although they were much faster at learning, Monsters are much slower at growing up and maturing.
 However, this was SOOOO much better than highschool!
@@ -492,37 +559,34 @@ No reply.
     Sarcophachef looks at Phoebe, and pours water in the stew...
     Phoebe begins to grow buffer by the second.
     You fear the worst
-    Casey:
     -> "No Phoebe!!!"
-        You try to stop Phoebe, but... She's burning hot! You burn your hand in the attempt
     -> "Kick his bandaged ass!!!"
-        Phoebe begins to shake...
-        Bayley: "Oh no, oh no!!!!"
-        Bee: "Oh don't tell me she..."
-        Casey: "She wh--"
-        Bayley a grabs Casey before they even have time to finish.
-        Bee flips a table for cover and Bayley jumps behind it with Casey.
-        KBOOOOOOOOMMMMMM.
-        Casey: "WHAT HAPPENED??!!!"
-        Bayley: "Phoebe exploded"
-        Casey:
-        -> "She WHAT?!"
-        -> "I told her not to..."
-        -> "Did that mummy do THAT?!"
-            Bayley: "No! It's Phoebe, didn't you know she's part bomb?"
-            -> Part what?
-                Bee: "Bomb. Y'know, those rounded monsters that tend to explode"
-                Bee: "They look like nothing happened afterwards"
-                Bayley: "I think it was from her mother side..."
-                Casey: "But is Phoebe ok!!!!??!?!??"
-            -> Like those monsters from that game? Those that explode?
-                Bee: "Yeah!!"
-                Casey: "So is she alright?!"
-            -> Wasn't she a cyclops?
-                Bee: "Mostly, but we all have some relatives from other species"
-                Bee: "Unless you're like Siegfried, who claims to be pure blooded"
-                Bayley: "I bet my dinner that he's bluffing on that!"
-                Casey: "But what about Phoebe?!!!"
+    Phoebe begins to shake...
+    Bayley: "Oh no, oh no!!!!"
+    Bee: "Oh don't tell me she..."
+    Casey: "She wh--"
+    Bayley a grabs Casey before they even have time to finish.
+    Bee flips a table for cover and Bayley jumps behind it with Casey.
+    KBOOOOOOOOMMMMMM.
+    Casey: "WHAT HAPPENED??!!!"
+    Bayley: "Phoebe exploded"
+    -> "She WHAT?!"
+    -> "I told her not to..."
+    -> "Did that mummy do THAT?!"
+    Bayley: "It's Phoebe, didn't you know she's part bomb?"
+    -> Part what?
+        Bee: "Bomb. Y'know, those rounded monsters that tend to explode"
+        Bee: "They look like nothing happened afterwards"
+        Bayley: "I think it was from her mother side..."
+        Casey: "But is Phoebe ok!!!!??!?!??"
+    -> Like those monsters from that game? Those that explode?
+        Bee: "Yeah!!"
+        Casey: "So is she alright?!"
+    -> Wasn't she a cyclops?
+        Bee: "Mostly, but we all have some relatives from other species"
+        Bee: "Unless you're like Siegfried, who claims to be pure blooded"
+        Bayley: "I bet my dinner that he's bluffing on that!"
+        Casey: "But what about Phoebe?!!!"
     Phoebe: "Sup guys?"#line:093
     Without even a scratch on her face, Phoebe walks behind the table
     As though nothing had ever happened.
@@ -538,13 +602,11 @@ No reply.
     You try a sip...
     Casey: "Hey, it's good!"
     Phoebe: "Told you I'd solve it!"
-
-
 -> "Not so bad now that I have backup, huh?"
     Sarcophachef raises an eyebrow.
     It feels like that's the closest you'll get to him laughing.
     Phoebe: "Listen here you over-bandaged mummy!*
-   Sarcophachef finally pays attention to Phoebe. He didn't look all that friendly before...
+    Sarcophachef finally pays attention to Phoebe. He didn't look all that friendly before...
     But now?
     He looked even worse.
     Phoebe: "How can you be so mean to little Casey here???"#line:086a
@@ -557,64 +619,34 @@ No reply.
     Sarcophachef looks at Phoebe, and pours water in the stew...
     Phoebe begins to grow buffer by the second.
     You fear the worst
-    Casey:
     -> "No Phoebe!!!"
-        You try to stop Phoebe, but... She's burning hot! You burn your hand in the attempt
-        Phoebe begins to shake...
-        Bayley: "Oh no, oh no!!!!"
-        Bee: "Oh don't tell me she..."
-        Casey: "She wh--"
-        Bayley a grabs Casey before they even have time to finish.
-        Bee flips a table for cover and Bayley jumps behind it with Casey.
-        KBOOOOOOOOMMMMMM.
-        Casey: "WHAT HAPPENED??!!!"
-        Bayley: "Phoebe exploded"
-        Casey:
-        -> "She WHAT?!"
-        -> "I told her not to..."
-        -> "Did that mummy do THAT?!"
-            Bayley: "No! It's Phoebe, didn't you know she's part bomb?"
-            -> Part what?
-                Bee: "Bomb. Y'know, those rounded monsters that tend to explode"
-                Bee: "They look like nothing happened afterwards"
-                Bayley: "I think it was from her mother side..."
-                Casey: "But is Phoebe ok!!!!??!?!??"
-            -> Like those monsters from that game? Those that explode?
-                Bee: "Yeah!!"
-                Casey: "So is she alright?!"
-            -> Wasn't she a cyclops?
-                Bee: "Mostly, but we all have some relatives from other species"
-                Bee: "Unless you're like Siegfried, who claims to be pure blooded"
-                Bayley: "I bet my dinner that he's bluffing on that!"
-                Casey: "But what about Phoebe?!!!"
     -> "Kick his bandaged ass!!!"
-        Phoebe begins to shake...
-        Bayley: "Oh no, oh no!!!!"
-        Bee: "Oh don't tell me she..."
-        Casey: "She wh--"
-        Bayley a grabs Casey before they even have time to finish.
-        Bee flips a table for cover and Bayley jumps behind it with Casey.
-        KBOOOOOOOOMMMMMM.
-        Casey: "WHAT HAPPENED??!!!"
-        Bayley: "Phoebe exploded"
-        Casey:
-        -> "She WHAT?!"
-        -> "I told her not to..."
-        -> "Did that mummy do THAT?!"
-            Bayley: "No! It's Phoebe, didn't you know she's part bomb?"
-            -> Part what?
-                Bee: "Bomb. Y'know, those rounded monsters that tend to explode"
-                Bee: "They look like nothing happened afterwards"
-                Bayley: "I think it was from her mother side..."
-                Casey: "But is Phoebe ok!!!!??!?!??"
-            -> Like those monsters from that game? Those that explode?
-                Bee: "Yeah!!"
-                Casey: "So is she alright?!"
-            -> Wasn't she a cyclops?
-                Bee: "Mostly, but we all have some relatives from other species"
-                Bee: "Unless you're like Siegfried, who claims to be pure blooded"
-                Bayley: "I bet my dinner that he's bluffing on that!"
-                Casey: "But what about Phoebe?!!!"
+    Phoebe begins to shake...
+    Bayley: "Oh no, oh no!!!!"
+    Bee: "Oh don't tell me she..."
+    Casey: "She wh--"
+    Bayley a grabs Casey before they even have time to finish.
+    Bee flips a table for cover and Bayley jumps behind it with Casey.
+    KBOOOOOOOOMMMMMM.
+    Casey: "WHAT HAPPENED??!!!"
+    Bayley: "Phoebe exploded"
+    -> "She WHAT?!"
+    -> "I told her not to..."
+    -> "Did that mummy do THAT?!"
+    Bayley: "It's Phoebe, didn't you know she's part bomb?"
+    -> Part what?
+        Bee: "Bomb. Y'know, those rounded monsters that tend to explode"
+        Bee: "They look like nothing happened afterwards"
+        Bayley: "I think it was from her mother side..."
+        Casey: "But is Phoebe ok!!!!??!?!??"
+    -> Like those monsters from that game? Those that explode?
+        Bee: "Yeah!!"
+        Casey: "So is she alright?!"
+    -> Wasn't she a cyclops?
+        Bee: "Mostly, but we all have some relatives from other species"
+        Bee: "Unless you're like Siegfried, who claims to be pure blooded"
+        Bayley: "I bet my dinner that he's bluffing on that!"
+        Casey: "But what about Phoebe?!!!"
     Phoebe: "Sup guys?"
     Without even a scratch on her face, Phoebe walks behind the table
     As though nothing had ever happened.
@@ -630,7 +662,6 @@ No reply.
     You try a sip...
     Casey: "Hey, it's good!"
     Phoebe: "Told you I'd solve it!"
-    
 -> Remain silent.
     Phoebe: "Listen to me you over-bandaged mummy!*
     Sarcophachef finally pays attention to Phoebe. He didn't look all that friendly before...
@@ -646,37 +677,34 @@ No reply.
     Sarcophachef looks at Phoebe, and pours water in the stew...
     Phoebe begins to grow buffer by the second.
     You fear the worst
-    Casey:
     -> "No Phoebe!!!"
-        You try to stop Phoebe, but... She's burning hot! You burn your hand in the attempt
     -> "Kick his bandaged ass!!!"
-        Phoebe begins to shake...
-        Bayley: "Oh no, oh no!!!!"
-        Bee: "Oh don't tell me she..."
-        Casey: "She wh--"
-        Bayley a grabs Casey before they even have time to finish.
-        Bee flips a table for cover and Bayley jumps behind it with Casey.
-        KBOOOOOOOOMMMMMM.
-        Casey: "WHAT HAPPENED??!!!"
-        Bayley: "Phoebe exploded"
-        Casey:
-        -> "She WHAT?!"
-        -> "I told her not to..."
-        -> "Did that mummy do THAT?!"
-            Bayley: "No! It's Phoebe, didn't you know she's part bomb?"
-            -> Part what?
-                Bee: "Bomb. Y'know, those rounded monsters that tend to explode"
-                Bee: "They look like nothing happened afterwards"
-                Bayley: "I think it was from her mother side..."
-                Casey: "But is Phoebe ok!!!!??!?!??"
-            -> Like those monsters from that game? Those that explode?
-                Bee: "Yeah!!"
-                Casey: "So is she alright?!"
-            -> Wasn't she a cyclops?
-                Bee: "Mostly, but we all have some relatives from other species"
-                Bee: "Unless you're like Siegfried, who claims to be pure blooded"
-                Bayley: "I bet my dinner that he's bluffing on that!"
-                Casey: "But what about Phoebe?!!!"
+    Phoebe begins to shake...
+    Bayley: "Oh no, oh no!!!!"
+    Bee: "Oh don't tell me she..."
+    Casey: "She wh--"
+    Bayley a grabs Casey before they even have time to finish.
+    Bee flips a table for cover and Bayley jumps behind it with Casey.
+    KBOOOOOOOOMMMMMM.
+    Casey: "WHAT HAPPENED??!!!"
+    Bayley: "Phoebe exploded"
+    -> "She WHAT?!"
+    -> "I told her not to..."
+    -> "Did that mummy do THAT?!"
+    Bayley: "It's Phoebe, didn't you know she's part bomb?"
+    -> Part what?
+        Bee: "Bomb. Y'know, those rounded monsters that tend to explode"
+        Bee: "They look like nothing happened afterwards"
+        Bayley: "I think it was from her mother side..."
+        Casey: "But is Phoebe ok!!!!??!?!??"
+    -> Like those monsters from that game? Those that explode?
+        Bee: "Yeah!!"
+        Casey: "So is she alright?!"
+    -> Wasn't she a cyclops?
+        Bee: "Mostly, but we all have some relatives from other species"
+        Bee: "Unless you're like Siegfried, who claims to be pure blooded"
+        Bayley: "I bet my dinner that he's bluffing on that!"
+        Casey: "But what about Phoebe?!!!"
     Phoebe: "Sup guys?"
     Without even a scratch on her face, Phoebe walks behind the table
     As though nothing had ever happened.
@@ -692,9 +720,7 @@ No reply.
     You try a sip...
     Casey: "Hey, it's good!"
     Phoebe: "Told you I'd solve it!"
-
 <<set $PhoebeExplodeVar1 to true>>
-
 <<elseif $BayleyCoffee is true>>
 Bayley: "Hey Sarcophaguy!"
 Sarcophachef raises an eyebrow.
@@ -864,7 +890,7 @@ Casey: "Woops, I better go!"#line:124
 ===
 title: principal1
 ---
-<<Travel Thruline PrincipalsOffice>>
+<<Travel ThruLine PrincipalsOffice>>
 You reach the principal's office, and see the door open, almost inviting you in.
 -> Take a peak inside
     You pass on purpose the door to spy if there's someone inside.
@@ -878,7 +904,7 @@ You reach the principal's office, and see the door open, almost inviting you in.
     Principal: "MCTAGONIST, GET INSIDE ALREADY!"#line:125a
     You go in...
 -> Just enter
-You go in...
+    You go in...
 There they are, all your friends waiting patiently.
 Phoebe: She's happily humming a tune while taping her foot on the floor
 Bayley: Taping to Phoebe's taping, yet twice as faster. He seems to be nervous.
@@ -1024,8 +1050,11 @@ May: Whispering "Don't push it Case'"#line:186
 You shut up, wouldn't be wise to go against May's advice
 Principal: "Ah yes, this will be great! Go on, go Freak The Town!"#line:187
 The principal gets up and begins to urge everyone out, specially professor May.
-<<door slam>>
-<<background corridor>>
+//<<door slam>>
+<<jump lalala>>
+===
+title: lalala
+---
 By the time you all reach the outside, the door gets slammed right behind the last one to get out.
 Gee: "HEY WHATCH OUT YOU ..."#line:188
 Siegfried: "Seems like you still know what's best"
@@ -1086,7 +1115,7 @@ May: "Now, listen. It's gonna be hard, okay? But don't quit just yet. I know you
 May: "And you'll need all hands on board if you wanna pull a 10/10 on this!"
 Casey: "Wait, is this like... a test?"
 May: "You bet! Now, drop by my office later. I might need some help with something!"#line:215
-<<little explosion>>
+//<<little explosion>>
 May throws a smoke bomb to the floor and takes off!
 Phoebe: "...SHE'S AWESOME!...cofcof"#line:216
 Casey: "Yeah...cofcof"#line:217
@@ -1102,7 +1131,7 @@ Bee: "Oh... right... boomer..."
 Gee punches him in the arm, as they take their leave
 <<Place ThruLine Casey Center>>
 Casey: "Allright... guess I'll be back to the dorm. I need a nap..."
-<<Place Thruline Nobody>>
+//<<Place Thruline Nobody>>
 <<jump Dorm2>>
 ===
 title: Dorm2

@@ -2,9 +2,16 @@
 tags:
 ---
 <<Travel ThruLine Messhall>>
+//<<Place ThruLine Nobody>>
+<<Place ThruLine Casey Neutral FarLeft>>
+<<Place ThruLine Bayley Neutral Center>>
 You enter the messhall, and see Bayley quietly cleaning the tables by himself.
+<<Place ThruLine Casey Happy Left>>
 Casey: "Hey Bayls!"
+<<Place ThruLine Bayley Happy Right>>
 Bayley: "Sup, Case'!"
+<<Place ThruLine Casey Neutral Left>>
+<<Place ThruLine Bayley Neutral Right>>
 Casey: "Do you still have to clean the messhall as punishment?"
 Bayley: "No way! I just like doing it"
 Casey: "Really?"
@@ -225,6 +232,7 @@ Bayley: "I told you Case', I just don't think I'm scary enough."#line:469
     Casey: "But third time's a charm, right?"
     Bayley: "I don't know…"#line:471
 <<set $BayleyQuestDone to true>>
+<<set $AllQuests1 to true>>
 It seems like Bayley has a lot on his mind… 
 Let's leave him for now, and try something else.
 <<jump Conmutator>>

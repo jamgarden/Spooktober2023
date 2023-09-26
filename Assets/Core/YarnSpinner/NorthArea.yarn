@@ -103,6 +103,7 @@ title: beginagain
 title: atthetable
 ---
 <<set $SiegfriedQuestDone to true>>
+<<set $AllQuests2 to true>>
 You sit down at the table next to Siegfried
 He seems to be looking better after the garlic and the broom, but still quite uneasy
 Mario arrives with a big plate of Lasagne for each and sits at the table
