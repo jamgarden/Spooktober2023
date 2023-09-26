@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: PrincipalsOffice
   Section: 0
-  BGList: []
+  BGList:
+  - {fileID: 21300000, guid: 187e0df870282e141bc95885851fc679, type: 3}
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []
