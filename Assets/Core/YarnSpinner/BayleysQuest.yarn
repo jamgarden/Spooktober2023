@@ -1,7 +1,7 @@
-﻿title: Bayley'sQuest
+﻿title: BayleysQuest
 tags:
 ---
-[messhall]
+<<Travel ThruLine Messhall>>
 You enter the messhall, and see Bayley quietly cleaning the tables by himself.
 Casey: "Hey Bayls!"
 Bayley: "Sup, Case'!"
@@ -18,6 +18,8 @@ Bayley: "Yeah…"
     Bayley: "Never mind"
     Casey: "But-"
     Bayley: "Don't worry about it, what did you come here for?"
+    Casey: "Well... I wanted to scare some people"
+    Casey: "But I ain't good at that, so I thought..."
 -> I need your help
     Bayley: "What do you need?"
     Casey: "Well, we need to scare some people"
@@ -25,9 +27,11 @@ Bayley: "Yeah…"
     Bayley: "Is that all you wanted help with? That should be EASY!"
 Casey: "With your bark, and my camera, we should be able to record proof that monsters are still scary!"
 Bayley: "Sounds great, lets go!"
-
-
-[corridors]
+<<jump CorridorQuestBayley>>
+===
+title: CorridorQuestBayley
+---
+<<Travel ThruLine CorridorWest>>
 Bayley joins you as you head into the corridors, looking for someone to scare.
 With all the humans wandering around, surely it couldn't be too hard to find someone!
 Just as you're walking around a corner, someone bumps into you and elbows your ribs!
@@ -120,7 +124,12 @@ Bayley: "You think so?"
 Casey: "I know so!"
 Casey: "Let's go to the courtyard, there's bound to be someone there we can scare"
 Bayley: "Freak yeah!"
-[courtyard]
+<<jump CourtyardQuestBayley>>
+===
+title: CourtyardQuestBayley
+---
+<<Travel ThruLine Courtyard>>
+
 You both sneak into the courtyard, and look around.
 There's only one guy here, and he hasn't noticed you yet.
 Casey: "Bayley, look. It's just one guy"
@@ -198,7 +207,7 @@ Bayley: "Agreed… cough"
 You say goodbye to the Aussie, and head back to the messhall.
 
 
-[messhall]
+<<Travel ThruLine Messhall>>
 Bayley: "I told you Case', I just don't think I'm scary enough."#line:469
 -> Don't say that!
     Bayley: "It's true!!"
@@ -215,6 +224,7 @@ Bayley: "I told you Case', I just don't think I'm scary enough."#line:469
     Casey: "Yeah…"
     Casey: "But third time's a charm, right?"
     Bayley: "I don't know…"#line:471
+<<set $BayleyQuestDone to true>>
 It seems like Bayley has a lot on his mind… 
 Let's leave him for now, and try something else.
 <<jump Conmutator>>

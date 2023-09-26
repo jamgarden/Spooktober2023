@@ -2,6 +2,7 @@
 tags:
 ---
 <<Travel ThruLine CorridorNorth>>
+<<set $GoAheadWithSieggy to false>>
 Just as Siegfried asked, you arrive to the north area of the castle.
 Seems like the humans are staying here, since it was quite the deserted area.
 You've never been here before, so you have no idea where to go.
@@ -101,6 +102,7 @@ title: beginagain
 ===
 title: atthetable
 ---
+<<set $SiegfriedQuestDone to true>>
 You sit down at the table next to Siegfried
 He seems to be looking better after the garlic and the broom, but still quite uneasy
 Mario arrives with a big plate of Lasagne for each and sits at the table

@@ -8,6 +8,15 @@ tags:
 <<declare $BayleyQuestDone = false as bool>>
 <<declare $PhoebeQuestDone = false as bool>>
 <<declare $MaysQuest = false as bool>>
+<<declare $VisitedDorm1 = false as bool>>
+<<declare $FindUrsula = false as bool>>
+<<declare $Intervention = false as bool>>
+<<declare $SiegfriedQuestDone = false as bool>>
+<<declare $LetSieggyHanging = false as bool>>
+<<declare $GoAheadWithSieggy = false as bool>>
+<<declare $DefeatTheCult = false as bool>>
+<<declare $NoMoreMesshall = false as bool>>
+<<jump Conmutator>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!" #line:001
@@ -1126,5 +1135,6 @@ Albatros: "Ahhh... you kids are no fun."#line:232
 The blanket falls to the floor motionless
 Casey: "They'll think it was some vfx..."
 Casey: "Allright, time to scare you all people!"#line:233
-<<jump Conmutator>>
+Where to now?
+<<jump ConmutatorWest>>
 ===
