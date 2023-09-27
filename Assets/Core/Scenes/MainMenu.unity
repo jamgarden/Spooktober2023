@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 784728139}
   - component: {fileID: 784728138}
   - component: {fileID: 784728142}
-  - component: {fileID: 784728141}
   m_Layer: 0
   m_Name: FMOD_Audio
   m_TagString: Untagged
@@ -203,22 +202,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &784728141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784728137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b0e04e2572f9a940a47465f6f3c2f00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Parameter: MusicSwitch
-  TriggerEvent: 0
-  Value: 1
 --- !u!114 &784728142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,7 +223,7 @@ MonoBehaviour:
       Data4: 922861512
     Path: event:/MusicSwitches
   Event: 
-  PlayEvent: 0
+  PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -359,6 +342,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: songNames.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: Background.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -386,6 +373,22 @@ PrefabInstance:
       propertyPath: Positions.Array.data[4]
       value: 
       objectReference: {fileID: 8181470779751480793}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: songNames.Array.data[0]
+      value: Jazzy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: songNames.Array.data[1]
+      value: SpookyTime
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: songNames.Array.data[2]
+      value: Walk
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: songNames.Array.data[3]
+      value: Silence
+      objectReference: {fileID: 0}
     - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: Background.Array.data[0]
       value: Test1
