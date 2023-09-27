@@ -76,9 +76,11 @@ public partial class GameManager
         if (!trip)
         {
             UnityEngine.Debug.LogWarning("Hey, that picture doesn't exist.  We'll use a placeholder.");
-            target.sprite = DebugCharacter.Neutral;
+            target.sprite = DebugCharacter.Neutral; // Will break, needs to be changed to new system
         }
 
+        // WE NEED TO CHECK AND SEE WHICH CHARACTERS ARE WHERE, AND IF FOLKS ARE TRYING TO MOVE 
+        // OR STAND ON EACH OTHER.
 
         /* CharacterSO characterHolder = GetCharacterSO(characterName);
        
