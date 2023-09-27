@@ -298,7 +298,7 @@ Phoebe: "Oh Ursy... YOU SHOULD HAVE SAID SO BEFORE!"#line:406
 <<Place ThruLine Ursula Neutral Left>>
 Ursula: "...?"
 <<Place ThruLine Phoebe Buff FarLeft>>
-<<Place ThruLine Bayley Neutral Right>
+<<Place ThruLine Bayley Neutral Right>>
 <<Place ThruLine Casey Neutral FarRight>>>
 Phoebe: "COME ON, I'LL TAKE YOU TO THE GYM, YOU'LL BE SO RIPPED YOU'LL PUNCH EVERY DUMB VAMPIRE HERE TO THE MOON AND BACK!"#line:407
 <<Place ThruLine Ursula Angry Left>>
