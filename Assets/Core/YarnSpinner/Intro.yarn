@@ -280,7 +280,7 @@ Phoebe: "What's that about my eye?" She says, peeking into the screen
 Casey: "I'll say you said that"
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "YES! Now get ready, we have class in like an hour!"
-<<Place ThruLine Casey OMG Left>>
+<<Place ThruLine Casey Shocked Left>>
 Casey: "Wait what? Wasn't it saturday?"
 <<Place ThruLine Phoebe Sass Right>>
 Phoebe: "No Casey, it's wednesday!"
