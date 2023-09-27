@@ -21,7 +21,6 @@ Casey: "Really?"
 Bayley: "Really! It helps me think"
 <<Place ThruLine Casey Neutral Left>>
 Casey: "Got a lot to think about?"
-<<>>
 <<Place ThruLine Bayley Thinking Right>>
 Bayley: "Yeah…"
 -> What's on your mind?
