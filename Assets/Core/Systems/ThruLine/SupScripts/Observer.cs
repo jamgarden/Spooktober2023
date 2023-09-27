@@ -6,6 +6,14 @@ using FMODUnity;
 using FMOD;
 using FMOD.Studio;
 
+[System.Serializable]
+public class CharacterFrame 
+{
+    public string Emotion;
+    public Sprite Picture;
+
+}
+
 public partial class GameManager 
 {
     // This is the Observer
@@ -19,10 +27,60 @@ public partial class GameManager
 
 
     [YarnCommand("Place")]
-    public void Place_Event(string characterName = "TestDude", string position = "Left", bool flip = false)
+    public void Place_Event(string characterName = "TestDude", string emotion = "Neutral", string position = "Left")
     {
-        
-        CharacterSO characterHolder = GetCharacterSO(characterName);
+        if(characterName == "Nobody")
+        {
+            // This is our flag to clear the screen;
+            ClearStageAll_Emit();
+            return;
+        }
+        SpriteRenderer target = null;
+        foreach(SpriteRenderer spriteRend in Positions)
+        {
+            if(spriteRend.name == position)
+            {
+                // if the position is found, 
+                target = spriteRend;
+            }
+        }
+        if(target == null)
+        {
+            UnityEngine.Debug.LogError("That position wasn't found.");
+            return;
+        }
+        //So, we have the position.  We can swap that out pretty easy.
+        CharacterSO chosenChara = null;
+        foreach(CharacterSO character in CastOfCharacters)
+        {
+            if(character.Name == characterName)
+            {
+                chosenChara = character;
+            }
+        }
+        if(chosenChara == null)
+        {
+            UnityEngine.Debug.LogError("That character was NOT found, character name: " + characterName);
+            return;
+        }
+        // now we have a position and character.  Let's parse the emotion;
+        bool trip = false;
+        foreach(CharacterFrame frame in chosenChara.CharacterFrames)
+        {
+            if(frame.Emotion == emotion)
+            {
+                target.sprite = frame.Picture;
+                trip = true;
+            }
+        }
+        if (!trip)
+        {
+            UnityEngine.Debug.LogWarning("Hey, that picture doesn't exist.  We'll use a placeholder.");
+            target.sprite = DebugCharacter.Neutral;
+        }
+
+
+        /* CharacterSO characterHolder = GetCharacterSO(characterName);
        
         foreach(CharacterSO character in StagedCharacters)
         {
@@ -40,7 +98,9 @@ public partial class GameManager
 
         // And let's call our Director from here:
         Place_Emit(characterHolder, position);
-        return;
+        return; */
+        // We have some serious work to do.
+
     }
 
     [YarnCommand("Clear")]
@@ -76,7 +136,7 @@ public partial class GameManager
     [YarnCommand("shiftmusic")]
     public void ShiftMusic(int val = 0)
     {
-        
+        // This needs to be moved to the director!
         FMODUnity.RuntimeManager.StudioSystem.setParameterByNameWithLabel("MusicSwitch", songNames[val]);
     }
 }
