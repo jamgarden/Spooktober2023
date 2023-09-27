@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
+using FMODUnity;
+using FMOD;
+using FMOD.Studio;
 
 public partial class GameManager 
 {
@@ -25,7 +28,7 @@ public partial class GameManager
         {
             if(character.Name == characterHolder.Name)
             {
-                Debug.Log("They're already up here!");
+                UnityEngine.Debug.Log("They're already up here!");
                 // fire off move event
                 MoveCharacter_Emit(character, getStagePos(position));
                 return;
@@ -68,5 +71,12 @@ public partial class GameManager
     {
 
         // This fires when we request locations.
+    }
+
+    [YarnCommand("shiftmusic")]
+    public void ShiftMusic(int val = 0)
+    {
+        
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByNameWithLabel("MusicSwitch", songNames[val]);
     }
 }
