@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Siegfried_OnionMouthOpen
+      name: Siegfried_Garlic
       rect:
         serializedVersion: 2
         x: 4160
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Siegfried_OnionMouthClosed
+      name: Siegfried_Garlic2
       rect:
         serializedVersion: 2
         x: 5200
@@ -290,10 +290,10 @@ TextureImporter:
     nameFileIdTable:
       Siegfried_Angry: 1590019965
       Siegfried_Furious: 578733803
+      Siegfried_Garlic: -857155947
+      Siegfried_Garlic2: 1498913424
       Siegfried_Happy: -1843528155
       Siegfried_Neutral: 48318962
-      Siegfried_OnionMouthClosed: 1498913424
-      Siegfried_OnionMouthOpen: -857155947
       Siegfried_Sad: 1766978534
       Siegfried_Scared: -1487347685
   mipmapLimitGroupName: 
