@@ -23,7 +23,7 @@ tags:
 <<declare $AllQuests5 = false as bool>>
 <<declare $AllQuests6 = false as bool>>
 <<shiftmusic ThruLine 1>>
- <<Travel ThruLine CorridorWest>>
+<<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"#line:001
 <<Place ThruLine Casey Neutral Center>>
@@ -115,9 +115,10 @@ Phoebe: "EVEN BETTER!!!"#line:029
 // <<fade to black, running sounds>>
 // <<fade into messhall, put bayley sad in it>>
 <<Travel ThruLine Messhall>>
+<<Place ThruLine Bayley Neutral Center>>
 Phoebe: "HEY BAYLEY!"#line:030
 // <<regular bayley now>>
-<<Place ThruLine Bayley Neutral Center>>
+<<Place ThruLine Bayley Happy Center>>
 Bayley: "Oh, hey Pheebs! Casey! What are you doing with that camera?"#line:031
 <<Place ThruLine Bayley Neutral Left>>
 <<Place ThruLine Casey Neutral Right>>
@@ -133,8 +134,10 @@ Phoebe: "HE'S PUTTING IT MILDLY GUYS, HE'S OUR SOCCER TEAM STAR!!!"#line:037
 <<Place ThruLine Bayley Blush Left>>
 Bayley: "Oh, no, not that much!"#line:038
 Phoebe: "DON'T BE HUMBLE!!! PEOPLE LIKE COCKY ROCKSTARS, OR SHOULD I SAY, SOCCER STARS?"#line:039
+<<Place ThruLine Casey Happy Right>>
 Casey: "Yeah man, didn't you make it as MVP last tournament?"#line:040
 <<Place ThruLine Bayley Sad Left>>
+<<Place ThruLine Casey Neutral Right>>
 Bayley: "Yeah... but we lost anyway..."#line:041
 Phoebe: "I'm sure you'll get it next year!"
 <<Place ThruLine Casey Angry Right>>
@@ -149,15 +152,16 @@ Casey: "Aw come on, just one!!!"
 <<Place ThruLine Bayley Happy Left>>
 Bayley: "Alright, here it goes.............."#line:043
 <<Place ThruLine Bayley Bark Left>>
-<<Place ThruLine Casey Shocked Right>>
+<<Place ThruLine Casey Shocked FarRight>>
 Bayley: "AAAAAWOOOOOOOOOOOOOOOOO"#line:044
 // <<bark>>
 Phoebe: "WOW, THE VIEWERS JUST WENT EVEN HIGHER!!!"#line:045
 Casey: "Holy May!"
 <<Place ThruLine Bayley Happy Left>>
-<<Place ThruLine Casey Neutral Right>>
+<<Place ThruLine Casey Neutral FarRight>>
 Bayley: "Oh? Let me see let me see!!!"
 // <<Siegfried joins>>
+
 <<Place ThruLine Bayley Neutral Right>>
 <<Place ThruLine Casey Neutral FarRight>>
 <<Place ThruLine Siegfried Neutral FarLeft>>
@@ -174,12 +178,13 @@ Bayley: "Hey don't push it, you twat!"#line:049
 <<Place ThruLine Bayley Neutral Right>>
 <<Place ThruLine Casey Neutral FarRight>>
 Gee: "What's with the ruckus you lot? Are we fighting each other again?"#line:050
+
 <<Place ThruLine Casey Happy Right>>
 <<Place ThruLine Bayley Neutral FarRight>>
 Casey: "Oh, hey Gee!"
-// <<blushed bayley>>
 <<Place ThruLine Bayley Blush FarRight>>
 Bayley: "Oh... hehe... hi Gee..."#line:051
+<<Place ThruLine Casey Angry Right>>
 Phoebe: "OH! THE COMMENTS ARE SAYING THAT..."#line:052
 //<<camera moving sounds again>>
 <<Place ThruLine Nobody>>
@@ -191,8 +196,9 @@ Casey finally snatches the camera out of Phoebe's hand and shuts her up
 Casey: "So, Sieg, Gee, what do you do in Freakaversity?"
 <<Place ThruLine Siegfried Angry Center>>
 Siegfried: "I listen to idiotic freaks every single day"#line:053
-// <<Siegfried takes off>>
 <<Place ThruLine Nobody Left>>
+<<Place ThruLine Bayley Neutral Right>>
+<<Place ThruLine Phoebe Neutral FarRight>>
 <<Place ThruLine Gee Happy Left>>
 Gee: "Oh oh, you know, the usual! I eat veincorice, go to my classes, hang out with the edgy vampire and my bro... Study to become a..."#line:054
 <<Place ThruLine Gee Neutral Left>>
