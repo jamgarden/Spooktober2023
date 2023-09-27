@@ -2,88 +2,141 @@
 tags:
 ---
 <<Travel ThruLine Classroom>>
+<<Place ThruLine Gee Neutral Left>>
 Seems like the place is empty... too many humans around to focus, maybe?
 However, true to her word, there's Gee, studying in one of the tables.
 -> Go back to the corridor
     <<jump Conmutator>>
 -> Say Hi
+<<Place ThruLine Gee Neutral Left>>
+<<Place ThruLine Casey Neutral Right>>
 Casey: "Hey Gee!"
+<<Place ThruLine Gee Happy Left>>
 Gee: "Oh, it's you halfie!"#line:535
 -> "Excuse me?"
+    <<Place ThruLine Gee Neutral Left>>
     Gee: "Come on, you know I'm joking. Sit down"
     Casey: "So, how's it going?"
 -> "Haha how you doing?"
+<<Place ThruLine Gee Angry Left>>
 Gee: "Could *bee* better."#line:536
-Casey: "Huh? What you mean?"
+<<Place ThruLine Casey Angry Right>>
+Casey: "Huh? What do you mean?"
+<<Place ThruLine Gee Sad Left>>
 Gee: "I'm studying for my finals, yet Bee is nowhere to be seen"#line:537
+<<Place ThruLine Casey Sad Right>>
 Casey: "And he should?"
+<<Place ThruLine Gee Angry Left>>
 Gee: "YES, HE SHOULD. He promised to help me study this!"#line:538
--> "Well but what does he know about your career?"
+-> "Well, what does he know about your career?"
+    <<Place ThruLine Gee Neutral Left>>
     Gee: "It's Bee, he knows everything about everything!"
--> "Damn Bee, allways dispersing himself"
+-> "Damn Bee, always dispersing himself"
+    <<Place ThruLine Gee Sad Left>>
     Gee: "No, it's even worse now."
 -> "I mean, you should study by yourself"
     A pencil sharpener flies straight to your forehead.
     Damn, it hurt a lot, but you feel like you deserved it.
+<<Place ThruLine Gee Angry Left>>
 Gee: "Problem here is... the humans are keeping him busy"
+<<Place ThruLine Casey Shocked Right>>
 Casey: "What?!"
 Gee: "YES! They have him TRAPPED"#line:539
 Casey: "Oh my god, we have to do something!"
+<<Place ThruLine Gee Sad Left>>
 Gee: "We can't..."
+<<Place ThruLine Casey Sad Right>>
 Casey: "What you mean?"
+<<Place ThruLine Gee Thinks Left>>
 Gee: "He's... uhm... their leader..."#line:540
+<<Place ThruLine Casey Shocked Right>>
 -> "Their what?"
+    <<Place ThruLine Gee Angry Left>>
     Gee: "Their leader, you deaf dumbass!"
+    <<Place ThruLine Casey Tired Right>>
     Casey: "That hardly explains anything..."
+    <<Place ThruLine Gee Sad Left>>
     Gee: She groans... but doesn't argue your logic
 -> "Didn't you said they trapped him?"
+    <<Place ThruLine Gee Angry Left>>
     Gee: "Yes, and made him their leader!"
+    <<Place ThruLine Casey Tired Right>>
     Casey: "How does that even... work?!"
+<<Place ThruLine Gee Angry Left>>
+<<Place ThruLine Casey Neutral Right>>
 Gee: "Look, this happened before."#line:541
+<<Place ThruLine Gee Neutral Left>>
 Gee: "One time, we went to Greece on vacations, right?"#line:542
+<<Place Thruline Casey Happy Right>>
 Casey: "Right"
+<<Place ThruLine Casey Neutral Right>>
 Gee: "And Bee... well you know him, he likes to smoke stuff"#line:543
+<<Place ThruLine Gee Thinks Left>>
 Gee: "So... he saw this plant over there... they call it Oregano"#line:544
 -> "That stuff you throw on food?"
+    <<Place ThruLine Gee Neutral Left>>
     Gee: "Yeah..."
 -> "What's that?"
+    <<Place ThruLine Gee Neutral Left>>
     Gee: "A plant you use to like, throw over the food"
 -> "Did he... smoke... Oregano?"
+    <<Place ThruLine Gee Angry Left>>
     Gee: "Don't skip the story!"
+<<Place ThruLine Gee Neutral Left>>
 Gee: "But yes... in short, he began to smoke it"#line:545
+<<Place ThruLine Gee Thinks Left>>
+<<Place ThruLine Casey Sad Right>>
 Gee: "And other tourists were like... so interested in that"#line:546
 -> "Gee... did your brother raised a cult on Oregano?"
+    <<Place ThruLine Gee Sad Left>>
     Gee: "Well... yes"
 -> "Gee... did your brother began dealing Oregano?"
+    <<Place ThruLine Gee Angry Left>>
     Gee: "No! Worse..."
 -> "What the actual freak?"
+    <<Place ThruLine Gee Sad Left>>
     Gee: "In short..."
+<<Place ThruLine Gee Neutral Left>>
 Gee: "He raised a cult on Oregano..."#line:547
+<<Place ThruLine Casey Shocked Right>>
 Casey: "HOW IS THAT EVEN POSSIBLE?"#line:548
+<<Place ThruLine Gee Angry Left>>
 Gee: "IT'S THE WAY HE TALKS! HE'S ALL LIKE, PHILOSOPHER STYLE"#line:549
 Gee: "YOU KNOW, HE'S LIKE DIOGENES, ALL WEIRD BUT WISE???"#line:550
 Casey: "HOW CAN HE BE A GREEK PHILOSOPHER PROFECING ON OREGANO?"#line:551
 Gee: "I. DON'T. KNOW."#line:552
 Gee breaks a pencil while saying so
 Gee: "All I know, is that no one's helping me with my test"
+<<Place ThruLine Gee Sad Left>>
+<<Place ThruLine Casey Sad Right>>
 Gee: "And heck, I'm so stressed on this I can't even prank those dummy humans."
-Gee: "No offense meant"
+Gee: "No offense..."
+<<Place ThruLine Casey Neutral Right>>
 Casey: "None taken. So... do you want me to talk with Bee?"#line:553
+<<Place ThruLine Gee Neutral Left>>
 Gee: "Nah, that won't work"
 Casey: "How so?"
+<<Place ThruLine Gee Sad Left>>
 Gee: "He's not aware... that he has a cult. He just think, they are his friends"#line:554
+<<Place ThruLine Casey Tired Right>>
 Casey: "Oh, I see..."
+<<Place ThruLine Gee Thinks Left>>
 Gee: "But, if we could scare those humans out for good.."
+<Place ThruLine Gee Happy Left>>
 Gee: "That did the trick last time!"
+<<Place ThruLine Casey Happy Right>>
 Casey: "Spooking some humans? Count us in!"
-Gee: "Allright, bring Phoebe to the Couryard, and we'll set an ambush on those stoners!"
+Gee: "Alright, bring Phoebe to the Couryard, and we'll set an ambush on those stoners!"
 Casey: "You got it!"
+<<Place ThruLine Gee Thinks Left>>
+<<Place ThruLine Casey Neutral Right>>
 Gee: "Oh, by the way, did May ask you to go to her office?"
 Casey: "Yeah, why?"
 Gee: "She's never in her office, but when she is, you can hear her from all sorrounding areas"
 <<set $Intervention to false>>
 <<set $GeeExplained to true>>
 Casey: "How so?"
+<<Place ThruLine Gee Happy Left>>
 Gee: "Haha, you'll see!"
 Allright... so where to now?
 <<jump Conmutator>>
