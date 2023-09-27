@@ -79,6 +79,13 @@ public partial class GameManager
     public void ClearPosition_Emit(string position)
     {
         bool found = false;
+        foreach(SpriteRenderer rend in Positions)
+        {
+            if(rend.gameObject.name == position)
+            {
+                rend.sprite = null;
+            }
+        }
         /*
         foreach(Image pos in Positions)
         {

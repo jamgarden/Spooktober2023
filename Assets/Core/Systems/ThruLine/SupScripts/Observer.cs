@@ -71,6 +71,7 @@ public partial class GameManager
             {
                 target.sprite = frame.Picture;
                 trip = true;
+                
             }
         }
         if (!trip)
@@ -81,6 +82,34 @@ public partial class GameManager
 
         // WE NEED TO CHECK AND SEE WHICH CHARACTERS ARE WHERE, AND IF FOLKS ARE TRYING TO MOVE 
         // OR STAND ON EACH OTHER.
+
+        // First, let's check our staged character
+        bool staged = false;
+        foreach(CharacterSO chara in StagedCharacters)
+        {
+            if(chara.Name == characterName)
+            {
+                UnityEngine.Debug.Log("character found in lineup");
+                staged = true;
+            }
+        }
+        if (staged)
+        {
+            if(chosenChara.Position == position)
+            {
+                goto TesterX;
+            }
+            // do what needs to happen if the chara is staged
+            // First, find the listed position, and clear it
+            ClearPosition_Emit(chosenChara.Position); // clears just the spot currently inhabited.
+        TesterX:
+            UnityEngine.Debug.Log("Already found our guy and on the same position, no need to erase.");
+        }
+        else
+        {
+            StagedCharacters.Add(chosenChara);
+        }
+        chosenChara.Position = position;
 
         /* CharacterSO characterHolder = GetCharacterSO(characterName);
        
