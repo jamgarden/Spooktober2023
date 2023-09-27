@@ -13,7 +13,18 @@ MonoBehaviour:
   m_Name: Bee
   m_EditorClassIdentifier: 
   Name: Bee
-  Position: 
+  Position: Center
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: 1386019407, guid: 5296ed16a9581fe44a20360d2bad61b0, type: 3}
+  - Emotion: Sad
+    Picture: {fileID: 591229200, guid: 5296ed16a9581fe44a20360d2bad61b0, type: 3}
+  - Emotion: Happy
+    Picture: {fileID: -1813996421, guid: 5296ed16a9581fe44a20360d2bad61b0, type: 3}
+  - Emotion: Angry
+    Picture: {fileID: -1954980444, guid: 5296ed16a9581fe44a20360d2bad61b0, type: 3}
+  - Emotion: Think
+    Picture: {fileID: -109242064, guid: 5296ed16a9581fe44a20360d2bad61b0, type: 3}
   Neutral: {fileID: 1386019407, guid: 5296ed16a9581fe44a20360d2bad61b0, type: 3}
   Sad: {fileID: 591229200, guid: 5296ed16a9581fe44a20360d2bad61b0, type: 3}
   Happy: {fileID: -1813996421, guid: 5296ed16a9581fe44a20360d2bad61b0, type: 3}

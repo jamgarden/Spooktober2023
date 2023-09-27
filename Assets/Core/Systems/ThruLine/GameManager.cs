@@ -73,7 +73,10 @@ public partial class GameManager : MonoBehaviour
         Debug.Log(currentLocale.BGList[0].name);
         // We need to have a savegame.json file with 3 slots on it. 
         // This is where we should read that.  
-
+        foreach(CharacterSO chara in CastOfCharacters)
+        {
+            chara.Position = "";
+        }
     }
 
 

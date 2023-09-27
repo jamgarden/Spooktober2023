@@ -63,6 +63,14 @@ public partial class GameManager
 
     public void ClearStageAll_Emit()
     {
+        foreach(CharacterSO chara in StagedCharacters)
+        {
+            chara.Position = "";
+        }
+        foreach(SpriteRenderer rend in Positions)
+        {
+            rend.sprite = null;
+        }
         /*
         foreach(Image position in Positions)
         {
@@ -85,6 +93,18 @@ public partial class GameManager
             {
                 rend.sprite = null;
             }
+        }
+        CharacterSO chosenChara = null;
+        foreach(CharacterSO chara in StagedCharacters)
+        {
+            if(chara.Position == position)
+            {
+                chara.Position = "";
+            }
+        }
+        if(chosenChara != null)
+        {
+            StagedCharacters.Remove(chosenChara);
         }
         /*
         foreach(Image pos in Positions)

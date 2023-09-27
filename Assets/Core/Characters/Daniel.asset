@@ -14,6 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Daniel
   Position: 
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: -501890247, guid: 7a1ba489c821c41b9a43e3c43c6edc14, type: 3}
+  - Emotion: Happy
+    Picture: {fileID: -422540775, guid: 7a1ba489c821c41b9a43e3c43c6edc14, type: 3}
+  - Emotion: Angry
+    Picture: {fileID: -1711163116, guid: 7a1ba489c821c41b9a43e3c43c6edc14, type: 3}
   Neutral: {fileID: -501890247, guid: 7a1ba489c821c41b9a43e3c43c6edc14, type: 3}
   Sad: {fileID: 0}
   Happy: {fileID: -422540775, guid: 7a1ba489c821c41b9a43e3c43c6edc14, type: 3}

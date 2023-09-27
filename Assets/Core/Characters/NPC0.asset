@@ -14,6 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: NPC0
   Position: 
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: 1787757313, guid: f17e4e8cb3fc84692ad47d1f58479b1a, type: 3}
   Neutral: {fileID: 1787757313, guid: f17e4e8cb3fc84692ad47d1f58479b1a, type: 3}
   Sad: {fileID: 0}
   Happy: {fileID: 0}
