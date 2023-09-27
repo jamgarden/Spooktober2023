@@ -13,7 +13,18 @@ MonoBehaviour:
   m_Name: Gee
   m_EditorClassIdentifier: 
   Name: Gee
-  Position: 
+  Position: Right
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: -1248404446, guid: 58626884b7c463e469a5d598650e6363, type: 3}
+  - Emotion: Sad
+    Picture: {fileID: -350321234, guid: 58626884b7c463e469a5d598650e6363, type: 3}
+  - Emotion: Happy
+    Picture: {fileID: 258657876, guid: 58626884b7c463e469a5d598650e6363, type: 3}
+  - Emotion: Angry
+    Picture: {fileID: 559559991, guid: 58626884b7c463e469a5d598650e6363, type: 3}
+  - Emotion: Thinks
+    Picture: {fileID: -1660877743, guid: 58626884b7c463e469a5d598650e6363, type: 3}
   Neutral: {fileID: -1248404446, guid: 58626884b7c463e469a5d598650e6363, type: 3}
   Sad: {fileID: -350321234, guid: 58626884b7c463e469a5d598650e6363, type: 3}
   Happy: {fileID: 258657876, guid: 58626884b7c463e469a5d598650e6363, type: 3}

@@ -14,6 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Ursula
   Position: 
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: -65725054, guid: 0af0d75316a834646b0adc8945060805, type: 3}
+  - Emotion: Sad
+    Picture: {fileID: -983015646, guid: 0af0d75316a834646b0adc8945060805, type: 3}
+  - Emotion: Happy
+    Picture: {fileID: 551997035, guid: 0af0d75316a834646b0adc8945060805, type: 3}
+  - Emotion: Angry
+    Picture: {fileID: 1036310305, guid: 0af0d75316a834646b0adc8945060805, type: 3}
   Neutral: {fileID: -65725054, guid: 0af0d75316a834646b0adc8945060805, type: 3}
   Sad: {fileID: -983015646, guid: 0af0d75316a834646b0adc8945060805, type: 3}
   Happy: {fileID: 551997035, guid: 0af0d75316a834646b0adc8945060805, type: 3}

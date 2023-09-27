@@ -77,6 +77,7 @@ public partial class GameManager
         if (!trip)
         {
             UnityEngine.Debug.LogWarning("Hey, that picture doesn't exist.  We'll use a placeholder.");
+            UnityEngine.Debug.LogWarning("The requested emotion was: " + emotion);
             target.sprite = DebugCharacter.Neutral; // Will break, needs to be changed to new system
         }
 

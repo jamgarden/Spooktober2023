@@ -13,7 +13,24 @@ MonoBehaviour:
   m_Name: Siegfried
   m_EditorClassIdentifier: 
   Name: Siegfried
-  Position: 
+  Position: Center
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: 0}
+  - Emotion: Sad
+    Picture: {fileID: 0}
+  - Emotion: Happy
+    Picture: {fileID: 0}
+  - Emotion: Angry
+    Picture: {fileID: 0}
+  - Emotion: OnionMouthOpen
+    Picture: {fileID: -857155947, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
+  - Emotion: OnionMouthClosed
+    Picture: {fileID: 1498913424, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
+  - Emotion: Furious
+    Picture: {fileID: 578733803, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
+  - Emotion: Scared
+    Picture: {fileID: -1487347685, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
   Neutral: {fileID: 48318962, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
   Sad: {fileID: 1766978534, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
   Happy: {fileID: -1843528155, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}

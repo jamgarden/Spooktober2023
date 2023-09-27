@@ -13,7 +13,16 @@ MonoBehaviour:
   m_Name: Principal
   m_EditorClassIdentifier: 
   Name: Principal
-  Position: Left
+  Position: Center
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: 833833313, guid: 866acc85dfcc3c048ad32724814db4d8, type: 3}
+  - Emotion: Sad
+    Picture: {fileID: 2068919468, guid: 866acc85dfcc3c048ad32724814db4d8, type: 3}
+  - Emotion: Happy
+    Picture: {fileID: 1737171062, guid: 866acc85dfcc3c048ad32724814db4d8, type: 3}
+  - Emotion: Angry
+    Picture: {fileID: -38786034, guid: 866acc85dfcc3c048ad32724814db4d8, type: 3}
   Neutral: {fileID: 833833313, guid: 866acc85dfcc3c048ad32724814db4d8, type: 3}
   Sad: {fileID: 2068919468, guid: 866acc85dfcc3c048ad32724814db4d8, type: 3}
   Happy: {fileID: 1737171062, guid: 866acc85dfcc3c048ad32724814db4d8, type: 3}

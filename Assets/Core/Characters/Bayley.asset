@@ -14,6 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Bayley
   Position: Left
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: 1536241626, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
+  - Emotion: Happy
+    Picture: {fileID: -1816137071, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
+  - Emotion: Sad
+    Picture: {fileID: -1175882541, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
+  - Emotion: Think
+    Picture: {fileID: 567470123, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
+  - Emotion: Bark
+    Picture: {fileID: -1133396930, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
+  - Emotion: Angry
+    Picture: {fileID: 1751888830, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
+  - Emotion: Blush
+    Picture: {fileID: 1450269143, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
   Neutral: {fileID: 1536241626, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
   Sad: {fileID: -1175882541, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}
   Happy: {fileID: -1816137071, guid: 2663d7abcb2ea464d9f13822e46ed87d, type: 3}

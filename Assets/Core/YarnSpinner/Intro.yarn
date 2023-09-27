@@ -99,8 +99,8 @@ Phoebe: "OMG OMG OMG!!!!"#line:014a
 Casey: "Uhm, Phoebe, give me that!"
 Phoebe: "Why hello world! Come on Casey, tell us what you wanna do!"
 Casey: "That's MY line, I'm supposed to be behind the camera!"#line:027
-Phoebe: "Come one, one more time for our new fandom!!!!"
-<<Place ThruLine Casey Special Center>>
+Phoebe: "Come on, one more time for our new fandom!!!!"
+<<Place ThruLine Casey Shocked Center>>
 Casey: "Well... guess you're right."
 <<Place ThruLine Casey Neutral Center>>
 Casey: "I got a scholarship here to Freakaversity, and I'm in my early steps studying astrophysics!"#line:028
@@ -109,11 +109,12 @@ Phoebe: "With Prof. May! How cool is that?"
 Casey: "SO, cool"
 <<Place ThruLine Casey Neutral Center>>
 Phoebe: "Alright, time to find the others!"
-<<Place ThruLine Casey Special Center>>
+<<Place ThruLine Casey Shocked Center>>
 Casey: "No wait, I didn't tell anyone else yet!!!"
 Phoebe: "EVEN BETTER!!!"#line:029
+<<Place ThruLine Nobody>>
 // <<fade to black, running sounds>>
-// <<fade into messhole, put bayley sad in it>>
+// <<fade into messhall, put bayley sad in it>>
 <<Travel ThruLine Messhall>>
 Phoebe: "HEY BAYLEY!"#line:030
 // <<regular bayley now>>
@@ -130,7 +131,7 @@ Phoebe: "SO TELL US BAYLEY, FOR CASEY'S VLOG, WHO ARE YOU AND WHAT YOU DO?"#line
 <<Place ThruLine Bayley Happy Left>>
 Bayley: "I'm Bayley, and I'm on a soccer scholarship here at Freakaversity!"#line:036
 Phoebe: "HE'S PUTTING IT MILDLY GUYS, HE'S OUR SOCCER TEAM STAR!!!"#line:037
-<<Place ThruLine Bayley Special Left>>
+<<Place ThruLine Bayley Blush Left>>
 Bayley: "Oh, no, not that much!"#line:038
 Phoebe: "DON'T BE HUMBLE!!! PEOPLE LIKE COCKY ROCKSTARS, OR SHOULD I SAY, SOCCER STARS?"#line:039
 Casey: "Yeah man, didn't you make it as MVP last tournament?"#line:040
@@ -143,13 +144,13 @@ Casey: "Yeah, they totally robbed us!"
 <<Place ThruLine Bayley Neutral Left>>
 Bayley: "I guess you're right about that, hehe..."#line:042
 Phoebe: "So why don't you show everyone one of those crazy barks of yours?!!!"
-<<Place ThruLine Bayley Special Left>>
-Bayley: "Uhm cause we're in the messhole?"
+<<Place ThruLine Bayley Think Left>>
+Bayley: "Uhm cause we're in the messhall?"
 Casey: "Aw come on, just one!!!"
 <<Place ThruLine Bayley Happy Left>>
 Bayley: "Alright, here it goes.............."#line:043
-<<Place ThruLine Bayley Special Left>>
-<<Place ThruLine Casey Special Right>>
+<<Place ThruLine Bayley Bark Left>>
+<<Place ThruLine Casey Shocked Right>>
 Bayley: "AAAAAWOOOOOOOOOOOOOOOOO"#line:044
 // <<bark>>
 Phoebe: "WOW, THE VIEWERS JUST WENT EVEN HIGHER!!!"#line:045
@@ -178,7 +179,7 @@ Gee: "What's with the ruckus you lot? Are we fighting each other again?"#line:05
 <<Place ThruLine Bayley Neutral FarRight>>
 Casey: "Oh, hey Gee!"
 // <<blushed bayley>>
-<<Place ThruLine Bayley Special FarRight>>
+<<Place ThruLine Bayley Blush FarRight>>
 Bayley: "Oh... hehe... hi Gee..."#line:051
 Phoebe: "OH! THE COMMENTS ARE SAYING THAT..."#line:052
 //<<camera moving sounds again>>
@@ -223,16 +224,16 @@ Casey: *There we go again...*#line:063
 <<Place ThruLine Gee Neutral Left>>
 <<Place ThruLine Bee Neutral FarLeft>>
 Phoebe: "So how old are you lot?"
-<<Place ThruLine Bee Special FarLeft>>
+<<Place ThruLine Bee Think FarLeft>>
 Bee: "Ah depends on the body part I guess..."#line:064
-<<Place ThruLine Gee Special Left>>
+<<Place ThruLine Gee Think Left>>
 Gee: "Yeah, I think my youngest part is my pinky toe..."#line:065
 Bee: "Yeeeah, they tend to smash into things first"#line:066
 Casey: "Yeah... they always do right?"
 Casey: "Oh wait, battery is getting low..."#line:067
 <<Place ThruLine Nobody>>
 // sound of camera shifting again
-// <<Casey up front, no one else, still in messhole>>
+// <<Casey up front, no one else, still in messhall>>
 <<Place ThruLine Casey Neutral Center>>
 Casey: "I'll show you more in my next vlog you guys, glad to see you around!"#line:068
 <<Place ThruLine Phoebe Happy Right>>
@@ -1135,7 +1136,7 @@ The principal seems to be steaming from his ears. What should you do?
     Casey: "It... it was all my fault, Principal."#line:162
     Casey: "I put everyone up to that..."#line:163
     <<Place ThruLine Siegfried Angry FarLeft>>
-    Siegfried: "Yeah sure, like if anyone listened to a squishy halfling like you."#line:164
+    Siegfried: "Yeah sure, like if anyone listened to a squiBlush halfling like you."#line:164
     <<Place ThruLine Casey Neutral Left>>
     <<Place ThruLine Siegfried Neutral FarLeft>>
     Siegfried: "All I did was my own doing."#line:165
@@ -1153,7 +1154,7 @@ The principal seems to be steaming from his ears. What should you do?
     <<Place ThruLine Principal Neutral Center>>
     <<Place ThruLine Casey Neutral Left>>
     Principal: "McTagonist is right for once."#line:171
-    Casey: "But all we did was to ensure the best posible experience!"
+    Casey: "But all we did was to ensure the best possible experience!"
     <<Place ThruLine Phoebe Sass Right>>
     Phoebe: "Yeah! That Garden NEEDED to be brought back to life!"
     <<Place ThruLine Bayley Think FarRight>>
@@ -1188,7 +1189,7 @@ The principal seems to be steaming from his ears. What should you do?
     <<Place ThruLine Principal Neutral Center>>
     <<Place ThruLine Siegfried Angry FarLeft>>
     Siegfried: "What does any of this have to do with the catacombs?"#line:159a
-    Principal: "You destroyed several chambers, what, did you thought we didn't know that's where the spiders live?"#line:160a
+    Principal: "You destroyed several chambers. What, did you think we didn't know that's where the spiders live?"#line:160a
     <<Place ThruLine Principal Angry Center>>
     Principal: "THEY ARE MONSTERS TOO, YOU PAIR OF AIRHEADS!"#line:161a
     <<Place ThruLine Casey Sad FarRight>>
@@ -1197,10 +1198,10 @@ The principal seems to be steaming from his ears. What should you do?
     <<Place ThruLine Principal Neutral Center>>
     Principal: "There's reasons people don't go there, and that's because it's *their* territory!"
     <<Place ThruLine Principal Angry Center>>
-    Principal: "Do you have any idea what it is to discuss with the Spider Queen?!!!"
+    Principal: "Do you have any idea what it's like to talk to the Spider Queen?!!!"
     Principal: "She's worse than the Borg Queen, dammit!"
 <<Place ThruLine Principal Neutral Center>>
-Principal: "So what's it gonna be this time, huh?" He picks up a punishment book
+Principal: "So what's it gonna be this time, huh?" He picks up a book of punishments.
 <<Place ThruLine Bayley Sad FarRight>>
 Bayley: "Oh man here we go again..."
 <<Place ThruLine Nobody>>
@@ -1216,7 +1217,7 @@ May: "Ah you know, just droping by, saying hello, you know, I feel like brainsto
 Principal: "Brainst... what?"#line:175
 <<Place ThruLine May Neutral Left>>
 May: "Ah you're too old for that!"#line:176
-Enought to make the principal's temper go on again
+Enough to make the principal's temper flare again
 <<Place ThruLine Principal Angry Right>>
 Principal: "YOU'RE OLDER THAN ME, YOU JUST DRANK A REJUVENATION POTION!"#line:177
 <<Place ThruLine May Happy Left>>
@@ -1263,7 +1264,7 @@ May: Whispering "Don't push it Case'"#line:186
 You shut up, wouldn't be wise to go against May's advice
 <<Place ThruLine Principal Neutral Center>>
 Principal: "Ah yes, this will be great! Go on, go Freak The Town!"#line:187
-The principal gets up and begins to urge everyone out, specially professor May.
+The principal gets up and begins to urge everyone out, especially professor May.
 //<<door slam>>
 <<jump lalala>>
 ===
