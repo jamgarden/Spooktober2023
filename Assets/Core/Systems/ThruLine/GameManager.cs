@@ -48,6 +48,9 @@ public partial class GameManager : MonoBehaviour
     [SerializeField]
     private CharacterSO DebugCharacter;
 
+    [SerializeField]
+    private List<string> songNames;
+
     // debug sound
     // debug music
     // debug voiceline?
