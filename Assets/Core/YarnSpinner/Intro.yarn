@@ -23,7 +23,7 @@ tags:
 <<declare $AllQuests5 = false as bool>>
 <<declare $AllQuests6 = false as bool>>
 <<shiftmusic ThruLine 1>>
-<<Travel ThruLine CorridorWest>>
+ <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"#line:001
 <<Place ThruLine Casey Neutral Center>>
@@ -52,7 +52,7 @@ Casey: "Yeah, you're live on BooTube Pheebs!"#line:013
 Phoebe: "OMG OMG OMG!!!!!!"#line:014
 Phoebe: "HI MOM HI DAD!!!!"#line:015
 Casey: "I don't think they're watching..."#line:016
-<<Place ThruLine Phoebe Special Center>>
+<<Place ThruLine Phoebe Sass Center>>
 Phoebe: "AW, BOOMER!"#line:017
 <<Place ThruLine Phoebe Neutral Center>>
 Casey: "So Pheebs, tell us a bit about yourself"
@@ -68,7 +68,7 @@ Phoebe: "Yes way!"
 Casey: "We'll definitely document that later. So, what are your aspirations here in Freakaversity?"
 <<Place ThruLine Phoebe Neutral Center>>
 Phoebe: "Oh oh!!!"
-<<Place ThruLine Phoebe Special Center>>
+<<Place ThruLine Phoebe Think Center>>
 Phoebe: "I want to learn enough about agronomics and farming..."#line:020
 <<Place ThruLine Phoebe Happy Center>>
 Phoebe: "To seed an entire desert!!!"#line:021

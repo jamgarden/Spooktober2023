@@ -10,6 +10,9 @@ public class CharacterSO : ScriptableObject
 
     public string Position;
 
+    [SerializeField]
+    public List<CharacterFrame> CharacterFrames;
+
     // public Sprite Portrait;
     public Sprite Neutral;
     public Sprite Sad;

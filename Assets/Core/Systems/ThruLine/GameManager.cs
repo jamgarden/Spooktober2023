@@ -32,7 +32,7 @@ public partial class GameManager : MonoBehaviour
 
     [Header("Library")]
     [SerializeField]
-    private List<Image> Positions;
+    private List<SpriteRenderer> Positions;
 
     [SerializeField]
     private List<LocaleSO> LocaleList;
@@ -97,7 +97,7 @@ public partial class GameManager : MonoBehaviour
 
         // Set the current node for the dialogue system, and start
         dialogueRunner.StartDialogue("Intro");
-        Debug.Log(currentLocale.Name, Stage.GetComponentInChildren<Image>().gameObject);
+        Debug.Log(currentLocale.Name, Stage.GetComponentInChildren<SpriteRenderer>().gameObject);
     }
 
 
