@@ -81,6 +81,7 @@ Casey: "You got it!"
 Gee: "Oh, by the way, did May ask you to go to her office?"
 Casey: "Yeah, why?"
 Gee: "She's never in her office, but when she is, you can hear her from all sorrounding areas"
+<<set $Intervention to false>>
 <<set $GeeExplained to true>>
 Casey: "How so?"
 Gee: "Haha, you'll see!"

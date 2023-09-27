@@ -200,6 +200,7 @@ Gee begins to laugh very cutely
 Bayley: "Come on, I might be a bit dumb, but I'm sure I can help you study at least a bit!"#line:603
 Gee: "...allright...maybe... hehe"#line:604
 <<set $GeeQuestDone to true>>
+<<set $AllQuests3 to true>>
 //fade to black
 //fade back in
 <<Travel ThruLine WestCorridor>>

@@ -2,6 +2,7 @@
 tags:
 ---
 <<Travel ThruLine Messhall>>
+<<set $VisitedDorm1 to false>>
 The place was so just so full of humans. This was an odd sight.
 Despite living as a human almost all your life, you had grown accustomed to living as a monster
 You've been sorrounded by them for so long... now, humans look odd to you
@@ -11,7 +12,10 @@ Casey: "Alright, Bayley said he would be here..."
 Bayley: "Hey Case'!"
 Casey: "Sup Bayls!"
 Bayley: "Nothing, you know, just eating!"
-Casey: "Man, this place is so packed now, and everyone's so angry"
+Casey: "Oh, cool! Hey, drop by later by our dorm"
+Casey: "Phoebe's mom sent cake again!"
+Bayley: "HOLLY MOLLY! I'll be there!"
+Casey: "Cool! So man, this place is so packed, and everyone's so angry"
 Bayley: "Yeah..."
 Casey: "Like for real, they don't even have a reason to be so mad"
 Siegfried: "They do"
@@ -150,6 +154,8 @@ Siegfried: "I HAVE TO SCARE THE SHIT OUT OF HIM!"#line:504
 Casey: "So, how do we go about it?"
 Siegfried: "I'll follow him and see where he lives. Meet me at dinner time in the north area of the castle"
 Casey: "Alrighty!"
+<<set $LetSieggyHanging to true>>
+<<set $GoAheadWithSieggy to true>>
 So... where to now?
-<<jump Conmutator>>
+<<jump ConmutatorWest>>
 ===

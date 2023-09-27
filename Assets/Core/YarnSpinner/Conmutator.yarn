@@ -1,0 +1,96 @@
+﻿title: Conmutator
+tags:
+---
+<<Travel ThruLine Courtyard>>
+-> East Corridor
+    <<if $FindUrsula is false>>
+    <<jump ConmutatorEast>>
+    <<elseif $FindUrsula is true>>
+    <<jump EastCorridorScenes>>
+    <<endif>>
+-> West Corridor
+    <<jump ConmutatorWest>>
+-> May's Lab
+    <<jump MaysLab>>
+-> North area
+    <<if $GoAheadWithSieggy is true>>
+    <<jump NorthArea>>
+    <<elseif $GoAheadWithSieggy is false>>
+    Casey: "Not much to do there..."
+    Casey: "Better check somewhere else"
+    <<jump Conmutator>>
+    <<endif>>
+===
+title: ConmutatorEast
+---
+<<Travel ThruLine CorridorEast>>
+-> Classroom
+    <<if $Intervention is false>>
+    <<Travel ThruLine Classroom>>
+    Casey: "Looks like there's nobody here..."
+    Casey: "Should check some other place for now"
+    <<jump ConmutatorEast>>
+    <<elseif $Intervention is true>>
+    <<jump Classroom>>
+    <<endif>>
+-> May's Lab
+    <<jump MaysLab>>
+-> Courtyard/Garden
+    <<if $GeeExplained is false>>
+    <<jump Conmutator>>
+    <<elseif $GeeExplained is true>>
+    <<jump Courtyard>>
+    <<elseif $GeeQuestDone and $GeeExplained is true>>
+    <<jump Conmutator>>
+    <<endif>>
+===
+title: ConmutatorWest
+---
+<<Travel ThruLine CorridorWest>>
+
+-> Messhall/Cafeteria
+    <<if $VisitedDorm1 is true>>
+    <<jump Messhall>>
+    <<elseif $VisitedDorm1 is false>>
+        <<if $NoMoreMesshall is true>>
+        <<Travel ThruLine Messhall>>
+        Casey: "I'm not quite hungry..."
+        Casey: "I should go check somewhere else"
+        <<jump ConmutatorWest>>
+        <<endif>>
+    <<jump BayleysQuest>>
+    <<elseif $NoMoreMesshall is true>>
+    <<Travel ThruLine Messhall>>
+    Casey: "I'm not quite hungry..."
+    Casey: "I should go check somewhere else"
+    <<jump ConmutatorWest>>
+    <<endif>>
+-> Dorm
+    <<if $AllQuests1 and $AllQuests2 and $AllQuests3 and $AllQuests4 is true>>
+    <<jump AlbatrosSpeech>>
+    <<elseif $AllQuests1 and $AllQuests2 and $AllQuests3 is true>>
+    <<jump Dorm3>>
+    <<elseif $FindUrsula is true>>
+    Casey: "No, gotta go find Ursula!"
+    <<jump ConmutatorWest>>
+    <<elseif $BayleyQuestDone is false>>
+    <<Travel ThruLine Dormroom>>
+    Casey: "Looks like Phoebe is at class.."
+    Casey: "Should check some other place for now"
+    <<jump ConmutatorWest>>
+    <<elseif $BayleyQuestDone is true>>
+    <<jump Dorm>>
+    <<elseif $LetSieggyHanging is true>>
+    <<jump Intervention>>
+    <<endif>>
+-> Principal's Office
+    <<jump PrincipalsOffice>>
+-> Courtyard/Garden
+    <<if $GeeExplained is false>>
+    <<jump Conmutator>>
+    <<elseif $GeeExplained is true>>
+    <<jump Courtyard>>
+    <<elseif $GeeQuestDone and $GeeExplained is true>>
+    <<jump Conmutator>>
+    <<endif>>
+===

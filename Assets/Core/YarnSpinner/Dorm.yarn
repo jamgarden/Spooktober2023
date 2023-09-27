@@ -1,6 +1,7 @@
 ﻿title: Dorm
 tags:
 ---
+<<set $VisitedDorm1 to true>>
 <<Travel ThruLine Dormroom>>
 You drop by the dorm, and Phoebe's there
 <<Place ThruLine Casey Neutral Left>>
@@ -157,7 +158,8 @@ Casey: "YEAH!"
 //fade to black
 //funny music
 //come back
-<<jump Intervention>>
+So now... where do I find Bayley?
+<<jump ConmutatorWest>>
 ===
 title: Intervention
 ---
@@ -257,7 +259,7 @@ Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
     There goes the steam out her head...
     <<Place ThruLine Casey Special Left>>
     <<Place Thruline Bayley Special FarLeft>>
-    OUT THE WINDOW SHE GOES!
+    OUT THE WINDOW SHE GOES!#line:286Effort
     Casey: "I hope she lands on..."#line:288
     KBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMM
     Casey: "I hope she's..."#line:289
@@ -328,8 +330,11 @@ Casey: "Yeah you go do that!"
 Bayley takes off running
 Casey: "Because you're the only one of us who could scare anyone!!!"
 Phoebe: "Right? So, how do we go about this?"
+<<set $Intervention to true>>
+<<set $BayleyQuestDone to false>>
+<<set $LetSieggyHanging to false>>
 Casey: "Well, we better just go talk with Gee, how hard can it be?..."
-<<jump Conmutator>>
+<<jump ConmutatorWest>>
 ===
 title: Dormnextday
 ---
@@ -339,7 +344,7 @@ However, you managed to get Sarcophachef to stop watering down everything, and g
 Maybe you should look out for Bee to get him that replacement, or seek out some other adventure.
 <<set $SarcophachefQuestDone to true>>
 So... now where?
-<<jump Conmnutator>>
+<<jump ConmnutatorWest>>
 ===
 title: Dorm3
 ---
@@ -372,9 +377,10 @@ Casey: "Then leave it to us!"
 Phoebe: "But Casey, she's very mean! She'll crush you all if you cross her!"#line:420
 Casey: "I'll go with Bayley, don't worry, I have big backup!"#line:421
 Phoebe: "Casey, don't!!!"#line:422
+<<set $FindUrsula to true>>
 You take off, disregarding Phoebe's advice!
 Now... where could you find Ursula?...
-<<jump Conmutator>>
+<<jump ConmutatorWest>>
 ===
 title: DormroomUrsy
 ---
@@ -394,6 +400,16 @@ Ursula: "Well... I used to call her Peebe because..."#line:310
 Phoebe: "AAAAAAAAAAAAAAND I think we have some important stuff to do! Come on, to the corridor everyone!"#line:311
 <<set $PhoebeQuestDone to true>>
 And Phoebe pushes everyone out...
-So, what else are you missing before Oktoberfest?...
+//fade to black
+<<Travel ThruLine Courtyard>>
+//fade back in
+You take a sit on one of the chairs. It's been a long couple of days...
+And you haven't filmed anything good yet. Heck, you haven't checked your phone in this entire time!
+And you don't feel like doing it either...
+However, the sense of dispair hasn't quite gotten away yet.
+Despite your little achievements, feels like this year, you all failed...
+And you can tell Bayley, Phoebe and the others felt the same way at some point.
+Maybe still do... so, you decide on invitating them all to the dorm tonight, before the concert.
+Maybe together... you could was away the blues!
 <<jump Conmutator>>
 ===

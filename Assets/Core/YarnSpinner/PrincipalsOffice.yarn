@@ -1,13 +1,12 @@
 ﻿title: PrincipalsOffice
 tags:
 ---
-<<Travel PrincipalsOffice>>
+<<Travel ThruLine PrincipalsOffice>>
 <<if $SarcophachefQuestDone is false>>
 You enter the Principal's office...
 Principal: "GET OUT!"
 Looks like those herbs are not kicking in yet... maybe try again later?
--> Go back
-    <<jump Conmutator>>
+<<jump ConmutatorWest>>
 <<elseif $SarcophachefQuestDone is true>>
 You enter the Principal's office...
 Principal: "Oh, come on in Casey"
@@ -32,6 +31,6 @@ Casey: "Alright, gonna take off. See you Principal"
 Principal: "See you, kid"
 You pretty much run out of the room. That was even scarier than the dropbear story!
 Now... where to?
-<<jump Conmutator>>
+<<jump ConmutatorWest>>
 <<endif>>
 ===

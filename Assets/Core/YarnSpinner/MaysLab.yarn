@@ -10,8 +10,10 @@ Casey: "Looks like she isn't around..."
     Casey: "She's never in her office, but when she is, you can hear her from every area around it..."
     <<elseif $GeeExplained is false>>
     <<endif>>
--> Go back
+-> Back to Courtyard/Garden
     <<jump Conmutator>>
+-> Back to East Corridor
+    <<jump ConmutatorEast>>
 <<elseif $MaysDoor is true>>
 The door is completely open, and you hear a voice across all the noise...
 <<endif>>

@@ -166,6 +166,8 @@ They begin to shake
 Bayley: "OH MY GOD CASEY"#line:411
 Casey: "RUN BAYLEY RUN!!!!!!!"#line:412
 KBOOOOOOOOOOOOOOOM
+<<set $AllQuests4 to true>>
+<<set $FindUrsula to false>>
 //fade to black
 //funny music in the middle
 <<jump DormroomUrsy>>
