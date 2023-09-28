@@ -29,7 +29,7 @@ Casey: "Cool! So man, this place is so packed, and everyone's so angry"
 Bayley: "Yeah..."
 <<Place ThruLine Casey Angry Right>>
 Casey: "Like for real, they don't even have a reason to be so mad"
-<<Place ThruLine Siegfried FarRight>>
+<<Place ThruLine Siegfried Neutral FarRight>>
 Siegfried: "They do"
 <<Place ThruLine Nobody>>
 <<Travel ThruLine Messhall 1>>
