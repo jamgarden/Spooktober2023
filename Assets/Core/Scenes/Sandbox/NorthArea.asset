@@ -15,8 +15,9 @@ MonoBehaviour:
   Name: NorthArea
   Section: 0
   BGList:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 31c788da4ec65894989850f419de3fcb, type: 3}
+  - {fileID: 21300000, guid: a0416bc639f84f24faef99d2cc8875f2, type: 3}
+  - {fileID: 21300000, guid: 4084b86a9194e3c449a8a797c772dec5, type: 3}
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []

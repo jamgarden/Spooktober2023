@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0fab304f5cb9694aabd9f75f0ec5aff, type: 3}
   m_Name: Crowd
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Crowd
   Position: 
-  CharacterFrames: []
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: 21300000, guid: ff588207c907345dfa44cd207d3ecefa, type: 3}
   Neutral: {fileID: 0}
   Sad: {fileID: 0}
   Happy: {fileID: 0}

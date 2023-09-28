@@ -658,10 +658,10 @@ PrefabInstance:
     - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: LocaleList.Array.data[10]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 11400000, guid: 1f64c3d58a820024baf54815f19c7da4, type: 2}
     - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: CastOfCharacters.Array.size
-      value: 16
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: CastOfCharacters.Array.data[0]
@@ -727,6 +727,26 @@ PrefabInstance:
       propertyPath: CastOfCharacters.Array.data[15]
       value: 
       objectReference: {fileID: 11400000, guid: 845b878a4d3e4cc4497f67610d4b032d, type: 2}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: CastOfCharacters.Array.data[16]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5ff2a11b185466744a25f32ef11ec155, type: 2}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: CastOfCharacters.Array.data[17]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3e0ee8e1edf88444db7d3e53e5741441, type: 2}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: CastOfCharacters.Array.data[18]
+      value: 
+      objectReference: {fileID: 11400000, guid: 13db57c50a96aa1409e384790ca12b66, type: 2}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: CastOfCharacters.Array.data[19]
+      value: 
+      objectReference: {fileID: 11400000, guid: 510b577cb8d6af7428c1a903618b05bf, type: 2}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: CastOfCharacters.Array.data[20]
+      value: 
+      objectReference: {fileID: 11400000, guid: 99ebc35dfd45a494eafc8436f00e1882, type: 2}
     - target: {fileID: 4858927719424284314, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
