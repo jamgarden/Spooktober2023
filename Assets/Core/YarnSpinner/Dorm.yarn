@@ -3,6 +3,7 @@ tags:
 ---
 <<set $VisitedDorm1 to true>>
 <<Travel ThruLine Dormroom>>
+<<Place ThruLine Phoebe Neutral Right>>
 You drop by the dorm, and Phoebe's there
 <<Place ThruLine Casey Neutral Left>>
 Casey: "Sup Pheebs"
@@ -15,14 +16,14 @@ Casey: "Oh yeah?"
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "And then... BANG! You smash them with a club!"
 -> "From... what year is that book?"
-    <<Place ThruLine Phoebe Special Right>>
+    <<Place ThruLine Phoebe Think Right>>
     Phoebe: "Oh, it's illegible... but it has like three digits..."
     Casey: "Thought so"
     <<Place ThruLine Phoebe Neutral Right>>
     Phoebe: "Oh oh! And a minus up front!"
     Casey: "Yeah let's return this to the library..."
 -> "Freak yeah!"
-    <<Place ThruLine Phoebe Special Right>>
+    <<Place ThruLine Phoebe Think Right>>
     Phoebe: "However that's super mean, so I'll just go with the other option..."
     <<Place ThruLine Casey Happy Left>>
     Casey: "Throwing them downhill?"
@@ -31,7 +32,7 @@ Phoebe: "And then... BANG! You smash them with a club!"
     <<Place ThruLine Casey Neutral Left>>
     Casey: "Uhm... we're returning this to the library"
 -> "That's... umm... wrong?"
-    <<Place ThruLine Phoebe Special Right>>
+    <<Place ThruLine Phoebe Think Right>>
     Phoebe: "Worked for... Dario the third of Persia?..."
     Casey: "I'm sure it did, let's get it to the library"
 <<Place ThruLine Phoebe Neutral Right>>
@@ -40,10 +41,10 @@ Phoebe: "Oh this? I saw it in the trashcan outside!"
 //thing falling or smashing sound
 She throws it off the window with no previous warning
 <<Place ThruLine Phoebe Neutral Right>>
-<<Place ThruLine Casey Special Left>>
+<<Place ThruLine Casey Shocked FarLeft>>
 You rush to the window, only to see it landing in the trashcan of the garden.
-Casey: "Damn that's good aim"
 <<Place ThruLine Casey Neutral Left>>
+Casey: "Damn that's good aim"
 Phoebe: "You know how it goes... why do you even need two eyes..."
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "When you can focus better with one?!"
@@ -52,13 +53,13 @@ Casey: "Well, genetics was mean to us"
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "Don't worry!!! It's easily fixed"
 -> "Wait what?"
-    <<Place ThruLine Casey Special Left>>
+    <<Place ThruLine Casey Shocked Left>>
     Too late, she's already about to...
 -> "Phoebe no!"
-    <<Place ThruLine Casey Special Left>>
+    <<Place ThruLine Casey Shocked Left>>
     Too late, she's already about to...
 -> "I really wanna see how! Get it? See haha"
-    <<Place ThruLine Casey Special Left>>
+    <<Place ThruLine Casey Shocked Left>>
     With no delay, she...
 <<Place ThruLine Casey Happy Left>>
 Snaps a pirate patch around your head!
@@ -67,18 +68,21 @@ Phoebe: "Better?"
 <<Place ThruLine Casey Neutral Left>>
 Casey: "Yeah!"
 //<<dry hit>>
+<<Place ThruLine Casey Tired Left>>
 You smash yourself against the door frame!
-<<Place ThruLine Phoebe Special Right>>
+<<Place ThruLine Phoebe Think Right>>
+<<Place ThruLine Casey Neutral Left>>
 Phoebe: "Hmm... wasn't that easy" Takes notes
 You take off the patch
 -> "You'll figure it out one day!"
     <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "Oh, thank you!!!"
 -> "You might kill me one day!"
-    <<Place ThruLine Phoebe Happy Right>>
+    <<Place ThruLine Phoebe Buff Right>>
     Phoebe: "You know it!"
-    <<Place ThruLine Casey Special Left>>
+    <<Place ThruLine Casey Shocked Left>>
     Casey: "...wait what?"
+    <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "Well, you ain't the only one who can crack a joke!"
     <<Place ThruLine Casey Happy Left>>
     Casey: "Tottaly got me there!"
@@ -90,11 +94,15 @@ You take off the patch
 <<Place ThruLine Phoebe Neutral Right>>
 <<Place ThruLine Casey Neutral Left>>
 Casey: "So I was wondering... hasn't Bayley been a bit nervous lately?"
+<<Place ThruLine Phoebe Happy Right>>
 Phoebe: "Oh I don't think so? He was perfectly fine at the Principal's office until Gee arrived!"
+<<Place ThruLine Casey Tired Left>>
 Casey: "Wait what?"
+<<Place ThruLine Phoebe Neutral Right>>
 Phoebe: "What you heard, Casester"
+<<Place ThruLine Casey Shocked Left>>
 Casey: "You do realize what that means, right?"
-<<Place ThruLine Phoebe Special Right>>
+<<Place ThruLine Phoebe Think Right>>
 Phoebe: "...should I?"
 -> "Bayley likes Gee!!!"
     <<Place ThruLine Casey Happy Left>>
@@ -107,40 +115,44 @@ Phoebe: "...should I?"
     Phoebe: "Those bastards!"
     <<Place ThruLine Casey Happy Left>>
     Casey: "Anyway, besides that, I think Bayley likes Gee!"
-<<Place ThruLine Phoebe Neutral Right>>
+<<Place ThruLine Phoebe Sass Right>>
 <<Place ThruLine Casey Neutral Left>>
 Phoebe: "That? Yeah that I know Case'. I thought you meant like, something else."
 Casey: "Like Pluto being a planet again?"
+<<Place ThruLine Phoebe Neutral Right>>
 Phoebe: "Yup"
 Casey: "So wait, why is that relevant?"
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "Because Bayley is a Libra, Casey!!!"
-<<Place ThruLine Casey Special Left>>
+<<Place ThruLine Casey Tired Left>>
 Casey: "Oh, that kind of stuff, yes"
+<<Place ThruLine Phoebe Sass Right>>
 Phoebe: "You're studying astrophysics, you should know astrology too!"
-<<Place ThruLine Casey Neutral Left>>
 Casey: "How are those even related?"
 <<Place ThruLine Phoebe Neutral Right>>
 Phoebe: "Like, in everything?"
-<<Place ThruLine Casey Special Left>>
+<<Place ThruLine Casey Angry Left>>
 Casey: "...you mean the horoscope matters in the movement of time and space?"
+<<Place ThruLine Phoebe Sass Right>>
 Phoebe: "WELL YES, we monsters actually know how to do that right, you know?"
 -> "Then I'll look forward to learning it!"
     <<Place ThruLine Casey Happy Left>>
     <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "Freak yeah!"
 -> "When the moon eclipses the sun, I'll read it"
+    <<Travel ThruLine Dormroom 1>>
     The light suddenly disapears
-    <<Place ThruLine Casey Special Left>>
+    <<Place ThruLine Casey Shocked Left>>
     Casey: "WHAT THE ACTUAL..."
-    <<Place ThruLine Phoebe Special Right>>
+    <<Place ThruLine Phoebe Think Right>>
+    <<Travel ThruLine Dormroom>>
     Phoebe: "It's just the lamp, Casey. We have to change it!"
     Casey: "Oh my... I better learn that now, before it's the sun"
 -> "Is that on the program?"
-    <<Place ThruLine Phoebe Special Right>>
+    <<Place ThruLine Phoebe Sass Right>>
     Phoebe: "Well, yeah? Duh!"
 <<Place ThruLine Casey Neutral Left>>
-<<Place ThruLine Phoebe Special Right>>
+<<Place ThruLine Phoebe Think Right>>
 Phoebe: "So in short, if pluto is relevant for humans again... that means..."
 Casey: "Yeah?..."
 <<Place ThruLine Phoebe Happy Right>>
