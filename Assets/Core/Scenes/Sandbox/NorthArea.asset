@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 613135265cab6bf4c8408300c3e76311, type: 3}
-  m_Name: Library
+  m_Name: NorthArea
   m_EditorClassIdentifier: 
-  Name: Library
+  Name: NorthArea
   Section: 0
-  BGList: []
+  BGList:
+  - {fileID: 0}
+  - {fileID: 0}
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []

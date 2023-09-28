@@ -155,6 +155,7 @@ Casey: "You mean like, set a trap for him to arrive here, and confront him so he
 <<Place ThruLine Casey Happy Left>>
 Phoebe: "SO IT'S NOT YOUR FIRST ONE, LET'S GOOOOOO!!!!!!"
 Casey: "YEAH!"
+<<Place ThruLine Nobody>>
 //fade to black
 //funny music
 //come back

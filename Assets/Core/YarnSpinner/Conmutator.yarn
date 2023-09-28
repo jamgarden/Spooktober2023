@@ -1,6 +1,7 @@
 ﻿title: Conmutator
 tags:
 ---
+<<Place ThruLine Nobody>>
 <<Travel ThruLine Courtyard>>
 -> East Corridor
     <<if $FindUrsula is false>>
@@ -23,6 +24,7 @@ tags:
 ===
 title: ConmutatorEast
 ---
+<<Place ThruLine Nobody>>
 <<Travel ThruLine CorridorEast>>
 -> Classroom
     <<if $Intervention is false>>
@@ -46,11 +48,16 @@ title: ConmutatorEast
 ===
 title: ConmutatorWest
 ---
+<<Place ThruLine Nobody>>
 <<Travel ThruLine CorridorWest>>
 
 -> Messhall/Cafeteria
     <<if $VisitedDorm1 is true>>
     <<jump Messhall>>
+    <<elseif $BayleyQuestDone is true>>
+    Casey: "I'm not quite hungry..."
+    Casey: "I should go check somewhere else"
+    <<jump ConmutatorWest>>
     <<elseif $VisitedDorm1 is false>>
         <<if $NoMoreMesshall is true>>
         <<Travel ThruLine Messhall>>
