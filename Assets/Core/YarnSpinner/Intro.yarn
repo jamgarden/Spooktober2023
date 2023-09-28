@@ -5,7 +5,7 @@ tags:
 <<declare $GeeExplained = false as bool>>
 <<declare $SarcophachefQuestDone = false as bool>>
 <<declare $GeeQuestDone = false as bool>>
-<<declare $BayleyQuestDone = true as bool>>
+<<declare $BayleyQuestDone = false as bool>>
 <<declare $PhoebeQuestDone = false as bool>>
 <<declare $MaysQuest = false as bool>>
 <<declare $VisitedDorm1 = false as bool>>
@@ -16,13 +16,13 @@ tags:
 <<declare $GoAheadWithSieggy = false as bool>>
 <<declare $DefeatTheCult = false as bool>>
 <<declare $NoMoreMesshall = false as bool>>
-<<declare $AllQuests1 = true as bool>>
+<<declare $AllQuests1 = false as bool>>
 <<declare $AllQuests2 = false as bool>>
 <<declare $AllQuests3 = false as bool>>
 <<declare $AllQuests4 = false as bool>>
 <<declare $AllQuests5 = false as bool>>
 <<declare $AllQuests6 = false as bool>>
-<<jump Messhall>>
+<<jump NorthArea>>
 <<shiftmusic ThruLine 1>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>

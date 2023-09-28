@@ -339,13 +339,15 @@ Casey: "Well, we better just go talk with Gee, how hard can it be?..."
 ===
 title: Dormnextday
 ---
+<<Travel ThruLine Dormroom>>
+<<Place ThruLine Nobody>>
 You wake up the next day, your throat all sore doed to the acid of the tomato sauce
 Not even the strongest anti-acid managed to stop it.
 However, you managed to get Sarcophachef to stop watering down everything, and got Siegfried to try out garlic willingly!
 Maybe you should look out for Bee to get him that replacement, or seek out some other adventure.
 <<set $SarcophachefQuestDone to true>>
 So... now where?
-<<jump ConmnutatorWest>>
+<<jump ConmutatorWest>>
 ===
 title: Dorm3
 ---
