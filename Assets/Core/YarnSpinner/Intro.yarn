@@ -24,7 +24,7 @@ tags:
 <<declare $AllQuests6 = false as bool>>
 
 <<declare $Princpalsquest = false as bool>>
-<<jump Dorm>>
+<<jump BayleysQuest>>
 <<shiftmusic ThruLine 1>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>

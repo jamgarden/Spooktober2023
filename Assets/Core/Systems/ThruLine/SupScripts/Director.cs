@@ -12,6 +12,7 @@ public partial class GameManager
     public void setBackDropEMIT(int index)
     {
         Debug.Log("Setting backdrop");
+
         Stage.GetComponentInChildren<SpriteRenderer>().sprite = currentLocale.BGList[index];
     }
 
@@ -66,22 +67,15 @@ public partial class GameManager
         foreach(CharacterSO chara in StagedCharacters)
         {
             chara.Position = "";
+            chara.Emotion = "";
         }
         foreach(SpriteRenderer rend in Positions)
         {
             rend.sprite = null;
         }
-        /*
-        foreach(Image position in Positions)
-        {
-            position.sprite = null;
-        }
-        foreach(CharacterSO character in StagedCharacters)
-        {
-            character.Position = null;
-        }
-        Debug.Log("Stage cleared!");
-        */
+
+        StagedCharacters = new List<CharacterSO>();
+        
     }
 
     public void ClearPosition_Emit(string position)

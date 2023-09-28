@@ -43,6 +43,7 @@ public partial class GameManager
             {
                 chara.Position = position;
                 chara.Emotion = emotion;
+                bool found = false;
                 foreach(CharacterSO stagedChara in StagedCharacters)
                 {
                     if(stagedChara.Position == position && stagedChara.Name != chara.Name)
@@ -50,9 +51,15 @@ public partial class GameManager
                         stagedChara.Position = "";
                         stagedChara.Emotion = "";
                         
+                    }else if(stagedChara.Position == position && stagedChara.Name == chara.Name)
+                    {
+                        found = true;
                     }
                 }
-                StagedCharacters.Add(chara);
+                if (!found)
+                {
+                    StagedCharacters.Add(chara);
+                }
             }
         }
 
