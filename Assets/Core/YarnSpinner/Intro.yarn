@@ -22,6 +22,7 @@ tags:
 <<declare $AllQuests4 = false as bool>>
 <<declare $AllQuests5 = false as bool>>
 <<declare $AllQuests6 = false as bool>>
+<<declare $Princpalsquest = false as bool>>
 <<jump Dorm>>
 <<shiftmusic ThruLine 1>>
 <<Travel ThruLine CorridorWest>>
