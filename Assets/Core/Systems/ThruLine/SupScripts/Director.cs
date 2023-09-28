@@ -86,26 +86,8 @@ public partial class GameManager
 
     public void ClearPosition_Emit(string position)
     {
-        bool found = false;
-        foreach(SpriteRenderer rend in Positions)
-        {
-            if(rend.gameObject.name == position)
-            {
-                rend.sprite = null;
-            }
-        }
-        CharacterSO chosenChara = null;
-        foreach(CharacterSO chara in StagedCharacters)
-        {
-            if(chara.Position == position)
-            {
-                chara.Position = "";
-            }
-        }
-        if(chosenChara != null)
-        {
-            StagedCharacters.Remove(chosenChara);
-        }
+        // bool found = false;
+        
         /*
         foreach(Image pos in Positions)
         {
@@ -160,19 +142,9 @@ public partial class GameManager
 
     // ***********************************************
 
-    private GameObject getStagePos(string position)
+    private SpriteRenderer getStagePos(string position)
     {
-        /*
-        foreach(Image pos in Positions)
-        {
-            if(pos.gameObject.name == position)
-            {
-                // this means we found it
-                return pos.gameObject;
-            }
-        }
-        Debug.LogError("Uh Oh! I couldn't find that position! The listed position is: " + position);
-        */
+        // Defunct, mark for deletion
         return null;
     }
 

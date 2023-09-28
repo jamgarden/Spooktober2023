@@ -76,6 +76,7 @@ public partial class GameManager : MonoBehaviour
         foreach(CharacterSO chara in CastOfCharacters)
         {
             chara.Position = "";
+            chara.Emotion = "";
         }
     }
 

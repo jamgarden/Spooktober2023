@@ -35,103 +35,64 @@ public partial class GameManager
             ClearStageAll_Emit();
             return;
         }
-        SpriteRenderer target = null;
-        foreach(SpriteRenderer spriteRend in Positions)
-        {
-            if(spriteRend.name == position)
-            {
-                // if the position is found, 
-                target = spriteRend;
-            }
-        }
-        if(target == null)
-        {
-            UnityEngine.Debug.LogError("That position wasn't found.");
-            return;
-        }
-        //So, we have the position.  We can swap that out pretty easy.
-        CharacterSO chosenChara = null;
-        foreach(CharacterSO character in CastOfCharacters)
-        {
-            if(character.Name == characterName)
-            {
-                chosenChara = character;
-            }
-        }
-        if(chosenChara == null)
-        {
-            UnityEngine.Debug.LogError("That character was NOT found, character name: " + characterName);
-            return;
-        }
-        // now we have a position and character.  Let's parse the emotion;
-        bool trip = false;
-        foreach(CharacterFrame frame in chosenChara.CharacterFrames)
-        {
-            if(frame.Emotion == emotion)
-            {
-                target.sprite = frame.Picture;
-                trip = true;
-                
-            }
-        }
-        if (!trip)
-        {
-            UnityEngine.Debug.LogWarning("Hey, that picture doesn't exist.  We'll use a placeholder.");
-            UnityEngine.Debug.LogWarning("The requested emotion was: " + emotion);
-            target.sprite = DebugCharacter.Neutral; // Will break, needs to be changed to new system
-        }
 
-        // WE NEED TO CHECK AND SEE WHICH CHARACTERS ARE WHERE, AND IF FOLKS ARE TRYING TO MOVE 
-        // OR STAND ON EACH OTHER.
-
-        // First, let's check our staged character
-        bool staged = false;
-        foreach(CharacterSO chara in StagedCharacters)
+        // 
+        foreach(CharacterSO chara in CastOfCharacters)
         {
             if(chara.Name == characterName)
             {
-                UnityEngine.Debug.Log("character found in lineup");
-                staged = true;
+                chara.Position = position;
+                chara.Emotion = emotion;
+                foreach(CharacterSO stagedChara in StagedCharacters)
+                {
+                    if(stagedChara.Position == position && stagedChara.Name != chara.Name)
+                    {
+                        stagedChara.Position = "";
+                        stagedChara.Emotion = "";
+                        
+                    }
+                }
+                StagedCharacters.Add(chara);
             }
         }
-        if (staged)
-        {
-            if(chosenChara.Position == position)
-            {
-                goto TesterX;
-            }
-            // do what needs to happen if the chara is staged
-            // First, find the listed position, and clear it
-            ClearPosition_Emit(chosenChara.Position); // clears just the spot currently inhabited.
-        TesterX:
-            UnityEngine.Debug.Log("Already found our guy and on the same position, no need to erase.");
-        }
-        else
-        {
-            StagedCharacters.Add(chosenChara);
-        }
-        chosenChara.Position = position;
 
-        /* CharacterSO characterHolder = GetCharacterSO(characterName);
-       
-        foreach(CharacterSO character in StagedCharacters)
+        // now sift out all staged characters with no position
+        List<CharacterSO> emptyStaged = new List<CharacterSO>();
+        foreach(CharacterSO chara in StagedCharacters)
         {
-            if(character.Name == characterHolder.Name)
+            if(chara.Position == "")
             {
-                UnityEngine.Debug.Log("They're already up here!");
-                // fire off move event
-                MoveCharacter_Emit(character, getStagePos(position));
-                return;
+                emptyStaged.Add(chara);
             }
         }
-        StagedCharacters.Add(characterHolder);
-        characterHolder.Position = position;
-        
 
-        // And let's call our Director from here:
-        Place_Emit(characterHolder, position);
-        return; */
-        // We have some serious work to do.
+        if(emptyStaged.Count > 0)
+        {
+
+            foreach (CharacterSO chara in emptyStaged)
+            {
+                StagedCharacters.Remove(chara);
+            }
+        }
+
+
+        foreach(SpriteRenderer sRender in Positions)
+        {
+            sRender.sprite = null;
+        }
+
+
+        foreach(CharacterSO chara in StagedCharacters)
+        {
+            foreach(SpriteRenderer sRender in Positions)
+            {
+                if(sRender.gameObject.name == chara.Position)
+                {
+                    sRender.sprite = chara.getFrame(chara.Emotion).Picture;
+                    break;
+                }
+            }
+        }
 
     }
 

@@ -22,11 +22,13 @@ tags:
 <<declare $AllQuests4 = false as bool>>
 <<declare $AllQuests5 = false as bool>>
 <<declare $AllQuests6 = false as bool>>
+
 <<declare $Princpalsquest = false as bool>>
 <<jump Dorm>>
 <<shiftmusic ThruLine 1>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
+<<Place ThruLine "Test string with spaces here" Happy Center>>
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"#line:001
 <<Place ThruLine Casey Neutral Center>>
 Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"#line:002
