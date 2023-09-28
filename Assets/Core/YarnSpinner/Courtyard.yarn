@@ -13,29 +13,29 @@ tags:
 title: Ambush
 ---
 <<Place ThruLine Gee Neutral Center>>
-There she was, Gee waiting behind a tree. You decide to approach
+There she was, Gee waiting behind a tree. You decide to approach.
 <<Place ThruLine Gee Neutral Right>>
 <<Place ThruLine Casey Neutral Center>>
 <<Place ThruLine Phoebe Neutral Left>>
 Gee: "Good, you're right on time."
 <<Place ThruLine Gee Angry Right>>
 <<Place ThruLine Phoebe Think Left>>
-Gee: "Listen up, this is the plan. Bee and his stoner cult are gonna pass through here at some point"
+Gee: "Listen up, this is the plan. Bee and his stoner cult are gonna pass through here at some point."
 <<Place ThruLine Gee Neutral Right>>
-Gee: "So, our task is to choose the best possible moment to scare them off"
+Gee: "So, our task is to choose the best possible moment to scare them off."
 <<Place ThruLine Gee Angry Right>>
-Gee: "There's 3 trees along here, so we can ambush them when they reach the middle"
+Gee: "There's 3 trees along here, so we can ambush them when they reach the middle."
 <<Place ThruLine Gee Neutral Right>>
 <<Place ThruLine Phoebe Neutral Left>>
-Gee: "However, our timing has to be impecable! If we scare them out of term, we'll fail!"
+Gee: "However, our timing has to be impecable! If we scare them out of synch, we'll fail!"
 <<Place ThruLine Casey Tired FarLeft>>
 Casey: "Sure just let me put the camera right her-"
 <<Place ThruLine Gee Angry Right>>
 <<Place ThruLine Casey Shocked Center>>
-Gee: "NO TIME!" She yanks you back in place
+Gee: "NO TIME!" She yanks you back in place.
 <<Place ThruLine Casey Neutral Center>>
 <<Place ThruLine Gee Neutral Right>>
-Gee: "So the one in the middle tree will call when to strike. Then we all jump at once!"
+Gee: "So the one in the middle tree will signal when to strike. Then we all jump at once!"
 Gee: "We'll approach silently from all angles, and when they least expect it..."
 <<Place ThruLine Gee SuperAngry Right>>
 Gee: "RAAAAARRRRRRRR BRAAAAIIINNNNSSSSS"#line:555
@@ -64,17 +64,17 @@ Cult: "Ohhh, and what happened then?"
 Bee: "We just sat down and talked things through, man..."#line:560
 <<Place ThruLine Bee Happy Right>>
 Bee: "You can't solve everything with brute force, you know?"#line:561
-Cult: "Oh you're so wise"
+Cult: "Oh you're so wise..."
 <<Place ThruLine Bee Neutral Right>>
 Bee: "Nah, I just like to think on how to make this a better world, you know?"#line:562
 Cult: "Spoken like a true saviour!"
 <<Place ThruLine Bee Happy Right>>
 Bee: "Hehe, if you say so! So guys, what do you want to do?"#line:563
 <<Place ThruLine Bee Neutral Right>>
-Cult: "We just want to listen to more of your stories, master"
+Cult: "We just want to listen to more of your stories, master."
 <<Place ThruLine Bee Happy Right>>
 Bee: "Oh but I'm not a master yet... haven't finished my degree!"#line:564
-Cult: "Hahahahahahaha you're so funny"
+Cult: "Hahahahahahaha you're so funny!"
 -> Call the attack
     You give the signal from the middle tree, and you all jump at once!
     <<Place ThruLine Gee SuperAngry Center>>
@@ -82,7 +82,7 @@ Cult: "Hahahahahahaha you're so funny"
     Gee: "RAAAAARRRRRRRR BRAAAAIIINNNNSSSSS"#line:555a
     Casey: "...boo!"#line:565
     Phoebe seems to far away to make it in time...
-    The crowd looks, perplexed and confused
+    The crowd looks, perplexed and confused.
     <<Place ThruLine Bee Think Right>>
     Bee: "Hey, what's going on?"#line:055a
     Gee: "Agh, do you all call that scaring?"#line:566
@@ -101,7 +101,7 @@ Bee: "Well, I'm sure that's all a lie, you know?"
 <<Place ThruLine Bee Happy Center>>
 Bee: "There's no evolutive branch of the Koala going to the carnivorous side!"#line:568
 <<Place ThruLine Bee Think Center>>
-Bee: "The closest to that is Profesor May. She's part Koala"#line:569
+Bee: "The closest to that is Profesor May. She's part Koala."#line:569
 <<Place ThruLine Bee Happy Center>>
 Bee: "And I've seen her eating meat!"#line:570
 Crowd: "Ohhhhhh!!!"
@@ -126,13 +126,13 @@ Crowd: "Ohhhhhh!!!"
 -> Wait
 <<Place ThruLine Bee Think Left>>
 <<Place ThruLine Crowd Neutral Center>>
-Bee: "Also, I'm pretty something's going on lately"
+Bee: "Also, I'm pretty something's been going on lately..."
 Crowd: "How so?"
 Bee: "Well, some of my plants are missing..."#line:572
 <<Place ThruLine Bee Neutral Left>>
 Bee: "Have any of you seen someone take them?"#line:573
-They quickly put their hands on their backs, as if hiding something
-Crowd: "No! But we'll find the thiefs, leader!"
+They quickly put their hands on their backs, as if hiding something.
+Crowd: "No! But we'll find the thieves, leader!"
 <<Place ThruLine Bee Happy Left>>
 Bee: "Haha that's Bayley, not me!"#line:574
 Bee: "I just like brainspaghetti and potions, maaan!"#line:575
@@ -156,7 +156,7 @@ Bee: "I just like brainspaghetti and potions, maaan!"#line:575
     <<Place ThruLine Gee SuperAngry Right>>
     Gee: "BOO?!!!!"#line:577
     <<Place ThruLine Bee Happy Left>>
-    Bee: "...aaaAAAA!!!" Delayed reaction#line:578
+    Bee: "...aaaAAAA!!!" Delayed reaction...#line:578
     Crowd: "Leader!!!!"
     <<jump ambushfinale>>
 -> Wait
@@ -173,7 +173,7 @@ title: ambushfinale
 <<Place ThruLine Bee Neutral Left>>
 Gee: "BOO? What do you think this is? Some 1930's horror movie?!"#line:579
 <<Place ThruLine Casey Sad FarRight>>
-Casey: "Uhmm... sorry? I never scared anyone..."
+Casey: "Uhmm... sorry? I've never scared anyone before..."
 <<Place ThruLine Gee SuperAngry Right>>
 Gee: "THEN WHY DIDN'T YOU SAY SO FIRST!!!"#line:580
 Crowd: "?????"
@@ -210,12 +210,12 @@ Phoebe: "What happened?"
 Crowd: "Yes leader, what happened?!"
 <<Place ThruLine Bee Think FarLeft>>
 Bee: "Ah, you know, she just had a reaction..."#line:584
-Bee: "To her cyclopim cells in contact with the bominin cells going out of balance"#line:585
+Bee: "To her cyclopim cells in contact with the bominin cells going out of balance."#line:585
 <<Place ThruLine Bee Happy FarLeft>>
-Bee: "Mostly doed to my sister going feral!"#line:586
+Bee: "Mostly due to my sister going feral!"#line:586
 <<Place ThruLine Bee Neutral FarLeft>>
 Crowd: "Oh, so wise!!!"
-They begin to take him away
+They begin to take him away.
 <<Place ThruLine Bee Happy FarLeft>>
 Bee: "See you guys!!!!"#line:587
 <<Place ThruLine Nobody>>
@@ -241,12 +241,12 @@ Gee: "It's fine, it's fine."#line:588
 Gee: "You know, I shouldn't have screamed at you, that was bad on my part..."#line:589
 <<Place ThruLine Gee Angry Right>>
 Gee: "I'm just, aghhhh, so frustrated!!!"#line:590
-Gee: "Ever since I began my carreer on biochemistry, Bee's allways been there for me"#line:591
+Gee: "Ever since I began my carreer on biochemistry, Bee's always been there for me."#line:591
 <<Place ThruLine Gee Sad Right>>
-Gee: "I guess... I got selfish"#line:592
+Gee: "I guess... I got selfish."#line:592
 -> "It's fine Gee, we'll help you out"
     <<Place ThruLine Casey Sad Center>>
-    Gee: "...thank you"#line:593
+    Gee: "...thank you."#line:593
 -> "Don't worry, she'll be right!"
     <<Place ThruLine Casey Happy Center>>
     <<Place ThruLine Gee Think Right>>
@@ -254,16 +254,16 @@ Gee: "I guess... I got selfish"#line:592
     <<Place ThruLine Casey Neutral Center>>
     Casey: "I don't know, the Aussie guy said that and sounded cool..."
     <<Place ThruLine Gee Happy Right>>
-    Gee: "...it has a nice ring to it" She smiles a bit#line:594
+    Gee: "...it has a nice ring to it." She smiles a bit.#line:594
 -> "You did"
     <<Place ThruLine Casey Angry Center>>
     <<Place ThruLine Phoebe Sass Left>>
-    Phoebe slaps the back of your head
+    Phoebe slaps the back of your head.
     <<Place ThruLine Casey Sad Center>>
     Casey: "Sorry, I mean, you did..."
     <<Place ThruLine Casey Happy Center>>
     Casey: "But we're here for you!"
-    Gee: "...thank you"#line:593a
+    Gee: "...thank you."#line:593a
 <<Place ThruLine Nobody>>
 You all take off to the cafeteria...
 <<jump ActualConclusionAmbush>>
@@ -271,7 +271,7 @@ You all take off to the cafeteria...
 title: ActualConclusionAmbush
 ---
 <<Travel ThruLine Messhall>>
-As soon as you all arrive, you run into Bayley. He was helping Sarcophachef with some boxes
+As soon as you all arrive, you run into Bayley. He was helping Sarcophachef with some boxes.
 <<Place ThruLine Gee Sad Center>>
 <<Place ThruLine Casey Sad Left>>
 <<Place ThruLine Phoebe Sad FarLeft>>
@@ -286,12 +286,12 @@ Bayley: "I think I can fix that!"
 <<Place ThruLine Phoebe Sass FarLeft>>
 Casey: "But she didn't say-"
 <<Place ThruLine Phoebe Buff FarLeft>>
-Phoebe grabs Casey by the collar, and pulls hims away
+Phoebe grabs Casey by the collar, and pulls hims away.
 <<Place ThruLine Nobody>>
 <<Place ThruLine Gee Sad Center>>
 Phoebe: "Let it play out!"
 <<Place ThruLine Bayley Happy Right>>
-Bayley arrives with a coup of icecream, carefully adorned with veincorice and other... things you wouldn't eat.
+Bayley arrives with a scoup of icecream, carefully adorned with veincorice and other... things you wouldn't eat.
 <<Place ThruLine Bayley Neutral Right>>
 <<Place ThruLine Gee Neutral Center>>
 Gee: "...thank you... hehe..."#line:595
@@ -302,7 +302,7 @@ Gee: "Ah... you know... dumb me realizing how dumb I am..."#line:596
 <<Place ThruLine Bayley Neutral Right>>
 Bayley: "How so?"
 Gee: "Well..."
-She begins to tell their adventure in the courtyard, and how she blew it all off.
+She begins to tell him about their adventure in the courtyard, and how she blew it all.
 <<Place ThruLine Bayley Neutral Right>>
 Bayley: "Hey... no shame in not wanting to be alone, you know?"#line:597
 <<Place ThruLine Gee Neutral Center>>
@@ -314,34 +314,34 @@ Phoebe lifts a giant letter saying "BIOCHEMISTRY"
 <<Place ThruLine Nobody>>
 <<Place ThruLine Gee Neutral Center>>
 <<Place ThruLine Bayley Neutral Right>>
-Bayley: "Biochemistry doesn't sound like a joke"#line:598
-Gee: "Huh? You're the first one who remembers what I study"#line:599
+Bayley: "Biochemistry doesn't sound like a joke!"#line:598
+Gee: "Huh? You're the first one who remembers what I study."#line:599
 <<Place ThruLine Bayley Happy Right>>
-Bayley: "Hey, that's my job, after all"#line:600
+Bayley: "Hey, that's my job, after all."#line:600
 <<Place ThruLine Gee Think Center>>
 Gee: "Your job?"#line:601
 <<Place ThruLine Bayley Neutral Right>>
-Bayley: "To look out for my team, silly"#line:602
+Bayley: "To look out for my team, silly!"#line:602
 <<Place ThruLine Gee Happy Center>>
-Gee begins to laugh very cutely
+Gee begins to laugh very cutely.
 <<Place ThruLine Gee Neutral Center>>
 <<Place ThruLine Bayley Happy Right>>
 Bayley: "Come on, I might be a bit dumb, but I'm sure I can help you study at least a bit!"#line:603
 <<Place ThruLine Gee Happy Center>>
-Gee: "...allright...maybe... hehe"#line:604
+Gee: "...alright...maybe... hehe."#line:604
 <<set $GeeQuestDone to true>>
 <<set $AllQuests3 to true>>
 //fade to black
 //fade back in
 <<Place ThruLine Nobody>>
 <<Travel ThruLine WestCorridor>>
-You and Phoebe run away from the place, and laugh as you walk throught the corridors
+You and Phoebe run away from the place, and laugh as you walk throught the corridors.
 <<Place ThruLine Phoebe Happy Right>>
 <<Place ThruLine Casey Neutral Left>>
 Phoebe: "I bet you five those two are going to Oktoberfest together!"
 <<Place ThruLine Casey Happy Left>>
 Casey: "I bet you 10!"
 <<Place ThruLine Nobody>>
-Now that the gears have began to turn... you feel the festival getting closer. What else is left to do?
+Now that the gears have begun to turn... you feel the festival getting closer. What else is left to do?
 <<jump Conmnutator>>
 ===

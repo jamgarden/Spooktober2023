@@ -14,39 +14,39 @@ Bayley: "Sup, Case'!"
 <<Place ThruLine Bayley Neutral Right>>
 Casey: "Do you still have to clean the messhall as punishment?"
 <<Place ThruLine Bayley Happy Right>>
-Bayley: "No way! I just like doing it"
+Bayley: "No way! I just like doing it."
 <<Place ThruLine Casey Tired Left>>
 Casey: "Really?"
 <<Place ThruLine Bayley Neutral Right>>
-Bayley: "Really! It helps me think"
+Bayley: "Really! It helps me think."
 <<Place ThruLine Casey Neutral Left>>
 Casey: "Got a lot to think about?"
 <<Place ThruLine Bayley Think Right>>
 Bayley: "Yeah…"
 -> What's on your mind?
     <<Place ThruLine Bayley Sad Right>>
-    Bayley: "It's nothing"
+    Bayley: "It's nothing."
     <<Place ThruLine Casey Angry Left>>
-    Casey: "You can tell me, we're friends"
+    Casey: "You can tell me, we're friends."
     <<Place ThruLine Bayley Blush Right>>
     Bayley: "Well…"
     <<Place ThruLine Bayley Sad Right>>
-    Bayley: "Never mind"
+    Bayley: "Never mind."
     <<Place ThruLine Casey Sad Left>>
     Casey: "But-"
     <<Place ThruLine Bayley Neutral Right>>
     Bayley: "Don't worry about it, what did you come here for?"
     <<Place ThruLine Casey Neutral Left>>
-    Casey: "Well... I wanted to scare some people"
+    Casey: "Well... I wanted to scare some people."
     <<Place ThruLine Casey Sad Left>>
     Casey: "But I ain't good at that, so I thought..."
 -> I need your help
     <<Place ThruLine Bayley Neutral Right>>
     Bayley: "What do you need?"
     <<Place ThruLine Casey Neutral Left>>
-    Casey: "Well, we need to scare some people"
+    Casey: "Well, we need to scare some people."
     <<Place ThruLine Casey Sad Left>>
-    Casey: "But I'm not that scary"
+    Casey: "But I'm not that scary."
     <<Place ThruLine Bayley Happy Right>>
     Bayley: "Is that all you wanted help with? That should be EASY!"
 <<Place ThruLine Casey Happy Left>>
@@ -89,24 +89,24 @@ She quickly stomps off, leaving the two of you confused.
     Casey: "Yeah… She hasn't said anything about an emo phase either…"
 -> Have you seen her around before?
     <<Place ThruLine Bayley Think Right>>
-    Bayley: "I don't think so, unless Phoebe decided to change her entire look and personality"
+    Bayley: "I don't think so, unless Phoebe decided to change her entire look and personality."
     <<Place ThruLine Casey Sad Left>>
-    Casey: "Right… Last I checked, she was still regular old Phoebe"
+    Casey: "Right… Last I checked, she was still regular old Phoebe."
     <<Place ThruLine Bayley Neutral Right>>
     Bayley: "Plus, you guys are best friends, why would she be rude to you?"
 -> Wow. Rude!
     <<Place ThruLine Bayley Angry Right>>
     Bayley: "I know right!"
     <<Place ThruLine Casey Sad Left>>
-    Casey: "Even Siegfried was polite enough to make it clear why he hated me"
+    Casey: "Even Siegfried was polite enough to make it clear why he hated me."
     <<Place ThruLine Bayley Think Right>>
     Bayley: "That's not great…"
     <<Place ThruLine Casey Happy Left>>
-    Casey: "Don't worry, he doesn't hate me THAT much"
+    Casey: "Don't worry, he doesn't hate me THAT much."
     <<Place ThruLine Casey Neutral Left>>
     Casey: "…"
     <<Place ThruLine Casey Sad Left>>
-    Casey: "I think"
+    Casey: "I think."
 <<Place ThruLine Casey Neutral Left>>
 <<Place ThruLine Bayley Think Right>>
 Suddenly, you hear a bunch of people screaming.
@@ -120,14 +120,14 @@ Casey: "C'mon, nothing that the MVP of the soccer team can't beat!"#line:454
 <<Place ThruLine Bayley Sad Right>>
 Bayley: "Case, you do remember that we lost, right?"#line:455
 <<Place ThruLine Casey Neutral Left>>
-Casey: "You were still the MVP"
+Casey: "You were still the MVP."
 <<Place ThruLine Bayley Think Right>>
 Bayley: "That doesn't… whatever. Who are we scaring?"
-Casey: "Let's check the other end of the corridor"
+Casey: "Let's check the other end of the corridor."
 <<Place ThruLine Nobody>>
 The two of you sneak down the corridor, hoping to come across an unsuspecting human.
 <<Place ThruLine Casey Neutral Left>>
-Casey: "Look, over there, there's a small group of people"
+Casey: "Look, over there, there's a small group of people."
 <<Place ThruLine Bayley Think FarLeft>>
 Bayley: "I dunno…" 
 <<Place ThruLine Casey Happy Left>>
@@ -174,7 +174,7 @@ Casey: "Excuse me?"
 <<Place ThruLine NPC0 Neutral Left>>
 Tourist: "He's so well behaved, how often do you train him?"
 <<Place ThruLine Bayley Angry Right>>
-Bayley: "I train every day"
+Bayley: "I train every day."
 <<Place ThruLine Bayley Sad Right>>
 <<Place ThruLine NPC1 Neutral Center>>
 <<Place ThruLine NPC2 Neutral Left>>
@@ -229,7 +229,7 @@ Tourist: "You ARE a good boy, aren't you?"
     <<Place ThruLine Crowd Neutral Left>>
     Crowd: "GOOD DOG! GOOD DOG!! GOOD DOG!!!"
 <<Place ThruLine Casey Angry FarRight>>
-Casey: "Okayyyyyyyy… We'll be leaving now"
+Casey: "Okayyyyyyyy… We'll be leaving now."
 <<Place ThruLine Nobody>>
 You grab Bayley's arm and run away, hiding out of sight.
 <<Place ThruLine Casey Sad Left>>
@@ -241,13 +241,13 @@ Bayley: "I don't know! One minute, I was preparing my best bark yet, the next…
 <<Place ThruLine Bayley Sad Right>>
 Bayley: "THEY HIT MY NOSE AND IT HURT!!!" #line:461
 <<Place ThruLine Casey Tired Left>>
-Casey: "Uggghhhhhhhh"
+Casey: "Uggghhhhhhhh."
 <<Place ThruLine Bayley Think Right>>
 Bayley: "You're sure it isn't bleeding, right?"
 <<Place ThruLine Casey Sad Left>>
-Casey: "Still nothing"
+Casey: "Still nothing."
 <<Place ThruLine Bayley Neutral Right>>
-Bayley: "Good… I don't know what I'd do if I lost my sense of smell"
+Bayley: "Good… I don't know what I'd do if I lost my sense of smell."
 <<Place ThruLine Casey Tired Left>>
 <<Place ThruLine Bayley Sad Right>>
 You both take a deep breath and sigh.
@@ -255,12 +255,12 @@ Bayley: "I'm sorry Case', I think I'm just not scary enough…"
 <<Place ThruLine Casey Happy Left>>
 Casey: "No way, you've got this!"
 <<Place ThruLine Casey Neutral Left>>
-Casey: "We just need to try again"
+Casey: "We just need to try again."
 <<Place ThruLine Bayley Think Right>>
 Bayley: "You think so?"
 <<Place ThruLine Casey Happy Left>>
 Casey: "I know so!"
-Casey: "Let's go to the courtyard, there's bound to be someone there we can scare"
+Casey: "Let's go to the courtyard, there's bound to be someone there we can scare."
 <<Place ThruLine Bayley Happy Right>>
 Bayley: "Freak yeah!"
 <<Place ThruLine Nobody>>
@@ -273,9 +273,9 @@ You both sneak into the courtyard, and look around.
 There's only one guy here, and he hasn't noticed you yet.
 <<Place ThruLine Casey Neutral Left>>
 <<Place ThruLine Bayley Neutral FarLeft>>
-Casey: "Bayley, look. It's just one guy"
+Casey: "Bayley, look. It's just one guy."
 <<Place ThruLine Bayley Angry FarLeft>>
-Bayley: "Alright, stand back, I'm gonna scare him"
+Bayley: "Alright, stand back, I'm gonna scare him."
 <<Place ThruLine Nobody>>
 You nod, hiding out of sight and pressing record. 
 <<Place ThruLine Bayley Angry Left>>
@@ -300,22 +300,22 @@ Aussie: "There, there, mate! It was a bloody good one!"
     Bayley: "You think it was good?"
     <<Place ThruLine Daniel Neutral Right>>
     Aussie: "… "
-    Aussie: "Look, I just said that to cheer you up"
+    Aussie: "Look, I just said that to cheer you up."
 -> Not good enough…
     <<Place ThruLine Daniel Neutral Right>>
-    Aussie: "Nah, not really"
+    Aussie: "Nah, not really."
     <<Place ThruLine Bayley Sad Left>>
     Bayley: "Then why did you say it was good?"
-    Aussie: "Look, you tried your best and that's what counts"
+    Aussie: "Look, you tried your best and that's what counts."
 <<Place ThruLine Bayley Sad Left>>
 <<Place ThruLine Casey Angry FarLeft>>
 Casey: Why aren't you scared? Bayley is this huge, burly werewolf who's barks can send you to another dimension!
 <<Place ThruLine Daniel Happy Right>>
-Aussie: "Could'a fooled me! I barely felt an interdimensional breeze"
+Aussie: "Could'a fooled me! I barely felt an interdimensional breeze."
 <<Place ThruLine Bayley Think Left>>
 Bayley: "You aren't even a little nervous?"
 <<Place ThruLine Daniel Neutral Right>>
-Aussie: "Mate, I've been chasing brown snakes and wrestling kangaroos since I was in nappies, there's not much that'll scare an Aussie"
+Aussie: "Mate, I've been chasing brown snakes and wrestling kangaroos since I was in nappies, there's not much that'll scare an Aussie."
 Casey: 'Is there ANYTHING that scares you?"
 <<Place ThruLine Daniel Angry Right>>
 Aussie: "Only ONE thing."
@@ -326,22 +326,22 @@ Aussie: "Dropbears."
 <<Place ThruLine Bayley Think Left>>
 Bayley: "Drop… bear?"#line:463
 <<Place ThruLine Daniel Neutral Right>>
-Aussie: "Yeah mate. They're these… almost rabid koalas that drop down and maul ya"
+Aussie: "Yeah mate. They're these… almost rabid koalas that drop down and maul ya."
 <<Place ThruLine Bayley Neutral Left>>
 Bayley: "Surely that's not true… Koalas are too cute!"#line:464
 <<Place ThruLine Daniel Angry Right>>
-Aussie: "Nah, don't be fooled. There's plenty of stories of tourists getting crushed and kids going missing in the bush. It's quite unfortunate, really"
+Aussie: "Nah, don't be fooled. There's plenty of stories of tourists getting crushed and kids going missing in the bush. It's quite unfortunate, really."
 -> Is there a way to… stop them?
     <<Place ThruLine Daniel Neutral Right>>
-    Aussie: "Nuh. Once they're on ya, you're as good as dead"
+    Aussie: "Nuh. Once they're on ya, you're as good as dead."
     <<Place ThruLine Daniel Happy Right>>
     Aussie: "Though they say a dab of vegemite behind the ears is enough to keep them away."
     <<Place ThruLine Bayley Think Left>>
     Bayley: "There's no way that's true..."
     <<Place ThruLine Daniel Neutral Right>>
-    Aussie: "Some people even say to wear toothpaste, but I'd go with vegemite myself"
+    Aussie: "Some people even say to wear toothpaste, but I'd go with vegemite myself."
     <<Place ThruLine Casey Angry FarLeft>>
-    Casey: "I am not putting vegemite behind my ears"
+    Casey: "I am not putting vegemite behind my ears."
     <<Place ThruLine Daniel Angry Right>>
     Aussie: "Well don't come crying to me when you've been torn to pieces!"
 -> This sounds fake
@@ -363,7 +363,7 @@ You and Bayley exchange looks.
 Bayley: "Well, thanks Mister…"
 Casey: "Yeah… See you around…"
 <<Place ThruLine Daniel Happy Right>>
-Aussie: "Smell ya later"
+Aussie: "Smell ya later."
 You and Bayley begin to walk away slowly, turning to run away when suddenly-
 <<Place ThruLine May Dropbear Center>>
 <<Place ThruLine Casey Shocked FarLeft>>
@@ -383,30 +383,30 @@ Bayley: "PROFESSOR MAY!!!?!?!?!?!?!?"
     <<Place ThruLine May Happy Center>>
     May: "Oh shush, you think I'd reveal myself if I wasn't?"#line:467
     <<Place ThruLine Daniel Happy Right>>
-    Aussie: "Told ya drop bears were real, mate"
+    Aussie: "Told ya drop bears were real, mate."
 -> WHY WOULD YOU SCARE US!?
     <<Place ThruLine May Neutral Center>>
-    May: "You seemed like you needed some help"
+    May: "You seemed like you needed some help."
     <<Place ThruLine May Happy Center>>
-    May: "After all, there's not much that scares an Aussie"#line:468
+    May: "After all, there's not much that scares an Aussie."#line:468
     <<Place ThruLine Daniel Happy Right>>
     Aussie: "Too true, mate!"
 <<Place ThruLine May Neutral Center>>
-May: "Well, I've had my share of fun! "
+May: "Well, I've had my share of fun!"
 <<Place ThruLine Nobody>>
 <<Place ThruLine Casey Sad FarLeft>>
 <<Place ThruLine Bayley Think Left>>
 <<Place ThruLine Daniel Neutral Right>>
 As quickly as she appeared, she disappeared in a cloud of smoke.
-Bayley: "Damn… coughcough… She's really good… coguh…"
+Bayley: "Damn… coughcough… She's really good… cough…"
 Casey: "Yeah… cough… though I wish… cough cough… that she'd stop… cough… with the smoke… coughcoughcough…"
 <<Place ThruLine Daniel Happy Right>>
-Aussie: "She'll be right mate"
+Aussie: "She'll be right mate."
 <<Place ThruLine Bayley Think Left>>
 Bayley: "Thanks… coughcough…"
 <<Place ThruLine Casey Tired FarLeft>>
 Casey: "Lets go somewhere less… coughcoughcough… smokey…"
-Bayley: "Agreed… cough"
+Bayley: "Agreed… cough..."
 You say goodbye to the Aussie, and head back to the messhall.
 
 <<Travel ThruLine Messhall>>
@@ -421,16 +421,16 @@ Bayley: "I told you Case', I just don't think I'm scary enough."#line:469
     Casey: 'You are scary!" 
     Casey: "Don't you remember how freaked out I was when we first met!?"
     <<Place ThruLine Bayley Blush Right>>
-    Bayley: "Yeahh… You thought I was going to eat you"
+    Bayley: "Yeahh… You thought I was going to eat you."
     <<Place ThruLine Casey Neutral Left>>
     Casey: 'And remember how you scared away that pesky El Spooky from the kitchen last year?"
     <<Place ThruLine Bayley Neutral Right>>
-    Bayley: "Couldn't have done it without you"
+    Bayley: "Couldn't have done it without you."
 -> Why do you think that?
     <<Place ThruLine Bayley Sad Right>>
     Bayley: "You just saw me fail at being scary. Twice!"
     <<Place ThruLine Casey Angry Left>>
-    Casey: "You ARE scary"
+    Casey: "You ARE scary."
     <<Place ThruLine Bayley Think Right>>
     Bayley: "Just not to a group of people. Or an Aussie."
     <<Place ThruLine Casey Sad Left>>

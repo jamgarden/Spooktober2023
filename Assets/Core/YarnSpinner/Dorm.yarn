@@ -4,21 +4,21 @@ tags:
 <<set $VisitedDorm1 to true>>
 <<Travel ThruLine Dormroom>>
 <<Place ThruLine Phoebe Neutral Right>>
-You drop by the dorm, and Phoebe's there
+You drop by the dorm, and Phoebe's there.
 <<Place ThruLine Casey Neutral Left>>
-Casey: "Sup Pheebs"
+Casey: "Sup Pheebs."
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "Casey! Casey!! I just found this old book on how to scare people??"
-She has a book so big and tall you thoughg it was a fancy box
+She has a book so big and tall you thought it was a fancy box.
 <<Place ThruLine Phoebe Neutral Right>>
-Phoebe: "And like, it says that the best way is to count with the element of surprise!"
+Phoebe: "And like, it says that the best way is to count on the element of surprise!"
 Casey: "Oh yeah?"
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "And then... BANG! You smash them with a club!"
 -> "From... what year is that book?"
     <<Place ThruLine Phoebe Think Right>>
     Phoebe: "Oh, it's illegible... but it has like three digits..."
-    Casey: "Thought so"
+    Casey: "Thought so."
     <<Place ThruLine Phoebe Neutral Right>>
     Phoebe: "Oh oh! And a minus up front!"
     Casey: "Yeah let's return this to the library..."
@@ -30,35 +30,35 @@ Phoebe: "And then... BANG! You smash them with a club!"
     <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "How did you know?!!"
     <<Place ThruLine Casey Neutral Left>>
-    Casey: "Uhm... we're returning this to the library"
+    Casey: "Uhm... we're returning this to the library."
 -> "That's... umm... wrong?"
     <<Place ThruLine Phoebe Think Right>>
     Phoebe: "Worked for... Dario the third of Persia?..."
-    Casey: "I'm sure it did, let's get it to the library"
+    Casey: "I'm sure it did, let's get it to the library."
 <<Place ThruLine Phoebe Neutral Right>>
 Phoebe: "Oh this? I saw it in the trashcan outside!"
 <<Place ThruLine Phoebe Happy Right>>
 //thing falling or smashing sound
-She throws it off the window with no previous warning
+She throws it out the window with no prior warning.
 <<Place ThruLine Phoebe Neutral Right>>
 <<Place ThruLine Casey Shocked FarLeft>>
 You rush to the window, only to see it landing in the trashcan of the garden.
 <<Place ThruLine Casey Neutral Left>>
-Casey: "Damn that's good aim"
+Casey: "Damn that's good aim."
 Phoebe: "You know how it goes... why do you even need two eyes..."
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "When you can focus better with one?!"
 <<Place ThruLine Phoebe Neutral Right>>
-Casey: "Well, genetics was mean to us"
+Casey: "Well, genetics were mean to us."
 <<Place ThruLine Phoebe Happy Right>>
-Phoebe: "Don't worry!!! It's easily fixed"
+Phoebe: "Don't worry!!! It's easily fixed!"
 -> "Wait what?"
     <<Place ThruLine Casey Shocked Left>>
     Too late, she's already about to...
 -> "Phoebe no!"
     <<Place ThruLine Casey Shocked Left>>
     Too late, she's already about to...
--> "I really wanna see how! Get it? See haha"
+-> "I really wanna see how! Get it? See haha!"
     <<Place ThruLine Casey Shocked Left>>
     With no delay, she...
 <<Place ThruLine Casey Happy Left>>
@@ -72,8 +72,8 @@ Casey: "Yeah!"
 You smash yourself against the door frame!
 <<Place ThruLine Phoebe Think Right>>
 <<Place ThruLine Casey Neutral Left>>
-Phoebe: "Hmm... wasn't that easy" Takes notes
-You take off the patch
+Phoebe: "Hmm... wasn't that easy." She takes notes.
+You take off the patch.
 -> "You'll figure it out one day!"
     <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "Oh, thank you!!!"
@@ -85,21 +85,21 @@ You take off the patch
     <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "Well, you ain't the only one who can crack a joke!"
     <<Place ThruLine Casey Happy Left>>
-    Casey: "Tottaly got me there!"
--> "Maybe has to do with the fact that you have one big eye and I have two small ones!"
+    Casey: "Totally got me there!"
+-> "Maybe has to do with the fact that you have one big eye and I have two small ones?"
     Phoebe: "Right? It's very problematic!"
-    Casey: "Maybe that's why you can spin your neck like that"
+    Casey: "Maybe that's why you can spin your neck like that..."
     <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "RIGHT?"
 <<Place ThruLine Phoebe Neutral Right>>
 <<Place ThruLine Casey Neutral Left>>
 Casey: "So I was wondering... hasn't Bayley been a bit nervous lately?"
 <<Place ThruLine Phoebe Happy Right>>
-Phoebe: "Oh I don't think so? He was perfectly fine at the Principal's office until Gee arrived!"
+Phoebe: "Oh, I don't think so? He was perfectly fine at the Principal's office until Gee arrived!"
 <<Place ThruLine Casey Tired Left>>
 Casey: "Wait what?"
 <<Place ThruLine Phoebe Neutral Right>>
-Phoebe: "What you heard, Casester"
+Phoebe: "Exactly what you heard, Case-ster!"
 <<Place ThruLine Casey Shocked Left>>
 Casey: "You do realize what that means, right?"
 <<Place ThruLine Phoebe Think Right>>
@@ -111,7 +111,7 @@ Phoebe: "...should I?"
     <<Place ThruLine Phoebe Angry Right>>
     Phoebe: "WAIT, when did it stop being one?!!!"
     <<Place ThruLine Casey Angry Left>>
-    Casey: "Ah you know, hooman bullcrap"
+    Casey: "Ah you know, hooman bullcrap."
     Phoebe: "Those bastards!"
     <<Place ThruLine Casey Happy Left>>
     Casey: "Anyway, besides that, I think Bayley likes Gee!"
@@ -125,7 +125,7 @@ Casey: "So wait, why is that relevant?"
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "Because Bayley is a Libra, Casey!!!"
 <<Place ThruLine Casey Tired Left>>
-Casey: "Oh, that kind of stuff, yes"
+Casey: "Oh, that kind of stuff, yes..."
 <<Place ThruLine Phoebe Sass Right>>
 Phoebe: "You're studying astrophysics, you should know astrology too!"
 Casey: "How are those even related?"
@@ -134,26 +134,26 @@ Phoebe: "Like, in everything?"
 <<Place ThruLine Casey Angry Left>>
 Casey: "...you mean the horoscope matters in the movement of time and space?"
 <<Place ThruLine Phoebe Sass Right>>
-Phoebe: "WELL YES, we monsters actually know how to do that right, you know?"
+Phoebe: "WELL YES, we monsters actually know how to do that correctly, you know?"
 -> "Then I'll look forward to learning it!"
     <<Place ThruLine Casey Happy Left>>
     <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "Freak yeah!"
--> "When the moon eclipses the sun, I'll read it"
+-> "When the moon eclipses the sun, I'll read it."
     <<Travel ThruLine Dormroom 1>>
-    The light suddenly disapears
+    The light suddenly disapears.
     <<Place ThruLine Casey Shocked Left>>
     Casey: "WHAT THE ACTUAL..."
     <<Place ThruLine Phoebe Think Right>>
     <<Travel ThruLine Dormroom>>
     Phoebe: "It's just the lamp, Casey. We have to change it!"
-    Casey: "Oh my... I better learn that now, before it's the sun"
+    Casey: "Oh my... I better learn that now, before it's the sun."
 -> "Is that on the program?"
     <<Place ThruLine Phoebe Sass Right>>
     Phoebe: "Well, yeah? Duh!"
 <<Place ThruLine Casey Neutral Left>>
 <<Place ThruLine Phoebe Think Right>>
-Phoebe: "So in short, if pluto is relevant for humans again... that means..."
+Phoebe: "So in short, if Pluto is relevant for humans again... that means..."
 Casey: "Yeah?..."
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "We have to help Bayley out!"
@@ -189,7 +189,7 @@ Bayley: "Oh... why is it all dark?"
 <<Travel ThruLine Dormroom>>
 <<Place ThruLine Casey Angry Left>>
 <<Place ThruLine Phoebe Angry Right>>
-The lights go on, revealing Casey and Phoebe there
+The lights go on, revealing Casey and Phoebe waiting for him.
 <<Place Thruline Phoebe Angry FarRight>>
 <<Place Thruline Casey Angry Right>>
 <<Place ThruLine Bayley Think FarLeft>>
@@ -216,7 +216,7 @@ Bayley: "RIGHT?!"
 Casey: "But no, it's because we know something's going on"
 Phoebe: "And we wanna help!"
 <<Place ThruLine Bayley Blush FarLeft>>
-Bayley: "What you mean?" He begins to sweat
+Bayley: "What you mean?" He begins to sweat.
 <<Place Thruline Casey Angry Right>>
 Casey: "..."
 <<Place ThruLine Bayley Bark FarLeft>>
@@ -235,7 +235,7 @@ Bayley: "WAS THAT VAMPIRE TWAT?!"#line:277
     <<Place ThruLine Bayley Think FarLeft>>
     Bayley: "Are you saying that to make me feel better?"
     <<Place Thruline Casey Happy Right>>
-    Casey: "Nah, only Phoebe figured it out"
+    Casey: "Nah, only Phoebe figured it out."
     <<Place Thruline Casey Neutral Right>>
     Bayley: "Pluto being a planet again?"
     <<Place Thruline Casey Shocked Right>>
@@ -258,9 +258,9 @@ Bayley: "WAS THAT VAMPIRE TWAT?!"#line:277
     <<Place ThruLine Bayley Think FarLeft>>
     Casey: "You've been insulting him extra lately..."
     <<Place Thruline Casey Happy Right>>
-    Casey: "That's kinda like asking him to be your friend"
+    Casey: "That's kinda like asking him to be your friend."
     <<Place Thruline Casey Tired Right>>
-    Casey: "I know that by experience mind you"
+    Casey: "I know that from experience, mind you."
 -> "Nah, Phoebe realized because of the planets"
     <<Place Thruline Casey Neutral Right>>
     <<Place Thruline Phoebe Neutral FarRight>>
@@ -276,12 +276,12 @@ Bayley: "WAS THAT VAMPIRE TWAT?!"#line:277
 <<Place ThruLine Bayley Think FarLeft>>
 Bayley: "So wait a minute. This is what the intervention was for?"
 <<Place Thruline Phoebe Think FarRight>>
-Phoebe: "...maybe"
+Phoebe: "...maybe."
 <<Place Thruline Phoebe Neutral FarRight>>
 <<Place ThruLine Bayley Neutral FarLeft>>
-Bayley: "Did you guys pulled a whole intervention just to support me?"
+Bayley: "Did you guys pull a whole intervention just to support me?"
 -> "What are friends for, right?"
--> "We're just a couple of shippers"
+-> "We're just a couple of shippers!"
 -> "We're really procrastinating the scaring people thing, huh?"
 <<Place Thruline Casey Happy Right>>
 <<Place Thruline Phoebe Happy FarRight>>
@@ -297,7 +297,7 @@ Bayley: "And we get along really well, but I don't even know her classes!"
 Casey: "Well... what does she study?"
 <<Place Thruline Casey Neutral Right>>
 <<Place ThruLine Bayley Angry Left>>
-Bayley: "I DON'T KNOW! And it's too obvious if I ask Bee"
+Bayley: "I DON'T KNOW! And it's too obvious if I ask Bee."
 <<Place ThruLine Bayley Think Left>>
 Bayley: "And the vampire twat doesn't even seem to know!"
 <<Place ThruLine Bayley Neutral Left>>
@@ -312,7 +312,7 @@ Phoebe: "Study..."#line:283
 Bayley: "Pheebs?"#line:284
 <<Place ThruLine Bayley Neutral Left>>
 Phoebe: "............."
-She begins to shake
+She begins to shake.
 <<Place ThruLine Bayley Think Left>>
 Bayley: "Oh no!"#line:285
 <<if $PhoebeExplodeVar1 is true>>
@@ -325,7 +325,7 @@ Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
     <<Place ThruLine Nobody>>
     <<Place ThruLine Casey Shocked FarRight>>
     <<Place Thruline Bayley Bark Right>>
-    You and Bayley grab Phoebe and begin to approach the window
+    You and Bayley grab Phoebe and begin to approach the window.
     <<Place ThruLine Casey Shocked Right>>
     <<Place Thruline Bayley Bark Center>>
     She's begining to boil...
@@ -352,7 +352,7 @@ Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
     <<Place ThruLine Casey Shocked Right>>
     <<Place Thruline Bayley Bark Left>>
     <<Place Thruline Phoebe Sass Center>>
-    Phoebe seems to stop steaming out of her head
+    Phoebe seems to stop steaming out of her head.
     Bayley: "KEEP GOING IT'S WORKING!"#line:292
     Casey: "MINE'S RUNNING OUT OF FOAM!!!!"#line:293
     Bayley: "USE THE ICE CREAM FROM THE MINIBAR!"#line:294
@@ -362,25 +362,25 @@ Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
     <<Place ThruLine Casey Shocked Right>>
     You throw the ice cream over her head...
     <<Place Thruline Phoebe Neutral Center>>
-    Phoebe begins to blink
+    Phoebe begins to blink.
     <<Place Thruline Phoebe Happy Center>>
     Phoebe: "OH! IT SNOWED!!!!"#line:297
 -> Show her some animal pictures
     Casey: "PHOEBE! LOOK AT THIS CUTE PUPPY ON THE PHONE!"#line:298
     <<Place Thruline Phoebe Sass Center>>
-    She stops shaking
+    She stops shaking.
     Bayley: "OR THIS KITTY CAT!!!"#line:299
     <<Place Thruline Phoebe Neutral Center>>
-    She blinks
+    She blinks.
     <<Place Thruline Phoebe Happy Center>>
     Phoebe: "AWWWWW LOOK AT THEM!!!!!!!!!"#line:300
     <<Place ThruLine Casey Tired Right>>
     <<Place Thruline Bayley Think Left>>
-    She confiscates the phones
+    She confiscates the phones.
     Phoebe: "Precious precious little fluffy kitty and doggy!!!!"#line:301
     <<Place Thruline Bayley Neutral Left>>
-    Bayley: "Pheeew, that was close"#line:302
-    Casey: "You tell me"#line:303
+    Bayley: "Pheeew, that was close!"#line:302
+    Casey: "You tell me..."#line:303
 <<elseif $PhoebeExplodeVar1 is false>>
 <<set $PhoebeExplodeVar1 to true>>
 <<Place ThruLine Casey Tired Right>>
@@ -389,7 +389,7 @@ Casey: "What's going on?!!"
 Bayley: "Run Casey!"
 <<Place ThruLine Casey Shocked Right>>
 Casey: "Run wha-"
-Bayley grabs you and jumps out of the room. He quickly gets up and closes the door
+Bayley grabs you and jumps out of the room. He quickly gets up and closes the door.
 <<Place ThruLine Nobody>>
 <<Place ThruLine Phoebe Explosion Center>>
 KBOOOOOOOOMMMMMM
@@ -403,11 +403,11 @@ Bayley: "Calm down, calm down, she's fine!"
 <<Place ThruLine Casey Shocked Left>>
 Casey: "How can she be fine, she just exploded!!!!"
 <<Place ThruLine Bayley Think Right>>
-Bayley: "This happens some times! Her mom is part Bomb!"
+Bayley: "This happens sometimes! Her mom is part Bomb!"
 -> Part what?
     <<Place ThruLine Bayley Neutral Right>>
-    Bayley: "Bomb. You know, those rounded monsters that tend to explode"
-    Bayley: "They look like nothing happened afterwards"
+    Bayley: "Bomb. You know, those rounded monsters that tend to explode?"
+    Bayley: "They look like nothing happened afterwards."
     Casey: "But is Phoebe ok!!!!??!?!??"
 -> Like those monsters from that game? Those that explode?
     <<Place ThruLine Bayley Happy Right>>
@@ -415,14 +415,14 @@ Bayley: "This happens some times! Her mom is part Bomb!"
     <<Place ThruLine Bayley Neutral Right>>
     Casey: "So is she alright?!"
 -> Wasn't she a cyclops?
-    Bayley: "Mostly, but we all have some relatives from other species"
+    Bayley: "Mostly, but we all have some relatives from other species."
     <<Place ThruLine Bayley Neutral Right>>
-    Bayley: "Unless you're like Siegfried, who claims to be pure blooded"
+    Bayley: "Unless you're like Siegfried, who claims to be pure blooded."
     <<Place ThruLine Bayley Angry Right>>
     Bayley: "But I bet my dinner that he's bluffing on that!"
     Casey: "But what about Phoebe?!!!"
 <<Place ThruLine Bayley Neutral Right>>
-The door opens, Phoebe comes out as if nothing had ever happened
+The door opens, Phoebe comes out as if nothing had ever happened.
 <<Place ThruLine Phoebe Neutral Center>>
 Phoebe: "Sup guys, what are you doing outside?"
 <<endif>>
@@ -432,20 +432,20 @@ Phoebe: "Sup guys, what are you doing outside?"
 <<Place ThruLine Bayley Think Right>>
 <<Place ThruLine Phoebe Neutral Center>>
 <<Place ThruLine Casey Neutral Left>>
-Bayley: "So you don't know either"
+Bayley: "So you don't know either."
 <<Place ThruLine Bayley Neutral Right>>
 <<Place ThruLine Phoebe Think Center>>
 Phoebe: "No, but we could figure it out?"
 <<Place ThruLine Phoebe Happy Center>>
 <<Place ThruLine Casey Happy Left>>
-Casey: "Yeah! We'll talk with Gee"
+Casey: "Yeah! We'll talk with Gee."
 <<Place ThruLine Bayley Happy Right>>
 Bayley: "Ah, thank god you guys!"
 Bayley: "I should like, get my barking in shape then!"
 <<Place ThruLine Casey Neutral Left>>
 Casey: "Yeah you go do that!"
 <<Place ThruLine Nobody>>
-Bayley takes off running
+Bayley takes off running.
 <<Place ThruLine Phoebe Neutral Right>>
 <<Place ThruLine Casey Happy Left>>
 Casey: "Because you're the only one of us who could scare anyone!!!"
@@ -464,9 +464,9 @@ title: Dormnextday
 ---
 <<Travel ThruLine Dormroom>>
 <<Place ThruLine Nobody>>
-You wake up the next day, your throat all sore doed to the acid of the tomato sauce
-Not even the strongest anti-acid managed to stop it.
-However, you managed to get Sarcophachef to stop watering down everything, and got Siegfried to try out garlic willingly!
+You wake up the next day, your throat all sore due to the acid of the tomato sauce.
+Not even the strongest anti-acid managed to stop it!
+However, you managed to get Sarcophachef to stop watering down everything, and even got Siegfried to try out garlic willingly!
 Maybe you should look out for Bee to get him that replacement, or seek out some other adventure.
 <<set $SarcophachefQuestDone to true>>
 So... now where?
@@ -476,34 +476,34 @@ title: Dorm3
 ---
 <<Travel ThruLine Dormroom>>
 <<Place ThruLine Phoebe Think Right>>
-You enter the room, and Phoebe's there, playing with her phone
+You enter the room, and Phoebe's there, playing with her phone.
 After the last explosion, you feel the need to try and see what's going on...
 <<Place ThruLine Casey Neutral Left>>
 Casey: "Pheebs?"
 <<Place ThruLine Phoebe Neutral Right>>
-Phoebe: "Oh, hey Casey"
+Phoebe: "Oh, hey Casey."
 -> "Are you allright?"
-    Phoebe: "Yeah... I'm fine"
+    Phoebe: "Yeah... I'm fine."
 -> "What's bugging you?"
     Phoebe: "Oh, nothing really!"
 -> "Are you aware of your explosions?"
     Phoebe: "What?"
 <<Place ThruLine Casey Sad Left>>
-Casey: "You know, we're all kinda worried about you"
+Casey: "You know, we're all kinda worried about you."
 <<Place ThruLine Casey Neutral Left>>
-Casey: "We all know something's bugging you... so come on, you allways stand for us... let us stand for you!"#line:413
+Casey: "We all know something's bugging you... so come on, you're always there for us... let us be there for you!"#line:413
 <<Place ThruLine Phoebe Think Right>>
-Phoebe lets go of her phone, and sits back on the bed
+Phoebe lets go of her phone, and sits back on the bed.
 Phoebe: "...where do I begin?"
 <<Place ThruLine Phoebe Sad Right>>
-Phoebe: "My... cousin's here"
+Phoebe: "My... cousin's here."
 Casey: "Your cousin? Which one?"
-Phoebe: "...my favorite ever cousin, Ursula"#line:414
+Phoebe: "...my favorite cousin ever, Ursula!"#line:414
 <<Place ThruLine Casey Happy Left>>
 Casey: "OH! The one you used to play all the time with???"
 <<Place ThruLine Casey Neutral Left>>
 <<Place ThruLine Phoebe Think Right>>
-Phoebe: "Yes! But... she's... changed"#line:415
+Phoebe: "Yes! But... she's... changed."#line:415
 Casey: "How so?"
 <<Place ThruLine Phoebe Sad Right>>
 Phoebe: "She's... all dark... and never smiles..."#line:416
@@ -513,7 +513,7 @@ Phoebe: "That's not the Ursy I remember..."#line:418
 <<Place ThruLine Casey Sad Left>>
 Casey: "And that's making you sad?"
 <<Place ThruLine Phoebe Sad Right>>
-Phoebe: "...ys..." Completely inaudible Yes#line:419
+Phoebe: "...ys..." Completely inaudible Yes.#line:419
 <<Place ThruLine Casey Neutral Left>>
 Casey: "Then leave it to us!"
 <<Place ThruLine Phoebe Angry Right>>
@@ -533,20 +533,20 @@ title: DormroomUrsy
 ---
 <<Travel ThruLine Dormroom>>
 //fade back in
-After that last explosion, you all went on a funny trip around the castle and had a great time
+After that last explosion, you all went on a funny trip around the castle and had a great time.
 Turns out, Ursula was just like Phoebe, but shy and insecure!
-All she needed, was just to be welcomed to the family
+All she needed, was just to be welcomed to the family.
 <<Place ThruLine Casey Neutral Right>>
 <<Place ThruLine Ursula Neutral Left>>
 <<Place ThruLine Bayley Neutral FarRight>>
-Casey: "Allright, so you think that will be the end of the explosions?"#line:304
+Casey: "Alright, so you think that will be the end of the explosions?"#line:304
 <<Place ThruLine Casey Happy Right>>
-Ursula: "Should be. That last one was the last of our tension blowing off"#line:305
+Ursula: "Should be. That last one was the last of our tension blowing off."#line:305
 <<Place ThruLine Bayley Think FarRight>>
 <<Place ThruLine Casey Neutral Right>>
 Bayley: "So wait, how come you remember, but Phoebe doesn't?"#line:306
 <<Place ThruLine Ursula Happy Left>>
-Ursula: "Well... she's just playing the fool"#line:307
+Ursula: "Well... she's just playing the fool."#line:307
 <<Place ThruLine Casey Tired Right>>
 Casey: "Wait, Phoebe can play the fool?!"#line:308
 <<Place ThruLine Ursula Neutral Left>>
@@ -567,13 +567,13 @@ And Phoebe pushes everyone out...
 //fade to black
 <<Travel ThruLine Courtyard>>
 //fade back in
-You take a sit on one of the chairs. It's been a long couple of days...
+You take a seat on one of the chairs. It's been a long couple of days...
 And you haven't filmed anything good yet. Heck, you haven't checked your phone in this entire time!
 And you don't feel like doing it either...
 However, the sense of dispair hasn't quite gotten away yet.
 Despite your little achievements, feels like this year, you all failed...
-And you can tell Bayley, Phoebe and the others felt the same way at some point.
-Maybe still do... so, you decide on invitating them all to the dorm tonight, before the concert.
-Maybe together... you could was away the blues!
+And you can tell Bayley, Phoebe and the others all felt the same way at some point.
+Maybe they still do... so, you decide on inviting them all to the dorm tonight, before the concert.
+Maybe together... you could wash away the blues!
 <<jump Conmutator>>
 ===

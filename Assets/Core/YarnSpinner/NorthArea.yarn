@@ -10,14 +10,14 @@ You've never been here before, so you have no idea where to go.
 <<Place ThruLine Casey Shocked Left>>
 Or at least you thought, until you see a little bat flying across the window and landing right next to you.
 <<Place ThruLine Casey Angry Left>>
-Casey: "You ain't scaring me with that again"
+Casey: "You ain't scaring me with that again!"
 <<Place ThruLine Siegfried Angry Right>>
 The bat morphs, turning out to be Siegfried.
-Siegfried: "You're quite the dufus, there's always a chance you'll fall for it once more"
+Siegfried: "You're quite the dufus, there's always a chance you'll fall for it once more."
 <<Place ThruLine Casey Neutral Left>>
 Casey: "So, did you find his room?"
 <<Place ThruLine Siegfried Neutral Right>>
-Siegfried: "Oh yes... room 29"
+Siegfried: "Oh yes... room 29."
 Casey: "Alright, how do we go about it?"
 <<Place ThruLine Siegfried Angry Right>>
 Siegfried: "You knock on his door and distract him. I'll go through the window..."
@@ -25,7 +25,7 @@ Siegfried: "You knock on his door and distract him. I'll go through the window..
 Siegfried: "And scare the crap out of him!"
 <<Place ThruLine Casey Happy Left>>
 <<Place ThruLine Siegfried Angry Right>>
-Casey: "Sounds like a plan. Let's split up then"
+Casey: "Sounds like a plan. Let's split up then."
 <<Place ThruLine Siegfried Neutral Right>>
 Siegfried: "And Casey..."
 <<Place ThruLine Casey Neutral Left>>
@@ -42,14 +42,14 @@ Or a vampire throwing fire balls?
 Let alone the thought of one about to bite you...
 <<Place ThruLine Casey Neutral Left>>
 Yeah, this sounded good. So you go on and knock on the door.
-Italian guy: "WHO IS IT?" You can hear from the inside
+Italian guy: "WHO IS IT?" You can hear from the inside.
 -> "Oh hey, I'm Casey, is this the Italian guy's room?"
     Italian guy: "I DON'T KNOW ANY CASEY!"
-    Casey: "Oh I'm just a student from around here"
+    Casey: "Oh I'm just a student from around here."
     Italian guy: "AND WHAT DO YOU WANT?"
     <<Place ThruLine Casey Happy Left>>
     Casey: "Just to chat with you sir, I never met an Italian before!"
-    The door opens inmediately
+    The door opens inmediately.
     <<Place ThruLine Casey Neutral Left>>
     <<Place ThruLine Mario Happy Right>>
     Mario: "Why didn't you say so before? I'm Mario!"
@@ -57,7 +57,7 @@ Italian guy: "WHO IS IT?" You can hear from the inside
     Casey: "Hey Mario, that smells delicious!"
     Mario: "Come on in, come on in!"
 -> "Open up Mario, your days are numbered!"
-    The door opens inmediately
+    The door opens inmediately.
     <<Place ThruLine Casey Shocked Left>>
     <<Place ThruLine Mario Angry Right>>
     Mario: "HOW DID YOU KNOW MY NAME?!"
@@ -69,11 +69,11 @@ Italian guy: "WHO IS IT?" You can hear from the inside
     Casey: "Sure!"
 -> "I just smelled the food and knocked!"
     Italian Guy: "Oh, should have started with that!"
-    The door opens inmediately
+    The door opens inmediately.
     <<Place ThruLine Mario Happy Right>>
     Mario: "I'm Mario! Nice to meet you...?"
     <<Place ThruLine Casey Happy Left>>
-    Casey: "Casey"
+    Casey: "Casey."
     <<Place ThruLine Casey Neutral Left>>
     <<Place ThruLine Mario Neutral Right>>
     Mario: "Casio! Piacere. Do you want to come in?"
@@ -83,7 +83,7 @@ Italian guy: "WHO IS IT?" You can hear from the inside
 <<Place ThruLine Mario Neutral Right>>
 Casey: "So, Mario... what is that you're cooking?"
 <<Place ThruLine Mario Happy Right>>
-Mario: "Oh, that? Just some Lasagne a 5 strati"
+Mario: "Oh, that? Just some Lasagne a 5 strati."
 <<Place ThruLine Casey Tired Left>>
 Casey: "Wait what, 5? Not 7?"
 <<Place ThruLine Mario Neutral Right>>
@@ -109,12 +109,12 @@ Casey: "Oh no..."#line:506
 <<Place ThruLine Siegfried Furious Left>>
 As Siegfried is about to scare the Italian guy...
 <<Place ThruLine Siegfried Garlic Left>>
-He lifts a full Garlic in the air, so fast that he hits Siegfried in the middle of the nose!
-Siegfried: "AGHHH NOOOO!!!!!" He falls in passing#line:507
+He lifts a full Garlic in the air, so fast that he hits Siegfried in the middle of his nose!
+Siegfried: "AGHHH NOOOO!!!!!" He falls to the floor- rather ungraciously!#line:507
 <<Place ThruLine Nobody>>
 <<Travel ThruLine NorthArea 2>>
 Mario: "MADONNA SANTA!!!!"
-Mario runs to grab a broom
+Mario runs to grab a broom!
 <<Place ThruLine Mario Angry Left>>
 <<Place ThruLine Casey Shocked Right>>
 <<Travel ThruLine NorthArea 1>>
@@ -152,7 +152,7 @@ title: beginagain
     Casey: "...yes?"
     <<Place ThruLine Siegfried Garlic2 Center>>
     <<Place ThruLine Casey Shocked Right>>
-    Mario drops the broom, and lifts Sieggy back up
+    Mario drops the broom, and lifts Sieggy back up.
     <<Place ThruLine Mario Happy Left>>
     Mario: "SHOULD HAVE SAID IT SOONER BOY! YOU'RE SKIN AND BONES!"
     Mario: "Come to the kitchen, I'll teach you both how to do it!"
@@ -177,10 +177,10 @@ title: atthetable
 <<set $AllQuests2 to true>>
 <<Place ThruLine Casey Neutral FarLeft>>
 <<Place ThruLine Siegfried Scared Left>>
-You sit down at the table next to Siegfried
-He seems to be looking better after the garlic and the broom, but still quite uneasy
+You sit down at the table next to Siegfried.
+He seems to be looking better after the garlic and the broom, but still quite uneasy.
 <<Place ThruLine Mario Happy Right>>
-Mario arrives with a big plate of Lasagne for each and sits at the table
+Mario arrives with a big plate of Lasagne for each and sits at the table.
 Mario: "Come on, eat! You both are so thin!"
 <<Place ThruLine Casey Happy FarLeft>>
 You begin to eat, and it's beyond good! However, you look to the side...
@@ -191,13 +191,13 @@ He's playing with the fork... and you can tell why.
 This is full of not only garlic, but every spice in the book.
 -> Try to save Siegfried
     <<Place ThruLine Casey Happy FarLeft>>
-    You begin to eat super fast while Siegfried makes time
+    You begin to eat super fast while Siegfried makes time.
     <<Place ThruLine Mario Happy Right>>
     Mario: "What an apetite! I'll go fetch you some more!"
     <<Place ThruLine Nobody>>
     <<Place ThruLine Siegfried Scared Left>>
     <<Place ThruLine Casey Angry FarLeft>>
-    As soon as Mario gets to the kitchen, you glare at Siegfried
+    As soon as Mario gets to the kitchen, you glare at Siegfried.
     <<Place ThruLine Casey Neutral FarLeft>>
     Casey: "Fly the freak out of here, I'll hold him off!"#line:511
     <<Place ThruLine Siegfried Angry Left>>
@@ -213,14 +213,14 @@ This is full of not only garlic, but every spice in the book.
     <<Place ThruLine Mario Happy Right>>
     Mario: "Oh, your friend finally began!"
     <<Place ThruLine Casey Shocked FarLeft>>
-    Mario drops the plate on you and watches Siegfried eat recklessly
+    Mario drops the plate on you and watches Siegfried eat recklessly.
     <<Place ThruLine Mario Neutral Right>>
     Mario: "Ain't it good, boy?"
     Siegfried is crying while eating...
     <<Place ThruLine Siegfried Garlic Left>>
     Siegfried: "It's... so... good..."#line:516
     <<Place ThruLine Mario Happy Right>>
-    Mario: "Oh there boy, no need to cry! I'll give you some more!"
+    Mario: "There, there, boy! No need to cry! I'll give you some more!"
     This was going to be a long... long... dinner...
     <<jump TrueFriend>>
 -> Watch him eat in pain
@@ -239,17 +239,17 @@ This is full of not only garlic, but every spice in the book.
     <<Place ThruLine Siegfried Garlic Left>>
     Siegfried: "It's... so... good..."#line:516a
     <<Place ThruLine Mario Neutral Right>>
-    Mario: "Oh there boy, no need to cry! I'll give you some more!"
+    Mario: "There, there, boy! No need to cry! I'll give you some more!"
     <<Place ThruLine Nobody>>
     <<Place ThruLine Siegfried Garlic Left>>
     <<Place ThruLine Casey Neutral FarLeft>>
-    Mario takes off to the kitchen
+    Mario takes off to the kitchen.
     <<Place ThruLine Nobody>>
     <<Place ThruLine Casey Shocked FarLeft>>
     And then... Siegfried storms towards the window and takes off!
     Casey: "WAIT!"#line:517
     <<Place ThruLine Mario Happy Right>>
-    Mario comes back automatically
+    Mario comes back automatically.
     <<Place ThruLine Mario Neutral Right>>
     Mario: "Oh, where did your friend go?"
     <<Place ThruLine Casey Tired FarLeft>>
@@ -291,18 +291,18 @@ title: Asshole
 ---
 <<Travel ThruLine NorthArea>>
 <<Place ThruLine Nobody>>
-You roll out of the room, completely full
+You roll out of the room, completely full.
 <<Place ThruLine Casey Tired Right>>
 Casey: "I think... I'm gonna... die..."#line:528
 Casey: "At least... I've got... the recipe..."#line:529
 <<Place ThruLine Siegfried Neutral Left>>
-Siegfried appears again, and morphs into human
+Siegfried appears again, and morphs into human.
 <<Place ThruLine Siegfried Happy Left>>
-Siegfried: "You look like crap, twat"#530
+Siegfried: "You look like crap, twat."#530
 Casey: "Thanks..."
 Siegfried: "Come on, let's get you to sickbay. Did you get the recipe?"#line:531
 <<Place ThruLine Casey Happy Right>>
-You wave it in the air, triumphant
+You wave it in the air, triumphant.
 <<Place ThruLine Casey Tired Right>>
 <<Place ThruLine Siegfried Neutral Left>>
 Siegfried: "I really have to talk with Bee now."#line:532

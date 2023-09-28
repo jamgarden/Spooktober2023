@@ -12,40 +12,40 @@ Looks like those herbs are not kicking in yet... maybe try again later?
 <<elseif $SarcophachefQuestDone is true>>
 You enter the Principal's office...
 <<Place ThruLine Principal Happy Center>>
-Principal: "Oh, come on in Casey"
+Principal: "Oh, come on in Casey."
 <<Place ThruLine Casey Tired FarRight>>
 He seems... so relaxed?
 <<Place ThruLine Principal Neutral Center>>
-Principal: "Sit down, sit down. Listen to the music"
+Principal: "Sit down, sit down. Listen to the music."
 -> "So... jazzy"
     <<Place ThruLine Principal Happy Center>>
-    Principal: "Right? I love Jazz, and fusion"
+    Principal: "Right? I love Jazz, and fusion..."
     <<Place ThruLine Principal Neutral Center>>
     Principal: "Reminds me of my time as a student..."
     <<Place ThruLine Principal Happy Center>>
     Principal: "And my hair, ha...haha..."
 -> "So... old"
     <<Place ThruLine Principal Happy Center>>
-    Principal: "Right? So old I even had hair when it came out"
+    Principal: "Right? So old I even had hair when it came out."
 -> "So... boring"
     <<Place ThruLine Principal Happy Center>>
     Principal: "Haha, kids today..."
 <<Place ThruLine Principal Neutral Center>>
-He's so chill it begins to scare you. This is even worse than him yelling.
+He's so chill, it begins to scare you. This is even worse than him yelling.
 <<Place ThruLine Casey Neutral FarRight>>
 Casey: "I just... droped by to ask if your food is back to normal?"
 <<Place ThruLine Principal Happy Center>>
-Principal: "Oh yes... well done. Have fun at Oktoberfest by the way"
+Principal: "Oh yes... well done. Have fun at Oktoberfest by the way!"
 <<Place ThruLine Principal Neutral Center>>
-Principal: "I heard it's gonna be extra scary this year"
+Principal: "I heard it's gonna be extra scary this year."
 Casey: "How so?"
-Principal: "Well, if you haven't talked with May... you might want to do so"
+Principal: "Well, if you haven't talked with May... you might want to do so."
 <<Place ThruLine Casey Shocked FarRight>>
 Casey: "Oh, right, May!"
 <<Place ThruLine Casey Neutral FarRight>>
-Casey: "Alright, gonna take off. See you Principal"
+Casey: "Alright, gonna take off. See you Principal!"
 <<Place ThruLine Principal Happy Center>>
-Principal: "See you, kid"
+Principal: "See you, kid."
 <<Place ThruLine Nobody>>
 You pretty much run out of the room. That was even scarier than the dropbear story!
 <<set $Princpalsquest to true>>
