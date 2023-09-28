@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0fab304f5cb9694aabd9f75f0ec5aff, type: 3}
+  m_Name: ElSpooky
+  m_EditorClassIdentifier: 
+  Name: ElSpooky
+  Position: 
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: 21300000, guid: 563831162a0db4e0ca94892fead3c741, type: 3}
+  - Emotion: Ghosts
+    Picture: {fileID: 21300000, guid: 5732d3cb9fbd147d1b5d4f2750a47b52, type: 3}
+  Neutral: {fileID: 0}
+  Sad: {fileID: 0}
+  Happy: {fileID: 0}
+  Angry: {fileID: 0}
+  SpecialA: {fileID: 0}
+  SpecialB: {fileID: 0}

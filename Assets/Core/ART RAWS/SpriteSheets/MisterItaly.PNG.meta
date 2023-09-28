@@ -123,10 +123,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mario_Neutral
+      name: Mario_Angry
       rect:
         serializedVersion: 2
-        x: 0
+        x: 5200
         y: 0
         width: 1040.125
         height: 1080
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11b23b80e5aee39438daf341d0d8126c
-      internalID: -964990759
+      spriteID: abff8595f5666334fb6a7fbd6aeaf07b
+      internalID: -569038118
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,7 @@ TextureImporter:
       name: Mario_Happy
       rect:
         serializedVersion: 2
-        x: 1040
+        x: 6240
         y: 0
         width: 1040.125
         height: 1080
@@ -158,17 +158,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6029e6b64528bd4408379f473c5a99e5
+      spriteID: ff487c56dc2f58f4cbe256d1a30b5102
       internalID: -51165591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mario_Angry
+      name: Mario_Neutral
       rect:
         serializedVersion: 2
-        x: 2080
+        x: 7280
         y: 0
         width: 1040.125
         height: 1080
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b41e08318f5d0a34e9c7e7eeb004e319
-      internalID: -569038118
+      spriteID: 5d028d1c6537d264ebf20c5cda8d21fa
+      internalID: -964990759
       vertices: []
       indices: 
       edges: []

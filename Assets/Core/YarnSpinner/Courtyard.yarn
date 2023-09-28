@@ -193,7 +193,9 @@ Gee: "What?"
 Casey: "RUN EVERYONE, RUN!!!!"#line:583
 Bee: "Wha-"
 <<Place ThruLine Nobody>>
+<<Place ThruLine Phoebe Explosion Center>>
 KBOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMM
+<<Place ThruLine Nobody>>
 <<Place ThruLine Casey Shocked Right>>
 You jumped just in time away from the explosion.
 <<Place ThruLine Phoebe Neutral Center>>

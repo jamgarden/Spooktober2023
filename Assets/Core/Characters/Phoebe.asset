@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Phoebe
   m_EditorClassIdentifier: 
   Name: Phoebe
-  Position: Center
+  Position: 
   CharacterFrames:
   - Emotion: Neutral
     Picture: {fileID: -953269494, guid: c5b824241e4a4fa42b45ebcea795ed18, type: 3}
@@ -29,6 +29,8 @@ MonoBehaviour:
     Picture: {fileID: -710714298, guid: c5b824241e4a4fa42b45ebcea795ed18, type: 3}
   - Emotion: Sass
     Picture: {fileID: 9834715, guid: c5b824241e4a4fa42b45ebcea795ed18, type: 3}
+  - Emotion: Explosion
+    Picture: {fileID: 1804739637, guid: fd5d998f15e6c40139900ac819b4333f, type: 3}
   Neutral: {fileID: -953269494, guid: c5b824241e4a4fa42b45ebcea795ed18, type: 3}
   Sad: {fileID: -355405826, guid: c5b824241e4a4fa42b45ebcea795ed18, type: 3}
   Happy: {fileID: 2082742328, guid: c5b824241e4a4fa42b45ebcea795ed18, type: 3}

@@ -23,9 +23,9 @@ MonoBehaviour:
     Picture: {fileID: -1843528155, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
   - Emotion: Angry
     Picture: {fileID: 1590019965, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
-  - Emotion: OnionMouthOpen
+  - Emotion: Garlic
     Picture: {fileID: -857155947, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
-  - Emotion: OnionMouthClosed
+  - Emotion: Garlic2
     Picture: {fileID: 1498913424, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}
   - Emotion: Furious
     Picture: {fileID: 578733803, guid: 5271de008fca934488b01a75ed1d94ab, type: 3}

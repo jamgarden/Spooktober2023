@@ -4,7 +4,7 @@ tags:
 <<Place ThruLine Casey Neutral Left>>
 <<Place ThruLine Bayley Neutral Right>>
 Casey: "She's got to be around here Bayls"
-<<Place ThruLine Bayely Thinking Right>>
+<<Place ThruLine Bayely Think Right>>
 Bayley: "She went in that direction last time we crossed paths!"
 <<Place ThruLine Casey Angry Left>>
 Casey: "That scary girl is the only being I would guess is Phoebe's cousin"
@@ -14,7 +14,7 @@ Bayley: "They could be twins even!"
 Casey: "Yeah, we better watch out... we don't want to get into a fight with her"
 <<Place ThruLine Casey Tired Left>>
 Casey: "If she's anywhere near as strong as Phoebe, we're screwed"
-<<Place ThruLine Bayley Thinking Right>>
+<<Place ThruLine Bayley Think Right>>
 Bayley: "Yeah... but maybe..."
 <<Place ThruLine Casey Neutral Left>>
 Casey: "Huh?"
@@ -22,7 +22,7 @@ Casey: "Huh?"
 Bayley: "Maybe we could set her a trap!"#line:342
 <<Place ThruLine Casey Tired Left>>
 Casey: "How so?"
-<<Place ThruLine Bayley Thinking Right>>
+<<Place ThruLine Bayley Think Right>>
 Bayley: "She didn't like you. She purposely elbowed your ribs"#line:343
 -> "Oh no... no way!"
     <<Place ThruLine Casey Angry Left>>
@@ -52,7 +52,7 @@ Bayley: "She didn't like you. She purposely elbowed your ribs"#line:343
     <<Place ThruLine Bayley Neutral Right>>
     Bayley: "Well, we all have our thing! And you're fast!"#line:354
     Casey: "I'M FAST BECAUSE YOU ALL TRY TO MURDER ME!"#line:355
-    <<Place ThruLine Bayley Thinking Right>>
+    <<Place ThruLine Bayley Think Right>>
     Bayley: "Hey now, not all!"#line:356
     <<Place ThruLine Casey Sad Left>>
     Casey: "Yeah you're right, sorry, overreacted"#line:357
@@ -60,8 +60,8 @@ Bayley: "She didn't like you. She purposely elbowed your ribs"#line:343
     Bayley: "No worries man"#line:358
 -> "So we should ambush her with an electrified net?"
     <<Place ThruLine Casey Neutral Left>>
-    <<Place ThruLine Bayley Thinking Right>>
-    Bayley: "Well I was thinking more into..."
+    <<Place ThruLine Bayley Think Right>>
+    Bayley: "Well I was Think more into..."
     -> "Oh no... no way!"
         <<Place ThruLine Casey Shocked Left>>
         <<Place ThruLine Bayley Happy Right>>
@@ -90,7 +90,7 @@ Bayley: "She didn't like you. She purposely elbowed your ribs"#line:343
         <<Place ThruLine Bayley Neutral Right>>
         Bayley: "Well, we all have our thing! And you're fast!"#line:354a
         Casey: "I'M FAST BECAUSE YOU ALL TRY TO MURDER ME!"#line:355a
-        <<Place ThruLine Bayley Thinking Right>>
+        <<Place ThruLine Bayley Think Right>>
         Bayley: "Hey now, not all!"#line:356a
         <<Place ThruLine Casey Sad Left>>
         Casey: "Yeah you're right, sorry, overreacted"#line:357a
@@ -100,7 +100,7 @@ Bayley: "She didn't like you. She purposely elbowed your ribs"#line:343
 Bayley: "So, you stay put here, and look as punchable as posible!"
 <<Place ThruLine Casey Tired Left>>
 Casey: "How do I even do that?"
-<<Place ThruLine Bayley Thinking Right>>
+<<Place ThruLine Bayley Think Right>>
 Bayley: "Just... imitate Siegfried!"
 <<Place ThruLine Casey Neutral Left>>
 Casey: "...Damn Bayley, you have a real point there"
@@ -162,7 +162,7 @@ You try to run like hell, but it's no use. Someone's grabing your shirt.
 Ursula: "I'm not a vampire, halfie!"#line:372
 She lets go
 <<Place ThruLine Casey Sad Right>>
-<<Place ThruLine Bayley Thinking Far Right>>
+<<Place ThruLine Bayley Think Far Right>>
 Bayley: "Wait, you're not gonna fight us?"
 <<Place ThruLine Ursula Sad Left>>
 Ursula: "No need to. You ain't humans, it ain't fun"#line:373
@@ -175,7 +175,7 @@ Ursula: "...I triped and blamed it on you"#line:374
 Casey: "You what?!"
 <<Place ThruLine Ursual Sad Left>>
 Ursula: "Hey, it's a free college last I checked."#line:375
-<<Place ThruLine Bayley Thinking FarRight>>
+<<Place ThruLine Bayley Think FarRight>>
 Bayley: "So wait, you're Ursula right?"
 <<Place ThruLine Ursula Neutral Left>>
 Ursula: "What, I'm that famous already?"#line:376
@@ -190,7 +190,7 @@ Casey: "More like Phoebe's cousin"
 Ursula: "...I see, so she sent you?"
 <<Place ThruLine Casey Sad Right>>
 Casey: "No! She didn't wanted us to come"
-<<Place ThruLine Bayley Thinking FarRight>>
+<<Place ThruLine Bayley Think FarRight>>
 Bayley: "We wanted to ask you for help!"
 <<Place ThruLine Ursula Neutral Left>>
 Ursula: "Me? Help?"#line:377
@@ -220,7 +220,7 @@ Ursula: "Leave the past in the past, halfie. Before you actually piss me off!"#l
 Bayley: "Oh no!" Bayley goes up front
 Bayley: "She's our friend, and we won't let her keep exploding like that just because you don't want to talk about it!"#line:383
 Ursula: "And did SHE talk about it? Huh?"#line:384
-<<Place ThruLine Bayley Thinking Right>>
+<<Place ThruLine Bayley Think Right>>
 <<Place ThruLine Casey Sad FarRight>>
 Casey: "..."
 Bayley: "..."
@@ -233,7 +233,7 @@ Ursula: "Thought so. Now get out of here, and stop imitating that vampire. Gosh,
     Bayley: "Back now." Shows his fangs#line:386
 -> "Bye bye thank you for your time!"
     <<Place ThruLine Casey Happy FarRight>>
-    <<Place ThruLine Bayley Thinking Right>>
+    <<Place ThruLine Bayley Think Right>>
     Bayley stops you, and turns you around again
     <<Place ThruLine Casey Tired FarRight>>
     Bayley: "We're not going anywhere" He shows his fangs#line:386a
@@ -251,7 +251,7 @@ He barks Ursula to the ground instantly! The people around the place run away sc
 Casey: "...dammit I didn't film it! But YEAH YOU DID IT BAYL!"#line:389
 <<Place ThruLine Ursula Neutral Left>>
 Ursula: "I... uhm... you'll.... you'll pay...."#line:390
-<<Place ThruLine Bayley Thinking Right>>
+<<Place ThruLine Bayley Think Right>>
 Bayley: "You don't want to hurt us, do you?"#line:391
 <<Place ThruLine Ursula Sad Left>>
 Ursula: "I'm... too strong... to loose my time..." She seems nervous#line:392
@@ -276,7 +276,7 @@ Phoebe: "URSY!!!!!!!!!!!!!!!!!"#line:395
 Phoebe comes in RUNNING
 <<Place ThruLine Phoebe Buff FarLeft>>
 <<Place ThruLine Casey Shocked FarRight>>
-<<Place ThruLine Bayley Thinking Right>>
+<<Place ThruLine Bayley Think Right>>
 Phoebe: "WHAT DID THEY DO TO YOU?!!! ARE YOU OKAY? OMG BAYLEY I SWEAR IF YOU..."#line:396
 <<Place Thruline Ursula Sad Left>>
 Ursula: "No, no, they didn't do anything wrong" She says#line:397
@@ -293,7 +293,7 @@ Ursula: "I was affraid that if I got into this college and I wasn't scary..."#li
 Ursula: "People would be mean to me"#line:403
 Ursula: "And I didn't want to trouble you because you allways cover my back..."#line:404
 Ursula: "I wanted to stand by myself..."#line:405
-<<Place ThruLine Phoebe Excited FarLeft>>
+<<Place ThruLine Phoebe Happy FarLeft>>
 Phoebe: "Oh Ursy... YOU SHOULD HAVE SAID SO BEFORE!"#line:406
 <<Place ThruLine Ursula Neutral Left>>
 Ursula: "...?"

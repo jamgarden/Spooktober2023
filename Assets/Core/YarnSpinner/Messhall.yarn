@@ -29,17 +29,17 @@ Casey: "Cool! So man, this place is so packed, and everyone's so angry"
 Bayley: "Yeah..."
 <<Place ThruLine Casey Angry Right>>
 Casey: "Like for real, they don't even have a reason to be so mad"
-<<Place ThruLine Siegfried Neutral FarRight>>
+<<Place ThruLine Siegfried Angry FarRight>>
 Siegfried: "They do"
 <<Place ThruLine Nobody>>
 <<Travel ThruLine Messhall 1>>
 The vampire drops his plate on the table...
 It's soup... with barely any noodles in it.
 <<Travel ThruLine Messhall>>
-Casey: "Oh no don't tell me..."
 <<Place ThruLine Casey Neutral Left>>
 <<Place ThruLine Siegfried Neutral Right>>
 <<Place ThruLine Bayley Neutral FarLeft>>
+Casey: "Oh no don't tell me..."
 Siegfried: "He's doing it to everyone"
 <<Place ThruLine Bayley Think FarLeft>>
 Bayley: "Yeah, Sarcophachef has gotten out of control"
@@ -170,25 +170,26 @@ Bayley: "Pfft what a pompous butt"#line:487
 <<Place ThruLine NPC1 Neutral Right>>
 <<Place ThruLine NPC2 Neutral FarRight>>
 You two aim for the kitchen counter.
+<<Place ThruLine Nobody>>
 <<Place ThruLine Casey Angry Center>>
 <<Place ThruLine Siegfried Angry Left>>
-<<Place ThruLine Sacrophachef Neutral FarRight>>
+<<Place ThruLine Sarcophachef Neutral FarRight>>
 <<Place ThruLine Crowd Neutral FarLeft>>
 Dodging all humans and skipping the line, you go straight to Sarcophachef...
 Casey: "Alright, what is it? What is it that you want?"
-<<Place ThruLine Sacrophachef Eyebrow FarRight>>
+<<Place ThruLine Sarcophachef Eyebrow FarRight>>
 Sarcophachef: Raises an eyebrow
 <<Place ThruLine Siegfried Furious Center>>
 <<Place ThruLine Casey Angry Left>>
 Siegfried: "To stop watering down everything, what do you want, second hand toilet paper wearer?!"#line:488
-<<Place ThruLine Sacrophachef Angry FarRight>>
+<<Place ThruLine Sarcophachef Angry FarRight>>
 Sarcophachef looks at Siegfried, and without missing a beat, he throws a garlic straight to his face
 <<Place ThruLine Casey Shocked Left>>
 <<Place ThruLine Siegfried Garlic Center>>
 Siegfried: "AAAAAH MY EYEEEE!!!!"#line:489
 <<Place ThruLine Nobody>>
 <<Place ThruLine Casey Shocked Left>>
-<<Place ThruLine Sacrophachef Happy FarRight>>
+<<Place ThruLine Sarcophachef Happy FarRight>>
 <<Place ThruLine Crowd Neutral FarLeft>>
 He goes down...
 <<Place ThruLine Nobody>>
@@ -197,32 +198,32 @@ You look down to see if he's alright...
 Casey: "Oh, that doesn't look good..."#line:490
 <<Travel ThruLine Messhall>>
 <<Place ThruLine Casey Shocked Left>>
-<<Place ThruLine Sacrophachef Neutral FarRight>>
+<<Place ThruLine Sarcophachef Neutral FarRight>>
 <<Place ThruLine Crowd Neutral FarLeft>>
 Sarcophachef: "...potato vampire"
 <<Place ThruLine Casey Happy Left>>
 Casey: "...ha...haha....hahahahaha"#line:491
-<<Place ThruLine Sacrophachef Happy FarRight>>
+<<Place ThruLine Sarcophachef Happy FarRight>>
 Sarcophachef: Seems to like that you laughed at his joke
 <<Place ThruLine Casey Neutral Center>>
-<<Place ThruLine Sacrophachef Neutral FarRight>>
+<<Place ThruLine Sarcophachef Neutral FarRight>>
 Casey: "Yeah, he looks like a potato... or a very sprouted onion"#line:492
 <<Place ThruLine Casey Happy Center>>
-<<Place ThruLine Sacrophachef Happy FarRight>>
+<<Place ThruLine Sarcophachef Happy FarRight>>
 Sarcophachef: Seems to enjoy your joke
 <<Place ThruLine Casey Neutral Center>>
-<<Place ThruLine Sacrophachef Neutral FarRight>>
+<<Place ThruLine Sarcophachef Neutral FarRight>>
 Casey: "So, what can we do for you to forgive us, and everyone else?"
-<<Place ThruLine Sacrophachef Eyebrow FarRight>>
+<<Place ThruLine Sarcophachef Eyebrow FarRight>>
 Sarcophachef raises an eyebrow, and pulls out a piece of paper
-<<Place ThruLine Sacrophachef Neutral FarRight>>
+<<Place ThruLine Sarcophachef Neutral FarRight>>
 <<Place ThruLine Casey Tired Center>>
 Casey: "Huh... Lasagne a 7 strati?... But it's blank..."#line:493
 <<Place ThruLine Siegfried Garlic2 Left>>
 Siegfried: "He... wants us... to fill it... twat..."#line:494
 <<Place ThruLine Casey Happy Center>>
 Casey: "Oh, you want us to find the recipe? Sure, will do!"
-<<Place ThruLine Sacrophachef Happy FarRight>>
+<<Place ThruLine Sarcophachef Happy FarRight>>
 <<Place ThruLine Casey Neutral Center>>
 Sarcophachef: Seems to smile at this, and goes back to tend the customers, who are waiting angrily.
 <<Place ThruLine Crowd Neutral Left>>

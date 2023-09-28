@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: MaysLab
   Section: 0
-  BGList: []
+  BGList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []
