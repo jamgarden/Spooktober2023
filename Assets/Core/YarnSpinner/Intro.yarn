@@ -2,30 +2,29 @@
 tags:
 ---
 <<declare $MaysDoor = false as bool>>
-<<declare $GeeExplained = false as bool>>
-<<declare $SarcophachefQuestDone = false as bool>>
-<<declare $GeeQuestDone = false as bool>>
+<<declare $GeeExplained = true as bool>>
+<<declare $SarcophachefQuestDone = true as bool>>
+<<declare $GeeQuestDone = true as bool>>
 <<declare $BayleyQuestDone = false as bool>>
 <<declare $PhoebeQuestDone = false as bool>>
 <<declare $MaysQuest = false as bool>>
 <<declare $VisitedDorm1 = false as bool>>
 <<declare $FindUrsula = false as bool>>
 <<declare $Intervention = false as bool>>
-<<declare $SiegfriedQuestDone = false as bool>>
+<<declare $SiegfriedQuestDone = true as bool>>
 <<declare $LetSieggyHanging = false as bool>>
 <<declare $GoAheadWithSieggy = false as bool>>
 <<declare $DefeatTheCult = false as bool>>
-<<declare $NoMoreMesshall = false as bool>>
-<<declare $AllQuests1 = false as bool>>
-<<declare $AllQuests2 = false as bool>>
-<<declare $AllQuests3 = false as bool>>
+<<declare $NoMoreMesshall = true as bool>>
+<<declare $AllQuests1 = true as bool>>
+<<declare $AllQuests2 = true as bool>>
+<<declare $AllQuests3 = true as bool>>
 <<declare $AllQuests4 = false as bool>>
 <<declare $AllQuests5 = false as bool>>
 <<declare $AllQuests6 = false as bool>>
-
 <<declare $Princpalsquest = false as bool>>
-<<jump BayleysQuest>>
-<<shiftmusic ThruLine 1>>
+<<shiftmusic ThruLine 2>>
+<<jump Conmutator>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
 <<Place ThruLine "Test string with spaces here" Happy Center>>
@@ -373,6 +372,7 @@ Bayley: "Haha shut it you lot!"
 <<Place ThruLine Phoebe Happy FarLeft>>
 Phoebe: "Hey hey hey!"
 <<Place ThruLine Bee Neutral FarRight>>
+<<Place ThruLine Bayley Neutral Right>>
 Casey: "Oh, Pheebs, please tell me you brought it."
 Phoebe: "Sure thing, Case'."
 Casey: "I wouldn't make it today without a good coffee..."
@@ -422,7 +422,7 @@ Casey: "Not mine, nor Siegfried's. He even forgave Gee!"
 <<Place ThruLine Phoebe Angry FarLeft>>
 Phoebe: "Well, I'm gonna tell a thing or two to that crazy mummy!"
 Casey: "No, you'll make it worse!"
-<<Place ThruLine Phoebe Buffed FarLeft>>
+<<Place ThruLine Phoebe Buff FarLeft>>
 Phoebe: "Damn right you are, I'm gonna make *him* worse!"
 <<Place ThruLine Bee Happy FarRight>>
 Bee: "Calm down everyone, I'm sure you'll find a peaceful solution!"
@@ -729,7 +729,7 @@ Bee: "Yeeeah man, let it bee!"
 You try a sip...
 <<Place ThruLine Casey Happy Left>>
 Casey: "Hey, it's good!"
-<<Place ThruLine Bayley Happy Right>>
+<<Place ThruLine Phoebe Happy Center>>
 Phoebe: "Told you I'd solve it!"
 <<set $PhoebeExplodeVar1 to true>>
 <<elseif $BayleyCoffee is true>>
@@ -1097,7 +1097,7 @@ Gee: "Grudgy bastard!"#line:136
 <<Place ThruLine Principal Angry Center>>
 Principal: "YOU MADE A PROHIBITED POTION TO MAKE THE GARDEN GROW!"#line:137
 <<Place ThruLine Nobody>>
-<<Place ThruLine Phoebe Angry Left>>
+<<Place ThruLine Phoebe Think Left>>
 Phoebe: "Oh no, he found out!!!"
 <<Place ThruLine Bee Think Right>>
 Bee: "I thought the word banned was for like, banned from the classroom!"#line:138
@@ -1133,29 +1133,52 @@ Principal: "And now... we've been unmasked, they know our true nature..."#line:1
 
 The principal seems to be steaming from his ears. What should you do?
 -> Try to defend your actions
-    Casey: "But all we did was to ensure the best posible experience!"
+    <<Place ThruLine Casey Angry FarLeft>>
+    Casey: "But all we did was try to ensure the best possible experience!"
+    <<Place ThruLine Phoebe Sass FarRight>>
     Phoebe: "Yeah! That Garden NEEDED to be brought back to life!"
+    <<Place ThruLine Bayley Think FarRight>>
     Bayley: "And that would be *your* job, sir, not ours!"
+    <<Place ThruLine Nobody>>
+    <<Place ThruLine Principal Neutral Center>>
     Principal: "..."
     Principal: "You do know what happened after you all went on vacations, right?"
     No sound can be heard...
     Principal: "The plants... *kept* growing."#line:152
+    <<Place ThruLine Bee Think FarLeft>>
     Bee: Whispering "Oh... I don't like the sound of that..."#line:153
+    <<Place ThruLine Nobody>>
+    <<Place ThruLine Principal Angry Center>>
     Principal: "THIS LOOKED LIKE A FREAKIN' GREEN HOUSE!!!"#line:154
     Principal: "Even if our head chemist stoped the overgrowth, we had to cut it all... BY HAND."#line:155
+    <<Place ThruLine Gee Angry Right>>
     Gee: "Yeah but, what does it have to do with the booze? We replaced that one!"#line:156
+    <<Place ThruLine Bayley Angry FarRight>>
     Bayley: "And we also sent the poltergiest back home for good!"#line:157
+    <<Place ThruLine Nobody>>
+    <<Place ThruLine Principal Neutral Center>>
     Principal: "..."
     The principal pulls out a bowl of stew...
+    <<Place ThruLine Bayley Think Right>>
     Bayley: "Oh no..."
+    <<Place ThruLine Casey Shocked Left>>
     Casey: "You too?..."
+    <<Place ThruLine Nobody>>
+    <<Place ThruLine Principal Angry Center>>
     Principal: "IT'S WATERED DOWN, THANKS TO YOU LOT!"#line:158
+    <<Place ThruLine Principal Neutral Center>>
+    <<Place ThruLine Siegfried Angry FarLeft>>
     Siegfried: "What does any of this have to do with the catacombs?"#line:159
     Principal: "You destroyed several chambers. What, did you think we didn't know that's where the spiders live?"#line:160
+    <<Place ThruLine Principal Angry Center>>
     Principal: "THEY ARE MONSTERS TOO, YOU PAIR OF AIRHEADS!"#line:161
+    <<Place ThruLine Casey Sad FarRight>>
     Casey: "Oh..."
+    <<Place ThruLine Noboy>>
+    <<Place ThruLine Principal Neutral Center>>
     Principal: "There's a reason why people don't go there, and that's because it's *their* territory!"
-    Principal: "Do you have any idea what it's like trying to negotiate with the Spider Queen?!!!"
+    <<Place ThruLine Principal Angry Center>>
+    Principal: "Do you have any idea what it's like to negotiate with the Spider Queen?!!!"
     Principal: "She's worse than the Borg Queen, dammit!"
 -> Just say it was all your fault
     <<Place ThruLine Nobody>>
@@ -1179,10 +1202,10 @@ The principal seems to be steaming from his ears. What should you do?
     <<Place ThruLine Casey Neutral Center>>
     Casey: "Guys... you're not helping."#line:170
     <<Place ThruLine Principal Neutral Center>>
-    <<Place ThruLine Casey Neutral Left>>
+    <<Place ThruLine Casey Neutral FarLeft>>
     Principal: "McTagonist is right for once."#line:171
     Casey: "But all we did was try to ensure the best possible experience!"
-    <<Place ThruLine Phoebe Sass Right>>
+    <<Place ThruLine Phoebe Sass FarRight>>
     Phoebe: "Yeah! That Garden NEEDED to be brought back to life!"
     <<Place ThruLine Bayley Think FarRight>>
     Bayley: "And that would be *your* job, sir, not ours!"
@@ -1287,8 +1310,8 @@ Principal: "Show them it was all a trick to make them lower their guard!"#line:1
 Casey: "But..."
 <<Place ThruLine May Happy Left>>
 May: Whispering "Don't push it Case'."#line:186
-<<Place ThruLine Nobody>>
 You shut up, wouldn't be wise to go against May's advice.
+<<Place ThruLine Nobody>>
 <<Place ThruLine Principal Neutral Center>>
 Principal: "Ah yes, this will be great! Go on, go Freak The Town!"#line:187
 The principal gets up and begins to urge everyone out, especially professor May.
@@ -1324,7 +1347,7 @@ May: "I'm bringing the townsfolk over here!"#line:195
     May: "Ya heard, Casius Klein!"#line:196
     <<Place ThruLine Casey Shocked Left>>
     Casey: "The only ones freaking out... will be the monsters!"
-    <<Place ThruLine Siegfried Neutral Right>>
+    <<Place ThruLine Siegfried Angry Right>>
     Siegfried: "To see you everyday is already a pain, and you're half trouble."#line:197
     <<Place ThruLine May Happy Center>>
     May: "Hahaha isn't that great? Everyone's going bonkers!!!"#line:198
@@ -1352,6 +1375,7 @@ May: "I'm bringing the townsfolk over here!"#line:195
     <<Place ThruLine Casey Happy Left>>
     Casey: "Do invite some Italians too!"
     May: "Oh, oh!!! I love Italian food!"
+    <<Place ThruLine Siegfried Furious Right>>
     Siegfried: "You twat..."#line:205
 <<Place ThruLine Nobody>>
 <<Place ThruLine May Neutral Center>>
@@ -1414,7 +1438,7 @@ Gee: "She's the best! Don't worry, you'll get used to the smoke."#line:219
 <<Place ThruLine Bee Happy FarRight>>
 Bee: "Yeah! Didn't have her but boy, were my first experiments smoky..."#line:220
 <<Place ThruLine Nobody>>
-<<Place ThruLine Siegfried Center Neutral>>
+<<Place ThruLine Siegfried Neutral Center>>
 Siegfried: Rolls his eyes "Whatever, I'll be somewhere else."
 <<Place ThruLine Nobody>>
 <<Place ThruLine Phoebe Neutral Left>>

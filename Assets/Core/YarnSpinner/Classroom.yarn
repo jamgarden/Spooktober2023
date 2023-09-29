@@ -35,8 +35,13 @@ Gee: "YES, HE SHOULD. He promised to help me study this!"#line:538
     <<Place ThruLine Gee Sad Left>>
     Gee: "No, it's even worse now."
 -> "I mean, you should study by yourself"
+    <<Place ThruLine Gee Brains Left>>
+    <<Place ThruLine Casey Shocked Right>>
     A pencil sharpener flies straight to your forehead.
+    <<Place ThruLine Gee Angry Left>>
+    <<Place ThruLine Casey Tired Right>>
     Damn, it hurt a lot, but you feel like you deserved it.
+<<Place ThruLine Casey Neutral Right>>
 <<Place ThruLine Gee Angry Left>>
 Gee: "Problem here is... the humans are keeping him busy."
 <<Place ThruLine Casey Shocked Right>>
@@ -47,7 +52,7 @@ Casey: "Oh my god, we have to do something!"
 Gee: "We can't..."
 <<Place ThruLine Casey Sad Right>>
 Casey: "What you mean?"
-<<Place ThruLine Gee Thinks Left>>
+<<Place ThruLine Gee Think Left>>
 Gee: "He's... uhm... their leader..."#line:540
 <<Place ThruLine Casey Shocked Right>>
 -> "Their what?"
@@ -67,11 +72,11 @@ Gee: "He's... uhm... their leader..."#line:540
 Gee: "Look, this happened before."#line:541
 <<Place ThruLine Gee Neutral Left>>
 Gee: "One time, we went to Greece on vacation, right?"#line:542
-<<Place Thruline Casey Happy Right>>
+<<Place ThruLine Casey Happy Right>>
 Casey: "Right."
 <<Place ThruLine Casey Neutral Right>>
 Gee: "And Bee... well you know him, he likes to smoke stuff."#line:543
-<<Place ThruLine Gee Thinks Left>>
+<<Place ThruLine Gee Think Left>>
 Gee: "So... he saw this plant over there... they call it Oregano."#line:544
 -> "That stuff you throw on food?"
     <<Place ThruLine Gee Neutral Left>>
@@ -84,7 +89,7 @@ Gee: "So... he saw this plant over there... they call it Oregano."#line:544
     Gee: "Don't skip the story!"
 <<Place ThruLine Gee Neutral Left>>
 Gee: "But yes... in short, he began to smoke it."#line:545
-<<Place ThruLine Gee Thinks Left>>
+<<Place ThruLine Gee Think Left>>
 <<Place ThruLine Casey Sad Right>>
 Gee: "And other tourists were like... so interested in that."#line:546
 -> "Gee... did your brother raise a cult on Oregano?"
@@ -102,10 +107,14 @@ Gee: "He raised a cult on Oregano..."#line:547
 Casey: "HOW IS THAT EVEN POSSIBLE?"#line:548
 <<Place ThruLine Gee Angry Left>>
 Gee: "IT'S THE WAY HE TALKS! HE'S ALL LIKE, PHILOSOPHER STYLE!"#line:549
+<<Place ThruLine Gee Brains Left>>
 Gee: "YOU KNOW, HE'S LIKE DIOGENES, ALL WEIRD BUT WISE???"#line:550
+<<Place ThruLine Gee Angry Left>>
 Casey: "HOW CAN HE BE A GREEK PHILOSOPHER PROFESSING ON OREGANO?"#line:551
+<<Place ThruLine Gee Brains Left>>
 Gee: "I. DON'T. KNOW."#line:552
 Gee breaks a pencil while saying so.
+<<Place ThruLine Gee Angry Left>>
 Gee: "All I know, is that no one's helping me with my test."
 <<Place ThruLine Gee Sad Left>>
 <<Place ThruLine Casey Sad Right>>
@@ -117,18 +126,18 @@ Casey: "None taken. So... do you want me to talk with Bee?"#line:553
 Gee: "Nah, that won't work."
 Casey: "How so?"
 <<Place ThruLine Gee Sad Left>>
-Gee: "He's not aware... that he has a cult. He just thinks they are his friends."#line:554
+Gee: "He's not aware... that he has a cult. He just Think they are his friends."#line:554
 <<Place ThruLine Casey Tired Right>>
 Casey: "Oh, I see..."
-<<Place ThruLine Gee Thinks Left>>
+<<Place ThruLine Gee Think Left>>
 Gee: "But, if we could scare those humans out for good.."
-<Place ThruLine Gee Happy Left>>
+<<Place ThruLine Gee Happy Left>>
 Gee: "That did the trick last time!"
 <<Place ThruLine Casey Happy Right>>
 Casey: "Spooking some humans? Count us in!"
 Gee: "Alright, bring Phoebe to the Couryard, and we'll set an ambush on those stoners!"
 Casey: "You got it!"
-<<Place ThruLine Gee Thinks Left>>
+<<Place ThruLine Gee Think Left>>
 <<Place ThruLine Casey Neutral Right>>
 Gee: "Oh, by the way, did May ask you to go to her office?"
 Casey: "Yeah, why?"

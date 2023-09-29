@@ -190,8 +190,8 @@ Bayley: "Oh... why is it all dark?"
 <<Place ThruLine Casey Angry Left>>
 <<Place ThruLine Phoebe Angry Right>>
 The lights go on, revealing Casey and Phoebe waiting for him.
-<<Place Thruline Phoebe Angry FarRight>>
-<<Place Thruline Casey Angry Right>>
+<<Place ThruLine Phoebe Angry FarRight>>
+<<Place ThruLine Casey Angry Right>>
 <<Place ThruLine Bayley Think FarLeft>>
 Bayley: "What is going on?... Where's the cake?"
 Silence remains...
@@ -205,23 +205,23 @@ Phoebe: "You know, they give better sentences to those who cooperate!"
 Bayley: "Uhm... that's all, for real. Unless you mean..."
 <<Place ThruLine Bayley Happy FarLeft>>
 Bayley: "When I put garlic into Siegfried's tea? I admit it, that was me!"
-<<Place Thruline Phoebe Happy FarRight>>
-<<Place Thruline Casey Happy Right>>
+<<Place ThruLine Phoebe Happy FarRight>>
+<<Place ThruLine Casey Happy Right>>
 Casey: "I knew it, you clever bastard!"
 Phoebe: "That was H I L A R I O U S !!!"
 Bayley: "RIGHT?!"
-<<Place Thruline Phoebe Neutral FarRight>>
-<<Place Thruline Casey Neutral Right>>
+<<Place ThruLine Phoebe Neutral FarRight>>
+<<Place ThruLine Casey Neutral Right>>
 <<Place ThruLine Bayley Think FarLeft>>
 Casey: "But no, it's because we know something's going on"
 Phoebe: "And we wanna help!"
 <<Place ThruLine Bayley Blush FarLeft>>
 Bayley: "What you mean?" He begins to sweat.
-<<Place Thruline Casey Angry Right>>
+<<Place ThruLine Casey Angry Right>>
 Casey: "..."
 <<Place ThruLine Bayley Bark FarLeft>>
-<<Place Thruline Phoebe Happy FarRight>>
-<<Place Thruline Casey Happy Right>>
+<<Place ThruLine Phoebe Happy FarRight>>
+<<Place ThruLine Casey Happy Right>>
 Phoebe: "THAT YOU LIKE GEE, BAYLEY!"#line:275
 Bayley: "WHHHHHAAAATT???? WHO TOLD YOU THAT?!"#line:276
 <<Place ThruLine Bayley Angry FarLeft>>
@@ -229,84 +229,84 @@ Bayley: "WAS THAT VAMPIRE TWAT?!"#line:277
 -> "No! It's just so obvious!"
     <<Place ThruLine Bayley Blush FarLeft>>
     Bayley: "...so obvious that she could tell?"
-    <<Place Thruline Phoebe Neutral FarRight>>
-    <<Place Thruline Casey Neutral Right>>
+    <<Place ThruLine Phoebe Neutral FarRight>>
+    <<Place ThruLine Casey Neutral Right>>
     Phoebe: "No, not that much!"
     <<Place ThruLine Bayley Think FarLeft>>
     Bayley: "Are you saying that to make me feel better?"
-    <<Place Thruline Casey Happy Right>>
+    <<Place ThruLine Casey Happy Right>>
     Casey: "Nah, only Phoebe figured it out."
-    <<Place Thruline Casey Neutral Right>>
+    <<Place ThruLine Casey Neutral Right>>
     Bayley: "Pluto being a planet again?"
-    <<Place Thruline Casey Shocked Right>>
+    <<Place ThruLine Casey Shocked Right>>
     Casey: "WHY DOES EVERYONE KNOW ABOUT THE HOROSCOPE?"#line:278
     <<Place ThruLine Bayley Neutral FarLeft>>
-    <<Place Thruline Phoebe Happy FarRight>>
+    <<Place ThruLine Phoebe Happy FarRight>>
     Bayley: "Ours is actually accuarate!"
 -> "Wait what, he knows that?"
-    <<Place Thruline Casey Neutral Right>>
-    <<Place Thruline Phoebe Neutral FarRight>>
+    <<Place ThruLine Casey Neutral Right>>
+    <<Place ThruLine Phoebe Neutral FarRight>>
     <<Place ThruLine Bayley Blush FarLeft>>
     Bayley: "I don't know... maybe?"
-    <<Place Thruline Casey Shocked Right>>
-    <<Place Thruline Phoebe Happy FarRight>>
+    <<Place ThruLine Casey Shocked Right>>
+    <<Place ThruLine Phoebe Happy FarRight>>
     Phoebe: "OMG! Did you try to befriend him to ask about Gee?!!!"#line:279
     <<Place ThruLine Bayley Bark FarLeft>>
     Bayley: "TOTTALY NOT!"#line:280
-    <<Place Thruline Casey Neutral Right>>
-    <<Place Thruline Phoebe Neutral FarRight>>
+    <<Place ThruLine Casey Neutral Right>>
+    <<Place ThruLine Phoebe Neutral FarRight>>
     <<Place ThruLine Bayley Think FarLeft>>
     Casey: "You've been insulting him extra lately..."
-    <<Place Thruline Casey Happy Right>>
+    <<Place ThruLine Casey Happy Right>>
     Casey: "That's kinda like asking him to be your friend."
-    <<Place Thruline Casey Tired Right>>
+    <<Place ThruLine Casey Tired Right>>
     Casey: "I know that from experience, mind you."
 -> "Nah, Phoebe realized because of the planets"
-    <<Place Thruline Casey Neutral Right>>
-    <<Place Thruline Phoebe Neutral FarRight>>
+    <<Place ThruLine Casey Neutral Right>>
+    <<Place ThruLine Phoebe Neutral FarRight>>
     <<Place ThruLine Bayley Think FarLeft>>
     Bayley: "Oh, Pluto gave me away?!"
-    <<Place Thruline Casey Shocked Right>>
+    <<Place ThruLine Casey Shocked Right>>
     Casey: "WHY DOES EVERYONE KNOW ABOUT THE HOROSCOPE?"#line:278a
     <<Place ThruLine Bayley Neutral FarLeft>>
-    <<Place Thruline Phoebe Happy FarRight>>
+    <<Place ThruLine Phoebe Happy FarRight>>
     Bayley: "Ours is actually accuarate!"
-<<Place Thruline Casey Neutral Right>>
-<<Place Thruline Phoebe Neutral FarRight>>
+<<Place ThruLine Casey Neutral Right>>
+<<Place ThruLine Phoebe Neutral FarRight>>
 <<Place ThruLine Bayley Think FarLeft>>
 Bayley: "So wait a minute. This is what the intervention was for?"
-<<Place Thruline Phoebe Think FarRight>>
+<<Place ThruLine Phoebe Think FarRight>>
 Phoebe: "...maybe."
-<<Place Thruline Phoebe Neutral FarRight>>
+<<Place ThruLine Phoebe Neutral FarRight>>
 <<Place ThruLine Bayley Neutral FarLeft>>
 Bayley: "Did you guys pull a whole intervention just to support me?"
 -> "What are friends for, right?"
 -> "We're just a couple of shippers!"
 -> "We're really procrastinating the scaring people thing, huh?"
-<<Place Thruline Casey Happy Right>>
-<<Place Thruline Phoebe Happy FarRight>>
+<<Place ThruLine Casey Happy Right>>
+<<Place ThruLine Phoebe Happy FarRight>>
 <<Place ThruLine Bayley Happy Left>>
 Bayley: "Hahaha you lot are the best!"
-<<Place Thruline Casey Neutral Right>>
-<<Place Thruline Phoebe Neutral FarRight>>
+<<Place ThruLine Casey Neutral Right>>
+<<Place ThruLine Phoebe Neutral FarRight>>
 <<Place ThruLine Bayley Think Left>>
 Bayley: "I just, need some info on Gee! She's a mystery man!"
 <<Place ThruLine Bayley Neutral Left>>
 Bayley: "And we get along really well, but I don't even know her classes!"
-<<Place Thruline Casey Happy Right>>
+<<Place ThruLine Casey Happy Right>>
 Casey: "Well... what does she study?"
-<<Place Thruline Casey Neutral Right>>
+<<Place ThruLine Casey Neutral Right>>
 <<Place ThruLine Bayley Angry Left>>
 Bayley: "I DON'T KNOW! And it's too obvious if I ask Bee."
 <<Place ThruLine Bayley Think Left>>
 Bayley: "And the vampire twat doesn't even seem to know!"
 <<Place ThruLine Bayley Neutral Left>>
-<<Place Thruline Phoebe Think Center>>
+<<Place ThruLine Phoebe Think Center>>
 Phoebe: "I remember I did a course with her last year..."
 Phoebe: "She said she was going to study..."#line:281
-<<Place Thruline Casey Happy Right>>
+<<Place ThruLine Casey Happy Right>>
 Casey: "Yeah?"#line:282
-<<Place Thruline Casey Neutral Right>>
+<<Place ThruLine Casey Neutral Right>>
 Phoebe: "Study..."#line:283
 <<Place ThruLine Bayley Think Left>>
 Bayley: "Pheebs?"#line:284
@@ -318,25 +318,25 @@ Bayley: "Oh no!"#line:285
 <<if $PhoebeExplodeVar1 is true>>
 <<set $PhoebeExplodeVar2 to true>>
 <<Place ThruLine Bayley Bark Left>>
-<<Place Thruline Casey Shocked Right>>
+<<Place ThruLine Casey Shocked Right>>
 Casey: "OH NO SHE'S GONNA EXPLODE AGAIN!!!"#line:286
 Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
 -> Throw her out of the window
     <<Place ThruLine Nobody>>
     <<Place ThruLine Casey Shocked FarRight>>
-    <<Place Thruline Bayley Bark Right>>
+    <<Place ThruLine Bayley Bark Right>>
     You and Bayley grab Phoebe and begin to approach the window.
     <<Place ThruLine Casey Shocked Right>>
-    <<Place Thruline Bayley Bark Center>>
+    <<Place ThruLine Bayley Bark Center>>
     She's begining to boil...
     <<Place ThruLine Casey Shocked Center>>
-    <<Place Thruline Bayley Bark Left>>
+    <<Place ThruLine Bayley Bark Left>>
     There goes the steam out her head...
     <<Place ThruLine Casey Shocked Left>>
-    <<Place Thruline Bayley Bark FarLeft>>
+    <<Place ThruLine Bayley Bark FarLeft>>
     OUT THE WINDOW SHE GOES!#line:286Effort
     <<Place ThruLine Casey Tired Left>>
-    <<Place Thruline Bayley Think FarLeft>>
+    <<Place ThruLine Bayley Think FarLeft>>
     Casey: "I hope she lands on..."#line:288
     KBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMM
     <<Place ThruLine Casey Sad Left>>
@@ -345,13 +345,13 @@ Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
     Phoebe: "Sup?" And she's allready back!
 -> Use the fire extinguishor
     <<Place ThruLine Casey Shocked FarRight>>
-    <<Place Thruline Bayley Bark FarLeft>>
-    <<Place Thruline Phoebe Think Center>>
+    <<Place ThruLine Bayley Bark FarLeft>>
+    <<Place ThruLine Phoebe Think Center>>
     Casey: "AAAAAAAAAAAAAAA"#line:290
     Bayley: "AAAAAAAAAAAAAAAAA"#line:291
     <<Place ThruLine Casey Shocked Right>>
-    <<Place Thruline Bayley Bark Left>>
-    <<Place Thruline Phoebe Sass Center>>
+    <<Place ThruLine Bayley Bark Left>>
+    <<Place ThruLine Phoebe Sass Center>>
     Phoebe seems to stop steaming out of her head.
     Bayley: "KEEP GOING IT'S WORKING!"#line:292
     Casey: "MINE'S RUNNING OUT OF FOAM!!!!"#line:293
@@ -361,31 +361,32 @@ Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
     Bayley: "JUST DO IT!"#line:296
     <<Place ThruLine Casey Shocked Right>>
     You throw the ice cream over her head...
-    <<Place Thruline Phoebe Neutral Center>>
+    <<Place ThruLine Phoebe Neutral Center>>
     Phoebe begins to blink.
-    <<Place Thruline Phoebe Happy Center>>
+    <<Place ThruLine Phoebe Happy Center>>
     Phoebe: "OH! IT SNOWED!!!!"#line:297
 -> Show her some animal pictures
     Casey: "PHOEBE! LOOK AT THIS CUTE PUPPY ON THE PHONE!"#line:298
-    <<Place Thruline Phoebe Sass Center>>
+    <<Place ThruLine Phoebe Sass Center>>
     She stops shaking.
     Bayley: "OR THIS KITTY CAT!!!"#line:299
-    <<Place Thruline Phoebe Neutral Center>>
+    <<Place ThruLine Phoebe Neutral Center>>
     She blinks.
-    <<Place Thruline Phoebe Happy Center>>
+    <<Place ThruLine Phoebe Happy Center>>
     Phoebe: "AWWWWW LOOK AT THEM!!!!!!!!!"#line:300
     <<Place ThruLine Casey Tired Right>>
-    <<Place Thruline Bayley Think Left>>
+    <<Place ThruLine Bayley Think Left>>
     She confiscates the phones.
     Phoebe: "Precious precious little fluffy kitty and doggy!!!!"#line:301
-    <<Place Thruline Bayley Neutral Left>>
+    <<Place ThruLine Bayley Neutral Left>>
     Bayley: "Pheeew, that was close!"#line:302
     Casey: "You tell me..."#line:303
 <<elseif $PhoebeExplodeVar1 is false>>
 <<set $PhoebeExplodeVar1 to true>>
 <<Place ThruLine Casey Tired Right>>
-<<Place Thruline Bayley Bark Left>>
+<<Place ThruLine Bayley Think Left>>
 Casey: "What's going on?!!"
+<<Place ThruLine Bayley Bark Left>>
 Bayley: "Run Casey!"
 <<Place ThruLine Casey Shocked Right>>
 Casey: "Run wha-"

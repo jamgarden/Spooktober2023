@@ -12,9 +12,19 @@ Casey: "Looks like she isn't around..."
     <<elseif $GeeExplained is false>>
     <<endif>>
 -> Back to Courtyard/Garden
+    <<if $GeeExplained is false>>
     <<jump Conmutator>>
+    <<elseif $GeeQuestDone and $GeeExplained is true>>
+    <<jump Conmutator>>
+    <<elseif $GeeExplained is true>>
+    <<jump Courtyard>>
+    <<endif>>
 -> Back to East Corridor
+    <<if $FindUrsula is false>>
     <<jump ConmutatorEast>>
+    <<elseif $FindUrsula is true>>
+    <<jump EastCorridorScenes>>
+    <<endif>>
 <<elseif $MaysDoor is true>>
 <<Travel ThruLine MaysLab 2>>
 The door is open, and you hear a voice across all the noise...

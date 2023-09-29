@@ -193,7 +193,7 @@ Siegfried: "AAAAAH MY EYEEEE!!!!"#line:489
 <<Place ThruLine Crowd Neutral FarLeft>>
 He goes down...
 <<Place ThruLine Nobody>>
-<<Travel ThruLine NorthArea 1>>
+<<Travel ThruLine NorthArea 2>>
 You look down to see if he's alright...
 Casey: "Oh, that doesn't look good..."#line:490
 <<Travel ThruLine Messhall>>
@@ -313,6 +313,7 @@ Casey: "Alrighty!"
 <<Place ThruLine Nobody>>
 <<set $LetSieggyHanging to true>>
 <<set $GoAheadWithSieggy to true>>
+<<set $NoMoreMesshall to true>>
 So... where to now?
 <<jump ConmutatorWest>>
 ===

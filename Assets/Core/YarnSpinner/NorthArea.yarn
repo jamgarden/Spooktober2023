@@ -91,10 +91,11 @@ Mario: "I know how to do it with 7, but the kitchen here is quite small, I had t
 <<Place ThruLine Casey Neutral Left>>
 Casey: "So..."
 You see the bat arrive and morph right next to the window. You move the conversation to another angle!
-<<Place ThruLine Casey Happy Right>>
+<<Place ThruLine Mario Neutral Center>>
+<<Place ThruLine Casey Happy FarRight>>
 Casey: "SO... how do you even make that?"#line:505
 <<Place ThruLine Mario Happy Center>>
-<<Place ThruLine Casey Neutral Right>>
+<<Place ThruLine Casey Neutral FarRight>>
 Mario: "It's so simple boy, you just make the salsa first, and then..."
 <<Place ThruLine Siegfried Neutral FarLeft>>
 A fully morphed Siegfried begins to move across the ground as though he were levitating. He doesn't even make a sound!
@@ -104,7 +105,7 @@ Mario: "...you put the dough to rest for a few minutes..."
 Siegfried is about to reach!
 <<Place ThruLine Mario Happy Center>>
 Mario: "And the secret ingredient is..." He pulls something out of his pocked...
-<<Place ThruLine Casey Shocked Right>>
+<<Place ThruLine Casey Shocked FarRight>>
 Casey: "Oh no..."#line:506
 <<Place ThruLine Siegfried Furious Left>>
 As Siegfried is about to scare the Italian guy...
@@ -116,7 +117,7 @@ Siegfried: "AGHHH NOOOO!!!!!" He falls to the floor- rather ungraciously!#line:5
 Mario: "MADONNA SANTA!!!!"
 Mario runs to grab a broom!
 <<Place ThruLine Mario Angry Left>>
-<<Place ThruLine Casey Shocked Right>>
+<<Place ThruLine Casey Shocked FarRight>>
 <<Travel ThruLine NorthArea 1>>
 Casey: "No wait, Mario!"#line:508
 He begins to hit Siegfried with it!

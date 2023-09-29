@@ -40,10 +40,10 @@ title: ConmutatorEast
 -> Courtyard/Garden
     <<if $GeeExplained is false>>
     <<jump Conmutator>>
-    <<elseif $GeeExplained is true>>
-    <<jump Courtyard>>
     <<elseif $GeeQuestDone and $GeeExplained is true>>
     <<jump Conmutator>>
+    <<elseif $GeeExplained is true>>
+    <<jump Courtyard>>
     <<endif>>
 ===
 title: ConmutatorWest
@@ -75,29 +75,29 @@ title: ConmutatorWest
 -> Dorm
     <<if $AllQuests1 and $AllQuests2 and $AllQuests3 and $AllQuests4 is true>>
     <<jump AlbatrosSpeech>>
-    <<elseif $AllQuests1 and $AllQuests2 and $AllQuests3 is true>>
-    <<jump Dorm3>>
     <<elseif $FindUrsula is true>>
     Casey: "No, gotta go find Ursula!"
     <<jump ConmutatorWest>>
+    <<elseif $AllQuests1 and $AllQuests2 and $AllQuests3 is true>>
+    <<jump Dorm3>>
     <<elseif $BayleyQuestDone is false>>
     <<Travel ThruLine Dormroom>>
     Casey: "Looks like Phoebe is at class.."
     Casey: "Should check some other place for now"
     <<jump ConmutatorWest>>
-    <<elseif $BayleyQuestDone is true>>
-    <<jump Dorm>>
     <<elseif $LetSieggyHanging is true>>
     <<jump Intervention>>
+    <<elseif $BayleyQuestDone is true>>
+    <<jump Dorm>>
     <<endif>>
 -> Principal's Office
     <<jump PrincipalsOffice>>
 -> Courtyard/Garden
     <<if $GeeExplained is false>>
     <<jump Conmutator>>
-    <<elseif $GeeExplained is true>>
-    <<jump Courtyard>>
     <<elseif $GeeQuestDone and $GeeExplained is true>>
     <<jump Conmutator>>
+    <<elseif $GeeExplained is true>>
+    <<jump Courtyard>>
     <<endif>>
 ===

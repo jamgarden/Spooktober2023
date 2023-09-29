@@ -9,6 +9,9 @@ Principal: "GET OUT!"
 Looks like those herbs are not kicking in yet... maybe try again later?
 <<Place ThruLine Nobody>>
 <<jump ConmutatorWest>>
+<<elseif $Princpalsquest is true>>
+Not much to do here...
+<<jump ConmutatorWest>>
 <<elseif $SarcophachefQuestDone is true>>
 You enter the Principal's office...
 <<Place ThruLine Principal Happy Center>>
@@ -50,9 +53,6 @@ Principal: "See you, kid."
 You pretty much run out of the room. That was even scarier than the dropbear story!
 <<set $Princpalsquest to true>>
 Now... where to?
-<<jump ConmutatorWest>>
-<<elseif $Princpalsquest is true>>
-Not much to do here...
 <<jump ConmutatorWest>>
 <<endif>>
 ===

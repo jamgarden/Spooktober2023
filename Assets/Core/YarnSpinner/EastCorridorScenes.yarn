@@ -1,6 +1,7 @@
 ﻿title: EastCorridorScenes
 tags:
 ---
+<<Travel ThruLine CorridorEast>>
 <<Place ThruLine Casey Neutral Left>>
 <<Place ThruLine Bayley Neutral Right>>
 Casey: "She's got to be around here Bayls"
@@ -26,14 +27,14 @@ Casey: "How so?"
 Bayley: "She didn't like you. She purposely elbowed your ribs."#line:343
 -> "Oh no... no way!"
     <<Place ThruLine Casey Angry Left>>
-    <<place ThruLine Bayley Happy Right>>
+    <<Place ThruLine Bayley Happy Right>>
     Bayley: "Yes, yes way!"#line:344
     <<Place ThruLine Casey Tired Left>>
     <<Place ThruLine Bayley Neutral Right>>
     Casey: "I already had to eat half a lasagna alone!"#line:345
     <<Place ThruLine Casey Sad Left>>
     Casey: "Let's not even talk about the explosive incidents..."#line:346
-    <<Placen ThruLine Casey Angry Left>>
+    <<Place ThruLine Casey Angry Left>>
     Casey: "Heck, last year I ran for my life like 5 times!!!"#line:347
     <<Place ThruLine Bayley Happy Right>>
     Bayley: "And you're GREAT at it!"#line:348
@@ -108,9 +109,9 @@ Casey: "...Damn Bayley, you have a real point there"
 Bayley: "Got my moments! Now, go! Roam around like a twat!"
 <<Place ThruLine Nobody>>
 Bayley's idea was far too good for you to disregard it... and so, it was time to put those theater classes to good use!
-You begin to walk around the place, looking as pompous as you can.
+You begin to walk around the Place, looking as pompous as you can.
 <<Place ThruLine Casey Neutral Center>>
-<<Place ThruLine Crowd FarRight>>
+<<Place ThruLine Crowd Neutral FarRight>>
 Some tourist humans aproach...
 -> Call them peasants
     Crowd: "Hey what's your problem twat?!"
@@ -120,7 +121,7 @@ Some tourist humans aproach...
     Casey: "Thank you!" Damn I'm such a good actor#line:360
 -> Tell them to stop wasting air
     Crowd: "We paid our tax for air mind you, onionhead!"
-    <<Place Thruline Casey Angry Center>>
+    <<Place ThruLine Casey Angry Center>>
     Casey: "Wait what?"
     Crowd: "See?"
     <<Place ThruLine Casey Shocked Center>>
@@ -162,7 +163,7 @@ You try to run like hell, but it's no use. Someone's grabing your shirt!
 Ursula: "I'm not a vampire, halfie!"#line:372
 She lets go.
 <<Place ThruLine Casey Sad Right>>
-<<Place ThruLine Bayley Think Far Right>>
+<<Place ThruLine Bayley Think FarRight>>
 Bayley: "Wait, you're not gonna fight us?"
 <<Place ThruLine Ursula Sass Left>>
 Ursula: "No need to. You ain't humans, it ain't fun."#line:373
@@ -198,11 +199,11 @@ She begins to laugh
 <<Place ThruLine Urusla Sass Left>>
 Ursula: "I eat nails for breakfast EVERYDAY."#line:378
 -> Try to be tough "So what?"
-<<Place ThruLine Casey Angry Right>>
+    <<Place ThruLine Casey Angry Right>>
 -> "...nails?"
-<<Place ThruLine Casey Sad Right>>
+    <<Place ThruLine Casey Sad Right>>
 -> "Holy moly rigatoni!"
-<<Place ThruLine Casey Shocked Right>>
+    <<Place ThruLine Casey Shocked Right>>
 She looks menacingly for a second, before continuing.
 Ursula: "Without milk."#line:379
 <<Place ThruLine Bayley Angry FarRight>>
@@ -227,7 +228,7 @@ Bayley: "..."
 <<Place ThruLine Ursula Sass Left>>
 Ursula: "Thought so. Now get out of here, and stop imitating that vampire. Gosh, you were so punchable I'm regreting it."#line:385
 -> "No! I'm not going until you two solve this."
-<<Place ThruLine Casey Angry FarRight>>
+    <<Place ThruLine Casey Angry FarRight>>
 -> "...but I'll be back!"
     <<Place ThruLine Bayley Angry Right>>
     Bayley: "Back now." Shows his fangs.#line:386
@@ -246,7 +247,7 @@ Casey: "Holy freak! She's gonna...!!!"#line:388
 <<Place ThruLine Bayley Bark>>
 Bayley: "AWOOOOOOO!!!!!"#line:044c
 <<Place ThruLine Ursula Sad Left>>
-He barks Ursula to the ground instantly! The people around the place run away scared!
+He barks Ursula to the ground instantly! The people around the Place run away scared!
 <<Place ThruLine Casey Neutral FarRight>>
 Casey: "...dammit I didn't film it! But YEAH YOU DID IT BAYLS!"#line:389
 <<Place ThruLine Ursula Neutral Left>>
@@ -256,9 +257,9 @@ Bayley: "You don't want to hurt us, do you?"#line:391
 <<Place ThruLine Ursula Sad Left>>
 Ursula: "I'm... too strong... to loose my time..." She seems nervous.#line:392
 -> "You've been..."
-<<Place ThruLine Casey Sad FarRight>>
+    <<Place ThruLine Casey Sad FarRight>>
 -> "Don't tell me you..."
-<<Place ThruLine Casey Tired FarRight>>
+    <<Place ThruLine Casey Tired FarRight>>
 -> "Finish her off Bayley!"
     <<Place ThruLine Casey Happy FarRight>>
     <<Place ThruLine Bayley Sad Right>>
@@ -278,7 +279,7 @@ Phoebe comes in RUNNING!
 <<Place ThruLine Casey Shocked FarRight>>
 <<Place ThruLine Bayley Think Right>>
 Phoebe: "WHAT DID THEY DO TO YOU?!!! ARE YOU OKAY? OMG BAYLEY I SWEAR IF YOU..."#line:396
-<<Place Thruline Ursula Sad Left>>
+<<Place ThruLine Ursula Sad Left>>
 Ursula: "No, no, they didn't do anything wrong." She says.#line:397
 Ursula: "I... I was just being mean to them..."#line:398
 <<Place ThruLine Ursula Neutral Left>>
@@ -299,13 +300,13 @@ Phoebe: "Oh Ursy... YOU SHOULD HAVE SAID SO BEFORE!"#line:406
 Ursula: "...?"
 <<Place ThruLine Phoebe Buff FarLeft>>
 <<Place ThruLine Bayley Neutral Right>>
-<<Place ThruLine Casey Neutral FarRight>>>
+<<Place ThruLine Casey Neutral FarRight>>
 Phoebe: "COME ON, I'LL TAKE YOU TO THE GYM, YOU'LL BE SO RIPPED YOU'LL PUNCH EVERY DUMB VAMPIRE HERE TO THE MOON AND BACK!"#line:407
 <<Place ThruLine Ursula Angry Left>>
 Ursula: "...YEAH, LET'S GO!"#line:408
 Phoebe: "YEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"#line:409
 Ursula: "HAAAAAAAAAWWWWWWWWWWWWWWWW!!!!!!!!!"#line:410
-They begin to shake.
+They begin to shake
 <<Place ThruLine Bayley Angry Right>>
 <<Place ThruLine Casey Shocked FarRight>>
 Bayley: "OH MY GOD CASEY"#line:411

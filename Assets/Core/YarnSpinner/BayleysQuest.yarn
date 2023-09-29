@@ -2,7 +2,7 @@
 tags:
 ---
 <<Travel ThruLine Messhall>>
-//<<Place ThruLine Nobody>>
+<<Place ThruLine Nobody>>
 <<Place ThruLine Casey Neutral FarLeft>>
 <<Place ThruLine Bayley Neutral Center>>
 You enter the messhall, and see Bayley quietly cleaning the tables by himself.
@@ -64,16 +64,19 @@ With all the humans wandering around, surely it couldn't be too hard to find som
 <<Place ThruLine Casey Tired Center>>
 <<Place ThruLine Bayley Neutral Right>>
 Just as you're walking around a corner, someone bumps into you and elbows your ribs!
-<<Place ThruLine Ursula Neutral Center>>
-<<Place ThruLine Casey Sad Right>>
+<<Place ThruLine Ursula Sass Center>>
+<<Place ThruLine Casey Tired Right>>
 <<Place ThruLine Bayley Think FarRight>>
 Casey: "Ow…"
 <<Place ThruLine Bayley Angry FarRight>>
 Bayley starts to growl.
 Bayley: "Hey, what's your problem!?"#line:453
-<<Place ThruLine Ursula Angry Center>>
 The person who bumped into you curls her lip and sneers.
+<<Place ThruLine Ursula Angry Center>>
 Cyclop Girl: "You."
+<<Place ThruLine Ursula Angry FarRight>>
+<<Place ThruLine Casey Tired Center>>
+<<Place ThruLine Bayley Angry Right>>
 She quickly stomps off, leaving the two of you confused.
 <<Place ThruLine Nobody>>
 <<Place ThruLine Casey Sad Left>>
@@ -354,6 +357,7 @@ Bayley: "…"
 <<Place ThruLine Daniel Neutral Right>>
 Aussie: "Relax! I'm just yanking your chain"
 <<Place ThruLine Bayley Neutral Left>>
+<<Place ThruLine Casey Tired FarLeft>>
 Bayley: "Phew!"
 <<Place ThruLine Daniel Angry Right>>
 Aussie: "Dropbears are real though"
@@ -444,7 +448,7 @@ Bayley: "I told you Case', I just don't think I'm scary enough."#line:469
 <<Place ThruLine Bayely Sad Right>>
 <<Place ThruLine Casey Neutral Left>>
 It seems like Bayley has a lot on his mind… 
-Let's leave him for now, and try something else.
 <<Place ThruLine Nobody>>
-<<jump Conmutator>>
+Let's leave him for now, and try something else.
+<<jump ConmutatorWest>>
 ===
