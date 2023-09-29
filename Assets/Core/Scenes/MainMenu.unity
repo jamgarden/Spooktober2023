@@ -259,9 +259,9 @@ MonoBehaviour:
       Data2: 1248178245
       Data3: 1182880938
       Data4: -1956584555
-    Path: event:/YarnVoiceLinePlayer
+    Path: event:/VoiceLines/YarnVoiceLinePlayer
   Event: 
-  PlayEvent: 1
+  PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -801,6 +801,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8040239747445973107, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1521330456}
+    - targetCorrespondingSourceObject: {fileID: 8040239747445973107, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1521330458}
   m_SourcePrefab: {fileID: 100100000, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
 --- !u!114 &1124994881 stripped
 MonoBehaviour:
@@ -867,15 +870,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f13478404e44fc4c892b004680c0855, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emitter: {fileID: 784728139}
+  emitter: {fileID: 1521330458}
   eventReference:
     Guid:
       Data1: -108524650
       Data2: 1248178245
       Data3: 1182880938
       Data4: -1956584555
-    Path: event:/YarnVoiceLinePlayer
+    Path: event:/VoiceLines/YarnVoiceLinePlayer
   textLanguageCode: en-US
+--- !u!114 &1521330458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521330454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -108524650
+      Data2: 1248178245
+      Data3: 1182880938
+      Data4: -1956584555
+    Path: event:/VoiceLines/YarnVoiceLinePlayer
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1674606186
 GameObject:
   m_ObjectHideFlags: 0
