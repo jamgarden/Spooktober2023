@@ -2,29 +2,28 @@
 tags:
 ---
 <<declare $MaysDoor = false as bool>>
-<<declare $GeeExplained = true as bool>>
-<<declare $SarcophachefQuestDone = true as bool>>
-<<declare $GeeQuestDone = true as bool>>
+<<declare $GeeExplained = false as bool>>
+<<declare $SarcophachefQuestDone = false as bool>>
+<<declare $GeeQuestDone = false as bool>>
 <<declare $BayleyQuestDone = false as bool>>
 <<declare $PhoebeQuestDone = false as bool>>
 <<declare $MaysQuest = false as bool>>
 <<declare $VisitedDorm1 = false as bool>>
 <<declare $FindUrsula = false as bool>>
 <<declare $Intervention = false as bool>>
-<<declare $SiegfriedQuestDone = true as bool>>
+<<declare $SiegfriedQuestDone = false as bool>>
 <<declare $LetSieggyHanging = false as bool>>
 <<declare $GoAheadWithSieggy = false as bool>>
 <<declare $DefeatTheCult = false as bool>>
-<<declare $NoMoreMesshall = true as bool>>
-<<declare $AllQuests1 = true as bool>>
-<<declare $AllQuests2 = true as bool>>
-<<declare $AllQuests3 = true as bool>>
+<<declare $NoMoreMesshall = false as bool>>
+<<declare $AllQuests1 = false as bool>>
+<<declare $AllQuests2 = false as bool>>
+<<declare $AllQuests3 = false as bool>>
 <<declare $AllQuests4 = false as bool>>
 <<declare $AllQuests5 = false as bool>>
 <<declare $AllQuests6 = false as bool>>
 <<declare $Princpalsquest = false as bool>>
 <<shiftmusic ThruLine 2>>
-<<jump Conmutator>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
 <<Place ThruLine "Test string with spaces here" Happy Center>>

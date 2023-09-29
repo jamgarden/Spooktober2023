@@ -55,6 +55,7 @@ title: ConmutatorWest
     <<if $VisitedDorm1 is true>>
     <<jump Messhall>>
     <<elseif $BayleyQuestDone is true>>
+    <<Travel ThruLine Messhall>>
     Casey: "I'm not quite hungry..."
     Casey: "I should go check somewhere else"
     <<jump ConmutatorWest>>

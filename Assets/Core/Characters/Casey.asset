@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Casey
   m_EditorClassIdentifier: 
   Name: Casey
-  Position: Left
+  Position: Center
+  Emotion: Happy
   CharacterFrames:
   - Emotion: Neutral
     Picture: {fileID: 1839063359, guid: c539bc228878b504a85faa0593c40136, type: 3}
@@ -31,9 +32,8 @@ MonoBehaviour:
     Picture: {fileID: 1522730408, guid: c539bc228878b504a85faa0593c40136, type: 3}
   - Emotion: Sunglasses
     Picture: {fileID: -1147961621, guid: c539bc228878b504a85faa0593c40136, type: 3}
+  - Emotion: Twat
+    Picture: {fileID: -1480096328, guid: 2147b504cbf3e43ca8a7d32fb6b5abd4, type: 3}
+  - Emotion: Garlic
+    Picture: {fileID: 1672913699, guid: 2147b504cbf3e43ca8a7d32fb6b5abd4, type: 3}
   Neutral: {fileID: 1839063359, guid: c539bc228878b504a85faa0593c40136, type: 3}
-  Sad: {fileID: 1967465445, guid: c539bc228878b504a85faa0593c40136, type: 3}
-  Happy: {fileID: -1702696545, guid: c539bc228878b504a85faa0593c40136, type: 3}
-  Angry: {fileID: 1146956468, guid: c539bc228878b504a85faa0593c40136, type: 3}
-  SpecialA: {fileID: -773684098, guid: c539bc228878b504a85faa0593c40136, type: 3}
-  SpecialB: {fileID: -478454393, guid: c539bc228878b504a85faa0593c40136, type: 3}

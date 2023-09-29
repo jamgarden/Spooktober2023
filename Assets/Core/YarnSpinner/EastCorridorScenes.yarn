@@ -114,12 +114,14 @@ You begin to walk around the Place, looking as pompous as you can.
 <<Place ThruLine Crowd Neutral FarRight>>
 Some tourist humans aproach...
 -> Call them peasants
+    <<Place ThruLine Casey Twat Center>>
     Crowd: "Hey what's your problem twat?!"
     Casey: "I'm just better than you."#line:359
     Crowd: "Yeah, sure, you look like a pompous dork."
     <<Place ThruLine Casey Happy Center>>
     Casey: "Thank you!" Damn I'm such a good actor#line:360
 -> Tell them to stop wasting air
+    <<Place ThruLine Casey Twat Center>>
     Crowd: "We paid our tax for air mind you, onionhead!"
     <<Place ThruLine Casey Angry Center>>
     Casey: "Wait what?"
@@ -130,7 +132,7 @@ Some tourist humans aproach...
     <<Place ThruLine Casey Happy Center>>
     Casey: "Damn, May's awesome!"#line:362
 -> Just do as Siegfried does when he eats garlic
-    <<Place ThruLine Casey Shocked Center>>
+    <<Place ThruLine Casey Garlic Center>>
     You begin to puff your cheeks and call yourself a vampire twat.
     Casey: "I'M A TWATITTY TWATY TWAT GARLIC BAD BAD BAD!"#line:363
     The people just look at you as weirded out as posible, as though they were about to leave!
@@ -142,7 +144,7 @@ Suddenly, they begin to run away!
 <<Place ThruLine Casey Angry Center>>
 Casey: "Huh? Oh, yeah, that will show you!"#line:365
 You feel a presence behind you.
-<<Place ThruLine Urslua Neutral Left>>
+<<Place ThruLine Ursula Neutral Left>>
 <<Place ThruLine Casey Sad Center>>
 Casey: "Oh no... you're behind me, aren't you"#line:366
 <<Place ThruLine Ursula Sass Left>>
@@ -156,25 +158,25 @@ Casey: "How nice of you, see ya!"#line:370
 Bayley: "RUN CASEY, RUN!"#line:371
 <<Place ThruLine Bayley Bark FarRight>>
 Bayley: "AWOOOOOOOOOO!!!!"#line:044b
-<<Place ThruLine Casey Shocked Left>>
+<<Place ThruLine Casey Shocked Center>>
 Casey: "AAAAAAAAAAAAAAAAAAAAAA"#line:290a
 You try to run like hell, but it's no use. Someone's grabing your shirt!
 <<Place ThruLine Ursula Angry Left>>
 Ursula: "I'm not a vampire, halfie!"#line:372
+<<Place ThruLine Ursula Sass Left>>
 She lets go.
 <<Place ThruLine Casey Sad Right>>
 <<Place ThruLine Bayley Think FarRight>>
 Bayley: "Wait, you're not gonna fight us?"
-<<Place ThruLine Ursula Sass Left>>
 Ursula: "No need to. You ain't humans, it ain't fun."#line:373
 <<Place ThruLine Casey Angry Right>>
 Casey: "But, why did you hit me in the corridor before?"
-<<Place ThruLine Ursual Neutral Left>>
+<<Place ThruLine Ursula Neutral Left>>
 Ursula: "...I triped and blamed it on you."#line:374
 <<Place ThruLine Casey Shocked Right>>
-<<Place ThruLine Bayley Angry FarRigth>>
+<<Place ThruLine Bayley Angry FarRight>>
 Casey: "You what?!"
-<<Place ThruLine Ursual Sass Left>>
+<<Place ThruLine Ursula Sass Left>>
 Ursula: "Hey, it's a free college last I checked."#line:375
 <<Place ThruLine Bayley Think FarRight>>
 Bayley: "So wait, you're Ursula right?"
@@ -207,19 +209,24 @@ Ursula: "I eat nails for breakfast EVERYDAY."#line:378
 She looks menacingly for a second, before continuing.
 Ursula: "Without milk."#line:379
 <<Place ThruLine Bayley Angry FarRight>>
-Bayley: "HEY, WAIT A MINUTE, THAT'S TOO MUCH!"#line:380
 <<Place ThruLine Casey Shocked Right>>
+Bayley: "HEY, WAIT A MINUTE, THAT'S TOO MUCH!"#line:380
 Casey: "Y...YEAH, r-right?"#line:381
 Ursula: "Why would I help you?"
 <<Place ThruLine Casey Sad Right>>
+<<Place ThruLine Bayley Sad FarRight>>
 Casey: "Phoebe told us you used to be besties, what happened?"
-<<Place ThruLine Ursula Angry Left>>
+<<Place ThruLine Ursula Angry Center>>
 She seems to get angry at this, and pushes you away.
-Ursula: "Leave the past in the past, halfie. Before you actually piss me off!"#line:382
 <<Place ThruLine Bayley Angry Right>>
 <<Place ThruLine Casey Shocked FarRight>>
+<<Place ThruLine Ursula Sass Left>>
+Ursula: "Leave the past in the past, halfie. Before you actually piss me off!"#line:382
+<<Place ThruLine Bayley Angry Right>>
 Bayley: "Oh no!" Bayley goes up front.
+<<Place ThruLine Casey Angry FarRight>>
 Bayley: "She's our friend, and we won't let her keep exploding like that just because you don't want to talk about it!"#line:383
+<<Place ThruLine Ursula Angry Left>>
 Ursula: "And did SHE talk about it? Huh?"#line:384
 <<Place ThruLine Bayley Think Right>>
 <<Place ThruLine Casey Sad FarRight>>
@@ -241,10 +248,11 @@ Ursula: "Thought so. Now get out of here, and stop imitating that vampire. Gosh,
 <<Place ThruLine Bayley Angry Right>>
 <<Place ThruLine Ursula Angry Left>>
 Ursula: "Oh, is that so then? Don't say I didn't warn you!"#line:387
+<<Place ThruLine Ursula Angry Center>>
 She begins to groan, looks like she's about to grow buff like Phoebe!
 <<Place ThruLine Casey Shocked FarRight>>
 Casey: "Holy freak! She's gonna...!!!"#line:388
-<<Place ThruLine Bayley Bark>>
+<<Place ThruLine Bayley Bark Right>>
 Bayley: "AWOOOOOOO!!!!!"#line:044c
 <<Place ThruLine Ursula Sad Left>>
 He barks Ursula to the ground instantly! The people around the Place run away scared!
@@ -259,7 +267,7 @@ Ursula: "I'm... too strong... to loose my time..." She seems nervous.#line:392
 -> "You've been..."
     <<Place ThruLine Casey Sad FarRight>>
 -> "Don't tell me you..."
-    <<Place ThruLine Casey Tired FarRight>>
+    <<Place ThruLine Casey Sad FarRight>>
 -> "Finish her off Bayley!"
     <<Place ThruLine Casey Happy FarRight>>
     <<Place ThruLine Bayley Sad Right>>
@@ -267,10 +275,10 @@ Ursula: "I'm... too strong... to loose my time..." She seems nervous.#line:392
     -> "You've been..."
     <<Place ThruLine Casey Sad FarRight>>
     -> "Don't tell me you..."
-    <<Place ThruLine Casey Tired FarRight>>
-<<Place ThruLine Casey Tired Far Right>>
+    <<Place ThruLine Casey Sad FarRight>>
+<<Place ThruLine Casey Tired FarRight>>
 Casey: "You were bluffing... all along?"#line:393
-<<Place ThruLine Ursula Angry Left>>
+<<Place ThruLine Ursula Sad Left>>
 Ursula: "I... I..."#line:394
 <<Place ThruLine Phoebe Angry FarLeft>>
 Phoebe: "URSY!!!!!!!!!!!!!!!!!"#line:395
@@ -282,10 +290,13 @@ Phoebe: "WHAT DID THEY DO TO YOU?!!! ARE YOU OKAY? OMG BAYLEY I SWEAR IF YOU..."
 <<Place ThruLine Ursula Sad Left>>
 Ursula: "No, no, they didn't do anything wrong." She says.#line:397
 Ursula: "I... I was just being mean to them..."#line:398
+<<Place ThruLine Phoebe Angry FarLeft>>
 <<Place ThruLine Ursula Neutral Left>>
 Ursula: "And Bayley called my bluff..."#line:399
+<<Place ThruLine Bayley Happy Right>>
 Bayley: "Nails without milk? Haha I saw that in a tv show!"#line:400
 <<Place ThruLine Phoebe Sad FarLeft>>
+<<Place ThruLine Bayley Think Right>>
 Phoebe: "Why did you do that?! You were so nice all the time!!!"#line:401
 <<Place ThruLine Ursula Sad Left>>
 <<Place ThruLine Bayley Sad Right>>
