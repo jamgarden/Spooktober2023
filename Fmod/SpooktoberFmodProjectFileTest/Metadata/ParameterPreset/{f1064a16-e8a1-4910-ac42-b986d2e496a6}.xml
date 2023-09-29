@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{f1064a16-e8a1-4910-ac42-b986d2e496a6}">
+		<property name="name">
+			<value>MusicSwitch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{24e28c96-4d64-4cf9-9c95-5aedfdd24367}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2fb43366-00f6-4479-ab10-61af14b75ab6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2fb43366-00f6-4479-ab10-61af14b75ab6}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Jazzy</value>
+			<value>SpookyTime</value>
+			<value>Walk</value>
+			<value>Silence</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.69333330790201819</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
