@@ -2,6 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
+using FMODUnity;
+using FMOD;
+using FMOD.Studio;
+
+[System.Serializable]
+public class CharacterFrame 
+{
+    public string Emotion;
+    public Sprite Picture;
+
+}
 
 public partial class GameManager 
 {
@@ -16,28 +27,80 @@ public partial class GameManager
 
 
     [YarnCommand("Place")]
-    public void Place_Event(string characterName = "TestDude", string position = "Left", bool flip = false)
+    public void Place_Event(string characterName = "TestDude", string emotion = "Neutral", string position = "Left")
     {
-        
-        CharacterSO characterHolder = GetCharacterSO(characterName);
-       
-        foreach(CharacterSO character in StagedCharacters)
+        if(characterName == "Nobody")
         {
-            if(character.Name == characterHolder.Name)
+            // This is our flag to clear the screen;
+            ClearStageAll_Emit();
+            return;
+        }
+
+        // 
+        foreach(CharacterSO chara in CastOfCharacters)
+        {
+            if(chara.Name == characterName)
             {
-                Debug.Log("They're already up here!");
-                // fire off move event
-                MoveCharacter_Emit(character, getStagePos(position));
-                return;
+                chara.Position = position;
+                chara.Emotion = emotion;
+                bool found = false;
+                foreach(CharacterSO stagedChara in StagedCharacters)
+                {
+                    if(stagedChara.Position == position && stagedChara.Name != chara.Name)
+                    {
+                        stagedChara.Position = "";
+                        stagedChara.Emotion = "";
+                        
+                    }else if(stagedChara.Position == position && stagedChara.Name == chara.Name)
+                    {
+                        found = true;
+                    }
+                }
+                if (!found)
+                {
+                    StagedCharacters.Add(chara);
+                }
             }
         }
-        StagedCharacters.Add(characterHolder);
-        characterHolder.Position = position;
-        
 
-        // And let's call our Director from here:
-        Place_Emit(characterHolder, position);
-        return;
+        // now sift out all staged characters with no position
+        List<CharacterSO> emptyStaged = new List<CharacterSO>();
+        foreach(CharacterSO chara in StagedCharacters)
+        {
+            if(chara.Position == "")
+            {
+                emptyStaged.Add(chara);
+            }
+        }
+
+        if(emptyStaged.Count > 0)
+        {
+
+            foreach (CharacterSO chara in emptyStaged)
+            {
+                StagedCharacters.Remove(chara);
+            }
+        }
+
+
+        foreach(SpriteRenderer sRender in Positions)
+        {
+            sRender.sprite = null;
+        }
+
+
+        foreach(CharacterSO chara in StagedCharacters)
+        {
+            foreach(SpriteRenderer sRender in Positions)
+            {
+                if(sRender.gameObject.name == chara.Position)
+                {
+                    sRender.sprite = chara.getFrame(chara.Emotion).Picture;
+                    break;
+                }
+            }
+        }
+
     }
 
     [YarnCommand("Clear")]
@@ -68,5 +131,12 @@ public partial class GameManager
     {
 
         // This fires when we request locations.
+    }
+
+    [YarnCommand("shiftmusic")]
+    public void ShiftMusic(int val = 0)
+    {
+        // This needs to be moved to the director!
+        FMODUnity.RuntimeManager.StudioSystem.setParameterByNameWithLabel("MusicSwitch", songNames[val]);
     }
 }

@@ -14,9 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: May
   Position: 
+  Emotion: 
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: 1575686685, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
+  - Emotion: Dropbear
+    Picture: {fileID: 21300000, guid: 273d126bbeb3d4bdc9cbb209b808b04c, type: 3}
+  - Emotion: Guitar
+    Picture: {fileID: 1084301414, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
+  - Emotion: Scare
+    Picture: {fileID: 1137984085, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
+  - Emotion: Happy
+    Picture: {fileID: 1671851737, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
+  - Emotion: Angry
+    Picture: {fileID: 1137984085, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
   Neutral: {fileID: 1575686685, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
-  Sad: {fileID: 0}
-  Happy: {fileID: 1671851737, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
-  Angry: {fileID: 1137984085, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
-  SpecialA: {fileID: 1084301414, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
-  SpecialB: {fileID: 0}

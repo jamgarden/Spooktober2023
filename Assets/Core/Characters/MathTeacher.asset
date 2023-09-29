@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: MathTeacher
   m_EditorClassIdentifier: 
   Name: MathTeacher
-  Position: 
+  Position: Center
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: -1496450365, guid: ca288790a946a5c4f810071806290fdf, type: 3}
+  - Emotion: Happy
+    Picture: {fileID: -1175514059, guid: ca288790a946a5c4f810071806290fdf, type: 3}
   Neutral: {fileID: -1496450365, guid: ca288790a946a5c4f810071806290fdf, type: 3}
   Sad: {fileID: 0}
   Happy: {fileID: -1175514059, guid: ca288790a946a5c4f810071806290fdf, type: 3}

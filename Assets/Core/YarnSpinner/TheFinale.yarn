@@ -1,92 +1,166 @@
 ﻿title: TheFinale
 tags:
 ---
+<<Travel ThruLine Courtyard 1>>
+<<Place ThruLine Casey Happy Center>>
 Casey: "Oh my god, it's finally time!"
+<<Place ThruLine Phoebe Happy Left>>
 Phoebe: "Can't wait to listen to them!"
+<<Place ThruLine Bayley Happy Right>>
 Bayley: "Oh, oh, do you think they'll open with Freak the Town?"
+<<Place ThruLine Casey Neutral Center>>
 Casey: "Nah, tottaly with Wrong Potion!"
+<<Place ThruLine Phoebe Neutral Left>>
 Phoebe: "I just want them to play Fairy Cyclop!"
+<<Place ThruLine Bayley Happy Right>>
+<<Place ThruLine Casey Shocked Center>>
+<<Place ThruLine Phoebe Happy Left>>
 Vocalist: AAAAAAALLLLL RIGHT EVERYONE, ARE YOU READY TO ROCK?!"#line:234
 //the crowd goes wild
+<<Place ThruLine Bayley Happy Right>>
+<<Place ThruLine Casey Happy Center>>
+<<Place ThruLine Phoebe Buff Left>>
 Phoebe: "YEEEEEEEEAH!!!!"
+<<Place ThruLine Casey Shocked Center>>
 Casey: "Oh, shoot, I gotta go backstage!"
 Bayley: "And I gotta go with Gee!"
+<<Place ThruLine Phoebe Happy Left>>
 Phoebe: "Wait up Casey!!!!"
+<<Place ThruLine Nobody>>
 //Song begins to play
 //Events unfolding while it plays
+<<Place ThruLine Crowd Neutral Right>>
+<<Place ThruLine Gee Neutral Left>>
+<<Place ThruLine Bayley Neutral FarLeft>>
 Crowd: "Oh my, this veincorice is sooo good!"
+<<Place ThruLine Gee Happy Left>>
 Gee: "Thank you! I made it myself"#line:235
+<<Place ThruLine Gee Neutral Left>>
 Crowd: "So like, what is it made of?"
+<<Place ThruLine Gee Angry Left>>
 Gee: "Well, duh, human veins!"#line:236
+<<Place ThruLine Bayley Think FarLeft>>
+<<Place ThruLine Gee Neutral Left>>
 Bayley: "Gee..."
-Crowd: "Hahahaha, no for real"
+Crowd: "Hahahaha, no for real."
+<<Place ThruLine Gee Angry Left>>
 Gee: "What? Are you calling me a knockoff?"#line:237
-Crowd: "As if it were made of human veins, come on haha"
+Crowd: "As if it were made of human veins, come on haha..."
+<<Place ThruLine Bayley Neutral FarLeft>>
 Bayley: "Gee, no!"#line:238
+<<Place ThruLine Gee Brains Left>>
 Gee: "MIND YOU, I GREW THEM MYSELF WITH NECROTIC TISSUE IN THE LAB, YOU AIRHEADED HUMAN!"#line:239
 Crowd: "...what?"
 Gee: "WHAT, DID YOU THINK I'D GO SEARCH A GRAVEYARD OR SOMETHING?"#line:240
-Crowd: "Oh my god, is she... serious?..."
-They begin to look at each other in desperation
+Crowd: "Oh my god, is she... serious...?"
+They begin to look at each other in desperation.
+<<Place ThruLine Bayley Bark FarLeft>>
 Bayley: "GEE NO!!!"#line:241
+<<Place ThruLine Bayley Angry FarLeft>>
 Gee: "OF COURSE I AM, NO ONE MOCKS MY WORK AND LIVES TO TELL!"#line:242
-Crowd: "DDDIIAGGAGGG" They begin to puke
+Crowd: "DDDIIAGGAGGG" They begin to puke.
 Crowd: "YOU SICK FREAK, TAKE THIS!"
-The moment they throw the punch, Bayley stops it midway
+<<Place ThruLine Gee Angry Left>>
+<<Place ThruLine Bayley Angry Center>>
+The moment they throw the punch, Bayley stops it midway.
 Bayley: "THAT'S IT, I'M GOING IN..."#line:243
+<<Place ThruLine Bayley Bark FarLeft>>
 Bayley: "AWOOOOOO!!!!"#line:044a
+<<Place ThruLine Gee Brains Left>>
 Gee: "TAKE THIS, AND THAT, AND SOME MORE OF THIS!!!!"#line:244
+<<Place ThruLine Nobody>>
 Meanwhile... somewhere else...
+<<Place ThruLine Siegfried Angry Right>>
 Siegfried: "What's that?"
+<<Place ThruLine Crowd Neutral Left>>
 Crowd: "THAT ZOMBIE FREAK, SHE'S BEEN FEEDING US HUMAN VEINS!!!!"
+<<Place ThruLine Siegfried Happy Right>>
 Siegfried: "Oh... so the veil's been lifted..."#line:245
-Siegfried pulls out his fangs and begins to levitate
+<<Place ThruLine Siegfried Angry Right>>
+Siegfried pulls out his fangs and begins to levitate.
+<<Place ThruLine Siegfried Furious Right>>
 Siegfried: "THE DAY OF YOUR JUDGEMENT HAS ARRIVED, PEASANTS!"#line:246
 Crowd: The panicked crowd sees Siegfried, and begin to run and attack him!
 Siegfried lits a pair of fireballs in each hands, and levitates towards them!
+<<Place ThruLine Crowd Neutral FarLeft>>
 Crowd: "AAAAAAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!!!!!!!!" They run for their lives!
 Meanwhile, somewhere else...
+<<Place ThruLine Nobody>>
+<<Place ThruLine Principal Neutral Right>>
 Principal: "This is too noisy, why did she have to play rock?"
+<<Place ThruLine Albatros Neutral Left>>
 Albatros: "Come on Princy, you can't always listen to classical or jazz!"
-Principal: "She was so good at jazz when we were students, but when that rock and roll thing kicked in..."
+<<Place ThruLine Principal Happy Right>>
+Principal: "She was so good at jazz when we were students"
+<<Place ThruLine Principal Neutral Right>>
+Principal: "But when that rock and roll thing kicked in..."
 Principal: "Wait, what's that?!"
-He stands up, and listens to the crowd go wild
+He stands up, and listens to the crowd go wild.
 Albatros: "Oh my... that's..."
+<<Place ThruLine Principal Angry Right>>
 Principal: "SCREAMS OF FEAR!"#line:247
+<<Place ThruLine Albatros Happy Left>>
 Albatros: "Haha... those kids did it!"#line:248
+<<Place ThruLine Principal Happy Right>>
 Principal: "Oh, that's it, I'm going in!"
+<<Place ThruLine Nobody>>
+<<Place ThruLine ElSpooky Ghosts Center>>
 Albatros: "About time, you old freak! Come on Ghosties, let's show'em!"#line:249
 The ghosts begin to swawm the place, with the Principal leading them like a mad goat!
+<<Place ThruLine Principal Angry Right>>
 Principal: "HAHAHAHAHAHAHA KISS YOUR MOMS GOODBYE!!!!"#line:250
 Meanwhile, somewhere else...
-Casey was trying to operate the machine for the solo part
+<<Place ThruLine Nobody>>
+<<Place ThruLine Casey Neutral Right>>
+Casey was trying to operate the machine for the solo part.
 Casey: "Allright... so Miss May said the order was..."
 -> 11, 8, 6, 3
     Noise of steam going out
+    <<Place ThruLine Casey Tired Right>>
     Casey: "Uhm... that didn't sound good..."
+    <<Place ThruLine Phoebe Happy FarRight>>
+    Phoebe: "HEY CASE'!"
+    <<Place ThruLine Casey Shocked Right>>
     Casey: "AAAAA!"
+    <<Place ThruLine Phoebe Think FarRight>>
     Phoebe: "What's that? Looks like it's gonna..."
 -> 7, 5, 6, 4
     Noise of steam going out
+    <<Place ThruLine Casey Tired Right>>
     Casey: "Uhm... that didn't sound good..."
+    <<Place ThruLine Phoebe Happy FarRight>>
+    Phoebe: "HEY CASE'!"
+    <<Place ThruLine Casey Shocked Right>>
     Casey: "AAAAA!"
+    <<Place ThruLine Phoebe Think FarRight>>
     Phoebe: "What's that? Looks like it's gonna..."
 -> 9, 9, 7, 1
     Noise of steam going out
+    <<Place ThruLine Casey Tired Right>>
     Casey: "Uhm... that didn't sound good..."
+    <<Place ThruLine Phoebe Happy FarRight>>
     Phoebe: "HEY CASE'!"
+    <<Place ThruLine Casey Shocked Right>>
     Casey: "AAAAA!"
+    <<Place ThruLine Phoebe Think FarRight>>
     Phoebe: "What's that? Looks like it's gonna..."
 -> 11, 5, 9, 4
     You got it! The machine stabilizes
+    <<Place ThruLine Casey Happy Right>>
     Casey: "Uff..."
+    <<Place ThruLine Phoebe Happy FarRight>>
     Phoebe: "HEY CASE'!"
-    Casey: "AAAAAA!!!"
+    <<Place ThruLine Casey Shocked Center>>
+    Casey: "AAAAA!"
     You fall and throw the machine down!
+<<Place ThruLine Casey Shocked Center>>
 Casey: "RUUUUN!!!!!!!!!!"#line:255
+<<Place ThruLine Phoebe Happy FarRight>>
 Phoebe: "Sure why not?"
+<<Place ThruLine Nobody>>
 Meanwhile... at the stage...
 Vocalist: "COME ON MAY!"#line:256
+<<Place ThruLine May Guitar Center>>
 May begins a riff on her guitar in an incredible solo!
 Behind her, the rainbow begins to form!
 Crowd: "W...wha....WHA....WHAT'S THAT?!!!!"
@@ -96,38 +170,64 @@ Crowd: "NOT EVEN GREY!!!!!!!!"
 Crowd: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 They begin to run for their lives...
 Meanwhile...
-Bee: "I'm tellin' you man, grey is an invention of society"#line:257
+<<Place ThruLine Nobody>>
+<<Place ThruLine Crowd Neutral Right>>
+<<Place ThruLine Bee Neutral Left>>
+Bee: "I'm tellin' you man, grey is an invention of society."#line:257
+<<Place ThruLine Bee Happy Left>>
 Bee: "We've allways been just black and white... this whole grey thing?"#line:258
+<<Place ThruLine Bee Angry Left>>
 Bee: "It's to blind you from the truth!"#line:259
 Crowd: "Damn man, you're so enlightned..."
 The rainbow shines in the distance...
 Crowd: "W...WHAT'S THAT!"
+<<Place ThruLine Bee Happy Left>>
 Bee: "That's... oh man, that's so coool!"#line:260
 Crowd: "YOU JUST SAID WE WERE ONLY BLACK AND WHITE!!!!"
+<<Place ThruLine Bee Think Left>>
 Bee: "We are, that's just an illusion man!"#line:261
 Crowd: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!!"
-They run away
+<<Place ThruLine Nobody>>
+<<Place ThruLine Bee Think Left>>
+They run away.
+<<Place ThruLine Bee Happy Left>>
 Bee: "Ah well... better go find Gee!"#line:262
+<<Place ThruLine Nobody>>
 Meanwhile...
+<<Place ThruLine Casey Shocked Center>>
+<<Place ThruLine Casey Shocked Left>>
+<<Place ThruLine Casey Shocked Right>>
+<<Place ThruLine Casey Shocked FarLeft>>
+<<Place ThruLine Casey Shocked FarRight>>
 Casey: "AAAAAAAAAAAAAAAAHHHHHHHH!!!!!!!!!!!!!!!"#line:263
 KBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 //fade to white
+<<Place ThruLine Nobody>>
 May: "Casey? Casey? Wake up, Casey!"#line:264
 You feel like your head just exploded...
 //fade back to colour
-You open your eyes... and see May right in front of you
+<<Place ThruLine May Neutral Right>>
+You open your eyes... and see May right in front of you.
+<<Place ThruLine Casey Shocked Left>>
 Casey: "HOLY MOLY RIGATONI, WHAT, NO, NOT THIS AGAIN!!!!"#line:265
+<<Place ThruLine May Angry Right>>
 May: "I don't want to alarm you Casey, but I think... I think we're technicolored now!"#line:266
+<<Place ThruLine Casey Tired Left>>
 Casey: "AHHHH, HOW...how do we... revert this?"#line:267
+<<Place ThruLine May Happy Right>>
 May: "I don't know, I think I freaked up!"#line:268
+<<Place ThruLine Casey Shocked Left>>
 Casey: "But... we gotta fix it... right?!"#line:269
+<<Place ThruLine May Neutral Right>>
 May: "I don't know, I love my colours!"#line:270
-May: "At least you're taking it better than Phoebe"#line:271
-Casey: "What, where's Phoebe?..."#line:272
+<<Place ThruLine May Happy Right>>
+May: "At least you're taking it better than Phoebe."#line:271
+Casey: "What, where's Phoebe...?"#line:272
+<<Place ThruLine Nobody>>
+<<Travel ThruLine Courtyard 2>>
 //clear everyone
 //insert phoebe painting a tree black
 Phoebe: "I wanna see it painted... painted black... black as night..."#line:273
 Phoebe: "...as it was...?"#line:274
-
 THE END
 ===

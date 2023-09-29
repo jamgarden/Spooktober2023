@@ -14,6 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Mario
   Position: 
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: -964990759, guid: 92cccc05ab7b4445d881839532a0a002, type: 3}
+  - Emotion: Happy
+    Picture: {fileID: -51165591, guid: 92cccc05ab7b4445d881839532a0a002, type: 3}
+  - Emotion: Angry
+    Picture: {fileID: -569038118, guid: 92cccc05ab7b4445d881839532a0a002, type: 3}
   Neutral: {fileID: -964990759, guid: 92cccc05ab7b4445d881839532a0a002, type: 3}
   Sad: {fileID: 0}
   Happy: {fileID: -51165591, guid: 92cccc05ab7b4445d881839532a0a002, type: 3}

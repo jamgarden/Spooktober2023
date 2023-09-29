@@ -32,7 +32,7 @@ public partial class GameManager : MonoBehaviour
 
     [Header("Library")]
     [SerializeField]
-    private List<Image> Positions;
+    private List<SpriteRenderer> Positions;
 
     [SerializeField]
     private List<LocaleSO> LocaleList;
@@ -47,6 +47,9 @@ public partial class GameManager : MonoBehaviour
 
     [SerializeField]
     private CharacterSO DebugCharacter;
+
+    [SerializeField]
+    private List<string> songNames;
 
     // debug sound
     // debug music
@@ -70,7 +73,11 @@ public partial class GameManager : MonoBehaviour
         Debug.Log(currentLocale.BGList[0].name);
         // We need to have a savegame.json file with 3 slots on it. 
         // This is where we should read that.  
-
+        foreach(CharacterSO chara in CastOfCharacters)
+        {
+            chara.Position = "";
+            chara.Emotion = "";
+        }
     }
 
 
@@ -94,7 +101,7 @@ public partial class GameManager : MonoBehaviour
 
         // Set the current node for the dialogue system, and start
         dialogueRunner.StartDialogue("Intro");
-        Debug.Log(currentLocale.Name, Stage.GetComponentInChildren<Image>().gameObject);
+        Debug.Log(currentLocale.Name, Stage.GetComponentInChildren<SpriteRenderer>().gameObject);
     }
 
 

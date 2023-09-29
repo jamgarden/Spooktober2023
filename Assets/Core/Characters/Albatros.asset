@@ -13,7 +13,16 @@ MonoBehaviour:
   m_Name: Albatros
   m_EditorClassIdentifier: 
   Name: Albatros
-  Position: 
+  Position: Left
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: 463940813, guid: fbafb89cdc4af4447bc6a1f242ecea26, type: 3}
+  - Emotion: Sad
+    Picture: {fileID: 1199426404, guid: fbafb89cdc4af4447bc6a1f242ecea26, type: 3}
+  - Emotion: Happy
+    Picture: {fileID: 652143717, guid: fbafb89cdc4af4447bc6a1f242ecea26, type: 3}
+  - Emotion: ElSpooky
+    Picture: {fileID: 21300000, guid: 563831162a0db4e0ca94892fead3c741, type: 3}
   Neutral: {fileID: 463940813, guid: fbafb89cdc4af4447bc6a1f242ecea26, type: 3}
   Sad: {fileID: 1199426404, guid: fbafb89cdc4af4447bc6a1f242ecea26, type: 3}
   Happy: {fileID: 652143717, guid: fbafb89cdc4af4447bc6a1f242ecea26, type: 3}

@@ -12,7 +12,8 @@ public partial class GameManager
     public void setBackDropEMIT(int index)
     {
         Debug.Log("Setting backdrop");
-        Stage.GetComponentInChildren<Image>().sprite = currentLocale.BGList[index];
+
+        Stage.GetComponentInChildren<SpriteRenderer>().sprite = currentLocale.BGList[index];
     }
 
     public void Place_Emit(CharacterSO character, string position, bool flip = false)
@@ -22,6 +23,7 @@ public partial class GameManager
         // switch stage position sprite to StagedCharacter by emotion label.
         // switch case for emotion strings
         //      Sprite selectedImage = StagedCharacter.Neutral;
+        /*
         switch (position)
         {
 
@@ -57,25 +59,30 @@ public partial class GameManager
                 // Positions[5].sprite = StagedCharacters.Last().Neutral;
                 break;
         }
-                
+             */   
     }
 
     public void ClearStageAll_Emit()
     {
-        foreach(Image position in Positions)
+        foreach(CharacterSO chara in StagedCharacters)
         {
-            position.sprite = null;
+            chara.Position = "";
+            chara.Emotion = "";
         }
-        foreach(CharacterSO character in StagedCharacters)
+        foreach(SpriteRenderer rend in Positions)
         {
-            character.Position = null;
+            rend.sprite = null;
         }
-        Debug.Log("Stage cleared!");
+
+        StagedCharacters = new List<CharacterSO>();
+        
     }
 
     public void ClearPosition_Emit(string position)
     {
-        bool found = false;
+        // bool found = false;
+        
+        /*
         foreach(Image pos in Positions)
         {
             if(pos.name == position)
@@ -103,6 +110,8 @@ public partial class GameManager
         {
             StagedCharacters.Remove(heldForClear);
         }
+
+        */
     }
 
 
@@ -127,17 +136,9 @@ public partial class GameManager
 
     // ***********************************************
 
-    private GameObject getStagePos(string position)
+    private SpriteRenderer getStagePos(string position)
     {
-        foreach(Image pos in Positions)
-        {
-            if(pos.gameObject.name == position)
-            {
-                // this means we found it
-                return pos.gameObject;
-            }
-        }
-        Debug.LogError("Uh Oh! I couldn't find that position! The listed position is: " + position);
+        // Defunct, mark for deletion
         return null;
     }
 

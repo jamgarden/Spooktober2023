@@ -13,7 +13,18 @@ MonoBehaviour:
   m_Name: Sarcophachef
   m_EditorClassIdentifier: 
   Name: Sarcophachef
-  Position: 
+  Position: FarRight
+  CharacterFrames:
+  - Emotion: Neutral
+    Picture: {fileID: -1742505003, guid: 4a61d1e9cd99a40288ded89f0eaad153, type: 3}
+  - Emotion: Happy
+    Picture: {fileID: 352679567, guid: 4a61d1e9cd99a40288ded89f0eaad153, type: 3}
+  - Emotion: Angry
+    Picture: {fileID: 1048067806, guid: 4a61d1e9cd99a40288ded89f0eaad153, type: 3}
+  - Emotion: Eyebrow
+    Picture: {fileID: -874153709, guid: 4a61d1e9cd99a40288ded89f0eaad153, type: 3}
+  - Emotion: ElSpookyGroup
+    Picture: {fileID: 21300000, guid: 5732d3cb9fbd147d1b5d4f2750a47b52, type: 3}
   Neutral: {fileID: -1742505003, guid: 4a61d1e9cd99a40288ded89f0eaad153, type: 3}
   Sad: {fileID: 0}
   Happy: {fileID: 352679567, guid: 4a61d1e9cd99a40288ded89f0eaad153, type: 3}

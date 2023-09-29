@@ -10,11 +10,25 @@ public class CharacterSO : ScriptableObject
 
     public string Position;
 
+    public string Emotion;
+
+    [SerializeField]
+    public List<CharacterFrame> CharacterFrames;
+
     // public Sprite Portrait;
     public Sprite Neutral;
-    public Sprite Sad;
-    public Sprite Happy;
-    public Sprite Angry;
-    public Sprite SpecialA;
-    public Sprite SpecialB;
+
+
+    public CharacterFrame getFrame(string emotion)
+    {
+        foreach (CharacterFrame cFrame in CharacterFrames) 
+        { 
+            if(cFrame.Emotion == emotion)
+            {
+                return cFrame;
+            }
+        }
+
+        return null;
+    }
 }

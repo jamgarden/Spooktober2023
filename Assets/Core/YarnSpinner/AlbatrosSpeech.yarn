@@ -1,14 +1,15 @@
 ﻿title: AlbatrosSpeech
 tags:
 ---
+<<Place ThruLine Travel Dormroom>>
 <<Place ThruLine Casey Sad Center>>
 Casey: "We haven't gotten to scare a single person on camera..."#line:423
 <<Place ThruLine Bayley Sad Right>>
 Bayley: "Tell me about it... I triped and fell, fell for the dropbear thing..."#line:424
 <<Place ThruLine Phoebe Sad Left>>
-Phoebe: "I tried some of the book stuff, but with feathers instead of swords... Didn't work out"#line:425
+Phoebe: "I tried some of the book stuff, but with feathers instead of swords... Didn't work out."#line:425
 <<Place ThruLine Siegfried Angry FarRight>>
-Siegfried: "That italian twat..."#line:426
+Siegfried: "That Italian twat..."#line:426
 <<Place ThruLine Bee Think Right>>
 <<Place ThruLine Bayley Sad FarLeft>>
 Bee: "Oh man, we had to scare people?"#line:427
@@ -17,14 +18,14 @@ Gee: "Go back with your cult, you traitor!"#line:428
 <<Place ThruLine Nobody>>
 <<Place ThruLine Albatros Neutral FarRight>>
 Albatros: "Hey hey, what's wrong over here?"#line:429
-The ghost enters the room as everyone is complaining on their poor performances
+The ghost enters the room as everyone is complaining about their poor performances.
 <<Place ThruLine Casey Sad Center>>
-Casey: "We failed Gramps. We couldn't even steal candy from a little kid"#line:430
+Casey: "We failed Gramps. We couldn't even steal candy from a little kid."#line:430
 <<Place ThruLine Gee Sad Left>>
 Gee: "And I did try that..."#line:431
-Albatros: "Because you've done it all wrong"#line:432
+Albatros: "Because you've done it all wrong."#line:432
 <<Place ThruLine Siegfried Angry FarLeft>>
-Siegfried: "Yeah no kidding captain obvious"#line:433
+Siegfried: "Yeah no kidding captain obvious."#line:433
 <<Place ThruLine Siegfried Neutral FarLeft>>
 Albatros: "Ah, allways so eager Siegfried. Let the old man finish, dang it!"#line:434
 Albatros: "You tried so hard... and got nervous."#line:435
@@ -33,9 +34,9 @@ Albatros: "You tried so hard... and got nervous."#line:435
 <<Place ThruLine Phoebe Sad Left>>
 <<Place ThruLine Bayley Sad FarLeft>>
 <<Place ThruLine Gee Angry Center>>
-Albatros: "Phoebe, you needed no book! Your eagernes to help people is enought to drive them insane!"#line:436
+Albatros: "Phoebe, you needed no book! Your eagernes to help people is enough to drive them insane!"#line:436
 <<Place ThruLine Phoebe Think Left>>
-Albatros: "Bayley, you did scare people when you fought Ursula. Just because, you weren't trying like before!"#line:437
+Albatros: "Bayley, you did scare people when you fought Ursula. All because you weren't trying like before!"#line:437
 <<Place ThruLine Bayley Think FarLeft>>
 <<Place ThruLine Albatros Neutral FarRight>>
 Albatros: "Gee, you did great, but you should really learn to study on your own!"#line:438
@@ -47,7 +48,7 @@ Gee: "Huh..."
 <<Place ThruLine Casey Sad Left>>
 Albatros: "Siegfried, you were just unlucky. If you had knocked yourself, that guy would have crumbled in a matter of seconds!"#line:439
 <<Place ThruLine Siegfried Neutral FarLeft>>
-Albatros: "And you, Casey. You just had to tel them that you liked pineapple on pizza."#line:440
+Albatros: "And you, Casey. You just had to tell them that you liked pineapple on pizza."#line:440
 <<Place ThruLine Albatros Neutral FarRight>>
 <<Place ThruLine Casey Shocked Left>>
 <<Place ThruLine Bayley Angry Center>>
@@ -63,14 +64,14 @@ Casey: "Uhm... it's... uhm... tasty?"#line:442
 Albatros: "Point is kids, you just had to be yourselves! Come on, the dance isn't over yet!"#line:443
 <<Place ThruLine Casey Sad Right>>
 Casey: "But the show is tonight, they'll just take off afterwards!"#line:444
-Albatros: "Oh... but that's enought time for you all to be the real you!"#line:445
+Albatros: "Oh... but that's enough time for you all to be the real you!"#line:445
 <<Place ThruLine Albatros Happy Center>>
 Albatros: "Just get dressed, and party on, dudes!"#line:446
 Albatros: "Be yourselves, and you'll freak the entire town!"#line:447
 <<Place ThruLine Casey Neutral Right>>
-Casey: "...if you say so, gramps"#line:448
+Casey: "...if you say so, gramps."#line:448
 <<Place ThruLine Nobody>>
-Albatros fades away again
+Albatros fades away again.
 <<Place ThruLine Bayley Happy FarLeft>>
 Bayley: "Damn Case', I think your grandpa is right!"
 <<Place ThruLine Phoebe Happy Left>>
@@ -78,18 +79,18 @@ Phoebe: "I just love to help!"
 <<Place ThruLine Siegfried Angry Center>>
 Siegfried: "...he's just as annoying as you..."
 <<Place ThruLine Siegfried Happy Center>>
-Siegfried: "I guess that's allright."
+Siegfried: "I guess that's alright."
 <<Place ThruLine Bee Happy Right>>
 Bee: "Yeah man, he's right. You lot are the scariest people I've ever met!"
 <<Place ThruLine Gee Neutral FarRight>>
 Gee: "What about me?"#line:449
 Bee: "You're a softie!"#line:450
 <<Place ThruLine Gee Angry FarRight>>
-Gee punches him in the arm
+Gee punches him in the arm.
 Bee: "Haha... I don't feel that arm anymore!"#line:451
 <<Place ThruLine Nobody>>
 <<Place ThruLine Casey Neutral Center>>
-Casey: "Allright... guess we better get ready for the concert"
+Casey: "Alright... guess we better get ready for the concert."
 <<Place ThruLine Casey Happy Center>>
 Casey: "Come on everyone, time to freak the town!"#line:452
 <<jump TheFinale>>

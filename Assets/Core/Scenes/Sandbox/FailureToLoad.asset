@@ -15,7 +15,7 @@ MonoBehaviour:
   Name: Failure
   Section: 0
   BGList:
-  - {fileID: 21300000, guid: 461702b76ea9d5644854936df8cd2e4d, type: 3}
+  - {fileID: 21300000, guid: 765a26ab0eac1044c849e09f04b4a3a4, type: 3}
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []

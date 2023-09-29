@@ -16,6 +16,9 @@ MonoBehaviour:
   Section: 0
   BGList:
   - {fileID: 21300000, guid: c11984337dcb9f04c9ba98dcdfebee3d, type: 3}
+  - {fileID: 21300000, guid: 05af7d3e8c6754041add65c89c336263, type: 3}
+  - {fileID: 21300000, guid: 7fb627a501ffb4cac8cab7638a3e90f7, type: 3}
+  - {fileID: 21300000, guid: 7fb627a501ffb4cac8cab7638a3e90f7, type: 3}
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []

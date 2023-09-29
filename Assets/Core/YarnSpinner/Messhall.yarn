@@ -3,159 +3,317 @@ tags:
 ---
 <<Travel ThruLine Messhall>>
 <<set $VisitedDorm1 to false>>
-The place was so just so full of humans. This was an odd sight.
-Despite living as a human almost all your life, you had grown accustomed to living as a monster
-You've been sorrounded by them for so long... now, humans look odd to you
+The place was packed full of humans. This was an odd sight.
+Despite living as a human almost all your life, you had grown accustomed to living as a monster.
+You've been sorrounded by them for so long... now, humans look odd to you.
 Not their image, but their ways... They were all complaining, noisy, arguing...
-Monsters did that too, but they had more of a familiar tone when doing so. 
+Monsters did that too, but they had a more familiar tone when doing so. 
+<<Place ThruLine Casey Neutral FarRight>>
 Casey: "Alright, Bayley said he would be here..."
+<<Place ThruLine Bayley Happy Left>>
 Bayley: "Hey Case'!"
+<<Place ThruLine Casey Happy Right>>
 Casey: "Sup Bayls!"
+<<Place ThruLine Bayley Neutral Left>>
 Bayley: "Nothing, you know, just eating!"
-Casey: "Oh, cool! Hey, drop by later by our dorm"
+<<Place ThruLine Casey Neutral Right>>
+Casey: "Oh, cool! Hey, before I forget, drop by our dorm later."
+<<Place ThruLine Casey Happy Right>>
 Casey: "Phoebe's mom sent cake again!"
-Bayley: "HOLLY MOLLY! I'll be there!"
-Casey: "Cool! So man, this place is so packed, and everyone's so angry"
+<<Place ThruLine Bayley Happy Left>>
+Bayley: "HOLLY MOLY! I'll be there!"
+<<Place ThruLine Casey Neutral Right>>
+<<Place ThruLine Bayley Neutral Left>>
+Casey: "Cool! But man, this place is so packed, and everyone's so angry..."
+<<Place ThruLine Bayley Think Left>>
 Bayley: "Yeah..."
-Casey: "Like for real, they don't even have a reason to be so mad"
-Siegfried: "They do"
+<<Place ThruLine Casey Angry Right>>
+Casey: "Like for real, they don't even have a reason to be so mad."
+<<Place ThruLine Siegfried Angry FarRight>>
+Siegfried: "They do."
+<<Place ThruLine Nobody>>
+<<Travel ThruLine Messhall 1>>
 The vampire drops his plate on the table...
 It's soup... with barely any noodles in it.
+<<Travel ThruLine Messhall>>
+<<Place ThruLine Casey Neutral Left>>
+<<Place ThruLine Siegfried Neutral Right>>
+<<Place ThruLine Bayley Neutral FarLeft>>
 Casey: "Oh no don't tell me..."
-Siegfried: "He's doing it to everyone"
-Bayley: "Yeah, Sarcophachef has gotten out of control"
+Siegfried: "He's doing it to everyone."
+<<Place ThruLine Bayley Think FarLeft>>
+Bayley: "Yeah, Sarcophachef has gotten out of control."
 -> "We should tell the Principal about this!"
-    Siegfried: "He's in the same boat"
+    <<Place ThruLine Siegfried Angry Right>>
+    Siegfried: "He's in the same boat."
+    <<Place ThruLine Bayley Neutral FarLeft>>
     Bayley: "Between May and Sarcophachef, I don't think the Principal stands a chance..."
 -> "We should tell him to stop!"
-    Siegfried: "No kidding, Sherlock"
+    <<Place ThruLine Siegfried Angry Right>>
+    Siegfried: "No kidding, Sherlock."
+    <<Place ThruLine Bayley Neutral FarLeft>>
     Bayley: "It's not like we didn't try already!"
-    Siegfried: "I just told him to stop putting freakin' garlic in my food"
-    Siegfried gestures down to his watered down soup
-    Siegfried: "He gave me this instead"
+    <<Place ThruLine Siegfried Furious Right>>
+    Siegfried: "I just told him to stop putting freakin' garlic in my food."
+    <<Place ThruLine Nobody>>
+    <<Travel ThruLine Messhall 1>>
+    Siegfried gestures down to his watered down soup.
+    <<Travel ThruLine Messhall>>
+    <<Place ThruLine Casey Neutral Left>>
+    <<Place ThruLine Bayley Neutral FarLeft>>
+    <<Place ThruLine Siegfried Angry Right>>
+    Siegfried: "He gave me this instead."
 -> "We should just enjoy watching the mayhem unfold!"
-    Siegfried seems to actually smile at that
-    Siegfried: "A pity we're part of that... mayhem"
-Siegfried: "Anyway, I'm getting sick of this mummy treating me like a peasant"#line:472
-Siegfried: "What's worse, he's giving this poodle wannabe actual food"#line:473
-Bayley: "Hey, watch it you blood dependant twat"#line:474
+    <<Place ThruLine Siegfried Happy Right>>
+    Siegfried seems to actually smile at that.
+    Siegfried: "A pity we're part of that... mayhem."
+<<Place ThruLine Siegfried Neutral Right>>
+Siegfried: "Anyway, I'm getting sick of this mummy treating me like a peasant."#line:472
+<<Place ThruLine Siegfried Angry Right>>
+Siegfried: "What's worse, he's giving this poodle wannabe actual food!"#line:473
+<<Place ThruLine Bayley Angry Center>>
+Bayley: "Hey, watch it you blood dependant twat."#line:474
 -> "Can it, you two"
-    They both growl, and go back to their plates
+    <<Place ThruLine Bayley Angry FarLeft>>
+    <<Place ThruLine Casey Angry Left>>
+    They both growl, and go back to their plates.
 -> "Yeah you go Sieggy!"
+    <<Place ThruLine Casey Happy Left>>
     Siegfried: "You calling me that is even more of a disrespect, halfie."#line:475
-    Bayley: "Haha you tell 'im Case'"
+    <<Place ThruLine Bayley Happy FarLeft>>
+    Bayley: "Haha you tell 'im Case'."
     Casey: "I meant it in support of you!"#line:476
-    Siegfried: "Twat"#line:478
+    Siegfried: "Twat."#line:478
     -> "You wanna go, onionhead?"
+        <<Place ThruLine Siegfried Furious Right>>
+        <<Place ThruLine Casey Angry Left>>
+        <<Place ThruLine Bayley Angry FarLeft>>
         Siegfried: "Bring it on, Twat."#line:478a
-        You're about to jump over him, but Bayley stops you
-        Bayley: "Leave it, it's not worth it pissing off the Principal"
+        <<Place ThruLine Bayley Angry Center>>
+        You're about to jump over him, but Bayley stops you.
+        <<Place ThruLine Bayley Think FarLeft>>
+        Bayley: "Leave it, it's not worth it pissing off the Principal."
+        <<Place ThruLine Siegfried Neutral Right>>
+        <<Place ThruLine Casey Neutral Left>>
         You remain angry, but understand it's a waste of time and sit back down.
     -> "You kiss your mom with that mouth?"
-        Siegfried: "I kiss yours with it"#line:479
+        Siegfried: "I kiss yours with it."#line:479
+        <<Place ThruLine Siegfried Furious Right>>
+        <<Place ThruLine Casey Angry Center>>
         That's it, you jump over to him.
-        Bayley tries to stop you, but to no use, the vampire crossed the line.
+        <<Place ThruLine Casey Angry Left>>
+        <<Place ThruLine Bayley Angry Center>>
+        Bayley tries to stop you...
+        <<Place ThruLine Casey Angry Center>>
+        <<Place ThruLine Bayley Angry Left>>
+        But to no use, the vampire crossed the line.
+        <<Place ThruLine Bayley Bark Left>>
         Bayley: "AWWOOOOOOOOO!!!!"#line:044e
-        He separates you both by the sheer power of his bark
+        <<Place ThruLine Siegfried Scared FarRight>>
+        <<Place ThruLine Casey Shocked Right>>
+        He separates you both by the sheer power of his bark.
+         <<Place ThruLine Bayley Angry Left>>
         Bayley: "Cut it, we don't want to piss off the Principal again!"
+        <<Place ThruLine Siegfried Sad FarRight>>
+        <<Place ThruLine Casey Sad Right>>
         He's right, and you both know it...
         People watched in awe the scene... looks like they didn't get to film it, luckily.
     -> "Someone's angry!"
+        <<Place ThruLine Casey Angry Left>>
         Siegfried: "You would be too if you ordered and got this, twat."#line:478b
+        <<Place ThruLine Bayley Happy Left>>
         Bayley: "Alright alright, let's talk this out like civilized monsters, shall we?"
         You hate to admit it, but he's right.
 -> "You go Bayley!"
+    <<Place ThruLine Casey Happy Left>>
+    <<Place ThruLine Siegfried Angry Right>>
     Siegfried: "The peasant thing to do..."#line:480
-    Bayley: "Yeah, drink your garlic soup"#line:481
-    Siegfried: "Sure"
-    Siegfried is about to throw the soup on Bayley
+    Bayley: "Yeah, drink your garlic soup."#line:481
+    Siegfried: "Sure."
+    <<Place ThruLine Siegfried Furious Right>>
+    Siegfried is about to throw the soup on Bayley.
     -> Stop him
-        Casey: "Stop it, we don't want to piss off the Principal again"
-        They both growl, and go back to their plates
+        <<Place ThruLine Casey Angry Center>>
+        <<Place ThruLine Bayley Angry Left>>
+        Casey: "Stop it, we don't want to piss off the Principal again!"
+        <<Place ThruLine Bayley Angry FarLeft>>
+        <<Place ThruLine Siegfried Angry Right>>
+        They both growl, and go back to their plates.
     -> Let it play out
+        <<Place ThruLine Casey Shocked Left>>
+        <<Place ThruLine Bayley Bark Center>>
         They both throw their plates at each other at the same time...
         Siegfried: "POODLE!"#line:482
         Bayley: "ONIONHEAD!"#line:483
-        Casey: "Alright alright, drop it, you've made your points"
-        They both look the other way, and sit down
-        Casey: "We don't want to piss off the Principal again, so let's chill"
-Casey: "Alright, alright. Let's just, go talk with him."#line:484
-Casey: "His problem is with me and you, onionhead. We have to fix this for once and for all"#line:485
+        <<Place ThruLine Casey Angry Left>>
+        Casey: "Alright alright, drop it, you've made your points."
+        <<Place ThruLine Bayley Angry Left>>
+        <<Place ThruLine Siegfried Angry Right>>
+        They both return to their chairs and sit down.
+        Casey: "We don't want to piss off the Principal again, so let's chill!"
+<<Place ThruLine Casey Neutral Left>>
+<<Place ThruLine Bayley Neutral FarLeft>>
+<<Place ThruLine Siegfried Angry Right>>
+Casey: "Alright, alright. Let's just... go talk with him."#line:484
+<<Place ThruLine Casey Angry Left>>
+Casey: "His problem is with me and you, onionhead. We have to fix this for once and for all."#line:485
+<<Place ThruLine Siegfried Neutral Right>>
 Siegfried: "...fine. Whatever to get my caviar back for lunch."#line:486
-Bayley begins to laugh under his hand
-Bayley: "Pfft what a pompous butt"#line:487
-You two get up from the table, and aim for the kitchen counter.
+<<Place ThruLine Nobody>>
+<<Place ThruLine Bayley Happy Center>>
+Bayley begins to laugh under his hand.
+Bayley: "Pfft what a pompous butt."#line:487
+<<Place ThruLine Nobody>>
+<<Place ThruLine Casey Angry Left>>
+<<Place ThruLine Siegfried Angry FarLeft>>
+<<Place ThruLine NPC0 Neutral Center>>
+<<Place ThruLine NPC1 Neutral Right>>
+<<Place ThruLine NPC2 Neutral FarRight>>
+You two aim for the kitchen counter.
+<<Place ThruLine Nobody>>
+<<Place ThruLine Casey Angry Center>>
+<<Place ThruLine Siegfried Angry Left>>
+<<Place ThruLine Sarcophachef Neutral FarRight>>
+<<Place ThruLine Crowd Neutral FarLeft>>
 Dodging all humans and skipping the line, you go straight to Sarcophachef...
 Casey: "Alright, what is it? What is it that you want?"
-Sarcophachef: Raises an eyebrow
+<<Place ThruLine Sarcophachef Eyebrow FarRight>>
+Sarcophachef: Raises an eyebrow.
+<<Place ThruLine Siegfried Furious Center>>
+<<Place ThruLine Casey Angry Left>>
 Siegfried: "To stop watering down everything, what do you want, second hand toilet paper wearer?!"#line:488
-Sarcophachef looks at Siegfried, and without missing a beat, he throws a garlic straight to his face
+<<Place ThruLine Sarcophachef Angry FarRight>>
+Sarcophachef looks at Siegfried, and without missing a beat, he throws a garlic straight to his face.
+<<Place ThruLine Casey Shocked Left>>
+<<Place ThruLine Siegfried Garlic Center>>
 Siegfried: "AAAAAH MY EYEEEE!!!!"#line:489
+<<Place ThruLine Nobody>>
+<<Place ThruLine Casey Shocked Left>>
+<<Place ThruLine Sarcophachef Happy FarRight>>
+<<Place ThruLine Crowd Neutral FarLeft>>
 He goes down...
+<<Place ThruLine Nobody>>
+<<Travel ThruLine NorthArea 2>>
 You look down to see if he's alright...
 Casey: "Oh, that doesn't look good..."#line:490
-Sarcophachef: "...potato vampire"
-Casey: "...ha...haha....hahahahaha"#line:491
-Sarcophachef: Seems to like that you laughed at his joke
-Casey: "Yeah, he looks like a potato... or a very sprouted onion"#line:492
-Sarcophachef: Seems to enjoy your joke
+<<Travel ThruLine Messhall>>
+<<Place ThruLine Casey Shocked Left>>
+<<Place ThruLine Sarcophachef Neutral FarRight>>
+<<Place ThruLine Crowd Neutral FarLeft>>
+Sarcophachef: "...potato vampire."
+<<Place ThruLine Casey Happy Left>>
+Casey: "...ha...haha....hahahahaha!"#line:491
+<<Place ThruLine Sarcophachef Happy FarRight>>
+Sarcophachef: Seems to like that you laughed at his joke.
+<<Place ThruLine Casey Neutral Center>>
+<<Place ThruLine Sarcophachef Neutral FarRight>>
+Casey: "Yeah, he looks like a potato... or a very sprouted onion."#line:492
+<<Place ThruLine Casey Happy Center>>
+<<Place ThruLine Sarcophachef Happy FarRight>>
+Sarcophachef: Seems to enjoy your joke.
+<<Place ThruLine Casey Neutral Center>>
+<<Place ThruLine Sarcophachef Neutral FarRight>>
 Casey: "So, what can we do for you to forgive us, and everyone else?"
-Sarcophachef raises an eyebrow, and pulls out a piece of paper
+<<Place ThruLine Sarcophachef Eyebrow FarRight>>
+Sarcophachef raises an eyebrow, and pulls out a piece of paper.
+<<Place ThruLine Sarcophachef Neutral FarRight>>
+<<Place ThruLine Casey Tired Center>>
 Casey: "Huh... Lasagne a 7 strati?... But it's blank..."#line:493
+<<Place ThruLine Siegfried Garlic2 Left>>
 Siegfried: "He... wants us... to fill it... twat..."#line:494
+<<Place ThruLine Casey Happy Center>>
 Casey: "Oh, you want us to find the recipe? Sure, will do!"
+<<Place ThruLine Sarcophachef Happy FarRight>>
+<<Place ThruLine Casey Neutral Center>>
 Sarcophachef: Seems to smile at this, and goes back to tend the customers, who are waiting angrily.
+<<Place ThruLine Crowd Neutral Left>>
+<<Place ThruLine Casey Shocked Right>>
+<<Place ThruLine Siegfried Garlic2 FarRight>>
 You get out of there before the humans attack you...
+<<Place ThruLine Nobody>>
+<<Place ThruLine Casey Tired Right>>
+<<Place ThruLine Siegfried Angry Left>>
 Casey: "So... where in the heavens are we going to find this recipe?"
 Siegfried: "It's not on the internet, I already checked..."
 Casey: "Hmm..."
 Voice from behind: "MA CHE FAI???!!!!"
+<<Place ThruLine Casey Shocked Right>>
 Casey: "Oh? What's that?"
 Voice from behind: "KETCHUP ON THE SPAGHETTI? MA SEI SCEMO? ARE YOU CRAZY?"
+<<Place ThruLine Siegfried Scared Left>>
 Siegfried: "Oh no..."
+<<Place ThruLine Casey Neutral Right>>
 Casey: "What?"
 Siegfried: "Thats... an Italian..."
 -> "Those people who like, make pizza and say you do everything wrong?"
+    <<Place ThruLine Siegfried Neutral Left>>
     Siegfried: "Looks like you're not that stupid after all..."
 -> "Those people who like, eat snails and make bread?"
-    Siegfried: He just facepalms
-    Siegfried: "No, the ones that make pizza and say you do everything wrong"
+    <<Place ThruLine Siegfried Angry Left>>
+    Siegfried: He just facepalms.
+    <<Place ThruLine Siegfried Neutral Left>>
+    Siegfried: "No, the ones that make pizza and say you do everything wrong."
 -> "Those people who like, eat with chopsticks?"
-    Siegfried: He just facepalms
-    Siegfried: "No, the ones that make pizza and say you do everything wrong"
+    <<Place ThruLine Siegfried Angry Left>>
+    Siegfried: He just facepalms.
+    <<Place ThruLine Siegfried Neutral Left>>
+    Siegfried: "No, the ones that make pizza and say you do everything wrong."
+<<Place ThruLine Casey Happy Right>>
 Casey: "So wait, maybe we could ask him if he knows how to make the Lasagne!"
-Siegfried: "No, no way. They are mortal enemies of the vampires"#line:495
+<<Place ThruLine Siegfried Angry Left>>
+<<Place ThruLine Casey Neutral Right>>
+Siegfried: "No, no way. They are mortal enemies of the vampires."#line:495
 -> "Come on Siegfried, you're mortal enemies with everyone"
-    Siegfried: "No, I'm better than everyone, which is different"
+    Siegfried: "No, I'm better than everyone, which is different."
     Siegfried: "But this? This is personal."
 -> "Those bastards."
     Siegfried: "Now you're talking sense, halfie."
 -> "Why?"
 Siegfried: "Ever wondered why there's no vampires in Italy?"#line:496
-Casey: "Because uhm... I didn't even know there weren't vampires there"
-Siegfried: "BECAUSE, they would kill themselves after being turned"#line:497
+<<Place ThruLine Casey Sad Right>>
+Casey: "Because uhm... I didn't even know there weren't vampires there."
+Siegfried: "BECAUSE, they would kill themselves after being turned."#line:497
+<<Place ThruLine Casey Shocked Right>>
 Casey: "WHAT?"#line:498
+<<Place ThruLine Siegfried Sad Left>>
 Siegfried: "Intolerance to garlic, unable to watch themselves in the mirror..."#line:499
 Siegfried: "They'd wait for dawn to turn to ashes..."#line:500
-Casey: "Damn thats... a lot to take in"
-Siegfried: "And even if they got past that... all the food... has things we can't tolerate"#line:501
+<<Place ThruLine Casey Sad Right>>
+Casey: "Damn thats... a lot to take in."
+<<Place ThruLine Siegfried Neutral Left>>
+Siegfried: "And even if they got past that... all the food... has things we can't tolerate."#line:501
+<<Place ThruLine Casey Neutral Right>>
 Casey: "Like... Garlic?"
-Siegfried: "Garlic's the worst... but other spices are also... so bad... they had to leave the country"#line:502
+<<Place ThruLine Siegfried Angry Left>>
+Siegfried: "Garlic's the worst... but other spices are also... so bad... they had to leave the country."#line:502
 Siegfried: "Now you see? I can't just ask this guy for something, I have to..."#line:503
-Siegfried swallows like if he was disgusted for what he was about to say
+<<Place ThruLine Siegfried Scared Left>>
+Siegfried swallows like if he was disgusted for what he was about to say.
+<<Place ThruLine Siegfried Furious Left>>
+<<Place ThruLine Casey Shocked Right>>
 Siegfried: "I HAVE TO SCARE THE SHIT OUT OF HIM!"#line:504
 -> "FREAK YEAH!"
+    <<Place ThruLine Casey Happy Right>>
+    <<Place ThruLine Siegfried Angry Left>>
     Siegfried: "...that."
 -> "Wow, you actually mean it"
+    <<Place ThruLine Siegfried Angry Left>>
     Siegfried: "...I hate it, but yes."
 -> "Just go and say hi, your face will be enough"
-    He smacks you in the back of your head really hard
-    But for some reason, you feel like you deserved that.
+    <<Place ThruLine Siegfried Angry FarRight>>
+    He smacks you in the back of your head really hard.
+    <<Place ThruLine Siegfried Angry Left>>
+    But for some reason, you feel like you deserved that...
+<<Place ThruLine Casey Neutral Right>>
 Casey: "So, how do we go about it?"
-Siegfried: "I'll follow him and see where he lives. Meet me at dinner time in the north area of the castle"
+<<Place ThruLine Siegfried Neutral Left>>
+Siegfried: "I'll follow him and see where he lives. Meet me at dinner time in the North Area of the castle."
+<<Place ThruLine Casey Happy Right>>
 Casey: "Alrighty!"
+<<Place ThruLine Nobody>>
 <<set $LetSieggyHanging to true>>
 <<set $GoAheadWithSieggy to true>>
+<<set $NoMoreMesshall to true>>
 So... where to now?
 <<jump ConmutatorWest>>
 ===

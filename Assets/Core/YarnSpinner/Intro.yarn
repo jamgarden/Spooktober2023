@@ -22,19 +22,21 @@ tags:
 <<declare $AllQuests4 = false as bool>>
 <<declare $AllQuests5 = false as bool>>
 <<declare $AllQuests6 = false as bool>>
-<<jump principal1>>
+<<declare $Princpalsquest = false as bool>>
+<<shiftmusic ThruLine 2>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
-Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!" #line:001
+<<Place ThruLine "Test string with spaces here" Happy Center>>
+Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"#line:001
 <<Place ThruLine Casey Neutral Center>>
 Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"#line:002
-Casey: "I'm here at the most prestigious college ever, of which regular people know oh so very little about"#line:003
+Casey: "I'm here at the most prestigious college ever, of which regular people know oh so very little about."#line:003
 <<Place ThruLine Casey Happy Center>>
-Casey: "Freakaversity, a place that makes even your wildest of dreams pale in comparison"#line:004
+Casey: "Freakaversity, a place that makes even your wildest of dreams pale in comparison."#line:004
 <<Place ThruLine Casey Angry Center>>
-Casey: "Some people have implied that I'm lying, and some that I exaggerate"#line:005
+Casey: "Some people have implied that I'm lying, and some that I exaggerate."#line:005
 <<Place ThruLine Casey Neutral Center>>
-Casey: "WELL, let me tell you"#line:006
+Casey: "WELL, let me tell you..."#line:006
 Casey: "Today, I'm going to give you a tour all around the place."#line:007
 <<Place ThruLine Casey Happy Center>>
 Casey: "Not just that, you'll get to meet my roomie, Phoebe!"#line:008
@@ -52,14 +54,14 @@ Casey: "Yeah, you're live on BooTube Pheebs!"#line:013
 Phoebe: "OMG OMG OMG!!!!!!"#line:014
 Phoebe: "HI MOM HI DAD!!!!"#line:015
 Casey: "I don't think they're watching..."#line:016
-<<Place ThruLine Phoebe Special Center>>
+<<Place ThruLine Phoebe Sass Center>>
 Phoebe: "AW, BOOMER!"#line:017
 <<Place ThruLine Phoebe Neutral Center>>
-Casey: "So Pheebs, tell us a bit about yourself"
+Casey: "So Pheebs, tell us a bit about yourself."
 Phoebe: "Ah well, you know, the usual. I wake at 4am, re-read yesterday's book, then exercise, feed the school's monster..."#line:018
 Casey: "Wait what?"
 Phoebe: "What what?"
-Casey: "The monster part"
+Casey: "The monster part."
 Phoebe: "Oh, didn't you know? There's a monster canary in one of the towers!"#line:019
 Casey: "No way!"
 <<Place ThruLine Phoebe Happy Center>>
@@ -68,7 +70,7 @@ Phoebe: "Yes way!"
 Casey: "We'll definitely document that later. So, what are your aspirations here in Freakaversity?"
 <<Place ThruLine Phoebe Neutral Center>>
 Phoebe: "Oh oh!!!"
-<<Place ThruLine Phoebe Special Center>>
+<<Place ThruLine Phoebe Think Center>>
 Phoebe: "I want to learn enough about agronomics and farming..."#line:020
 <<Place ThruLine Phoebe Happy Center>>
 Phoebe: "To seed an entire desert!!!"#line:021
@@ -98,25 +100,27 @@ Phoebe: "OMG OMG OMG!!!!"#line:014a
 Casey: "Uhm, Phoebe, give me that!"
 Phoebe: "Why hello world! Come on Casey, tell us what you wanna do!"
 Casey: "That's MY line, I'm supposed to be behind the camera!"#line:027
-Phoebe: "Come one, one more time for our new fandom!!!!"
-<<Place ThruLine Casey Special Center>>
+Phoebe: "Come on, one more time for our new fandom!!!!"
+<<Place ThruLine Casey Shocked Center>>
 Casey: "Well... guess you're right."
 <<Place ThruLine Casey Neutral Center>>
 Casey: "I got a scholarship here to Freakaversity, and I'm in my early steps studying astrophysics!"#line:028
 Phoebe: "With Prof. May! How cool is that?"
 <<Place ThruLine Casey Happy Center>>
-Casey: "SO, cool"
+Casey: "SO cool."
 <<Place ThruLine Casey Neutral Center>>
 Phoebe: "Alright, time to find the others!"
-<<Place ThruLine Casey Special Center>>
+<<Place ThruLine Casey Shocked Center>>
 Casey: "No wait, I didn't tell anyone else yet!!!"
 Phoebe: "EVEN BETTER!!!"#line:029
+<<Place ThruLine Nobody>>
 // <<fade to black, running sounds>>
-// <<fade into messhole, put bayley sad in it>>
+// <<fade into messhall, put bayley sad in it>>
 <<Travel ThruLine Messhall>>
+<<Place ThruLine Bayley Neutral Center>>
 Phoebe: "HEY BAYLEY!"#line:030
 // <<regular bayley now>>
-<<Place ThruLine Bayley Neutral Center>>
+<<Place ThruLine Bayley Happy Center>>
 Bayley: "Oh, hey Pheebs! Casey! What are you doing with that camera?"#line:031
 <<Place ThruLine Bayley Neutral Left>>
 <<Place ThruLine Casey Neutral Right>>
@@ -129,11 +133,13 @@ Phoebe: "SO TELL US BAYLEY, FOR CASEY'S VLOG, WHO ARE YOU AND WHAT YOU DO?"#line
 <<Place ThruLine Bayley Happy Left>>
 Bayley: "I'm Bayley, and I'm on a soccer scholarship here at Freakaversity!"#line:036
 Phoebe: "HE'S PUTTING IT MILDLY GUYS, HE'S OUR SOCCER TEAM STAR!!!"#line:037
-<<Place ThruLine Bayley Special Left>>
+<<Place ThruLine Bayley Blush Left>>
 Bayley: "Oh, no, not that much!"#line:038
 Phoebe: "DON'T BE HUMBLE!!! PEOPLE LIKE COCKY ROCKSTARS, OR SHOULD I SAY, SOCCER STARS?"#line:039
+<<Place ThruLine Casey Happy Right>>
 Casey: "Yeah man, didn't you make it as MVP last tournament?"#line:040
 <<Place ThruLine Bayley Sad Left>>
+<<Place ThruLine Casey Neutral Right>>
 Bayley: "Yeah... but we lost anyway..."#line:041
 Phoebe: "I'm sure you'll get it next year!"
 <<Place ThruLine Casey Angry Right>>
@@ -142,30 +148,31 @@ Casey: "Yeah, they totally robbed us!"
 <<Place ThruLine Bayley Neutral Left>>
 Bayley: "I guess you're right about that, hehe..."#line:042
 Phoebe: "So why don't you show everyone one of those crazy barks of yours?!!!"
-<<Place ThruLine Bayley Special Left>>
-Bayley: "Uhm cause we're in the messhole?"
+<<Place ThruLine Bayley Think Left>>
+Bayley: "Uhm, cause we're in the messhall?"
 Casey: "Aw come on, just one!!!"
 <<Place ThruLine Bayley Happy Left>>
 Bayley: "Alright, here it goes.............."#line:043
-<<Place ThruLine Bayley Special Left>>
-<<Place ThruLine Casey Special Right>>
+<<Place ThruLine Bayley Bark Left>>
+<<Place ThruLine Casey Shocked FarRight>>
 Bayley: "AAAAAWOOOOOOOOOOOOOOOOO"#line:044
 // <<bark>>
 Phoebe: "WOW, THE VIEWERS JUST WENT EVEN HIGHER!!!"#line:045
 Casey: "Holy May!"
 <<Place ThruLine Bayley Happy Left>>
-<<Place ThruLine Casey Neutral Right>>
+<<Place ThruLine Casey Neutral FarRight>>
 Bayley: "Oh? Let me see let me see!!!"
 // <<Siegfried joins>>
+
 <<Place ThruLine Bayley Neutral Right>>
 <<Place ThruLine Casey Neutral FarRight>>
 <<Place ThruLine Siegfried Neutral FarLeft>>
 Siegfried: "Could you turn down the volume of your pathetic, commonplace noises, peasants??"#line:046
-Casey: "Oh, hey Sieg"
+Casey: "Oh, hey Sieg."
 Phoebe: "Eat your soup in silence, vampire!"#line:047
-Bayley: "Hey easy guys, he's right on this one"
+Bayley: "Hey easy guys, he's right on this one."
 <<Place ThruLine Siegfried Angry FarLeft>>
-Siegfried: "You know I'm right if even the furry agrees with me"#line:048
+Siegfried: "You know I'm right if even the furry agrees with me."#line:048
 <<Place ThruLine Bayley Angry Right>>
 Bayley: "Hey don't push it, you twat!"#line:049
 <<Place ThruLine Siegfried Neutral Left>>
@@ -176,22 +183,23 @@ Gee: "What's with the ruckus you lot? Are we fighting each other again?"#line:05
 <<Place ThruLine Casey Happy Right>>
 <<Place ThruLine Bayley Neutral FarRight>>
 Casey: "Oh, hey Gee!"
-// <<blushed bayley>>
-<<Place ThruLine Bayley Special FarRight>>
+<<Place ThruLine Bayley Blush FarRight>>
 Bayley: "Oh... hehe... hi Gee..."#line:051
+<<Place ThruLine Casey Angry Right>>
 Phoebe: "OH! THE COMMENTS ARE SAYING THAT..."#line:052
 //<<camera moving sounds again>>
 <<Place ThruLine Nobody>>
-Casey finally snatches the camera out of Phoebe's hand and shuts her up
+Casey finally snatches the camera out of Phoebe's hand and shuts her up.
 <<Place ThruLine Siegfried Neutral Left>>
 <<Place ThruLine Gee Neutral FarLeft>>
 <<Place ThruLine Bayley Neutral Right>>
 <<Place ThruLine Phoebe Neutral FarRight>>
 Casey: "So, Sieg, Gee, what do you do in Freakaversity?"
 <<Place ThruLine Siegfried Angry Center>>
-Siegfried: "I listen to idiotic freaks every single day"#line:053
-// <<Siegfried takes off>>
+Siegfried: "I listen to idiotic freaks every single day."#line:053
 <<Place ThruLine Nobody Left>>
+<<Place ThruLine Bayley Neutral Right>>
+<<Place ThruLine Phoebe Neutral FarRight>>
 <<Place ThruLine Gee Happy Left>>
 Gee: "Oh oh, you know, the usual! I eat veincorice, go to my classes, hang out with the edgy vampire and my bro... Study to become a..."#line:054
 <<Place ThruLine Gee Neutral Left>>
@@ -204,11 +212,16 @@ Bee: "Well, eating my brainspaghetti man, what else?"#line:056
 Casey: "I don't know, maybe..."
 <<Place ThruLine Phoebe Happy FarRight>>
 Phoebe: "...staying alive?"#line:057
+<<Place ThruLine Bayley Happy Right>>
+<<Place ThruLine Gee Happy Left>>
 <<Place ThruLine Bee Happy FarLeft>>
 Bee: "Hahahaha, you know it!"#line:058
+<<Place ThruLine Bayley Neutral Right>>
+<<Place ThruLine Gee Neutral Left>>
 <<Place ThruLine Phoebe Neutral FarRight>>
 <<Place ThruLine Bee Neutral FarLeft>>
 Casey: "What do you study for, Bee?"
+<<Place ThruLine Bee Think FarLeft>>
 Bee: "I'm in chemistry, man, I thought you knew?"#line:059
 Phoebe: "We do, but..."
 <<Place ThruLine Phoebe Happy FarRight>>
@@ -218,20 +231,23 @@ Gee: "WOOO ARE WE LIVE?"#line:061
 <<Place ThruLine Bee Happy FarLeft>>
 Bee: "Cooool man!"
 Gee: "HEY MOM HEY DAD!"#line:062
-Casey: *There we go again...*#line:063
+Casey: There we go again...#line:063
 <<Place ThruLine Gee Neutral Left>>
 <<Place ThruLine Bee Neutral FarLeft>>
 Phoebe: "So how old are you lot?"
-<<Place ThruLine Bee Special FarLeft>>
+<<Place ThruLine Bee Think FarLeft>>
 Bee: "Ah depends on the body part I guess..."#line:064
-<<Place ThruLine Gee Special Left>>
+<<Place ThruLine Gee Think Left>>
 Gee: "Yeah, I think my youngest part is my pinky toe..."#line:065
-Bee: "Yeeeah, they tend to smash into things first"#line:066
+<<Place ThruLine Gee Neutral Left>>
+<<Place ThruLine Bee Happy FarLeft>>
+Bee: "Yeeeah, they tend to smash into things first."#line:066
+<<Place ThruLine Bee Neutral FarLeft>>
 Casey: "Yeah... they always do right?"
 Casey: "Oh wait, battery is getting low..."#line:067
 <<Place ThruLine Nobody>>
 // sound of camera shifting again
-// <<Casey up front, no one else, still in messhole>>
+// <<Casey up front, no one else, still in messhall>>
 <<Place ThruLine Casey Neutral Center>>
 Casey: "I'll show you more in my next vlog you guys, glad to see you around!"#line:068
 <<Place ThruLine Phoebe Happy Right>>
@@ -256,15 +272,15 @@ Phoebe: "Case', have you been awake all night watching the statistics?"
     She approaches the PC monitor and with a swift move, points it at her.
 <<Place ThruLine Casey Happy Left>>
 <<Place ThruLine Phoebe Happy Right>>
-Phoebe: "HOLLY MOLLY RIGATONI!!!!"#line:070
+Phoebe: "HOLLY MOLY RIGATONI!!!!"#line:070
 Casey: "There's like, lots of comments about your neck trick!"
 <<Place ThruLine Casey Neutral Left>>
 <<Place ThruLine Phoebe Neutral Right>>
-Phoebe: "What's that about my eye?" She says, peeking into the screen
+Phoebe: "What's that about my eye?" She says, peeking into the screen.
 -> "They say it's a very pretty eye!"
     <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "AWWW, you tell them to stop it!!!"
--> "They say you use too much makeup"
+-> "They say you use too much makeup."
     <<Place ThruLine Phoebe Sass Right>>
     Phoebe: "WHAT? But I only use black and white..."
     <<Place ThruLine Phoebe Angry Right>>
@@ -273,35 +289,37 @@ Phoebe: "What's that about my eye?" She says, peeking into the screen
     <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "Hahaha you almost got me with that one!"
     She clearly thought that was a joke.
-<<Place ThruLine Casey Neutral Left>>
+<<Place ThruLine Casey Happy Left>>
 <<Place ThruLine Phoebe Neutral Right>>
-Casey: "I'll say you said that"
+Casey: "I'll say you said that."
+<<Place ThruLine Casey Neutral Left>>
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "YES! Now get ready, we have class in like an hour!"
-<<Place ThruLine Casey OMG Left>>
+<<Place ThruLine Casey Shocked Left>>
 Casey: "Wait what? Wasn't it saturday?"
 <<Place ThruLine Phoebe Sass Right>>
 Phoebe: "No Casey, it's wednesday!"
 -> "...I think I'm getting sick..."
-    Phoebe: "Like heck you are"
-    <<Place ThruLine Phoebe Sass FarLeft>>
-    Phoebe grabs Casey by the collar and throws them to the shower
+    <<Place ThruLine Phoebe Angry Right>>
+    Phoebe: "Like heck you are."
+    <<Place ThruLine Phoebe Buff FarLeft>>
+    Phoebe grabs Casey by the collar and throws them to the shower.
     //<<Whatever noise you think best for this>>
--> "Well you know what, I'm skipping class today"
-    Phoebe: "Like heck you are"
-    <<Place ThruLine Phoebe Sass FarLeft>>
-    Phoebe grabs Casey by the collar and throws them to the shower
+-> "Well you know what, I'm skipping class today."
+    Phoebe: "Like heck you are!"
+    <<Place ThruLine Phoebe Buff FarLeft>>
+    Phoebe grabs Casey by the collar and throws them to the shower.
     //<<Whatever noise you think best for this>>
 -> "WHAT? Allright, time to get ready anyways!"
 <<Place ThruLine Nobody>>
 <<Place ThruLine Phoebe Happy Center>>
 Phoebe: "I'LL GO GET US SOME COFFEE!!!!"#line:071
 <<Place ThruLine Nobody>>
-She storms out like the road runner
+She storms out like the road runner.
 //<<so if we had a caricature sound for this, i'd die laughing>>
 <<Place ThruLine Casey Tired Center>>
 Casey: "Ugh... guess I'll have to wear sunglasses today..."#line:072
-Casey: "Watching statistics and comments all night is worse than a hangover"#line:073
+Casey: "Watching statistics and comments all night is worse than a hangover."#line:073
 <<Place ThruLine Casey Happy Center>>
 Casey: "However... holy cow, I can't wait to see how far it gets when I get back!!!!"#line:074
 <<Travel ThruLine CorridorEast>>
@@ -337,7 +355,7 @@ Casey: "Statistics..."#line:076
 Bee: "Boo, much worse!"
 <<Place ThruLine Bee Neutral FarRight>>
 <<Place ThruLine Bayley Think Right>>
-Bayley: "Been there... I did a reel on eating a burger in one bite, and it went viral"
+Bayley: "Been there... I did a reel on eating a burger in one bite, and it went viral."
 <<Place ThruLine Bayley Sad Right>>
 Bayley: "I've been asked how to do it for months now..."
 <<Place ThruLine Bayley Neutral Right>>
@@ -352,20 +370,25 @@ Bee: "Yeaaah man, humans can't keep up with your skills!"
 Bayley: "Haha shut it you lot!"
 <<Place ThruLine Phoebe Happy FarLeft>>
 Phoebe: "Hey hey hey!"
-Casey: "Oh, Pheebs, please tell me you brought it"
-Phoebe: "Sure thing, Case'"
+<<Place ThruLine Bee Neutral FarRight>>
+<<Place ThruLine Bayley Neutral Right>>
+Casey: "Oh, Pheebs, please tell me you brought it."
+Phoebe: "Sure thing, Case'."
 Casey: "I wouldn't make it today without a good coffee..."
 <<Place ThruLine Casey Hangover Left>>
-Casey: Takes a sip, and then makes a face
+Casey: Takes a sip, and then makes a face.
 <<Place ThruLine Phoebe Neutral FarLeft>>
 Phoebe: "What's wrong?"
 <<Place ThruLine Bayley Think Right>>
 Bayley: "Wait, Phoebe, did you tell Sarcophachef that it was for..."
-//<<CG coffee>>
+<<Travel ThruLine Messhall 2>>
+<<Place ThruLine Nobody>>
+And that's when everyone noticed... the tag on the coffee saying Casey 
+<<Travel ThruLine CorridorEast>>
+<<Place ThruLine Casey Hangover Left>>
+<<Place ThruLine Phoebe Neutral FarLeft>>
 <<Place ThruLine Bayley Angry Right>>
 <<Place ThruLine Bee Angry FarRight>>
-And that's when everyone noticed... the tag in the coffee saying Casey 
-//<<back to normal>>
 Casey: "It's... watered down..."#line:077
 <<Place ThruLine Phoebe Angry FarLeft>>
 Phoebe: "HOW? WHY?!"#line:078
@@ -379,7 +402,7 @@ Phoebe: "I thought you guys aged it with Bee's potions!"
 <<Place ThruLine Bee Think FarRight>>
 Bee: "Nah, they did that with Gee so..."
 <<Place ThruLine Bee Happy FarRight>>
-Bee: "Bound to be a robbery or something hehe"
+Bee: "Bound to be a robbery or something heheh..."
 <<Place ThruLine Phoebe Neutral FarLeft>>
 <<Place ThruLine Bee Neutral FarRight>>
 Bayley: "Well, Sarcophachef realized it..."
@@ -388,21 +411,21 @@ Casey: "He didn't like the replacements..."
 <<Place ThruLine Casey Hangover Left>>
 Casey: "So he's been watering down EVERYTHING I order…"#line:079
 Bee: "Man, how long can a mummy hold a grudge?"
--> "THOUSANDS OF YEARS, APPARENTLY." Sips coffee angrily
--> "Enough to ruin my entire college experience"
--> "Don't know, but I hope they take a 2000 year nap soon"
+-> "THOUSANDS OF YEARS, APPARENTLY." Sips coffee angrily.
+-> "Enough to ruin my entire college experience."
+-> "Don't know, but I hope they take a 2000 year nap soon..."
 <<Place ThruLine Bayley Think Right>>
 Bayley: "Yeah... they hold onto things. He did take my apologies about it but..."
 <<Place ThruLine Bayley Neutral Right>>
-Casey: "Not mine, nor Siegfried's. He even forgave Gee"
-<<Place ThruLine Phoebe Sass FarLeft>>
+Casey: "Not mine, nor Siegfried's. He even forgave Gee!"
+<<Place ThruLine Phoebe Angry FarLeft>>
 Phoebe: "Well, I'm gonna tell a thing or two to that crazy mummy!"
-Casey: "No, you'll make it worse"
-<<Place ThruLine Phoebe Buffed FarLeft>>
+Casey: "No, you'll make it worse!"
+<<Place ThruLine Phoebe Buff FarLeft>>
 Phoebe: "Damn right you are, I'm gonna make *him* worse!"
 <<Place ThruLine Bee Happy FarRight>>
 Bee: "Calm down everyone, I'm sure you'll find a peaceful solution!"
-You check the time... and you all are late
+You check the time... and you all are late!
 <<Place ThruLine Phoebe Neutral FarLeft>>
 <<Place ThruLine Bee Neutral FarRight>>
 Casey: "Guess it's class time..."
@@ -417,9 +440,9 @@ title: class1
 <<Place ThruLine Nobody>>
 This was going to be a long day, and the fact that we began with advanced calculus was the cherry on the top of the pie.
 <<Place ThruLine MathTeacher Neutral Center>>
-Math teacher: "Today we're gonna learn how to calculate the rotation of a body in 0 gravity"
+Math teacher: "Today we're gonna learn how to calculate the rotation of a body in 0 gravity."
 Casey: Oh boy...#line:080
-Math teacher: He began to explain different equations on the black board, explaining the math behind the phenomenon
+Math teacher: He began to explain different equations on the black board, explaining the math behind the phenomenon.
 -> Why did I sign up for astrophysics?
     The class keeps going and you barely manage to keep up.
     You begin to copy from Phoebe's book because you just can't keep up with the teacher.
@@ -428,9 +451,9 @@ Math teacher: He began to explain different equations on the black board, explai
     Math Teacher: "And what do you think about this, Casey?"
     Casey: "The star chart looks amazing!"
     Or should we say, back from daydreaming?
-    Everyone laughs
+    Everyone laughs.
     <<Place ThruLine MathTeacher Happy Center>>
-    Math Teacher: You swear the match teacher actually smiled, but you can't be sure
+    Math Teacher: You swear the match teacher actually smiled, but you can't be sure...
     <<Place ThruLine Phoebe Happy FarRight>>
     Phoebe: "You're so funny!"
 -> Come on Casey, you gotta pay attention, this could save your rear some day!
@@ -442,12 +465,12 @@ Math teacher: He began to explain different equations on the black board, explai
     Casey: "Uhhhmmm yes!"
     Everyone just laughs.
     Math Teacher: "...Glad we have your attention."
-    Casey: Shrugs and scratches the back of their head
+    Casey: Shrugs and scratches the back of their head.
     <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "That was funny tho!"
 -> This is the end, my only friend, the end ♫
     Math Teacher: "Casey, save the singing lessons for music class."
-    <<Place ThruLine Siegfried Neutral FarLeft>>
+    <<Place ThruLine Siegfried Angry FarLeft>>
     Siegfried: "Fame gone to your head, twat?"#line:081
     <<Place ThruLine Nobody>>
     <<Place ThruLine MathTeacher Neutral Center>>
@@ -463,7 +486,7 @@ Bayley: "Man, I totally get you. It's crazy to be famous overnight!!"
 Bee: "Yeeeah man, you can like, sell your own merch now!"
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "Oh oh, what if you sell little cups? Like, for cats and dogs!!!"#line:082
--> That's most certainly the best idea I've heard in years
+-> That's most certainly the best idea I've heard in years.
     Phoebe: "RIGHT?! LET'S ORDER SOME!!!"
     Bayley: "Oh oh, and what about endorsement?"
     Phoebe: "I can TOTALLY get you in touch with that soda brand!"
@@ -476,7 +499,7 @@ Phoebe: "Oh oh, what if you sell little cups? Like, for cats and dogs!!!"#line:0
     Phoebe: "Like, they do hats and little overalls, ever wondered why no tea cups?"
     Casey: "Because... they don't have... thumbs?"
     <<Place ThruLine Phoebe Sass Right>>
-    Phoebe: "Nooo!!!, look"
+    Phoebe: "Nooo!!! Look!"
     Phoebe pulls out a picture of a cat holding a cup. It's paw perfectly fits the handle.
     <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "And they make it super light for them to lift it!!!!"
@@ -488,9 +511,13 @@ Phoebe: "Oh oh, what if you sell little cups? Like, for cats and dogs!!!"#line:0
     <<Place ThruLine Bee Happy FarLeft>>
     Bee: "Hey man, I bet I have something to keep you up in my bag!"#line:083
     <<Place ThruLine Bee Neutral FarLeft>>
+    <<Place ThruLine Phoebe Think Right>>
     Phoebe: "Like, gummy bears?"
+    <<Place ThruLine Bayley Think Left>>
     Bayley: "Please tell me it's gummy bears!"
-    Casey: "There's just no way it's gummy bears guys"
+    <<Place ThruLine Phoebe Neutral Right>>
+    <<Place ThruLine Bayley Neutral Left>>
+    Casey: "There's just no way it's gummy bears guys."
     Bee rustles around inside his bag for a moment.
     <<Place ThruLine Bee Happy FarLeft>>
     Bee: "Gummy bears!"#line:084
@@ -503,20 +530,20 @@ Casey: You shake your head, you can't focus like this.
 <<Place ThruLine Phoebe Neutral Right>>
 <<Place ThruLine Bayley Happy Left>>
 <<Place ThruLine Bee Happy FarLeft>>
-You decide to let them ramble on with their train of thoughts
+You decide to let them ramble on with their train of thoughts.
 <<Place ThruLine Phoebe Think Right>>
 <<Place ThruLine Bayley Neutral Left>>
 <<Place ThruLine Bee Think FarLeft>>
-In the meantime, you just limit yourself by trying to copy the exercises
+In the meantime, you just limit yourself by trying to copy the exercises.
 <<Place ThruLine Phoebe Happy Right>>
 <<Place ThruLine Bayley Happy Left>>
 <<Place ThruLine Bee Happy FarLeft>>
-That way, you'll be able to reverse engineer them later
+That way, you'll be able to reverse engineer them later.
 <<Place ThruLine Nobody>>
-Casey: "I gotta work my best this year, or I won't make it"
+Casey: "I gotta work my best this year, or I won't make it..."
 <<Place ThruLine Bayley Neutral Left>>
 Bayley: "Still having a tough time adapting to our rhythm, Case'?"
-Casey: "Yeah... monsters just do so much more than humans in the same time"
+Casey: "Yeah... monsters just do so much more than humans in the same amount of time."
 <<Place ThruLine Bee Happy FarLeft>>
 Bee: "But man, you're part monster... you have it in ya'!"
 <<Place ThruLine Phoebe Neutral Right>>
@@ -524,18 +551,19 @@ Phoebe: "We'll help you pull through as always!
 <<Place ThruLine Bee Neutral FarLeft>>
 Casey: "Yeah..."
 Casey: Yet I'd really like to make it on my own for a change...
-Casey: "This year I begin Astrophysics 1, and I just need to do my best"
+Casey: "This year I begin Astrophysics 1, and I just need to do my best."
 Casey: "I've prepared my whole life for this, you know?"
 Just as a passing breeze, the thoughts about going viral go away, and you remember what you're here for.
 <<Place ThruLine Bayley Happy Left>>
 Bayley: "You'll make it dude. I heard Prof. May is the best!"
+<<Place ThruLine Phoebe Happy Right>>
 Phoebe: "Yeah Casey, don't sweat it!"
 <<Place ThruLine Bee Happy FarLeft>>
 Bee: "Right on!"
-Casey: "Yeahhhh… I guess so"
+Casey: "Yeahhhh… I guess so."
 <<Place ThruLine Nobody>>
 <<Place ThruLine MathTeacher Neutral Center>>
-Math teacher: "Allright, get out of here, we're done for today"
+Math teacher: "Allright, get out of here, we're done for today."
 <<Place ThruLine Nobody>>
 You feel relieved, and take your exit to the hallway as soon as you can.
 <<Travel ThruLine CorridorEast>>
@@ -547,7 +575,7 @@ Still, you need an actual coffee... who are you asking to buy you one?
     <<Place ThruLine Casey Sunglasses Left>>
     Casey: "Hey Bayley, could you buy me a coffee? You know, without Sarcophachef knowing?"
     <<Place ThruLine Bayley Neutral Right>>
-    Bayley: "Sure thing man"
+    Bayley: "Sure thing man!"
     <<set $BayleyCoffe to true>>
 -> Phoebe
     <<Place ThruLine Casey Sunglasses Left>>
@@ -563,7 +591,7 @@ Still, you need an actual coffee... who are you asking to buy you one?
     <<Place ThruLine Casey Sunglasses Left>>
     Casey: Hey Bee, could you get me a coffee? I don't wanna try my luck after the whole green stuff thing…"
     <<Place ThruLine Bee Happy Right>>
-    Bee: "No prob bro"
+    Bee: "No prob bro."
     <<set $BeeCoffee to true>>
 <<Place ThruLine Nobody>>
 Casey: "Allright, let's go to the messhall!"
@@ -578,11 +606,11 @@ title: Messhall1
 <<declare $PhoebeExplodeVar4 = false as bool>>
 <<declare $PhoebeExplodeVar5 = false as bool>>
 <<if $PhoebeCoffee is true>>
-You reach the messhall in mid morning
+You reach the messhall in mid morning.
 It wasn't the busiest time, just some people here and there finishing their breakfasts.
 <<Place ThruLine Phoebe Sass Left>>
 <<Place ThruLine Casey Sunglasses FarLeft>>
-You want to just sit and wait for your coffee, but Phoebe grabs you by the arm
+You want to just sit and wait for your coffee, but Phoebe grabs you by the arm.
 <<Place ThruLine Phoebe Sass Center>>
 <<Place ThruLine Casey Hangover Left>>
 You thought about trying to wriggle free, but her inhuman strength just confirms your suspicions.
@@ -600,9 +628,9 @@ No reply.
     Phoebe: "No! He sold me watered down coffee, and you tell me this has been going on for months!?"
     <<Place ThruLine Phoebe Think Center>>
     <<Place ThruLine Casey Sunglasses Left>>
-    Casey: "It's fine, don't sweat it"
+    Casey: "It's fine, don't sweat it."
     <<Place ThruLine Casey Hangover Left>>
-    And just when you thought she was buying it, you yawn out of reflex
+    And just when you thought she was buying it, you yawn out of reflex.
 -> Remain silent.
 <<Place ThruLine Phoebe Angry Center>>
 Phoebe: "Oh no, not on my watch. Listen to me you over-bandaged mummy!*#line:085
@@ -616,16 +644,16 @@ Phoebe: "How can you be so mean to little Casey here???"#line:086
 Phoebe: "They're the nicest, most squishiest little half monster this place has ever seen!!!"#line:087
 <<Place ThruLine Sarcophachef Angry FarRight>>
 Phoebe: "You should be ashamed, depriving a college student of their coffee???!!!"#line:088
-Phoebe: "Heck how do you think they'll pull through!? It's savage!"#line:089
-Phoebe: "I don't care how many people you condemned to death in Egypt"#line:090
-Phoebe: "Or how many pyramids you built"#line:091
+Phoebe: "Heck, how do you think they'll pull through!? It's savage!"#line:089
+Phoebe: "I don't care how many people you condemned to death in Egypt!"#line:090
+Phoebe: "Or how many pyramids you built!"#line:091
 <<Place ThruLine Sarcophachef Eyebrow FarRight>>
 Phoebe: "You better quit with this grudge thing or..."#line:092
 <<Place ThruLine Sarcophachef Angry FarRight>>
 Sarcophachef looks at Phoebe, and pours water in the stew...
 <<Place ThruLine Phoebe Buff Center>>
 Phoebe begins to grow buffer by the second.
-You fear the worst
+You fear the worst!
 -> "No Phoebe!!!"
 -> "Kick his bandaged ass!!!"
 Phoebe begins to shake...
@@ -644,7 +672,7 @@ KBOOOOOOOOMMMMMM.
 <<Place ThruLine Casey Shocked Left>>
 Casey: "WHAT HAPPENED??!!!"
 <<Place ThruLine Bayley Neutral Right>>
-Bayley: "Phoebe exploded"
+Bayley: "Phoebe exploded."
 -> "She WHAT?!"
 -> "I told her not to..."
 -> "Did that mummy do THAT?!"
@@ -663,8 +691,8 @@ Bayley: "It's Phoebe, didn't you know she's part bomb?"
     Casey: "So is she alright?!"
 -> Wasn't she a cyclops?
     <<Place ThruLine Bee Think FarRight>>
-    Bee: "Mostly, but we all have some relatives from other species"
-    Bee: "Unless you're like Siegfried, who claims to be pure blooded"
+    Bee: "Mostly, but we all have some relatives from other species."
+    Bee: "Unless you're like Siegfried, who claims to be pure blooded."
     <<Place ThruLine Bayley Angry Right>>
     Bayley: "I bet my dinner that he's bluffing on that!"
     Casey: "But what about Phoebe?!!!"
@@ -672,7 +700,7 @@ Bayley: "It's Phoebe, didn't you know she's part bomb?"
 <<Place ThruLine Bee Happy FarRight>>
 <<Place ThruLine Phoebe Happy Center>>
 Phoebe: "Sup guys?"#line:093
-Without even a scratch on her face, Phoebe walks behind the table
+Without even a scratch on her face, Phoebe walks behind the table.
 <<Place ThruLine Bayley Neutral Right>>
 <<Place ThruLine Bee Neutral FarRight>>
 <<Place ThruLine Phoebe Neutral Center>>
@@ -692,15 +720,15 @@ She hands Casey a cup of coffee.
 <<Place ThruLine Casey Tired Left>>
 Casey: "But... but..."
 <<Place ThruLine Bayley Happy Right>>
-Bayley: "Forget about it, just drink"
+Bayley: "Forget about it, just drink!"
 <<Place ThruLine Bayley Neutral Right>>
 <<Place ThruLine Bee Happy FarRight>>
-Bee: "Yeeeah man, let it be!"
+Bee: "Yeeeah man, let it bee!"
 <<Place ThruLine Bee Neutral FarRight>>
 You try a sip...
 <<Place ThruLine Casey Happy Left>>
 Casey: "Hey, it's good!"
-<<Place ThruLine Bayley Happy Right>>
+<<Place ThruLine Phoebe Happy Center>>
 Phoebe: "Told you I'd solve it!"
 <<set $PhoebeExplodeVar1 to true>>
 <<elseif $BayleyCoffee is true>>
@@ -732,21 +760,21 @@ Sarcophachef raises an eyebrow again.
     Sarcophachef lowers the eyebrow.
     <<Place ThruLine Bayley Happy Left>>
     Bayley: "Sounds like a deal then!"
-    Sarcophachef begins to make some coffee
+    Sarcophachef begins to make some coffee.
 -> Pay nothing
     <<Place ThruLine Bayley Angry Left>>
-    Bayley: "Fine, no tip"
+    Bayley: "Fine, no tip."
     <<Place ThruLine Sarcophachef Eyebrow Right>>
-    Sarcophachef pour water in the stew he's making
+    Sarcophachef pour water in the stew he's making.
     <<Place ThruLine Bayley Think Left>>
     Bayley: "...alright. $10"
     <<Place ThruLine Sarcophachef Neutral Right>>
-    Sarcophachef begins to make some coffee
+    Sarcophachef begins to make some coffee.
 -> Listen to me you mummy...
     <<Place ThruLine Bayley Bark Left>>
     Bayley fills his lungs with air, his chest inflates to double it's size...
     <<Place ThruLine Bee Neutral FarLeft>>
-    As he's about to bark the mummy to the moon, Bee appears right behind him
+    As he's about to bark the mummy to the moon, Bee appears right behind him.
     Bee: "Hey man, why is my coffee taking so long?"
     <<Place ThruLine Sarcophachef Neutral Right>>
     Sarcophachef lowers the eyebrow, and goes to fetch that coffee.
@@ -755,7 +783,7 @@ Sarcophachef raises an eyebrow again.
     <<Place ThruLine Bayley Neutral Right>>
     Bayley lets the air go in a sigh of a relief.
     <<Place ThruLine Bayley Happy Right>>
-    Bayley: "Owe you one, dude"
+    Bayley: "Owe you one, dude."
     <<Place ThruLine Bayley Neutral Right>>
     <<Place ThruLine Bee Happy Left>>
     Bee: "Haha!"
@@ -778,14 +806,14 @@ Bayley: "Yeah!"
 
 <<Place ThruLine Bee Happy Left>>
 <<Place ThruLine Sarcophachef Neutral Right>>
-Bee: "Sup my man"
+Bee: "Sup my man!"
 <<Place ThruLine Bee Neutral Left>>
 <<Place ThruLine Sarcophachef Eyebrow Right>>
 Sarcophachef looks at Bee...
 <<Place ThruLine Sarcophachef Neutral Right>>
-Sarcophachef: "...not girl"
+Sarcophachef: "...not girl."
 <<Place ThruLine Bee Happy Left>>
-Bee: "Right on! Not my sister"
+Bee: "Right on! Not my sister."
 <<Place ThruLine Bee Neutral Left>>
 <<Place ThruLine Sarcophachef Happy Right>>
 Sarcophachef: "Fine. What?"
@@ -804,9 +832,9 @@ You take a sip...
 Casey: "Hey this is *really* good, how did you manage that?"
 <<Place ThruLine Casey Neutral Right>>
 <<Place ThruLine Bee Think Center>>
-Bee: "Ah, he liked my imitations for the green stuff you guys stole last year"
+Bee: "Ah, he liked my imitations for the green stuff you guys stole last year."
 <<Place ThruLine Bee Happy Center>>
-Bee: "We're kinda pals now"
+Bee: "We're kinda pals now."
 <<Place ThruLine Casey Happy Right>>
 Casey: "No way!"
 <<Place ThruLine Bayley Happy FarRight>>
@@ -827,7 +855,7 @@ Even so, that video thing just keeps your mind absent.
 <<Place ThruLine Bee Neutral FarLeft>>
 While the others begin to talk about merchandising again, you just can't shake the feeling that something's off.
 <<Place ThruLine Phoebe Happy Right>>
-<<Place ThruLine Bayley Blushed Left>>
+<<Place ThruLine Bayley Blush Left>>
 <<Place ThruLine Bee Think FarLeft>>
 How could a simple livestream of a nobody like yourself, go that viral for no reason?
 <<Place ThruLine Phoebe Think Right>>
@@ -839,7 +867,7 @@ And the comments... People keep thinking you lot are but a bunch of looneys in d
 <<Place ThruLine Bee Neutral FarLeft>>
 Phoebe: "So, white or blue Case'?"
 <<Place ThruLine Casey Neutral FarRight>>
-Phoebe's question shakes you back to reality
+Phoebe's question shakes you back to reality.
 Casey: "What?"
 Phoebe: "White or blue?"
 -> What?
@@ -855,7 +883,7 @@ Phoebe: "White or blue?"
         <<Place ThruLine Bayley Happy Left>>
         <<Place ThruLine Bee Happy FarLeft>>
         Bayley: "Yay!"
-        Phoebe: "Uhm... guess that should do for the little paw cups"
+        Phoebe: "Uhm... guess that should do for the little paw cups."
 -> White?
     <<Place ThruLine Phoebe Happy Right>>
     <<Place ThruLine Bayley Sad Left>>
@@ -866,7 +894,7 @@ Phoebe: "White or blue?"
     <<Place ThruLine Bayley Happy Left>>
     <<Place ThruLine Bee Happy FarLeft>>
     Bayley: "Yay!"
-    Phoebe: "Uhm... guess that should do for the little paw cups"
+    Phoebe: "Uhm... guess that should do for the little paw cups."
 <<Place ThruLine Phoebe Think Right>>
 <<Place ThruLine Bayley Happy Left>>
 <<Place ThruLine Bee Happy FarLeft>>
@@ -878,19 +906,19 @@ You needed to clear your head...
 <<Place ThruLine Phoebe Neutral Right>>
 <<Place ThruLine Bayley Neutral Left>>
 <<Place ThruLine Bee Neutral FarLeft>>
-Casey: "Hey guys, I think I'm gonna skip the next class"
+Casey: "Hey guys, I think I'm gonna skip the next class."
 <<Place ThruLine Phoebe Think Right>>
 Phoebe: "Oh? But you're already behind in ancient cartography!!!"
 <<Place ThruLine Casey Sad FarRight>>
 Casey: "Yeah but..."
-Casey: "I just can't shake the video thing"
+Casey: "I just can't shake the video thing."
 <<Place ThruLine Phoebe Sad Right>>
 Phoebe: "Oh..."
 <<Place ThruLine Phoebe Neutral Right>>
 <<Place ThruLine Casey Neutral FarRight>>
-Bayley: "Take it easy man, it's all good"
+Bayley: "Take it easy man, it's all good."
 <<Place ThruLine Bee Happy FarLeft>>
-Bee: "Yeah, we'll tell the teacher you got sick or something"
+Bee: "Yeah, we'll tell the teacher you got sick or something."
 <<Place ThruLine Bee Neutral FarLeft>>
 <<Place ThruLine Bayley Happy Left>>
 Bayley: "Yeah, like, Sarcophachef sent you to sickbay!"
@@ -910,20 +938,20 @@ title: Courtyard1
 <<Place ThruLine Casey Sad FarRight>>
 You reach the courtyard in need for a mouthfull of fresh air.
 <<Place ThruLine Casey Sad Right>>
-The thought of checking your phone acts as a beacon in your mind
+The thought of checking your phone acts as a beacon in your mind.
 Constantly reminding you of that video out there.
 It is then, when someone distracts you from picking it up.
 <<Place ThruLine Albatros Neutral Left>>
 Albatros: "Why the long face, so--, youngling?"#line:098
 There he was, a ghost you knew very well.
 Albatros, your great great grandparent, the one that revealed your origins to you.
-The one that told you how in fact, you descended from a lost line of monsters
+The one that told you how in fact, you descended from a lost line of monsters...
 One able to perform amazing deeds with the sheer power of their mind, the most human-looking of them all.
 Ever since that revelation, your relationship with him has reached the point of you even calling him gramps.
 <<Place ThruLine Casey Neutral Right>>
 Casey: "Oh, hey gramps"#line:099
-Casey: "Not much, really. Just... A bit of a long story"
-Albatros: "Oh, don't worry, I already heard all about it"
+Casey: "Not much, really. Just... A bit of a long story."
+Albatros: "Oh, don't worry, I already heard all about it."
 <<Place ThruLine Casey Shocked Right>>
 Casey: "About... The video?"
 <<Place ThruLine Casey Neutral Right>>
@@ -945,40 +973,40 @@ The weight of the world falls over your shoulders. You knew it, something smelle
 Casey: "So that's what I've been feeling all morning...?"
 <<Place ThruLine Albatros Happy Left>>
 Albatros: "Ah, seems like our classes on using your mental powers are working!"#line:104
-Albatros: "We're not far from begining to try telekinesis! You could even do it on that vampire smug!"#line:105
+Albatros: "We're not far from begining to try telekinesis! You could even do it on that smug vampire!"#line:105
 <<Place ThruLine Casey Angry Right>>
-Casey: "No gramps, we're friends now"#line:106
+Casey: "No gramps, we're friends now."#line:106
 <<Place ThruLine Albatros Neutral Left>>
 <<Place ThruLine Casey Neutral Right>>
 Albatros: "Sure sure..."
 <<Place ThruLine Albatros Happy Left>>
 Albatros: "Then on the principal!"
 <<Place ThruLine Casey Angry Right>>
-Casey: "Gramps, you're NOT helping"#line:107
+Casey: "Gramps, you're NOT helping."#line:107
 <<Place ThruLine Albatros Neutral Left>>
 Albatros: "Ah well, I guess one forgets to worry after hundreds of years..."#line:108
 <<Place ThruLine Casey Neutral Right>>
 <<Place ThruLine Albatros Sad Left>>
-Albatros: "Look, back in the day, the very sight of a monster was reason for torches and swords"#line:109
+Albatros: "Look, back in the day, the very sight of a monster was reason for torches and swords."#line:109
 <<Place ThruLine Albatros Neutral Left>>
 Albatros: "Now, to see them laughing and finding us funny? Heck, we would have avoided that entire massacre!"#line:110
 <<Place ThruLine Albatros Happy Left>>
-Albatros: "You did a great thing, Casey. You brought us closer to live in harmony"#line:111
+Albatros: "You did a great thing, Casey. You brought us closer to live in harmony."#line:111
 Albatros: "Whatever the principal says, tell'im where he can put it!!!"#line:112
 <<Place ThruLine Casey Happy Right>>
 You can't help but to smile to your grandpa's afirmations...
-Last year, you discovered the reason your kin was banned from the monster community
-Albatros was spoted in the human's town far too many times, to the point they've got suspicious.
+Last year, you discovered the reason your kin was banned from the monster community.
+Albatros was spoted in the human's town far too many times, to the point they got suspicious.
 After following him, they found that he was a monster, and not only that...
 They found their secret hideout.
-An insane battle broke out, and during the mourning of the dead comrades, a decision was taken on the spot.
+An insane battle broke out- and during the mourning of the dead comrades, a decision was made on the spot.
 Albatros and his kin, banned for good... until now.
-Casey: "You know gramps... I think that helped a lot actually"#line:113
-Albatros: A smile can be seen in the ghost's face
+Casey: "You know gramps... I think that helped a lot actually!"#line:113
+Albatros: A smile can be seen in the ghost's face.
 <<Place ThruLine Casey Neutral Right>>
 Casey: "But... I'm affraid it could get out of control"#line:114
 <<Place ThruLine Albatros Neutral Left>>
-Albatros: "Casey, you cannot predict the future. Not yet at least"#line:115
+Albatros: "Casey, you cannot predict the future. Not yet at least..."#line:115
 Albatros: "But I can tell you... a positive action, like those of you and your buddies..."#line:116
 Albatros: "Can only end up in a positive reaction."#line:117
 Casey: "You think so?"
@@ -986,19 +1014,19 @@ Casey: "You think so?"
 Albatros: "Yeah! Hundreds of years of experience, bo--- kid!"#line:118
 <<Place ThruLine Casey Happy Right>>
 <<Place ThruLine Albatros Neutral Left>>
-Casey: "Haha, you really are from another time after all, I guess"
+Casey: "Haha, you really are from another time after all, I guess."
 <<Place ThruLine Casey Neutral Right>>
 Albatros: "Well... what can I tell you?"#line:119
 <<Place ThruLine Albatros Happy Left>>
 Albatros: "Dead and living it, youngster! Now, I gotta catch up on my salsa classes. See you around!"#line:120
 <<Place ThruLine Casey Happy Right>>
-Casey: "See you, gramps"
+Casey: "See you, gramps."
 Albatros: "And remember... Let it be, and just have fun. It's all meaningless in the end!!!"#line:121
 <<Place ThruLine Nobody>>
-Easy when you're a ghost. However... You feel a bit better now, for some reason.
+Easy to say when you're a ghost. However... You feel a bit better now, for some reason.
 The philosophy of simpler times keeps you at ease, at least until you hear the sound of the principal's angry voice from the window...
-Principal: "CASEY MCTAGONIST, TO MY OFFICE"#line:122
-Principal: "N O W"#line:123
+Principal: "CASEY MCTAGONIST, TO MY OFFICE!!!!"#line:122
+Principal: "N O W."#line:123
 <<Place ThruLine Casey Happy Center>>
 Casey: "Woops, I better go!"#line:124
 <<Place ThruLine Nobody>>
@@ -1009,7 +1037,7 @@ title: principal1
 <<Travel ThruLine PrincipalsOffice>>
 You reach the principal's office, and see the door open, almost inviting you in.
 -> Take a peak inside
-    You pass on purpose the door to spy if there's someone inside.
+    You pass the door on purpose to spy if there's someone inside.
     There's Phoebe, Bee... is that Gee? And there's more people you cannot really see yet.
     -> Enter
         You go in...
@@ -1023,7 +1051,7 @@ You reach the principal's office, and see the door open, almost inviting you in.
     You go in...
 There they are, all your friends waiting patiently.
 <<Place ThruLine Phoebe Neutral FarLeft>>
-Phoebe: She's happily humming a tune while taping her foot on the floor
+Phoebe: She's happily humming a tune while taping her foot on the floor.
 <<Place ThruLine Bayley Neutral Left>>
 Bayley: Taping to Phoebe's taping, yet twice as faster. He seems to be nervous.
 <<Place ThruLine Gee Neutral Center>>
@@ -1036,11 +1064,11 @@ Siegfried: Arms crossed, his expresion resembles one of smelling a fart.
 You take a sit next to who you'd be calling Fart Face, if you weren't at the principal's office.
 The Principal closes the door, and then adresses everyone.
 <<Place ThruLine Principal Neutral Center>>
-Principal: "Where did I go wrong with you lot?" He begins explaining#line:126
+Principal: "Where did I go wrong with you lot?" He begins explaining.#line:126
 <<Place ThruLine Principal Sad Center>>
-Principal: "I gave you all chances, all pardons. I explained the very essence of this college to you all more times than I can remember"#line:127
+Principal: "I gave you all chances, all pardons. I explained the very essence of this college to you all more times than I can remember."#line:127
 <<Place ThruLine Principal Neutral Center>>
-Principal: "Last year, I gave you a task. One, that to my surprise, you completed perfectly."#line:128
+Principal: "Last year, I gave you a task. One that, to my utter surprise, you completed perfectly."#line:128
 <<Place ThruLine Principal Happy Center>>
 Principal: "Oktoberfest was a complete success, thanks to your team work..."#line:129
 -> "We're the best, ain't we?"
@@ -1055,7 +1083,7 @@ Principal: "Oktoberfest was a complete success, thanks to your team work..."#lin
     Pretty clearly spoken.
 <<Place ThruLine Principal Neutral Center>>
 Principal: "As I was saying..." You can see the vein in his forehead pumping loads of blood.
-Principal: "It all went uphill, until your deeds prooved to be a mere courtain"#line:132
+Principal: "It all went uphill, until your deeds prooved to be a mere facade."#line:132
 Principal: "One that blocked the true nature of your actions..."#line:133
 <<Place ThruLine Principal Angry Center>>
 Principal: "YOU STOLE THE ALCOHOL FOR THE PARTY."#line:134
@@ -1068,7 +1096,7 @@ Gee: "Grudgy bastard!"#line:136
 <<Place ThruLine Principal Angry Center>>
 Principal: "YOU MADE A PROHIBITED POTION TO MAKE THE GARDEN GROW!"#line:137
 <<Place ThruLine Nobody>>
-<<Place ThruLine Phoebe Angry Left>>
+<<Place ThruLine Phoebe Think Left>>
 Phoebe: "Oh no, he found out!!!"
 <<Place ThruLine Bee Think Right>>
 Bee: "I thought the word banned was for like, banned from the classroom!"#line:138
@@ -1087,46 +1115,69 @@ Principal: "NOW YOU DECIDED TO SHOW YOURSELVES, AS YOU ARE, AS A MERE JOKE TO HU
 <<Place ThruLine Principal Neutral Center>>
 Principal: "For thousands of years, we've shown ourselves as scary beasts, with claws and fangs, to keep those hungry murderers away from us!"#line:144
 <<Place ThruLine Principal Angry Center>>
-Principal: "AND IN ONE SINGLE SWIPE, You blew it all"#line:145
+Principal: "AND IN ONE SINGLE SWIPE, you blew it all."#line:145
 <<Place ThruLine Principal Neutral Center>>
 Principal: "People laughing at your head spinning? At you replacing your pinky toe? THEY SHOULD FEAR THE MERE SIGHT OF YOUR BRAINS!"#line:146
 Principal: "But no, you did mere comedy for them."#line:147
 Principal: "And now... we've been unmasked, they know our true nature..."#line:148
 -> "Ferocious mean monsters?"
     <<Place ThruLine Principal Angry Center>>
-    Principal: "DID YOU EVEN HEARD WHAT I SAID?"#line:149
+    Principal: "DID YOU EVEN HEAR WHAT I SAID?"#line:149
 -> "Heartwarming lovely monsters?"
     <<Place ThruLine Principal Angry Center>>
-    Principal: "DON'T SAY IT OUT LOUD"#line:150
+    Principal: "DON'T SAY IT OUT LOUD!"#line:150
 -> "A bunch of looneys?"
     <<Place ThruLine Principal Angry Center>>
     Principal: "WORSE. NICE, GOOD MONSTERS!!!!"#line:151
 
 The principal seems to be steaming from his ears. What should you do?
 -> Try to defend your actions
-    Casey: "But all we did was to ensure the best posible experience!"
+    <<Place ThruLine Casey Angry FarLeft>>
+    Casey: "But all we did was try to ensure the best possible experience!"
+    <<Place ThruLine Phoebe Sass FarRight>>
     Phoebe: "Yeah! That Garden NEEDED to be brought back to life!"
+    <<Place ThruLine Bayley Think FarRight>>
     Bayley: "And that would be *your* job, sir, not ours!"
+    <<Place ThruLine Nobody>>
+    <<Place ThruLine Principal Neutral Center>>
     Principal: "..."
-    Principal: "Do you know what happened after you all went on vacations, right?"
+    Principal: "You do know what happened after you all went on vacations, right?"
     No sound can be heard...
     Principal: "The plants... *kept* growing."#line:152
+    <<Place ThruLine Bee Think FarLeft>>
     Bee: Whispering "Oh... I don't like the sound of that..."#line:153
+    <<Place ThruLine Nobody>>
+    <<Place ThruLine Principal Angry Center>>
     Principal: "THIS LOOKED LIKE A FREAKIN' GREEN HOUSE!!!"#line:154
     Principal: "Even if our head chemist stoped the overgrowth, we had to cut it all... BY HAND."#line:155
+    <<Place ThruLine Gee Angry Right>>
     Gee: "Yeah but, what does it have to do with the booze? We replaced that one!"#line:156
-    Bayley: "And we also sent the poltergueist back home for good!"#line:157
+    <<Place ThruLine Bayley Angry FarRight>>
+    Bayley: "And we also sent the poltergiest back home for good!"#line:157
+    <<Place ThruLine Nobody>>
+    <<Place ThruLine Principal Neutral Center>>
     Principal: "..."
     The principal pulls out a bowl of stew...
+    <<Place ThruLine Bayley Think Right>>
     Bayley: "Oh no..."
+    <<Place ThruLine Casey Shocked Left>>
     Casey: "You too?..."
-    Principal: "IT'S WATERED DOWN, THANKS TO YOU LOT"#line:158
+    <<Place ThruLine Nobody>>
+    <<Place ThruLine Principal Angry Center>>
+    Principal: "IT'S WATERED DOWN, THANKS TO YOU LOT!"#line:158
+    <<Place ThruLine Principal Neutral Center>>
+    <<Place ThruLine Siegfried Angry FarLeft>>
     Siegfried: "What does any of this have to do with the catacombs?"#line:159
-    Principal: "You destroyed several chambers, what, did you thought we didn't know that's where the spiders live?"#line:160
+    Principal: "You destroyed several chambers. What, did you think we didn't know that's where the spiders live?"#line:160
+    <<Place ThruLine Principal Angry Center>>
     Principal: "THEY ARE MONSTERS TOO, YOU PAIR OF AIRHEADS!"#line:161
+    <<Place ThruLine Casey Sad FarRight>>
     Casey: "Oh..."
-    Principal: "There's reasons people don't go there, and that's because it's *their* territory!"
-    Principal: "Do you have any idea what it is to discuss with the Spider Queen?!!!"
+    <<Place ThruLine Noboy>>
+    <<Place ThruLine Principal Neutral Center>>
+    Principal: "There's a reason why people don't go there, and that's because it's *their* territory!"
+    <<Place ThruLine Principal Angry Center>>
+    Principal: "Do you have any idea what it's like to negotiate with the Spider Queen?!!!"
     Principal: "She's worse than the Borg Queen, dammit!"
 -> Just say it was all your fault
     <<Place ThruLine Nobody>>
@@ -1134,33 +1185,33 @@ The principal seems to be steaming from his ears. What should you do?
     Casey: "It... it was all my fault, Principal."#line:162
     Casey: "I put everyone up to that..."#line:163
     <<Place ThruLine Siegfried Angry FarLeft>>
-    Siegfried: "Yeah sure, like if anyone listened to a squishy halfling like you."#line:164
+    Siegfried: "Yeah sure, as if anyone listened to a squishy halfling like you."#line:164
     <<Place ThruLine Casey Neutral Left>>
     <<Place ThruLine Siegfried Neutral FarLeft>>
     Siegfried: "All I did was my own doing."#line:165
     <<Place ThruLine Phoebe Happy Right>>
-    Phoebe: "I tottaly overgrowth the garden by my own will!!!"#line:166
+    Phoebe: "I totally overgrew the garden by my own will!!!"#line:166
     <<Place ThruLine Phoebe Neutral Right>>
     <<Place ThruLine Bayley Happy FarRight>>
-    Bayley: "Stealing booze? Tottaly my idea"#line:167
+    Bayley: "Stealing booze? Totally my idea."#line:167
     <<Place ThruLine Gee Neutral FarLeft>>
     Gee: "And mine. I even wanted to steal some of that salami too..."#line:168
     <<Place ThruLine Bee Happy Left>>
-    Bee: "It was so fun to brew all those things!!! I don't regret it one bit"#line:169
+    Bee: "It was so fun to brew all those things!!! I don't regret it one bit."#line:169
     <<Place ThruLine Casey Neutral Center>>
-    Casey: "Guys... you're not helping"#line:170
+    Casey: "Guys... you're not helping."#line:170
     <<Place ThruLine Principal Neutral Center>>
-    <<Place ThruLine Casey Neutral Left>>
+    <<Place ThruLine Casey Neutral FarLeft>>
     Principal: "McTagonist is right for once."#line:171
-    Casey: "But all we did was to ensure the best posible experience!"
-    <<Place ThruLine Phoebe Sass Right>>
+    Casey: "But all we did was try to ensure the best possible experience!"
+    <<Place ThruLine Phoebe Sass FarRight>>
     Phoebe: "Yeah! That Garden NEEDED to be brought back to life!"
     <<Place ThruLine Bayley Think FarRight>>
     Bayley: "And that would be *your* job, sir, not ours!"
     <<Place ThruLine Nobody>>
     <<Place ThruLine Principal Neutral Center>>
     Principal: "..."
-    Principal: "Do you know what happened after you all went on vacations, right?"
+    Principal: "You do know what happened after you all went on vacations, right?"
     No sound can be heard...
     Principal: "The plants... *kept* growing."#line:152a
     <<Place ThruLine Bee Think FarLeft>>
@@ -1172,7 +1223,7 @@ The principal seems to be steaming from his ears. What should you do?
     <<Place ThruLine Gee Angry Right>>
     Gee: "Yeah but, what does it have to do with the booze? We replaced that one!"#line:156a
     <<Place ThruLine Bayley Angry FarRight>>
-    Bayley: "And we also sent the poltergueist back home for good!"#line:157a
+    Bayley: "And we also sent the poltergiest back home for good!"#line:157a
     <<Place ThruLine Nobody>>
     <<Place ThruLine Principal Neutral Center>>
     Principal: "..."
@@ -1183,23 +1234,23 @@ The principal seems to be steaming from his ears. What should you do?
     Casey: "You too?..."
     <<Place ThruLine Nobody>>
     <<Place ThruLine Principal Angry Center>>
-    Principal: "IT'S WATERED DOWN, THANKS TO YOU LOT"#line:158a
+    Principal: "IT'S WATERED DOWN, THANKS TO YOU LOT!"#line:158a
     <<Place ThruLine Principal Neutral Center>>
     <<Place ThruLine Siegfried Angry FarLeft>>
     Siegfried: "What does any of this have to do with the catacombs?"#line:159a
-    Principal: "You destroyed several chambers, what, did you thought we didn't know that's where the spiders live?"#line:160a
+    Principal: "You destroyed several chambers. What, did you think we didn't know that's where the spiders live?"#line:160a
     <<Place ThruLine Principal Angry Center>>
     Principal: "THEY ARE MONSTERS TOO, YOU PAIR OF AIRHEADS!"#line:161a
     <<Place ThruLine Casey Sad FarRight>>
     Casey: "Oh..."
     <<Place ThruLine Noboy>>
     <<Place ThruLine Principal Neutral Center>>
-    Principal: "There's reasons people don't go there, and that's because it's *their* territory!"
+    Principal: "There's a reason why people don't go there, and that's because it's *their* territory!"
     <<Place ThruLine Principal Angry Center>>
-    Principal: "Do you have any idea what it is to discuss with the Spider Queen?!!!"
+    Principal: "Do you have any idea what it's like to negotiate with the Spider Queen?!!!"
     Principal: "She's worse than the Borg Queen, dammit!"
 <<Place ThruLine Principal Neutral Center>>
-Principal: "So what's it gonna be this time, huh?" He picks up a punishment book
+Principal: "So what's it gonna be this time, huh?" He picks up a book of punishments.
 <<Place ThruLine Bayley Sad FarRight>>
 Bayley: "Oh man here we go again..."
 <<Place ThruLine Nobody>>
@@ -1215,7 +1266,7 @@ May: "Ah you know, just droping by, saying hello, you know, I feel like brainsto
 Principal: "Brainst... what?"#line:175
 <<Place ThruLine May Neutral Left>>
 May: "Ah you're too old for that!"#line:176
-Enought to make the principal's temper go on again
+Her offhanded comment was enough to make the principal's temper flare again.
 <<Place ThruLine Principal Angry Right>>
 Principal: "YOU'RE OLDER THAN ME, YOU JUST DRANK A REJUVENATION POTION!"#line:177
 <<Place ThruLine May Happy Left>>
@@ -1227,63 +1278,65 @@ May: "So kiddos, I saw your video! That was so fun!!!"#line:179
     May: "Ah, it's nothing really!"
 -> "In your face, Principal"
     <<Place ThruLine Principal Angry Right>>
-    Principal: "YOU'RE NOT OFF THE HOOK YET, KID"
+    Principal: "YOU'RE NOT OFF THE HOOK YET, KID!"
 <<Place ThruLine Principal Neutral Right>>
 May: "So, I had like, this idea right?"
-May: "The Principal is angry because you lot threw down the veil, which, come on, we did that with King in the 80's"#line:180
+May: "The Principal is angry because you lot threw down the veil, which, come on, we did that with King in the 80's."#line:180
 <<Place ThruLine May Happy Left>>
 May: "So, what if this year, we go by tradition?"#line:181
 Principal: "Wait, what?"
 <<Place ThruLine May Neutral Left>>
 May: "Yeah! Send them off to scare people, like good old times!"#line:182
 <<Place ThruLine Principal Happy Right>>
-Principal: "That's... that's a great idea actually"#line:183
+Principal: "That's... that's a great idea actually."#line:183
 May: "Hehe told you, brainstorming is good!!!"
 -> "Scare... people?"
     <<Place ThruLine May Happy Left>>
     May: "Well yes, a tradition as old as time for us monsters!"
 -> "Just show them Siegfried after he ate garlic"
     <<Place ThruLine Siegfried Angry FarRight>>
-    Siegfried: "Or you without make up, twat"
+    Siegfried: "Or you without make up, twat."
 -> "We'll give them Sarcophachef's food!"
     <<Place ThruLine May Happy Left>>
     May: "Hey, we don't want to *kill* them, you know? Hahaha!"
 <<Place ThruLine Nobody>>
 <<Place ThruLine Principal Neutral Right>>
 <<Place ThruLine May Neutral Left>>
-Principal: "So that way you can make monsters scary again... Yes, and you'll have to film it all"#line:184
+Principal: "So that way you can make monsters scary again... Yes, and you'll have to film it all."#line:184
 <<Place ThruLine Principal Happy Right>>
 Principal: "Show them it was all a trick to make them lower their guard!"#line:185
 <<Place Thruline Casey Neutral FarLeft>>
 Casey: "But..."
 <<Place ThruLine May Happy Left>>
-May: Whispering "Don't push it Case'"#line:186
+May: Whispering "Don't push it Case'."#line:186
+You shut up, wouldn't be wise to go against May's advice.
 <<Place ThruLine Nobody>>
-You shut up, wouldn't be wise to go against May's advice
 <<Place ThruLine Principal Neutral Center>>
 Principal: "Ah yes, this will be great! Go on, go Freak The Town!"#line:187
-The principal gets up and begins to urge everyone out, specially professor May.
+The principal gets up and begins to urge everyone out, especially professor May.
 //<<door slam>>
 <<jump lalala>>
 ===
 title: lalala
 ---
+<<Travel ThruLine CorridorWest>>
 <<Place ThruLine Nobody>>
 By the time you all reach the outside, the door gets slammed right behind the last one to get out.
 <<Place ThruLine Gee Angry Left>>
 Gee: "HEY WHATCH OUT YOU ..."#line:188
 <<Place ThruLine Siegfried Neutral Right>>
-Siegfried: "Seems like you still know what's best"
+Siegfried: "Seems like you still know what's best."
 <<Place ThruLine Gee Neutral Left>>
 Gee: "I didn't finish that because... uhm..."#line:189
-Siegfried: "He's the principal"
+<<Place ThruLine Siegfried Angry Right>>
+Siegfried: "He's the principal."
 Gee: "...I sneezed."#line:190
-Gee proceeds to sneeze very fakely#line:191
-Gee: "See? Sneezed"#line:192
+Gee proceeds to sneeze very fakely.#line:191
+Gee: "See? Sneezed."#line:192
 <<Place ThruLine Nobody>>
 <<Place ThruLine May Neutral Center>>
 May: "Allright sneezy gang, listen up."#line:193
-May: "I didn't tell the fuuulll story back there"
+May: "I didn't tell the fuuulll story back there..."
 May: "'Cause you know, we'd never hear the end o'it!"
 May: "So, saving you all the tantrum I'm about to hear..."#line:194
 <<Place ThruLine May Happy Center>>
@@ -1293,34 +1346,35 @@ May: "I'm bringing the townsfolk over here!"#line:195
     May: "Ya heard, Casius Klein!"#line:196
     <<Place ThruLine Casey Shocked Left>>
     Casey: "The only ones freaking out... will be the monsters!"
-    <<Place ThruLine Siegfried Neutral Right>>
+    <<Place ThruLine Siegfried Angry Right>>
     Siegfried: "To see you everyday is already a pain, and you're half trouble."#line:197
     <<Place ThruLine May Happy Center>>
-    May: "Hahaha isn't that great? Everyone going bonkers!!!"#line:198
+    May: "Hahaha isn't that great? Everyone's going bonkers!!!"#line:198
 -> "That's..."
     May: "Amazing, I know!"#line:199a
     <<Place ThruLine Siegfried Neutral Right>>
-    Siegfried: "Insane, I'd say"#line:200
+    Siegfried: "Insane, I'd say."#line:200
     May: "Insanely good, I'd say!"#line:201
     <<Place ThruLine Siegfried Angry Right>>
-    Siegfried: "Insanely bad"#line:202
+    Siegfried: "Insanely bad."#line:202
     May: "Insanely badly good!"#line:203
     <<Place ThruLine Siegfried Furious Right>>
-    Siegfried: "...I hate you all"#line:204
+    Siegfried: "...I hate you all!"#line:204
     <<Place ThruLine Siegfried Angry Right>>
     <<Place ThruLine May Neutral Center>>
     <<Place ThruLine Gee Happy FarRight>>
     Gee: "Haha come on Sieggy!"
     <<Place ThruLine Bee Happy Left>>
-    Bee: "Yeah man... It'll be fun"
-    Siegfried: He remains silent, seems like he's considering it
+    Bee: "Yeah man... It'll be fun!"
+    Siegfried: He remains silent, seems like he's considering it.
 -> "That's brilliant!"
     May: "I know, right?!!!"#line:199
     <<Place ThruLine Siegfried Angry Right>>
-    Siegfried: "Did you fell on your head or something?"
+    Siegfried: "Did you fall on your head or something?"
     <<Place ThruLine Casey Happy Left>>
-    Casey: "Do invite some italians too!"
-    May: "Oh, oh!!! I love italian food!"
+    Casey: "Do invite some Italians too!"
+    May: "Oh, oh!!! I love Italian food!"
+    <<Place ThruLine Siegfried Furious Right>>
     Siegfried: "You twat..."#line:205
 <<Place ThruLine Nobody>>
 <<Place ThruLine May Neutral Center>>
@@ -1328,21 +1382,21 @@ May: "So, you lot are gonna have to scare the crap out o'them!"#line:206
 -> "How are we gonna do that?"
     May: "Aw come on, you lot are monsters! It's in your DNA."#line:207
 -> "Is there like, a way to bypass that?"
-    May: "Nope. It's that or hanging from your pinky toes"#line:208
+    May: "Nope. It's that or hanging from your pinky toes."#line:208
     <<Place ThruLine Bee Sad Left>>
     Bee: "Nooo, not again!!!! Mine are new!!!"#line:209
 -> "How far can we actually go with that?"
     <<Place ThruLine May Happy Center>>
-    May: "No physical harm. Psicologicaly? Well up to you, but nothing some pair of months therapy can't solve!"#line:210
+    May: "No physical harm. Psychologicaly? Well up to you, but nothing a couple months therapy can't solve!"#line:210
 <<Place ThruLine Nobody>>
 <<Place ThruLine May Neutral Center>>
 May: "So, let's say, an example. Ever heard of the dropbear?"#line:211
 -> "The what?"
     <<Place ThruLine May Angry Center>>
     May: "The carnivorous Koala who drops from the trees to make you it's lunch... RAWR!"#line:212
--> "The carnivorous Koala more dangerous than every spider in australia?"
+-> "The carnivorous Koala more dangerous than every spider in Australia?"
     <<Place ThruLine May Angry Center>>
-    May: "Close enought, you forgot the part it falls from the trees and... RAWR!"#line:213
+    May: "Close enough, you forgot the part it falls from the trees and... RAWR!"#line:213
 -> "The bear who drops from trees to brutally murder you?"
     <<Place ThruLine May Angry Center>>
     May: "Yes! But looks like a Koala! And goes like RAWR!"#line:214
@@ -1353,9 +1407,9 @@ Bayley: "That was... amazing! I tottaly felt the chill down my spine!"
 <<Place ThruLine Phoebe Happy Left>>
 Phoebe: "I WANNA SLEEP WITH THE LIGHTS ON!!!!"
 <<Place ThruLine Siegfried Angry Center>>
-Siegfried: "Pathetic..." Begins to google the dropbear
+Siegfried: "Pathetic..." Begins to google the dropbear.
 <<Place ThruLine Bee Happy Right>>
-Bee: "...AAahhh!!!!" Delayed reaction
+Bee: "...AAahhh!!!!" Delayed reaction.
 <<Place ThruLine Gee Angry FarRight>>
 Gee: "I ain't falling on that again!"
 <<Place ThruLine Nobody>>
@@ -1373,17 +1427,17 @@ May: "You bet! Now, drop by my office later. I might need some help with somethi
 <<Place ThruLine Nobody>>
 May throws a smoke bomb to the floor and takes off!
 <<Place ThruLine Phoebe Happy FarLeft>>
-Phoebe: "...SHE'S AWESOME!...cofcof"#line:216
+Phoebe: "...SHE'S AWESOME!...coughcough..."#line:216
 <<Place ThruLine Casey Happy Left>>
-Casey: "Yeah...cofcof"#line:217
+Casey: "Yeah...coughcough..."#line:217
 <<Place ThruLine Bayley Happy Center>>
-Bayley: "Almost... cofcof... makes me wish... cofcof... I studied physics!"#line:218
+Bayley: "Almost... coughcough... makes me wish... coughcough... I studied physics!"#line:218
 <<Place ThruLine Gee Happy Right>>
-Gee: "She's the best! Don't worry, you'll get used to the smoke"#line:219
+Gee: "She's the best! Don't worry, you'll get used to the smoke."#line:219
 <<Place ThruLine Bee Happy FarRight>>
-Bee: "Yeah! Didn't had her but boy, were my first experiments smoky..."#line:220
+Bee: "Yeah! Didn't have her but boy, were my first experiments smoky..."#line:220
 <<Place ThruLine Nobody>>
-<<Place ThruLine Siegfried Right Neutral>>
+<<Place ThruLine Siegfried Neutral Center>>
 Siegfried: Rolls his eyes "Whatever, I'll be somewhere else."
 <<Place ThruLine Nobody>>
 <<Place ThruLine Phoebe Neutral Left>>
@@ -1400,7 +1454,7 @@ Gee: "No Bee, you're coming with me to the next class, remember?"
 Bee: "Oh... right... boomer..."
 <<Place ThruLine Gee Angry Right>>
 <<Place ThruLine Bee Happy Center>>
-Gee punches him in the arm, as they take their leave
+Gee punches him in the arm, as they take their leave.
 <<Place ThruLine Nobody>>
 <<Place ThruLine Casey Tired Center>>
 Casey: "Allright... guess I'll be back to the dorm. I need a nap..."
@@ -1422,25 +1476,25 @@ Casey: "The following days to the video going viral, just kept going madness."
 Casey: "May organized all of Oktoberfest herself... and announced King's reunion..."
 Casey: "Pretty much every human in the realm wanted to come to the castle..."
 <<Place ThruLine Casey Happy Center>>
-Casey: "The principal went nuts, I don't think I've ever seen him so angry before... I filmed a bit!"
+Casey: "The principal went nuts, I don't think I've ever seen him so angry before... I even filmed a bit!"
 <<Place ThruLine Nobody>>
 <<Travel ThruLine PrincipalsOffice>>
 <<Place ThruLine Principal Angry Center>>
 Principal: "WHAT? YOU WANT HUMANS TO COME HERE?"#line:221
 Principal: "WHAT? DID YOU ALREADY... WHAT?!!!!!!!!"#line:222
-<<Place ThruLine Albatros Neutral Left>>
-Albatros: "Come on man, it ain't that big of a deal. Thousands of years are enought for the masses to change!"#line:224
-<<Place ThruLine May Happy Right>>
-May: "Yeah don't be a prude Princy."#line:225
+<<Place ThruLine Albatros Neutral FarLeft>>
+Albatros: "Come on man, it ain't that big of a deal. Thousands of years are enough for the masses to change!"#line:224
+<<Place ThruLine May Happy FarRight>>
+May: "Yeah, don't be a prude Princy."#line:225
 Principal: "YOU... YOU PIECE OF...!!!!!!!!!!!!!"#line:226
 <<Place ThruLine Nobody>>
 <<Travel ThruLine Dormroom>>
 <<Place ThruLine Casey Neutral Center>>
-Casey: "Yeah I had to stop recording, It'd be compromising if you heard what he said afterwards..."
-Casey: "I heard that he's on some of the herbs Prof. May gave him"
-Casey: "You know, to chill a bit and all that"
+Casey: "Yeah, I had to stop recording. It'd be compromising if you heard what he said afterwards..."
+Casey: "I heard that he's on some of the herbs Prof. May gave him."
+Casey: "You know, to chill a bit and all that..."
 <<Place ThruLine Casey Happy Center>>
-Casey: "So... Today's the day! All the humans that bought their tickets, are gonna be staying at the castle"
+Casey: "So... Today's the day! All the humans that bought their tickets are gonna be staying at the castle!"
 <<Place ThruLine Casey Neutral Center>>
 Casey: "And this is our chance to scare them away from here, for good!"#line:227
 <<Place ThruLine ElSpooky Neutral Right>>
@@ -1448,14 +1502,15 @@ Albatros: "Or dance the night away!"#line:228
 <<Place ThruLine Casey Angry Center>>
 Casey: "Grandpa I told you you can't appear in videos!"#line:229
 Albatros: "But they can see me when I use this sheet!!!"#line:230
-Casey: "They see a guy under a blanket, they won't believe noone's under it!"#line:231
+Casey: "They see a guy under a blanket, they won't believe no one's under it!"#line:231
 Albatros: "Ahhh... you kids are no fun."#line:232
 <<Place ThruLine Nobody>>
-The blanket falls to the floor motionless
+The blanket falls to the floor.
 <<Place ThruLine Casey Sad Center>>
 Casey: "They'll think it was some vfx..."
 <<Place ThruLine Casey Happy Center>>
 Casey: "Allright, time to scare you all people!"#line:233
+<<Place ThruLine Nobody>>
 Where to now?
 <<jump ConmutatorWest>>
 ===
