@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{124ab282-05c9-44ee-975d-b800483cac09}">
+		<property name="assetPath">
+			<value>VoiceLines/Casey_Spooktober/001.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>192</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.8383854166666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{69d00c0e-406c-45fa-b799-c4067baf9c2e}</destination>
+		</relationship>
+	</object>
+</objects>
