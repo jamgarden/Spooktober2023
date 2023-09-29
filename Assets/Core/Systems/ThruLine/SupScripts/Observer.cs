@@ -137,6 +137,6 @@ public partial class GameManager
     public void ShiftMusic(int val = 0)
     {
         // This needs to be moved to the director!
-        FMODUnity.RuntimeManager.StudioSystem.setParameterByNameWithLabel("MusicSwitch", songNames[val]);
+       FMODUnity.RuntimeManager.StudioSystem.setParameterByNameWithLabel("MusicSwitch", songNames[val]);
     }
 }
