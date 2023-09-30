@@ -23,7 +23,18 @@ tags:
 <<declare $AllQuests5 = false as bool>>
 <<declare $AllQuests6 = false as bool>>
 <<declare $Princpalsquest = false as bool>>
-<<jump Dorm1>>
+<<declare $PhoebeExplodeVar1 = false as bool>>
+<<declare $PhoebeExplodeVar2 = false as bool>>
+<<declare $PhoebeExplodeVar3 = false as bool>>
+<<declare $PhoebeExplodeVar4 = false as bool>>
+<<declare $PhoebeExplodeVar5 = false as bool>>
+<<declare $BayleyCoffe = false as bool>>
+<<declare $PhoebeCoffee = false as bool>>
+<<declare $BeeCoffee = false as bool>>
+<<declare $TheSongWillPlay1 = false as bool>>
+<<declare $TheSongWillPlay2 = false as bool>>
+<<declare $TheSongWillPlay3 = false as bool>>
+<<declare $TheSongWontPlay = false as bool>>
 <<shiftmusic ThruLine 2>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
@@ -435,9 +446,6 @@ Casey: "Guess it's class time..."
 title: class1
 ---
 <<Travel ThruLine Classroom>>
-<<declare $BayleyCoffe = false as bool>>
-<<declare $PhoebeCoffee = false as bool>>
-<<declare $BeeCoffee = false as bool>>
 <<Place ThruLine Nobody>>
 This was going to be a long day, and the fact that we began with advanced calculus was the cherry on the top of the pie.
 <<Place ThruLine MathTeacher Neutral Center>>
@@ -489,10 +497,19 @@ Bee: "Yeeeah man, you can like, sell your own merch now!"
 Phoebe: "Oh oh, what if you sell little cups? Like, for cats and dogs!!!"#line:082
 -> That's most certainly the best idea I've heard in years.
     Phoebe: "RIGHT?! LET'S ORDER SOME!!!"
+    <<Place ThruLine Bayley Think Left>>
+    <<Place ThruLine Phoebe Neutral Right>>
     Bayley: "Oh oh, and what about endorsement?"
+    <<Place ThruLine Phoebe Happy Right>>
+    <<Place ThruLine Bayley Happy Left>>
     Phoebe: "I can TOTALLY get you in touch with that soda brand!"
+    <<Place ThruLine Bee Think FarLeft>>
+    <<Place ThruLine Phoebe Neutral Right>>
     Bee: "Which one?"
+    <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "The least healthy one!"
+    <<Place ThruLine Bayley Happy Left>>
+    <<Place ThruLine Bee Happy FarLeft>>
     Bee: "Oh, that one's the best!"
     Casey: "Yeah!"
 -> Wait what?
@@ -504,6 +521,8 @@ Phoebe: "Oh oh, what if you sell little cups? Like, for cats and dogs!!!"#line:0
     Phoebe pulls out a picture of a cat holding a cup. It's paw perfectly fits the handle.
     <<Place ThruLine Phoebe Happy Right>>
     Phoebe: "And they make it super light for them to lift it!!!!"
+    <<Place ThruLine Bayley Happy Left>>
+    <<Place ThruLine Bee Happy FarLeft>>
     Bayley: "Hey I want two of those!"
     Bee: "I want five!"
     Casey: "Oh boy..."
@@ -577,7 +596,7 @@ Still, you need an actual coffee... who are you asking to buy you one?
     Casey: "Hey Bayley, could you buy me a coffee? You know, without Sarcophachef knowing?"
     <<Place ThruLine Bayley Neutral Right>>
     Bayley: "Sure thing man!"
-    <<set $BayleyCoffe to true>>
+    <<set $BayleyCoffee to true>>
 -> Phoebe
     <<Place ThruLine Casey Sunglasses Left>>
     Casey: "Hey Pheebs, could you buy me another coffee? But y'know, give your name instead?"
@@ -595,17 +614,14 @@ Still, you need an actual coffee... who are you asking to buy you one?
     Bee: "No prob bro."
     <<set $BeeCoffee to true>>
 <<Place ThruLine Nobody>>
+<<Place ThruLine Casey Sunglasses Center>>
 Casey: "Allright, let's go to the messhall!"
+<<Place ThruLine Nobody>>
 <<jump Messhall1>>
 ===
 title: Messhall1
 ---
 <<Travel ThruLine Messhall>>
-<<declare $PhoebeExplodeVar1 = false as bool>>
-<<declare $PhoebeExplodeVar2 = false as bool>>
-<<declare $PhoebeExplodeVar3 = false as bool>>
-<<declare $PhoebeExplodeVar4 = false as bool>>
-<<declare $PhoebeExplodeVar5 = false as bool>>
 <<if $PhoebeCoffee is true>>
 You reach the messhall in mid morning.
 It wasn't the busiest time, just some people here and there finishing their breakfasts.
@@ -733,6 +749,9 @@ Casey: "Hey, it's good!"
 Phoebe: "Told you I'd solve it!"
 <<set $PhoebeExplodeVar1 to true>>
 <<elseif $BayleyCoffee is true>>
+You reach the messhall in mid morning.
+It wasn't the busiest time, just some people here and there finishing their breakfasts.
+You go take your place while Bee goes get you your coffee
 <<Place ThruLine Bayley Happy FarLeft>>
 <<Place ThruLine Sarcophachef Neutral Center>>
 Bayley: "Hey Sarcophaguy!"
@@ -804,7 +823,9 @@ Bayley: "Yeah!"
 
 
 <<elseif $BeeCoffee is true>>
-
+You reach the messhall in mid morning.
+It wasn't the busiest time, just some people here and there finishing their breakfasts.
+You go take your place while Bee goes get you your coffee
 <<Place ThruLine Bee Happy Left>>
 <<Place ThruLine Sarcophachef Neutral Right>>
 Bee: "Sup my man!"
@@ -1035,7 +1056,7 @@ Casey: "Woops, I better go!"#line:124
 ===
 title: principal1
 ---
-<<Travel ThruLine PrincipalsOffice>>
+<<Travel ThruLine PrincipalsOffice 2>>
 You reach the principal's office, and see the door open, almost inviting you in.
 -> Take a peak inside
     You pass the door on purpose to spy if there's someone inside.
@@ -1050,6 +1071,7 @@ You reach the principal's office, and see the door open, almost inviting you in.
     You go in...
 -> Just enter
     You go in...
+<<Travel ThruLine PrincipalsOffice>>
 There they are, all your friends waiting patiently.
 <<Place ThruLine Phoebe Neutral FarLeft>>
 Phoebe: She's happily humming a tune while taping her foot on the floor.
@@ -1320,7 +1342,7 @@ The principal gets up and begins to urge everyone out, especially professor May.
 ===
 title: lalala
 ---
-<<Travel ThruLine CorridorWest>>
+<<Travel ThruLine PrincipalsOffice 1>>
 <<Place ThruLine Nobody>>
 By the time you all reach the outside, the door gets slammed right behind the last one to get out.
 <<Place ThruLine Gee Angry Left>>
@@ -1334,6 +1356,7 @@ Siegfried: "He's the principal."
 Gee: "...I sneezed."#line:190
 Gee proceeds to sneeze very fakely.#line:191
 Gee: "See? Sneezed."#line:192
+<<Travel ThruLine CorridorWest>>
 <<Place ThruLine Nobody>>
 <<Place ThruLine May Neutral Center>>
 May: "Allright sneezy gang, listen up."#line:193

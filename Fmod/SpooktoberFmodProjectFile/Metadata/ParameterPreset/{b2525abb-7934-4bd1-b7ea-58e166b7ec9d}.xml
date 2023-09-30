@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{b2525abb-7934-4bd1-b7ea-58e166b7ec9d}">
+		<property name="name">
+			<value>SFXSwitch</value>
+		</property>
+		<relationship name="folder">
+			<destination>{24e28c96-4d64-4cf9-9c95-5aedfdd24367}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{19fb368f-f4bf-458b-b843-197df1791b22}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{19fb368f-f4bf-458b-b843-197df1791b22}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>23</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>01</value>
+			<value>02</value>
+			<value>03</value>
+			<value>04</value>
+			<value>05</value>
+			<value>06</value>
+			<value>07</value>
+			<value>08</value>
+			<value>09</value>
+			<value>10</value>
+			<value>11</value>
+			<value>12</value>
+			<value>13</value>
+			<value>14</value>
+			<value>15</value>
+			<value>16</value>
+			<value>17</value>
+			<value>18</value>
+			<value>19</value>
+			<value>20</value>
+			<value>Value U</value>
+			<value>Value V</value>
+			<value>Value W</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

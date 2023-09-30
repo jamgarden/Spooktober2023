@@ -397,7 +397,7 @@ KBOOOOOOOOMMMMMM
 -> "WHAT THE..."
 -> "PHOEBE!!!!!"
 -> "AAAAAAAAAAAAAAAA"
-<<Travel ThruLine CorridorWest>>
+<<Travel ThruLine PrincipalsOffice 1>>
 <<Place ThruLine Nobody>>
 <<Place ThruLine Bayley Neutral Right>>
 Bayley: "Calm down, calm down, she's fine!"
@@ -423,6 +423,7 @@ Bayley: "This happens sometimes! Her mom is part Bomb!"
     Bayley: "But I bet my dinner that he's bluffing on that!"
     Casey: "But what about Phoebe?!!!"
 <<Place ThruLine Bayley Neutral Right>>
+<<Travel ThruLine PrincipalsOffice 2>>
 The door opens, Phoebe comes out as if nothing had ever happened.
 <<Place ThruLine Phoebe Neutral Center>>
 Phoebe: "Sup guys, what are you doing outside?"
@@ -430,6 +431,7 @@ Phoebe: "Sup guys, what are you doing outside?"
 //fade to black
 //funny music
 //fade in
+<<Travel ThruLine Dormroom>>
 <<Place ThruLine Bayley Think Right>>
 <<Place ThruLine Phoebe Neutral Center>>
 <<Place ThruLine Casey Neutral Left>>
