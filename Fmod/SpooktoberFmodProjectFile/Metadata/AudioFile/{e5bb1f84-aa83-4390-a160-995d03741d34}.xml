@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e5bb1f84-aa83-4390-a160-995d03741d34}">
+		<property name="assetPath">
+			<value>Freak The Town/SFX_PLAYER_SLURP.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.75939583333333338</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{69d00c0e-406c-45fa-b799-c4067baf9c2e}</destination>
+		</relationship>
+	</object>
+</objects>
