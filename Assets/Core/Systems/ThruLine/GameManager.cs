@@ -51,6 +51,14 @@ public partial class GameManager : MonoBehaviour
     [SerializeField]
     private List<string> songNames;
 
+
+    [SerializeField]
+    private CustomVariableStorage varStorage;
+
+
+    [SerializeField]
+    private SaveGameSO savedGame;
+
     // debug sound
     // debug music
     // debug voiceline?
@@ -120,6 +128,35 @@ public partial class GameManager : MonoBehaviour
     public void LoadGame()
     {
         Debug.Log("This loads the game");
+        Debug.Log("Save game data:");
+        currentLocale = savedGame.LocaleName;
+        StagedCharacters = savedGame.stagedCharacters;
+        MainMenu.SetActive(false);
+        Stage.SetActive(true);
+
+        setBackDropEMIT(0);
+
+        foreach(CharacterSO chara in savedGame.stagedCharacters)
+        {
+            //StagedCharacters.Add(chara);
+            foreach(SpriteRenderer position in Positions)
+            {
+                if(position.gameObject.name == chara.Position)
+                {
+                    foreach(CharacterFrame cFrame in chara.CharacterFrames)
+                    {
+                        if(cFrame.Emotion == chara.Emotion)
+                        {
+                            position.sprite = cFrame.Picture;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        dialogueRunner.StartDialogue(savedGame.nodeName);
+        (Dictionary<string, float> floats, Dictionary<string, string> strings, Dictionary<string, bool> bools) hell = (savedGame.floatDict, savedGame.stringDict, savedGame.boolDict);
+        varStorage.SetAllVariables(savedGame.floatDict, savedGame.stringDict, savedGame.boolDict);
     }
 
 

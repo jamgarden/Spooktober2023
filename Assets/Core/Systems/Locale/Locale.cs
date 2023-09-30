@@ -10,7 +10,7 @@ public enum ESection
     Town
 }
 
-[CreateAssetMenu(fileName = "Levelotron", menuName = "Create ThruLine Locale", order = 1)]
+[CreateAssetMenu(fileName = "Locale", menuName = "Create ThruLine Locale", order = 1)]
 public class LocaleSO : ScriptableObject
 {
     public string Name;
