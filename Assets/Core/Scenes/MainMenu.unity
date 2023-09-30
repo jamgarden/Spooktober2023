@@ -284,7 +284,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 573226126}
   m_OnClick:
     m_PersistentCalls:
@@ -873,6 +873,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1497030837}
     - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: fileMan
+      value: 
+      objectReference: {fileID: 1521330462}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: MainMenu
       value: 
       objectReference: {fileID: 2568897569293155198}
@@ -888,6 +892,10 @@ PrefabInstance:
       propertyPath: DebugLocale
       value: 
       objectReference: {fileID: 11400000, guid: a15c76ae0ed5bac4fb0e627c92d660d6, type: 2}
+    - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      propertyPath: LoadButtonRef
+      value: 
+      objectReference: {fileID: 573226125}
     - target: {fileID: 4811989178007459757, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       propertyPath: currentLocale
       value: 
@@ -1149,6 +1157,9 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8040239747445973107, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1521330462}
+    - targetCorrespondingSourceObject: {fileID: 8040239747445973107, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1521330456}
     - targetCorrespondingSourceObject: {fileID: 8040239747445973107, guid: 55ae9914ba5a3146392d67f343f30fcf, type: 3}
       insertIndex: -1
@@ -1294,6 +1305,18 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &1521330462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521330454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3b7a93a9497f543b400aa0ebd4acb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1674606186
 GameObject:
   m_ObjectHideFlags: 0

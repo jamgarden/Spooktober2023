@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using System.IO;
+using System.Xml;
+using System.Xml.Serialization;
 
 public partial class GameManager
 {
@@ -18,48 +21,7 @@ public partial class GameManager
 
     public void Place_Emit(CharacterSO character, string position, bool flip = false)
     {
-        Vector2 spriteSize = character.Neutral.rect.size;
-        // get StagedCharacter by name
-        // switch stage position sprite to StagedCharacter by emotion label.
-        // switch case for emotion strings
-        //      Sprite selectedImage = StagedCharacter.Neutral;
-        /*
-        switch (position)
-        {
-
-            case "FarLeft": 
-                Debug.Log("FarLeft PING *************");
-                Positions[0].rectTransform.sizeDelta = spriteSize;
-                Positions[0].sprite = StagedCharacters.Last().Neutral;
-                break;
-            case "Left":
-                Debug.Log("Left PING **************");
-                Positions[1].rectTransform.sizeDelta = spriteSize;
-                Positions[1].sprite = StagedCharacters.Last().Neutral;
-                break;
-            case "Center":
-                Debug.Log("Center PING ****************");
-                Positions[2].rectTransform.sizeDelta = spriteSize;
-                Positions[2].sprite = StagedCharacters.Last().Neutral;
-                break;
-            case "Right":
-                Debug.Log("Right PING *****************");
-                Positions[3].rectTransform.sizeDelta = spriteSize;
-                Positions[3].sprite = StagedCharacters.Last().Neutral;
-                //Positions[3].gameObject.transform.localScale = new Vector3(-1, 1, 1);
-                break;
-            case "FarRight":
-                Debug.Log("FarRight PING ***************");
-                Positions[4].rectTransform.sizeDelta = spriteSize;
-                Positions[4].sprite = StagedCharacters.Last().Neutral;
-                //Positions[3].gameObject.transform.localScale = new Vector3(-1, 1, 1);
-                break;
-            default:
-                Debug.LogError("Default PING ERROR ******************");
-                // Positions[5].sprite = StagedCharacters.Last().Neutral;
-                break;
-        }
-             */   
+        
     }
 
     public void ClearStageAll_Emit()
@@ -78,40 +40,15 @@ public partial class GameManager
         
     }
 
+    private SaveData saveGen(string source)
+    {
+        // JsonSerializer.Deserialize<SaveData>(source);
+
+        return null;
+    }
     public void ClearPosition_Emit(string position)
     {
-        // bool found = false;
         
-        /*
-        foreach(Image pos in Positions)
-        {
-            if(pos.name == position)
-            {
-                pos.sprite = null;
-                found = true;
-
-            }
-        }
-        if (!found)
-        {
-            Debug.LogError("Hey, we couldn't find that position at Director. Clear failed!");
-            return;
-        }
-        CharacterSO heldForClear = null;
-        foreach(CharacterSO character in StagedCharacters)
-        {
-            if(character.Position == position)
-            {
-                character.Position = null;
-                heldForClear = character;
-            }
-        }
-        if(heldForClear != null)
-        {
-            StagedCharacters.Remove(heldForClear);
-        }
-
-        */
     }
 
 
@@ -176,23 +113,83 @@ public partial class GameManager
 
     public void SaveGame()
     {
-        savedGame.stagedCharacters = new List<CharacterSO>();
+        // savedGame.stagedCharacters = new List<CharacterSO>();
         Dictionary<string, float> floatDictX = new Dictionary<string, float>();
         Dictionary<string, string> stringDictX = new Dictionary<string, string>();
         Dictionary<string, bool> boolDictX = new Dictionary<string, bool>();
 
         (floatDictX, stringDictX, boolDictX) = varStorage.GetAllVariables();
-        savedGame.AssignVals(floatDictX, stringDictX, boolDictX);
 
-        savedGame.nodeName = dialogueRunner.CurrentNodeName;
-        Debug.Log(dialogueRunner.CurrentNodeName);
-        savedGame.LocaleName = currentLocale;
-        foreach(CharacterSO chara in StagedCharacters)
+        SaveData testerX = new SaveData();
+
+        Debug.Log("Saving Game here");
+        List<SerializableKeyValuePair<string, float>> floatsForAll = new List<SerializableKeyValuePair<string, float>>();
+        foreach (KeyValuePair<string, float> record in floatDictX)
         {
-            if (!savedGame.stagedCharacters.Contains(chara))
-            {
-                savedGame.stagedCharacters.Add(chara);
-            }
+            floatsForAll.Add(new SerializableKeyValuePair<string, float>(record.Key, record.Value));
+            Debug.Log("String key: " + record.Key);
+            Debug.Log("Float value: " + record.Value);
         }
+        testerX.floatVars = floatsForAll;
+        List<SerializableKeyValuePair<string, string>> stringsForAll = new List<SerializableKeyValuePair<string, string>>();
+        foreach (KeyValuePair<string, string> record in stringDictX)
+        {
+            stringsForAll.Add(new SerializableKeyValuePair<string, string>(record.Key, record.Value));
+            Debug.Log("String key: " + record.Key);
+            Debug.Log("String value: " + record.Value);
+        }
+        testerX.stringVars = stringsForAll;
+        List<string> boolKeys = new List<string>();
+        List<bool> boolVals = new List<bool>();
+        List<SerializableKeyValuePair<string, bool>> heinous = new List<SerializableKeyValuePair<string, bool>>();
+        foreach (KeyValuePair<string, bool> record in boolDictX)
+        {
+            heinous.Add(new SerializableKeyValuePair<string, bool>(record.Key, record.Value));
+            Debug.Log(testerX);
+            Debug.Log("String key: " + record.Key);
+            Debug.Log("Bool val: " + record.Value);
+        }
+        testerX.boolVars = heinous;
+        PlayerPrefs.SetString("CurrentNode", dialogueRunner.CurrentNodeName);
+        PlayerPrefs.Save();
+        /*testerX.boolVars = boolDictX;
+        testerX.stringVars = stringDictX;
+        testerX.floatVars = floatDictX; */
+        testerX.nodeName = dialogueRunner.CurrentNodeName;
+
+        XmlSerializer xSerialize = new XmlSerializer(typeof(SaveData));
+
+        using (StreamWriter stream = new StreamWriter("./saveGame.xml"))
+        {
+            xSerialize.Serialize(stream, testerX);
+        }
+
+
+        // Application.Quit();
     }
+}
+
+[System.Serializable]
+public class SerializableKeyValuePair<TKey, TValue>
+{
+    public TKey Key;
+    public TValue Value;
+
+    public SerializableKeyValuePair() { }
+
+    public SerializableKeyValuePair(TKey key, TValue value)
+    {
+        Key = key;
+        Value = value;
+    }
+}
+
+
+[System.Serializable]
+public class SaveData
+{
+    public List<SerializableKeyValuePair<string, bool>> boolVars { get; set; } = new List<SerializableKeyValuePair<string, bool>>();
+    public List<SerializableKeyValuePair<string, float>> floatVars { get; set; } = new List<SerializableKeyValuePair<string, float>>();
+    public List<SerializableKeyValuePair<string, string>> stringVars { get; set; } = new List<SerializableKeyValuePair<string, string>>();
+    public string nodeName { get; set; }
 }

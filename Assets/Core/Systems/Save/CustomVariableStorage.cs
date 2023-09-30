@@ -40,6 +40,7 @@ public class CustomVariableStorage : VariableStorageBehaviour, IEnumerable<KeyVa
                                                     item.Key,
                                                     item.Value.ToString(),
                                                     variableTypes[item.Key].ToString().Substring("System.".Length)));
+
         }
         return stringBuilder.ToString();
     }
@@ -53,6 +54,7 @@ public class CustomVariableStorage : VariableStorageBehaviour, IEnumerable<KeyVa
     /// </summary>
     void SetVariable(string name, Yarn.IType type, string value)
     {
+        Debug.Log("This should fire off, like a lot");
         if (type == Yarn.BuiltinTypes.Boolean)
         {
             bool newBool;
@@ -122,6 +124,7 @@ public class CustomVariableStorage : VariableStorageBehaviour, IEnumerable<KeyVa
 
     public override void SetValue(string variableName, bool boolValue)
     {
+        Debug.Log("This should be firing off a lot more");
         ValidateVariableName(variableName);
 
         variables[variableName] = boolValue;
@@ -211,13 +214,15 @@ public class CustomVariableStorage : VariableStorageBehaviour, IEnumerable<KeyVa
         Dictionary<string, float> floatDict = new Dictionary<string, float>();
         Dictionary<string, string> stringDict = new Dictionary<string, string>();
         Dictionary<string, bool> boolDict = new Dictionary<string, bool>();
-
+        Debug.Log("Do we ever even make it into the getAll function");
+        Debug.Log(variables.Count);
         foreach (var variable in variables)
         {
             var type = variableTypes[variable.Key];
-
+            Debug.Log(variable.Key);
             if (type == typeof(float))
             {
+                Debug.Log("Testing inside variable storage");
                 float value = System.Convert.ToSingle(variable.Value);
                 floatDict.Add(variable.Key, value);
             }
@@ -228,6 +233,7 @@ public class CustomVariableStorage : VariableStorageBehaviour, IEnumerable<KeyVa
             }
             else if (type == typeof(bool))
             {
+                Debug.Log("So many bools?");
                 bool value = System.Convert.ToBoolean(variable.Value);
                 boolDict.Add(variable.Key, value);
             }

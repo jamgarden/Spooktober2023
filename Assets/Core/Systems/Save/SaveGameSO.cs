@@ -20,5 +20,5 @@ public class SaveGameSO : ScriptableObject
         this.boolDict = boolDict;
     }
 
-
+    
 }

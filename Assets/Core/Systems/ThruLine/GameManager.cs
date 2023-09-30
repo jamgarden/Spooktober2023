@@ -1,5 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Xml;
+using System.Xml.Serialization;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -40,7 +45,6 @@ public partial class GameManager : MonoBehaviour
     [SerializeField]
     private List<CharacterSO> CastOfCharacters;
 
-
     [Header("Debug Suite")]
     [SerializeField]
     private LocaleSO DebugLocale;
@@ -51,30 +55,35 @@ public partial class GameManager : MonoBehaviour
     [SerializeField]
     private List<string> songNames;
 
-
     [SerializeField]
     private CustomVariableStorage varStorage;
 
+    [SerializeField]
+    private Button LoadButtonRef;
 
     [SerializeField]
-    private SaveGameSO savedGame;
-
-    // debug sound
-    // debug music
-    // debug voiceline?
-
-
-
-
-
-
-
-
-
+    private SaveData currentSave;
 
 
 
     void Start(){
+
+        string savePath = "./saveGame.xml";
+        if (File.Exists(savePath))
+        {
+            XmlSerializer xSerializer = new XmlSerializer(typeof(SaveData));
+            using (StreamReader stream = new StreamReader(savePath))
+            {
+                currentSave = (SaveData)xSerializer.Deserialize(stream);
+            }
+            // Do something with currentSave
+            LoadButtonRef.interactable = true;
+        }
+        else
+        {
+            Debug.Log("Save file not found, ya might wanna look into that!");
+        }
+        //foreach(var test in PlayerPrefs)
         Debug.Log(currentLocale.Name);
         
 
@@ -86,6 +95,7 @@ public partial class GameManager : MonoBehaviour
             chara.Position = "";
             chara.Emotion = "";
         }
+
     }
 
 
@@ -127,37 +137,46 @@ public partial class GameManager : MonoBehaviour
 
     public void LoadGame()
     {
-        Debug.Log("This loads the game");
-        Debug.Log("Save game data:");
-        currentLocale = savedGame.LocaleName;
-        StagedCharacters = savedGame.stagedCharacters;
-        MainMenu.SetActive(false);
-        Stage.SetActive(true);
+        // Initialize dictionaries
+        Dictionary<string, float> floatVars = new Dictionary<string, float>();
+        Dictionary<string, string> stringVars = new Dictionary<string, string>();
+        Dictionary<string, bool> boolVars = new Dictionary<string, bool>();
 
-        setBackDropEMIT(0);
+        // Debug output for currentSave (for verification)
+        Debug.Log("=== Debugging currentSave ===");
+        Debug.Log($"Node Name: {currentSave.nodeName}");
 
-        foreach(CharacterSO chara in savedGame.stagedCharacters)
+        Debug.Log("--- Float Variables ---");
+        foreach (var kvp in currentSave.floatVars)
         {
-            //StagedCharacters.Add(chara);
-            foreach(SpriteRenderer position in Positions)
-            {
-                if(position.gameObject.name == chara.Position)
-                {
-                    foreach(CharacterFrame cFrame in chara.CharacterFrames)
-                    {
-                        if(cFrame.Emotion == chara.Emotion)
-                        {
-                            position.sprite = cFrame.Picture;
-                        }
-                    }
-                    
-                }
-            }
+            floatVars.Add(kvp.Key, kvp.Value);
+            Debug.Log($"Key: {kvp.Key}, Value: {kvp.Value}");
         }
-        dialogueRunner.StartDialogue(savedGame.nodeName);
-        (Dictionary<string, float> floats, Dictionary<string, string> strings, Dictionary<string, bool> bools) hell = (savedGame.floatDict, savedGame.stringDict, savedGame.boolDict);
-        varStorage.SetAllVariables(savedGame.floatDict, savedGame.stringDict, savedGame.boolDict);
+
+        Debug.Log("--- String Variables ---");
+        foreach (var kvp in currentSave.stringVars)
+        {
+            stringVars.Add(kvp.Key, kvp.Value);
+            Debug.Log($"Key: {kvp.Key}, Value: {kvp.Value}");
+        }
+
+        Debug.Log("--- Boolean Variables ---");
+        foreach (var kvp in currentSave.boolVars)
+        {
+            boolVars.Add(kvp.Key, kvp.Value);
+            Debug.Log($"Key: {kvp.Key}, Value: {kvp.Value}");
+        }
+        Debug.Log("=== End Debugging ===");
+
+        // Assuming yarnVariableStorage is your custom variable storage for YarnSpinner
+        varStorage.SetAllVariables(floatVars, stringVars, boolVars);
+
+        // Start dialogue
+        dialogueRunner.StartDialogue(currentSave.nodeName);
+
+        MainMenu.SetActive(false);
     }
+
 
 
     public void QuitGame()
