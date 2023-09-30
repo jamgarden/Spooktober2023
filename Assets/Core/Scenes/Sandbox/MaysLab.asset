@@ -15,10 +15,10 @@ MonoBehaviour:
   Name: MaysLab
   Section: 0
   BGList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 478bc0af91382814a98fbc376b70b84e, type: 3}
+  - {fileID: 21300000, guid: a8b434ac8e1eb854d97e694a66523f8d, type: 3}
+  - {fileID: 21300000, guid: 40ff2893e28ba8347be49b30c8986772, type: 3}
+  - {fileID: 21300000, guid: 44f2a0f1d896bdd469f3ebf765912d31, type: 3}
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []

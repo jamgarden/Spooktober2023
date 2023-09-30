@@ -162,14 +162,37 @@ public partial class GameManager
     private CharacterSO GetCharacterSO(string name)
     {
 
-        foreach(CharacterSO character in CastOfCharacters)
+        foreach (CharacterSO character in CastOfCharacters)
         {
-            if(character.Name == name)
+            if (character.Name == name)
             {
                 return character;
             }
         }
         Debug.LogError("Yoo, we couldn't find that character. Here's a demon instead. :P");
         return DebugCharacter;
+    }
+
+
+    public void SaveGame()
+    {
+        savedGame.stagedCharacters = new List<CharacterSO>();
+        Dictionary<string, float> floatDictX = new Dictionary<string, float>();
+        Dictionary<string, string> stringDictX = new Dictionary<string, string>();
+        Dictionary<string, bool> boolDictX = new Dictionary<string, bool>();
+
+        (floatDictX, stringDictX, boolDictX) = varStorage.GetAllVariables();
+        savedGame.AssignVals(floatDictX, stringDictX, boolDictX);
+
+        savedGame.nodeName = dialogueRunner.CurrentNodeName;
+        Debug.Log(dialogueRunner.CurrentNodeName);
+        savedGame.LocaleName = currentLocale;
+        foreach(CharacterSO chara in StagedCharacters)
+        {
+            if (!savedGame.stagedCharacters.Contains(chara))
+            {
+                savedGame.stagedCharacters.Add(chara);
+            }
+        }
     }
 }
