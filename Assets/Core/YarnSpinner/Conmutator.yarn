@@ -1,6 +1,25 @@
 ﻿title: Conmutator
 tags:
 ---
+<<if $MaysQuest is true>>
+<<elseif $TheSongWontPlay is true>>
+<<shiftmusic ThruLine 0>>
+<<set $TheSongWillPlay1 to false>>
+<<set $TheSongWillPlay2 to false>> 
+<<set $TheSongWillPlay3 to false>>
+<<set $TheSongWontPlay to false>>
+<<set $MaysDoor to false>>
+<<elseif $TheSongWillPlay1 is false>>
+<<set $TheSongWillPlay1 to true>>
+<<elseif $TheSongWillPlay1 is true and $TheSongWillPlay2 is false>>
+<<set $TheSongWillPlay2 to true>>
+<<elseif $TheSongWillPlay1 and $TheSongWillPlay2 is true and $TheSongWillPlay3 is false>>
+<<set $TheSongWillPlay3 to true>>
+<<elseif $TheSongWillPlay1 and $TheSongWillPlay2 and $TheSongWillPlay3 is true>>
+<<shiftmusic ThruLine 1>>
+<<set $MaysDoor to true>>
+<<set $TheSongWontPlay to true>>
+<<endif>>
 <<Place ThruLine Nobody>>
 <<Travel ThruLine Courtyard>>
 -> East Corridor
@@ -12,7 +31,12 @@ tags:
 -> West Corridor
     <<jump ConmutatorWest>>
 -> May's Lab
+    <<if $MaysQuest is true>>
+    She's probably busy, better not to disturb
+    <<jump Conmutator>>
+    <<elseif $MayQuest is false>>
     <<jump MaysLab>>
+    <<endif>>
 -> North area
     <<if $GoAheadWithSieggy is true>>
     <<jump NorthArea>>
@@ -24,6 +48,25 @@ tags:
 ===
 title: ConmutatorEast
 ---
+<<if $MaysQuest is true>>
+<<elseif $TheSongWontPlay is true>>
+<<shiftmusic ThruLine 0>>
+<<set $TheSongWillPlay1 to false>>
+<<set $TheSongWillPlay2 to false>> 
+<<set $TheSongWillPlay3 to false>>
+<<set $TheSongWontPlay to false>>
+<<set $MaysDoor to false>>
+<<elseif $TheSongWillPlay1 is false>>
+<<set $TheSongWillPlay1 to true>>
+<<elseif $TheSongWillPlay1 is true and $TheSongWillPlay2 is false>>
+<<set $TheSongWillPlay2 to true>>
+<<elseif $TheSongWillPlay1 and $TheSongWillPlay2 is true and $TheSongWillPlay3 is false>>
+<<set $TheSongWillPlay3 to true>>
+<<elseif $TheSongWillPlay1 and $TheSongWillPlay2 and $TheSongWillPlay3 is true>>
+<<shiftmusic ThruLine 1>>
+<<set $MaysDoor to true>>
+<<set $TheSongWontPlay to true>>
+<<endif>>
 <<Place ThruLine Nobody>>
 <<Travel ThruLine CorridorEast>>
 -> Classroom
@@ -36,7 +79,12 @@ title: ConmutatorEast
     <<jump Classroom>>
     <<endif>>
 -> May's Lab
+    <<if $MaysQuest is true>>
+    She's probably busy, better not to disturb
+    <<jump ConmutatorEast>>
+    <<elseif $MayQuest is false>>
     <<jump MaysLab>>
+    <<endif>>
 -> Courtyard/Garden
     <<if $GeeExplained is false>>
     <<jump Conmutator>>

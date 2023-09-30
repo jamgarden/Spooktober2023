@@ -31,7 +31,11 @@ tags:
 <<declare $BayleyCoffe = false as bool>>
 <<declare $PhoebeCoffee = false as bool>>
 <<declare $BeeCoffee = false as bool>>
-<<jump class1>>
+<<declare $TheSongWillPlay1 = false as bool>>
+<<declare $TheSongWillPlay2 = false as bool>>
+<<declare $TheSongWillPlay3 = false as bool>>
+<<declare $TheSongWontPlay = false as bool>>
+<<jump MaysLab>>
 <<shiftmusic ThruLine 2>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
@@ -1053,7 +1057,7 @@ Casey: "Woops, I better go!"#line:124
 ===
 title: principal1
 ---
-<<Travel ThruLine PrincipalsOffice>>
+<<Travel ThruLine PrincipalsOffice 2>>
 You reach the principal's office, and see the door open, almost inviting you in.
 -> Take a peak inside
     You pass the door on purpose to spy if there's someone inside.
@@ -1068,6 +1072,7 @@ You reach the principal's office, and see the door open, almost inviting you in.
     You go in...
 -> Just enter
     You go in...
+<<Travel ThruLine PrincipalsOffice>>
 There they are, all your friends waiting patiently.
 <<Place ThruLine Phoebe Neutral FarLeft>>
 Phoebe: She's happily humming a tune while taping her foot on the floor.
@@ -1338,7 +1343,7 @@ The principal gets up and begins to urge everyone out, especially professor May.
 ===
 title: lalala
 ---
-<<Travel ThruLine CorridorWest>>
+<<Travel ThruLine PrincipalsOffice 1>>
 <<Place ThruLine Nobody>>
 By the time you all reach the outside, the door gets slammed right behind the last one to get out.
 <<Place ThruLine Gee Angry Left>>
@@ -1352,6 +1357,7 @@ Siegfried: "He's the principal."
 Gee: "...I sneezed."#line:190
 Gee proceeds to sneeze very fakely.#line:191
 Gee: "See? Sneezed."#line:192
+<<Travel ThruLine CorridorWest>>
 <<Place ThruLine Nobody>>
 <<Place ThruLine May Neutral Center>>
 May: "Allright sneezy gang, listen up."#line:193

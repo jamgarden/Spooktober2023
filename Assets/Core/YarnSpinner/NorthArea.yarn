@@ -40,6 +40,7 @@ You take on your part of the plan, as it sounded like a solid idea.
 Who wouldn't be scared of a bat flying towards your head?
 Or a vampire throwing fire balls?
 Let alone the thought of one about to bite you...
+<<Travel ThruLine PrincipalsOffice 1>>
 <<Place ThruLine Casey Neutral Left>>
 Yeah, this sounded good. So you go on and knock on the door.
 Italian guy: "WHO IS IT?" You can hear from the inside.
@@ -49,6 +50,7 @@ Italian guy: "WHO IS IT?" You can hear from the inside.
     Italian guy: "AND WHAT DO YOU WANT?"
     <<Place ThruLine Casey Happy Left>>
     Casey: "Just to chat with you sir, I never met an Italian before!"
+    <<Travel ThruLine PrincipalsOffice 2>>
     The door opens inmediately.
     <<Place ThruLine Casey Neutral Left>>
     <<Place ThruLine Mario Happy Right>>
@@ -57,6 +59,7 @@ Italian guy: "WHO IS IT?" You can hear from the inside.
     Casey: "Hey Mario, that smells delicious!"
     Mario: "Come on in, come on in!"
 -> "Open up Mario, your days are numbered!"
+    <<Travel ThruLine PrincipalsOffice 2>>
     The door opens inmediately.
     <<Place ThruLine Casey Shocked Left>>
     <<Place ThruLine Mario Angry Right>>
@@ -69,6 +72,7 @@ Italian guy: "WHO IS IT?" You can hear from the inside.
     Casey: "Sure!"
 -> "I just smelled the food and knocked!"
     Italian Guy: "Oh, should have started with that!"
+    <<Travel ThruLine PrincipalsOffice 2>>
     The door opens inmediately.
     <<Place ThruLine Mario Happy Right>>
     Mario: "I'm Mario! Nice to meet you...?"
