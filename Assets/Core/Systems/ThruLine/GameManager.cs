@@ -85,6 +85,7 @@ public partial class GameManager : MonoBehaviour
 
     public void StartGameEvent(int index)
     {
+        // Initially, this thing just dumps us into a game.  Instead of doing that
         Debug.Log("This is where the game starts");
         // Switch to starting area locale
         currentLocale = LocaleList[index];
@@ -111,6 +112,21 @@ public partial class GameManager : MonoBehaviour
         SceneManager.LoadScene(targetScene);
     }
 
+    public void FreakaversityOne()
+    {
+        Application.OpenURL("https://matthyy.itch.io/freakaversity");
+    }
+
+    public void LoadGame()
+    {
+        Debug.Log("This loads the game");
+    }
+
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
     // Manager FUnctions
 
 }
