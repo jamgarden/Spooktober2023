@@ -35,7 +35,6 @@ tags:
 <<declare $TheSongWillPlay2 = false as bool>>
 <<declare $TheSongWillPlay3 = false as bool>>
 <<declare $TheSongWontPlay = false as bool>>
-<<jump MaysLab>>
 <<shiftmusic ThruLine 2>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
