@@ -132,6 +132,34 @@ public partial class GameManager
         }
     }
 
+    [YarnCommand("PhoebeSpecial")]
+    public void PhoebeSpecial()
+    {
+        CharacterSO Phoebe = new CharacterSO();
+
+        foreach(CharacterSO chara in StagedCharacters)
+        {
+            if(chara.Name == "Phoebe")
+            {
+                Phoebe = chara;
+            }
+        }
+
+        StartCoroutine(CycleFrames(Phoebe));
+        
+    }
+
+    IEnumerator CycleFrames(CharacterSO chara)
+    {
+        foreach (Sprite sprite in chara.OneOffs)
+        {
+            Positions[2].sprite = sprite;
+            yield return new WaitForSeconds(0.1f);
+
+        }
+
+    }
+
     [YarnCommand("LocaleList")]
     public void LocaleList_Event()
     {
