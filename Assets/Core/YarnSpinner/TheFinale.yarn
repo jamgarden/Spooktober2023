@@ -52,6 +52,7 @@ Bayley: "Gee, no!"#line:238
 Gee: "MIND YOU, I GREW THEM MYSELF WITH NECROTIC TISSUE IN THE LAB, YOU AIRHEADED HUMAN!"#line:239
 Crowd: "...what?"
 Gee: "WHAT, DID YOU THINK I'D GO SEARCH A GRAVEYARD OR SOMETHING?"#line:240
+<<Place ThruLine Crowd Scared Right>>
 Crowd: "Oh my god, is she... serious...?"
 They begin to look at each other in desperation.
 <<Place ThruLine Bayley Bark FarLeft>>
@@ -59,20 +60,21 @@ Bayley: "GEE NO!!!"#line:241
 <<Place ThruLine Bayley Angry FarLeft>>
 Gee: "OF COURSE I AM, NO ONE MOCKS MY WORK AND LIVES TO TELL!"#line:242
 Crowd: "DDDIIAGGAGGG" They begin to puke.
+<<Place ThruLine Crowd Angry Right>>
 Crowd: "YOU SICK FREAK, TAKE THIS!"
-<<Place ThruLine Gee Angry Center>>
-<<Place ThruLine Bayley Angry FarLeft>>
+<<Place ThruLine Gee Angry Left>>
+<<Place ThruLine Bayley Angry Center>>
 The moment they throw the punch, Bayley stops it midway.
 Bayley: "THAT'S IT, I'M GOING IN..."#line:243
-<<Place ThruLine Bayley Bark FarLeft>>
+<<Place ThruLine Bayley Bark Center>>
 Bayley: "AWOOOOOO!!!!"#line:044a
-<<Place ThruLine Gee Brains Center>>
+<<Place ThruLine Gee Brains Left>>
 Gee: "TAKE THIS, AND THAT, AND SOME MORE OF THIS!!!!"#line:244
 <<Place ThruLine Nobody>>
 Meanwhile... somewhere else...
 <<Place ThruLine Siegfried Angry Right>>
 Siegfried: "What's that?"
-<<Place ThruLine Crowd Neutral Left>>
+<<Place ThruLine Crowd Angry Left>>
 Crowd: "THAT ZOMBIE FREAK, SHE'S BEEN FEEDING US HUMAN VEINS!!!!"
 <<Place ThruLine Siegfried Happy Right>>
 Siegfried: "Oh... so the veil's been lifted..."#line:245
@@ -82,7 +84,7 @@ Siegfried pulls out his fangs and begins to levitate.
 Siegfried: "THE DAY OF YOUR JUDGEMENT HAS ARRIVED, PEASANTS!"#line:246
 Crowd: The panicked crowd sees Siegfried, and begin to run and attack him!
 Siegfried lits a pair of fireballs in each hands, and levitates towards them!
-<<Place ThruLine Crowd Neutral FarLeft>>
+<<Place ThruLine Crowd Scared FarLeft>>
 Crowd: "AAAAAAAAAAAAAAAA!!!!!!!!!!!!!!!!!!!!!!!!!!" They run for their lives!
 Meanwhile, somewhere else...
 <<Place ThruLine Nobody>>
@@ -107,7 +109,7 @@ Principal: "Oh, that's it, I'm going in!"
 <<Place ThruLine ElSpooky Ghosts Right>>
 Albatros: "About time, you old freak! Come on Ghosties, let's show'em!"#line:249
 The ghosts begin to swawm the place, with the Principal leading them like a mad goat!
-<<Place ThruLine Principal Angry Center>>
+<<Place ThruLine Principal Angry Left>>
 Principal: "HAHAHAHAHAHAHA KISS YOUR MOMS GOODBYE!!!!"#line:250
 Meanwhile, somewhere else...
 <<Place ThruLine Nobody>>
@@ -182,16 +184,19 @@ Bee: "We've allways been just black and white... this whole grey thing?"#line:25
 Bee: "It's to blind you from the truth!"#line:259
 Crowd: "Damn man, you're so enlightned..."
 The rainbow shines in the distance...
+<<Place ThruLine Crowd Scared Right>>
 Crowd: "W...WHAT'S THAT!"
 <<Place ThruLine Bee Happy Left>>
 Bee: "That's... oh man, that's so coool!"#line:260
+<<Place ThruLine Crowd Angry Right>>
 Crowd: "YOU JUST SAID WE WERE ONLY BLACK AND WHITE!!!!"
 <<Place ThruLine Bee Think Left>>
 Bee: "We are, that's just an illusion man!"#line:261
+<<Place ThruLine Crowd Scared FarRight>>
 Crowd: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!!"
 <<Place ThruLine Nobody>>
 <<Place ThruLine Bee Think Left>>
-They run away.
+They ran away.
 <<Place ThruLine Bee Happy Left>>
 Bee: "Ah well... better go find Gee!"#line:262
 <<Place ThruLine Nobody>>
@@ -208,21 +213,21 @@ KBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMM
 May: "Casey? Casey? Wake up, Casey!"#line:264
 You feel like your head just exploded...
 //fade back to colour
-<<Place ThruLine May Neutral Right>>
+<<Place ThruLine May ColourNeutral Right>>
 You open your eyes... and see May right in front of you.
-<<Place ThruLine Casey Shocked Left>>
+<<Place ThruLine Casey ColourShocked Left>>
 Casey: "HOLY MOLY RIGATONI, WHAT, NO, NOT THIS AGAIN!!!!"#line:265
-<<Place ThruLine May Angry Right>>
+<<Place ThruLine May ColourAngry Right>>
 May: "I don't want to alarm you Casey, but I think... I think we're technicolored now!"#line:266
-<<Place ThruLine Casey Tired Left>>
+<<Place ThruLine Casey ColourTired Left>>
 Casey: "AHHHH, HOW...how do we... revert this?"#line:267
-<<Place ThruLine May Happy Right>>
+<<Place ThruLine May ColourHappy Right>>
 May: "I don't know, I think I freaked up!"#line:268
-<<Place ThruLine Casey Shocked Left>>
+<<Place ThruLine Casey ColourShocked Left>>
 Casey: "But... we gotta fix it... right?!"#line:269
-<<Place ThruLine May Neutral Right>>
+<<Place ThruLine May ColourNeutral Right>>
 May: "I don't know, I love my colours!"#line:270
-<<Place ThruLine May Happy Right>>
+<<Place ThruLine May ColourHappy Right>>
 May: "At least you're taking it better than Phoebe."#line:271
 Casey: "What, where's Phoebe...?"#line:272
 <<Place ThruLine Nobody>>

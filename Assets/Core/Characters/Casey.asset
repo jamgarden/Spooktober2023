@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Casey
   m_EditorClassIdentifier: 
   Name: Casey
-  Position: 
-  Emotion: 
+  Position: Left
+  Emotion: Neutral
   CharacterFrames:
   - Emotion: Neutral
     Picture: {fileID: 1839063359, guid: c539bc228878b504a85faa0593c40136, type: 3}
@@ -40,4 +40,8 @@ MonoBehaviour:
     Picture: {fileID: -1578848505, guid: b0c83ca15ac4a4f4f9beb9213ad655b9, type: 3}
   - Emotion: HappyEyePatch
     Picture: {fileID: -539545365, guid: b0c83ca15ac4a4f4f9beb9213ad655b9, type: 3}
+  - Emotion: ColourTired
+    Picture: {fileID: 539402075, guid: 1db46cdca3e294aa7bdde43d56d86e6b, type: 3}
+  - Emotion: ColourShocked
+    Picture: {fileID: 294904209, guid: 1db46cdca3e294aa7bdde43d56d86e6b, type: 3}
   Neutral: {fileID: 1839063359, guid: c539bc228878b504a85faa0593c40136, type: 3}

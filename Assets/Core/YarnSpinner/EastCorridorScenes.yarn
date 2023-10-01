@@ -51,10 +51,10 @@ Bayley: "She didn't like you. She purposely elbowed your ribs."#line:343
     <<Place ThruLine Casey Angry Left>>
     Casey: "AW COME ON! I'M ALLWAYS THE ONE RUNNING AWAY FOR MY LIFE!"#line:353
     <<Place ThruLine Bayley Neutral Right>>
-    Bayley: "Well, we all have our thing! And you're fast!"#line:354
+    Bayley: "Well, we all have our thing! And yours is running fast!"#line:354
     Casey: "I'M FAST BECAUSE YOU ALL TRY TO MURDER ME!"#line:355
     <<Place ThruLine Bayley Think Right>>
-    Bayley: "Hey now, not all!"#line:356
+    Bayley: "Hey now, not all of us!"#line:356
     <<Place ThruLine Casey Sad Left>>
     Casey: "Yeah you're right, sorry, overreacted"#line:357
     <<Place ThruLine Bayley Neutral Right>>
@@ -110,41 +110,45 @@ Bayley: "Got my moments! Now, go! Roam around like a twat!"
 <<Place ThruLine Nobody>>
 Bayley's idea was far too good for you to disregard it... and so, it was time to put those theater classes to good use!
 You begin to walk around the Place, looking as pompous as you can.
-<<Place ThruLine Casey Neutral Center>>
-<<Place ThruLine Crowd Neutral FarRight>>
+<<Place ThruLine Casey Neutral Left>>
+<<Place ThruLine Crowd Neutral Right>>
 Some tourist humans aproach...
 -> Call them peasants
-    <<Place ThruLine Casey Twat Center>>
+    <<Place ThruLine Crowd Angry Right>>
+    <<Place ThruLine Casey Twat Left>>
     Crowd: "Hey what's your problem twat?!"
     Casey: "I'm just better than you."#line:359
     Crowd: "Yeah, sure, you look like a pompous dork."
-    <<Place ThruLine Casey Happy Center>>
+    <<Place ThruLine Casey Happy Left>>
     Casey: "Thank you!" Damn I'm such a good actor#line:360
 -> Tell them to stop wasting air
-    <<Place ThruLine Casey Twat Center>>
+    <<Place ThruLine Crowd Angry Right>>
+    <<Place ThruLine Casey Twat Left>>
     Crowd: "We paid our tax for air mind you, onionhead!"
-    <<Place ThruLine Casey Angry Center>>
+    <<Place ThruLine Casey Angry Left>>
     Casey: "Wait what?"
     Crowd: "See?"
-    <<Place ThruLine Casey Shocked Center>>
+    <<Place ThruLine Casey Shocked Left>>
     Casey: "Holy moly, May charged you all the air as well?"#line:361
     Crowd: "It's worth every damn penny, twat!"
-    <<Place ThruLine Casey Happy Center>>
+    <<Place ThruLine Casey Happy Left>>
     Casey: "Damn, May's awesome!"#line:362
 -> Just do as Siegfried does when he eats garlic
-    <<Place ThruLine Casey Garlic Center>>
+    <<Place ThruLine Casey Garlic Left>>
     You begin to puff your cheeks and call yourself a vampire twat.
     Casey: "I'M A TWATITTY TWATY TWAT GARLIC BAD BAD BAD!"#line:363
     The people just look at you as weirded out as posible, as though they were about to leave!
-    <<Place ThruLine Casey Happy Center>>
+    <<Place ThruLine Casey Happy Left>>
     Casey: "Wow that's the closest I've gotten to scaring someone!"#line:364
-<<Place ThruLine Nobody>>
+<<Place ThruLine Crowd Scared FarRight>>
 <<Place ThruLine Casey Happy Center>>
-Suddenly, they begin to run away!
+<<Place ThruLine Ursula Angry FarLeft>>
+Suddenly, their faces express complete horror, and they begin to run away!
+<<Place ThruLine Nobody>>
+<<Place ThruLine Ursula Neutral Left>>
 <<Place ThruLine Casey Angry Center>>
 Casey: "Huh? Oh, yeah, that will show you!"#line:365
 You feel a presence behind you.
-<<Place ThruLine Ursula Neutral Left>>
 <<Place ThruLine Casey Sad Center>>
 Casey: "Oh no... you're behind me, aren't you"#line:366
 <<Place ThruLine Ursula Sass Left>>

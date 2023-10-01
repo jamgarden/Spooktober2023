@@ -12,6 +12,7 @@ tags:
 ===
 title: Ambush
 ---
+<<Travel ThruLine Courtyard>>
 <<Place ThruLine Gee Neutral Center>>
 There she was, Gee waiting behind a tree. You decide to approach.
 <<Place ThruLine Gee Neutral Right>>
@@ -57,6 +58,7 @@ You run to the trees
 ===
 title: ScaringMiniGame
 ---
+<<Travel ThruLine Courtyard>>
 <<Place ThruLine Nobody>>
 <<Place ThruLine Bee Neutral Right>>
 <<Place ThruLine Crowd Neutral FarRight>>
@@ -82,7 +84,8 @@ Cult: "Hahahahahahaha you're so funny!"
     Gee: "RAAAAARRRRRRRR BRAAAAIIINNNNSSSSS"#line:555a
     Casey: "...boo!"#line:565
     Phoebe seems too far away to make it in time...
-    The crowd looks, perplexed and confused.
+    <<Place ThruLine Crowd Angry FarRight>>
+    The crowd thinks you're trying to harm their leader... and they go angry!
     <<Place ThruLine Bee Think Right>>
     Bee: "Hey, what's going on?"#line:055a
     <<Place ThruLine Gee Angry Center>>
@@ -118,7 +121,8 @@ Crowd: "Ohhhhhh!!!"
     Casey: "OUCH"#line:571
     <<Place ThruLine Phoebe Neutral FarLeft>>
     Phoebe: "Woops, sorry!"
-    The crowd looks, perplexed and confused
+    <<Place ThruLine Crowd Angry FarRight>>
+    The crowd thinks you're trying to harm their leader... and they go angry!
     <<Place ThruLine Bee Think Center>>
     Bee: "Hey, what's going on?"#line:055b
     <<Place ThruLine Gee Angry Left>>
@@ -149,8 +153,10 @@ Bee: "I just like brainspaghetti and potions, maaan!"#line:575
     Gee: "RAAAAARRRRRRRR BRAAAAIIINNNNSSSSS"#line:555c
     Casey: "...boo!"#line:565a
     Phoebe: "AAAAAAAAA"#line:556a
+    <<Place ThruLine Crowd Scared Center>>
     Crowd: "??????!!!!!" They were about to jump out of fear...
-    But now, they seem confused and perplexed!
+    <<Place ThruLine Crowd Neutral Center>>
+    But now, they seem allright again!
     <<Place ThruLine Phoebe Think FarLeft>>
     Phoebe: "Uhm..."
     <<Place ThruLine Gee Neutral Right>>
@@ -161,6 +167,7 @@ Bee: "I just like brainspaghetti and potions, maaan!"#line:575
     Gee: "BOO?!!!!"#line:577
     <<Place ThruLine Bee Happy Left>>
     Bee: "...aaaAAAA!!!" Delayed reaction...#line:578
+    <<Place ThruLine Crowd Scared Center>>
     Crowd: "Leader!!!!"
     <<jump ambushfinale>>
 -> Wait
@@ -173,6 +180,7 @@ Bee: "I just like brainspaghetti and potions, maaan!"#line:575
 ===
 title: ambushfinale
 ---
+<<Travel ThruLine Courtyard>>
 <<Place ThruLine Phoebe Neutral FarLeft>>
 <<Place ThruLine Bee Neutral Left>>
 Gee: "BOO? What do you think this is? Some 1930's horror movie?!"#line:579
@@ -180,6 +188,7 @@ Gee: "BOO? What do you think this is? Some 1930's horror movie?!"#line:579
 Casey: "Uhmm... sorry? I've never scared anyone before..."
 <<Place ThruLine Gee Brains Right>>
 Gee: "THEN WHY DIDN'T YOU SAY SO FIRST!!!"#line:580
+<<Place ThruLine Crowd Neutral Center>>
 Crowd: "?????"
 <<Place ThruLine Bee Happy Left>>
 Bee: "Oh let'em be, Gee!! It was scary, right guys?"#line:581

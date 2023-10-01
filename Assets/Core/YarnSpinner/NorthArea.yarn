@@ -178,6 +178,7 @@ title: beginagain
 ===
 title: atthetable
 ---
+<<Travel ThruLine NorthArea 1>>
 <<Place ThruLine Nobody>>
 <<set $SiegfriedQuestDone to true>>
 <<set $AllQuests2 to true>>
