@@ -44,6 +44,7 @@ tags:
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"#line:001
 <<Place ThruLine Casey Neutral Center>>
 Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"#line:002
+<<sfx ThruLine 01>>
 Casey: "I'm here at the most prestigious college ever, of which regular people know oh so very little about."#line:003
 <<Place ThruLine Casey Happy Center>>
 Casey: "Freakaversity, a place that makes even your wildest of dreams pale in comparison."#line:004

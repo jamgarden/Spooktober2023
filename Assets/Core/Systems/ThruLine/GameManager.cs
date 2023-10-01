@@ -68,6 +68,11 @@ public partial class GameManager : MonoBehaviour
 
     void Start(){
 
+#if UNITY_WEBGL && !UNITY_EDITOR
+        // browser logic here.
+        Application.ExternalCall("ReceiveSaveData", "WebDataCB");
+        Debug.Log("Hello WebGL build!!! :D ");
+#else
         string savePath = "./saveGame.xml";
         if (File.Exists(savePath))
         {
@@ -83,6 +88,7 @@ public partial class GameManager : MonoBehaviour
         {
             Debug.Log("Save file not found, ya might wanna look into that!");
         }
+#endif
         //foreach(var test in PlayerPrefs)
         Debug.Log(currentLocale.Name);
         
@@ -98,6 +104,12 @@ public partial class GameManager : MonoBehaviour
 
     }
 
+
+    public void WebDataCB(string saveData)
+    {
+        Debug.Log("This is the callback");
+        Debug.Log(saveData);
+    }
 
     // Observer functions
 
