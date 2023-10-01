@@ -19,6 +19,8 @@ public partial class GameManager
     [SerializeField]
     EventReference Event;
 
+    private int previousTrack = 0;
+
     EventInstance sfxInstance;
 
     [YarnCommand("Place")]
@@ -117,8 +119,17 @@ public partial class GameManager
     public void ChangeLocale_Event(string localeName = "MainMenu", int index = 0)
     {
 
-        
-        ChangeLocale_Emit(GetLocaleSO(localeName), index);
+        LocaleSO locale = GetLocaleSO(localeName);
+        ChangeLocale_Emit(locale, index);
+        if(previousTrack == locale.songIndex)
+        {
+            UnityEngine.Debug.Log("This is the current track");
+        }
+        else
+        {
+
+            ShiftMusic(locale.songIndex);
+        }
     }
 
     [YarnCommand("LocaleList")]

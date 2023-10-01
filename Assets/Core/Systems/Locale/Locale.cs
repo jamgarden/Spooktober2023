@@ -25,4 +25,6 @@ public class LocaleSO : ScriptableObject
     public List<LocaleSO> linkedLocations;
 
     public List<CharacterSO> WhoIsHere;
+
+    public int songIndex;
 }
