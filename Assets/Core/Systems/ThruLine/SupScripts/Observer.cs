@@ -16,15 +16,10 @@ public class CharacterFrame
 
 public partial class GameManager 
 {
-    // This is the Observer
-    // Treat this as the input layer for the GameManager
+    [SerializeField]
+    EventReference Event;
 
-    // // public void E_ChangeBackdrops(){} // Feeds to director, smoothly transitioning backdrops.
-
-    // // public void E_SwapCharacter(){} // Feeds to director, which smoothly transitions characters
-
-    // public void E_ChangeLocale(){}
-
+    EventInstance sfxInstance;
 
     [YarnCommand("Place")]
     public void Place_Event(string characterName = "TestDude", string emotion = "Neutral", string position = "Left")
@@ -139,4 +134,29 @@ public partial class GameManager
         // This needs to be moved to the director!
        FMODUnity.RuntimeManager.StudioSystem.setParameterByNameWithLabel("MusicSwitch", songNames[val]);
     }
+
+
+    [YarnCommand("sfx")]
+    public void SFX_Event(string sfxName)
+    {
+
+        
+        // Create a throwaway instance to hold the current 'sfxInstance'
+        FMOD.Studio.EventInstance throwAway = sfxInstance;
+
+        // Stop the current event immediately
+        throwAway.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+
+
+        // Create a new instance with the mapped event reference
+        sfxInstance = RuntimeManager.CreateInstance(Event);
+
+        sfxInstance.setParameterByNameWithLabel("SFXSwitch", sfxName);
+
+        // Start the new event
+        sfxInstance.start();
+
+        
+    }
+
 }

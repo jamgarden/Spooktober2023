@@ -113,7 +113,6 @@ public partial class GameManager
 
     public void SaveGame()
     {
-        // savedGame.stagedCharacters = new List<CharacterSO>();
         Dictionary<string, float> floatDictX = new Dictionary<string, float>();
         Dictionary<string, string> stringDictX = new Dictionary<string, string>();
         Dictionary<string, bool> boolDictX = new Dictionary<string, bool>();
@@ -152,20 +151,30 @@ public partial class GameManager
         testerX.boolVars = heinous;
         PlayerPrefs.SetString("CurrentNode", dialogueRunner.CurrentNodeName);
         PlayerPrefs.Save();
-        /*testerX.boolVars = boolDictX;
-        testerX.stringVars = stringDictX;
-        testerX.floatVars = floatDictX; */
+
         testerX.nodeName = dialogueRunner.CurrentNodeName;
 
         XmlSerializer xSerialize = new XmlSerializer(typeof(SaveData));
 
+        // Serialize to a StringWriter first
+        StringWriter sw = new StringWriter();
+        xSerialize.Serialize(sw, testerX);
+        string xmlString = sw.ToString();
+
+        // if running in a WebGL build, save it to localStorage
+        #if UNITY_WEBGL && !UNITY_EDITOR
+                string jsCommand = $"localStorage.setItem('saveGame', '{xmlString}');";
+                Application.ExternalEval(jsCommand);
+        #endif
+
+        // And continue saving it to file too, if you wish
         using (StreamWriter stream = new StreamWriter("./saveGame.xml"))
         {
             xSerialize.Serialize(stream, testerX);
         }
 
 
-        // Application.Quit();
+        Application.Quit();
     }
 }
 
