@@ -20,3 +20,4 @@ MonoBehaviour:
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []
+  songIndex: 0

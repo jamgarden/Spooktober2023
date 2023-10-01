@@ -18,6 +18,9 @@ public class CharacterSO : ScriptableObject
     // public Sprite Portrait;
     public Sprite Neutral;
 
+    [SerializeField]
+    public List<Sprite> OneOffs;
+
 
     public CharacterFrame getFrame(string emotion)
     {

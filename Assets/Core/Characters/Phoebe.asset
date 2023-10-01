@@ -35,3 +35,13 @@ MonoBehaviour:
   - Emotion: Letter
     Picture: {fileID: 21300000, guid: 67ed0341105f4414ca09a831788ff9c5, type: 3}
   Neutral: {fileID: -953269494, guid: c5b824241e4a4fa42b45ebcea795ed18, type: 3}
+  OneOffs:
+  - {fileID: 21300000, guid: e3f007defd3ed4e3382f74e198216bc3, type: 3}
+  - {fileID: 21300000, guid: 27c625ad4310747b69a376fbdd7788a2, type: 3}
+  - {fileID: 21300000, guid: 58fe09786a4cd4e3ea01175c4fb1b455, type: 3}
+  - {fileID: 21300000, guid: dd444da6133ca4bdeafbc5b4cc030f0f, type: 3}
+  - {fileID: 21300000, guid: 49e01f7c880e840d5b4105305466aad6, type: 3}
+  - {fileID: 21300000, guid: 7275d6b209e4f430c873fb58d6ee35a6, type: 3}
+  - {fileID: 21300000, guid: 00a028ee8a0214454b4ed15b7f16df81, type: 3}
+  - {fileID: 21300000, guid: fe1fe157749a0461e840d5e10cc53a0f, type: 3}
+  - {fileID: 21300000, guid: 2d082f902234c42aab1571fc5a401431, type: 3}

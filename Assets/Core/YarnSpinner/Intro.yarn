@@ -36,7 +36,7 @@ tags:
 <<set $TheSongWillPlay2 = false>>
 <<set $TheSongWillPlay3 = false>>
 <<set $TheSongWontPlay = false>>
-<<jump TheFinale>>
+//<<jump TheFinale>>
 <<shiftmusic ThruLine 2>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
@@ -93,7 +93,7 @@ Phoebe: "To seed an entire desert!!!"#line:021
 Casey: "Wow, that's amazing Pheebs! Last but not least, can you do the neck trick?"
 <<Place ThruLine Phoebe Happy Center>>
 Phoebe: "I THOUGHT YOU'D NEVER ASK!"#line:022
-// <<head spins 360>>
+<<PhoebeSpecial ThruLine>>
 Casey: "HOW DID YOU DO THAT?!"#line:023
 <<Place ThruLine Phoebe Happy Center>>
 Phoebe: "I JUST EAT MY VEGGIES EVERYDAY!"#line:024
