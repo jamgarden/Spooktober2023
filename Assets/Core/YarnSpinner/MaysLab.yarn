@@ -4,7 +4,7 @@ tags:
 <<if $MaysDoor is false>>
 <<Travel ThruLine MaysLab 1>>
 The door is closed... it reads...
-"If the house's rocking, don't botter knocking!"
+"If the house's rocking, don't bother knocking!"
 Casey: "Looks like she isn't around..."
     <<if $GeeExplained is true>>
     Casey: "Uhm... What was it that Gee said?..."
@@ -29,10 +29,10 @@ Casey: "Looks like she isn't around..."
 <<Travel ThruLine MaysLab 2>>
 The door is open, and you hear a voice across all the noise...
 <<endif>>
-May: "If the house's rocking, don't botter knocking!"#line:312
+May: "If the house's rocking, don't bother knocking!"#line:312
 You enter, only to find a mess of an office.
 <<Travel ThruLine MaysLab>>
-Papers scrambled everywhere, broken glass tubes, broken guitar strings... is that an empty pizza box?
+Papers scrambled everywhere, shattered glass tubes, broken guitar strings... is that an empty pizza box?
 However, in the middle of it... there's a pyramid made of glass that completely catches your attention.
 <<Place ThruLine Casey Neutral Right>>
 <<Place ThruLine May Guitar Left>>
@@ -58,7 +58,7 @@ May: "Oh, I see you have a good eye kid!"
 May: "So, it's like this pyramid, made of glass..."#line:314
 Casey: "Yeah?"
 <<Place ThruLine May Neutral Left>>
-May: "Yeah and that's about it."#line:315
+May: "Yeah, and that's about it."#line:315
 <<Place ThruLine Casey Shocked Right>>
 Casey: "...for real?"
 May: "Yeah, you can go now, I just wanted you to see it!"#line:316
@@ -66,12 +66,12 @@ May: "Yeah, you can go now, I just wanted you to see it!"#line:316
 Casey: "Uhm..."
 <<Place ThruLine May Happy Left>>
 <<Place ThruLine Casey Neutral Right>>
-May: "Nah, just joking. Come on, open that courtain!"#line:317
-//sound of courtain opening
+May: "Nah, just joking. Come on, open that curtain!"#line:317
+//sound of curtain opening
 <<Place ThruLine Nobody>>
 <<Travel ThruLine MaysLab 3>>
-As soon as you open the courtain, a ray of light smashes against the pyramid.
-What happens next, makes you scream in terror...
+As soon as you open the curtain, a ray of light smashes against the pyramid.
+What happens next makes you scream in terror...
 -> AAAAAAAAAAAAAAAAAAA
 -> AAAAAAAAAAAAAAAAAAAAAAAAAAAA
 -> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -79,15 +79,15 @@ What happens next, makes you scream in terror...
 May rushes to close the window.#line:290g
 <<Travel ThruLine MaysLab>>
 <<Place ThruLine May Neutral Left>>
-May: "Woops, I think ya' weren't ready for that."#line:318
+May: "Woops, I think ya weren't ready for that."#line:318
 <<Place ThruLine Casey Tired Right>>
-You try to compose yourself. WHAT WAS THAT?
+You try to compose yourself. <i> WHAT WAS THAT? </i>
 -> "That's... not black... nor white..."
     <<Place ThruLine May Happy Left>>
     May: "Nor grey!"
 -> "What... in the name of god..."
     <<Place ThruLine May Happy Left>>
-    May: "I know right? So coool"#line:199c
+    May: "I know right? So cooool"#line:199c
 -> "Did you... break the matrix?..."
     <<Place ThruLine May Happy Left>>
     May: "I did!!!!"#line:199d
@@ -112,21 +112,21 @@ May: "Yes, Maisy! Here, have some veincorice!"#line:322
 -> "Veincorice?"
     May: "Aw come on, your friend Gee loves it!"
     She eats a piece. Looks like Licorice...
-    Casey: "Sure why not"
+    Casey: "Sure why not."
     <<Place ThruLine Casey Neutral Right>>
     It tastes reaaaaally good!
--> "No, thank you"
-    May: "Yer' loss, mate!"
+-> "No, thank you..."
+    May: "Yer loss, mate!"
     She eats a piece.
 May: "So, what I needed you for. We're gonna do a show at Oktoberfest this year!"#line:323
 <<Place ThruLine Casey Shocked Right>>
-Casey: "Oh my god, for real? King is getting back together?!!!"
+Casey: "Oh my god, for real? King is getting back together!!!?"
 <<Place ThruLine May Neutral Left>>
-May: "Yeah yeah, I know so cool right?! But listen up. My final act, will blow everyone's minds!"#line:324
+May: "Yeah yeah, I know, so cool right?! But listen up. My final act will blow everyone's minds!"#line:324
 <<Place ThruLine May Angry Left>>
 May: "I'm gonna use this device, powered by my steampunk machine!"#line:325
 <<Place ThruLine Casey Neutral Right>>
-Casey: "You what?"
+Casey: "Your what?"
 <<Place ThruLine May Happy Left>>
 May: "What you saw, those flashy colours? That's described as a Rainbow in one of the most ancient texts I discovered from our very own catacombs!"#line:326
 Casey: "A rainbow?..."
@@ -134,8 +134,8 @@ Casey: "A rainbow?..."
 May: "And I'll make it shine behind me when we hit the solo!"#line:327
 -> "Show THAT to everyone else? They'll die out of fear!"
     <<Place ThruLine Casey Shocked Right>>
-    May: "Ain't that great? It will even top that time I faked to be a dropbear!!!"#line:328
--> "You're insane"
+    May: "Ain't that great? It will even top that time I faked being a dropbear!!!"#line:328
+-> "You're insane!"
     <<Place ThruLine Casey Shocked Right>>
     May: "Why thank you!!!"#line:199e
 -> "THAT'S AWESOME!!!"
@@ -150,7 +150,7 @@ Casey: "Me? Why me?"
 May: "Because thanks to you and your friends last year, when you went into the catacombs and drew all the ghosts out..."
 <<Place ThruLine May Neutral Left>>
 May: "I got to convince them to let me read the ancient texts!"#line:331
--> "No way I'm doing that"
+-> "No way I'm doing that."
     <<Place ThruLine Casey Angry Right>>
     <<Place ThruLine May Happy Left>>
     May: "Then I'll have to ask your friend to do it!"
@@ -158,7 +158,7 @@ May: "I got to convince them to let me read the ancient texts!"#line:331
     Casey: "I mean, I'm totally in!"
     <<Place ThruLine May Neutral Left>>
     May: "Thought so!"
--> "I'd be honored"
+-> "I'd be honored!"
     <<Place ThruLine Casey Happy Right>>
     May: "Alrighty!"
 -> "Do I even have a say on this?"
@@ -167,7 +167,7 @@ May: "I got to convince them to let me read the ancient texts!"#line:331
     May: "Nah, come on, let me teach you how to operate it!"
 <<Place ThruLine Casey Neutral Right>>
 <<Place ThruLine May Neutral Left>>
-May proceeds to explain you how to operate the machine...
+May proceeds to explain to you how to operate the machine...
 <<Place ThruLine May Happy Left>>
 May: "So we adjust the power couplings here..."#line:332
 You begin to tweak a knob.
@@ -178,10 +178,10 @@ Casey: "AAAAAAAAA"#line:290f
 A screw goes flying away, and stabs itself in the wall.
 The remaining steam coming out at high pressure makes you sweat your face off!
 <<Place ThruLine May Neutral Left>>
-May: "Ah don't worry, that happens!" She shows her arm under her sleeve, filled with several scars.
+May: "Ah don't worry, that happens sometimes!" She shows her arm under her sleeve, filled with several scars.
 <<Place ThruLine Casey Tired Right>>
 She just tweaks the knobs and gets the machine to stop.
-May: "Allrighty, go get that screw and let's put it back in!"
+May: "Alrighty, go get that screw and let's put it back in!"
 -> "Isn't this like, super dangerous?"
     <<Place ThruLine May Happy Left>>
     May: "Well, duh, yeah! It'd be boring otherwise."#line:334
@@ -195,11 +195,11 @@ May: "Allrighty, go get that screw and let's put it back in!"
     May: "Put the screw with the steam going anyway, so it seals under pressure and the particles melt..."#line:336
     May: "...making the screw fuse with the chassis, so it'll never, ever, ever go flying out again?"#line:337
     <<Place ThruLine Casey Tired Right>>
-    Casey: "..." I was gonna say quit, but it sounds like a bad idea now...
+    Casey: "..." You gonna say "quit," but it seems like a bad idea now...
     <<Place ThruLine Casey Happy Right>>
     Casey: "Yes, that!"
     <<Place ThruLine May Angry Left>>
-    May: "OOOOHHHH, YER' A GENIUS!"#line:338
+    May: "OOOOHHHH, YER A GENIUS!"#line:338
 <<jump knobcombination>>
 ===
 title: knobcombination
@@ -209,7 +209,7 @@ title: knobcombination
 <<Place ThruLine May Neutral Left>>
 <<declare $keyknobs = false as bool>>
 May: "Well, listen now. You'll have to tweak the first knob up to 11."
-May: "The second up to 5. The third up to 9, and the last one up to 4."
+May: "The second up to five. The third up to nine, and the last one up to four."
 <<Place ThruLine May Happy Left>>
 May: "Got it?"
 Casey: "Yes"

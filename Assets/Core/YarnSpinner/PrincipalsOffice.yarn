@@ -20,23 +20,23 @@ Principal: "Oh, come on in Casey."
 He seems... so relaxed?
 <<Place ThruLine Principal Neutral Center>>
 Principal: "Sit down, sit down. Listen to the music."
--> "So... jazzy"
+-> "So... jazzy."
     <<Place ThruLine Principal Happy Center>>
-    Principal: "Right? I love Jazz, and fusion..."
+    Principal: "Right? I love jazz, and fusion..."
     <<Place ThruLine Principal Neutral Center>>
     Principal: "Reminds me of my time as a student..."
     <<Place ThruLine Principal Happy Center>>
     Principal: "And my hair, ha...haha..."
--> "So... old"
+-> "So... old."
     <<Place ThruLine Principal Happy Center>>
     Principal: "Right? So old I even had hair when it came out."
--> "So... boring"
+-> "So... boring."
     <<Place ThruLine Principal Happy Center>>
     Principal: "Haha, kids today..."
 <<Place ThruLine Principal Neutral Center>>
 He's so chill, it begins to scare you. This is even worse than him yelling.
 <<Place ThruLine Casey Neutral FarRight>>
-Casey: "I just... droped by to ask if your food is back to normal?"
+Casey: "I just... dropped by to ask if your food is back to normal?"
 <<Place ThruLine Principal Happy Center>>
 Principal: "Oh yes... well done. Have fun at Oktoberfest by the way!"
 <<Place ThruLine Principal Neutral Center>>
