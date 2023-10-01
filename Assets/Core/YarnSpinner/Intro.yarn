@@ -30,21 +30,18 @@ tags:
 <<set $PhoebeExplodeVar4 = false>>
 <<set $PhoebeExplodeVar5 = false>>
 <<set $BayleyCoffe = false>>
-<<set $PhoebeCoffee = false>>
+<<set $PhoebeCoffee = true>>
 <<set $BeeCoffee = false>>
 <<set $TheSongWillPlay1 = false>>
 <<set $TheSongWillPlay2 = false>>
 <<set $TheSongWillPlay3 = false>>
 <<set $TheSongWontPlay = false>>
-<<jump TheFinale>>
-<<shiftmusic ThruLine 2>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
 <<Place ThruLine "Test string with spaces here" Happy Center>>
 Casey: "Hey hey hey! Here's Casey again guys, nice to see you around! Oh, there you are Mookie. Oh, hey mom!"#line:001
 <<Place ThruLine Casey Neutral Center>>
 Casey: "So, for those new faces around here, welcome to another one of my live vlogs!"#line:002
-<<sfx ThruLine 01>>
 Casey: "I'm here at the most prestigious college ever, of which regular people know oh so very little about."#line:003
 <<Place ThruLine Casey Happy Center>>
 Casey: "Freakaversity, a place that makes even your wildest of dreams pale in comparison."#line:004
@@ -687,6 +684,7 @@ Casey: "She wh--"
 Bayley a grabs Casey before they even have time to finish.
 Bee flips a table for cover and Bayley jumps behind it with Casey.
 <<Place ThruLine Phoebe Explosion Center>>
+<<sfx ThruLine 7>>
 KBOOOOOOOOMMMMMM.
 <<Place ThruLine Nobody>>
 <<Place ThruLine Casey Shocked Left>>

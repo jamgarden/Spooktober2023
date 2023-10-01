@@ -19,3 +19,4 @@ MonoBehaviour:
   linkedLocations:
   - {fileID: 11400000, guid: dfbdc6d6298bbe3479efe4c53ae0ad44, type: 2}
   WhoIsHere: []
+  songIndex: 2
