@@ -30,9 +30,6 @@
 		<property name="initialValue">
 			<value>0</value>
 		</property>
-		<property name="seekSpeed">
-			<value>0.69333330790201819</value>
-		</property>
 		<property name="isExposedRecursively">
 			<value>false</value>
 		</property>
