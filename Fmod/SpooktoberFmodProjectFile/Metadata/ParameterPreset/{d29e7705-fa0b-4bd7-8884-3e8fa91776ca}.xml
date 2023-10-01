@@ -16,7 +16,7 @@
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>630</value>
+			<value>651</value>
 		</property>
 		<property name="enumerationLabels">
 			<value>line000</value>
@@ -637,18 +637,39 @@
 			<value>line615</value>
 			<value>line616</value>
 			<value>line617</value>
-			<value>line618</value>
-			<value>line619</value>
-			<value>line620</value>
-			<value>Value WT</value>
-			<value>Value WU</value>
-			<value>Value WV</value>
-			<value>Value WW</value>
-			<value>Value WX</value>
-			<value>Value WY</value>
-			<value>Value WZ</value>
-			<value>Value XA</value>
-			<value>Value XB</value>
+			<value>line290g</value>
+			<value>line290f</value>
+			<value>line290c</value>
+			<value>line290a</value>
+			<value>line290b</value>
+			<value>line044a</value>
+			<value>line044b</value>
+			<value>line044c</value>
+			<value>line478a</value>
+			<value>line478b</value>
+			<value>line386a</value>
+			<value>line344a</value>
+			<value>line348a</value>
+			<value>line350a</value>
+			<value>line352a</value>
+			<value>line354a</value>
+			<value>line356a</value>
+			<value>line358a</value>
+			<value>line278a</value>
+			<value>line286a</value>
+			<value>line345a</value>
+			<value>line346a</value>
+			<value>line347a</value>
+			<value>line349a</value>
+			<value>line351a</value>
+			<value>line353a</value>
+			<value>line355a</value>
+			<value>line357a</value>
+			<value>Value D</value>
+			<value>Value E</value>
+			<value>Value F</value>
+			<value>Value G</value>
+			<value>Value H</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
