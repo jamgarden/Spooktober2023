@@ -196,7 +196,8 @@ Crowd: "Yes yes yes!"
 <<Place ThruLine Gee Angry Right>>
 Gee: "Oh, don't you even start you..."#line:582
 <<Place ThruLine Gee Brains Right>>
-Gee is getting worked up real bad, but she's interrupted when the ground begins to shake...
+<<sfx ThruLine 02>>
+Gee is getting worked up real bad, but she's interrupted when Phoebe begins to steam out...
 <<Place ThruLine Gee Angry Right>>
 Gee: "Huh?"
 <<Place ThruLine Casey Tired FarRight>>
@@ -207,6 +208,7 @@ Casey: "RUN EVERYONE, RUN!!!!"#line:583
 Bee: "Wha-"
 <<Place ThruLine Nobody>>
 <<Place ThruLine Phoebe Explosion Center>>
+<<sfx ThruLine 06>>
 KBOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMM
 <<Place ThruLine Nobody>>
 <<Place ThruLine Casey Shocked Right>>

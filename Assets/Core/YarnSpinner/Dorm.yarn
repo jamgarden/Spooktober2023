@@ -91,7 +91,7 @@ You take off the patch.
     Phoebe: "Well, you ain't the only one who can crack a joke!"
     <<Place ThruLine Casey Happy Left>>
     Casey: "Totally got me there!"
--> "Maybe it has to do with the fact that you have one big eye and I have two small ones?"
+-> "Maybe it has to do with you having one big eye and I having two small ones?"
     Phoebe: "Right? It's very problematic!"
     Casey: "Maybe that's why you can spin your neck like that..."
     <<Place ThruLine Phoebe Happy Right>>
@@ -317,7 +317,8 @@ Phoebe: "Study..."#line:283
 Bayley: "Pheebs?"#line:284
 <<Place ThruLine Bayley Neutral Left>>
 Phoebe: "............."
-She begins to shake.
+<<sfx ThruLine 02>>
+She begins to steam...
 <<Place ThruLine Bayley Think Left>>
 Bayley: "Oh no!"#line:285
 <<if $PhoebeExplodeVar1 is true>>
@@ -336,6 +337,7 @@ Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
     She's begining to boil...
     <<Place ThruLine Casey Shocked Center>>
     <<Place ThruLine Bayley Bark Left>>
+    <<sfx ThruLine 02>>
     There goes the steam out her head...
     <<Place ThruLine Casey Shocked Left>>
     <<Place ThruLine Bayley Bark FarLeft>>
@@ -343,6 +345,7 @@ Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
     <<Place ThruLine Casey Tired Left>>
     <<Place ThruLine Bayley Think FarLeft>>
     Casey: "I hope she lands on..."#line:288
+    <<sfx ThruLine 06>>
     KBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMM
     <<Place ThruLine Casey Sad Left>>
     Casey: "I hope she's..."#line:289
@@ -352,7 +355,9 @@ Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
     <<Place ThruLine Casey Shocked FarRight>>
     <<Place ThruLine Bayley Bark FarLeft>>
     <<Place ThruLine Phoebe Think Center>>
+    <<sfx ThruLine 02>>
     Casey: "AAAAAAAAAAAAAAA"#line:290
+    <<sfx ThruLine 02>>
     Bayley: "AAAAAAAAAAAAAAAAA"#line:291
     <<Place ThruLine Casey Shocked Right>>
     <<Place ThruLine Bayley Bark Left>>
@@ -373,7 +378,7 @@ Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
 -> Show her some animal pictures
     Casey: "PHOEBE! LOOK AT THIS CUTE PUPPY ON THE PHONE!"#line:298
     <<Place ThruLine Phoebe Sass Center>>
-    She stops shaking.
+    She stops steaming.
     Bayley: "OR THIS KITTY CAT!!!"#line:299
     <<Place ThruLine Phoebe Neutral Center>>
     She blinks.
@@ -395,10 +400,12 @@ Casey: "What's going on?!!"
 Bayley: "Run Casey!"
 <<Place ThruLine Casey Shocked Right>>
 Casey: "Run wh-"
+<<sfx ThruLine 02>>
 Bayley grabs you and jumps out of the room, quickly closing the door behind him.
 <<Place ThruLine Nobody>>
 <<Place ThruLine Phoebe Explosion Center>>
-KABOOOOOOOOMMMMMM
+<<sfx ThruLine 06>>
+KBOOOOOOOOMMMMMM
 -> "WHAT THE..."
 -> "PHOEBE!!!!!"
 -> "AAAAAAAAAAAAAAAA"

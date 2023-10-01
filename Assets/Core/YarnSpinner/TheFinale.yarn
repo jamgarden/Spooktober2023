@@ -207,12 +207,18 @@ Meanwhile...
 <<Place ThruLine Casey Shocked FarLeft>>
 <<Place ThruLine Casey Shocked FarRight>>
 Casey: "AAAAAAAAAAAAAAAAHHHHHHHH!!!!!!!!!!!!!!!"#line:263
+<<Place ThruLine Nobody>>
+<<Travel ThruLine Dormroom 1>>
+<<shiftmusic ThruLine 03>>
+<<sfx ThruLine 07>>
 KBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 //fade to white
 <<Place ThruLine Nobody>>
 May: "Casey? Casey? Wake up, Casey!"#line:264
 You feel like your head just exploded...
 //fade back to colour
+<<Travel ThruLine Courtyard 2>>
+<<shiftmusic ThruLine 03>>
 <<Place ThruLine May ColourNeutral Right>>
 You open your eyes... and see May right in front of you.
 <<Place ThruLine Casey ColourShocked Left>>

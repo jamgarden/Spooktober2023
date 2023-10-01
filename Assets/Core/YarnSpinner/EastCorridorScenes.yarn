@@ -321,11 +321,13 @@ Phoebe: "COME ON, I'LL TAKE YOU TO THE GYM, YOU'LL BE SO RIPPED YOU'LL PUNCH EVE
 Ursula: "...YEAH, LET'S GO!"#line:408
 Phoebe: "YEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"#line:409
 Ursula: "HAAAAAAAAAWWWWWWWWWWWWWWWW!!!!!!!!!"#line:410
-They begin to shake
+<<sfx ThruLine 02>>
+They begin to steam out
 <<Place ThruLine Bayley Angry Right>>
 <<Place ThruLine Casey Shocked FarRight>>
 Bayley: "OH MY GOD CASEY"#line:411
 Casey: "RUN BAYLEY RUN!!!!!!!"#line:412
+<<sfx ThruLine 07>>
 <<Place ThruLine Nobody>>
 KBOOOOOOOOOOOOOOOM
 <<set $AllQuests4 to true>>

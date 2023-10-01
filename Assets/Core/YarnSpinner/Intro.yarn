@@ -36,7 +36,7 @@ tags:
 <<set $TheSongWillPlay2 = false>>
 <<set $TheSongWillPlay3 = false>>
 <<set $TheSongWontPlay = false>>
-
+<<jump Intervention>>
 <<shiftmusic ThruLine 2>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
@@ -72,10 +72,13 @@ Casey: "I don't think they're watching..."#line:016
 Phoebe: "AW, BOOMER!"#line:017
 <<Place ThruLine Phoebe Neutral Center>>
 Casey: "So Pheebs, tell us a bit about yourself."
+<<Place ThruLine Phoebe Think Center>>
 Phoebe: "Ah well, you know, the usual. I wake up at 4AM, re-read yesterday's book, then exercise, feed the school's monster..."#line:018
 Casey: "Wait what?"
+<<Place ThruLine Phoebe Happy Center>>
 Phoebe: "What what?"
 Casey: "The monster part."
+<<Place ThruLine Phoebe Neutral Center>>
 Phoebe: "Oh, didn't you know? There's a monster canary in one of the towers!"#line:019
 Casey: "No way!"
 <<Place ThruLine Phoebe Happy Center>>
@@ -675,7 +678,8 @@ Phoebe begins to grow buffer by the second.
 You fear the worst!
 -> "No Phoebe!!!"
 -> "Kick his bandaged ass!!!"
-Phoebe begins to shake...
+<<sfx ThruLine 02>>
+Phoebe begins to steam...
 <<Place ThruLine Bayley Angry FarLeft>>
 Bayley: "Oh no, oh no!!!!"
 <<Place ThruLine Bee Angry Right Center>>
@@ -686,7 +690,7 @@ Casey: "She wh--"
 Bayley grabs Casey before they even have time to finish.
 Bee flips a table for cover and Bayley jumps behind it with Casey.
 <<Place ThruLine Phoebe Explosion Center>>
-<<sfx ThruLine 7>>
+<<sfx ThruLine 06>>
 KABOOOOOOOOMMMMMM.
 <<Place ThruLine Nobody>>
 <<Place ThruLine Casey Shocked Left>>
