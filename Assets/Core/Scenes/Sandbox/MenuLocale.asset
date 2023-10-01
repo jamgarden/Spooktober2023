@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: MenuLocale
   m_EditorClassIdentifier: 
   Name: Menu
+  Section: 0
   BGList:
   - {fileID: 21300000, guid: 3893ad1af7a487c919c35a1d26cc970b, type: 3}
   - {fileID: 21300000, guid: fcdef10c10c6a6e99ae87d66d0443b81, type: 3}
+  canTravelTo: 0
+  linkedLocations: []
+  WhoIsHere: []
+  songIndex: 1

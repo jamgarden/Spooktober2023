@@ -20,4 +20,8 @@ MonoBehaviour:
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []
+<<<<<<< HEAD
   songIndex: 0
+=======
+  songIndex: 2
+>>>>>>> ab07f86ef4300e5758c32ae63c844cc785491618
