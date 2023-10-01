@@ -53,26 +53,31 @@ Casey: "Well, genetics were mean to us."
 <<Place ThruLine Phoebe Happy Right>>
 Phoebe: "Don't worry!!! It's easily fixed!"
 -> "Wait what?"
+    <<Place ThruLine Phoebe Buff Right>>
     <<Place ThruLine Casey Shocked Left>>
     Too late, she's already about to...
 -> "Phoebe no!"
+    <<Place ThruLine Phoebe Buff Right>>
     <<Place ThruLine Casey Shocked Left>>
     Too late, she's already about to...
 -> "I really wanna see how! Get it? See haha!"
+    <<Place ThruLine Phoebe Buff Right>>
     <<Place ThruLine Casey Shocked Left>>
     With no delay, she...
-<<Place ThruLine Casey Happy Left>>
+<<Place ThruLine Phoebe Happy Right>>
+<<Place ThruLine Casey HappyEyePatch Left>>
 Snaps a pirate patch around your head!
 <<Place ThruLine Phoebe Neutral Right>>
 Phoebe: "Better?"
-<<Place ThruLine Casey Neutral Left>>
+<<Place ThruLine Casey EyePatch Left>>
 Casey: "Yeah!"
 //<<dry hit>>
-<<Place ThruLine Casey Tired Left>>
+<<Place ThruLine Casey HappyEyePatch Left>>
 You smash yourself against the door frame!
 <<Place ThruLine Phoebe Think Right>>
-<<Place ThruLine Casey Neutral Left>>
+<<Place ThruLine Casey EyePatch Left>>
 Phoebe: "Hmm... wasn't that easy." She takes notes.
+<<Place ThruLine Casey Neutral Left>>
 You take off the patch.
 -> "You'll figure it out one day!"
     <<Place ThruLine Phoebe Happy Right>>

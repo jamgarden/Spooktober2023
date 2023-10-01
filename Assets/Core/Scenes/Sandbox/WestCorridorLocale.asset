@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: WestCorridorLocale
   m_EditorClassIdentifier: 
   Name: Western Corridor
-  Section: 0
+  Section: 1
   BGList: []
   canTravelTo: 0
   linkedLocations:
   - {fileID: 11400000, guid: dfbdc6d6298bbe3479efe4c53ae0ad44, type: 2}
   WhoIsHere: []
+  songIndex: 2

@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Crowd
   Position: 
+  Emotion: 
   CharacterFrames:
   - Emotion: Neutral
-    Picture: {fileID: 21300000, guid: ff588207c907345dfa44cd207d3ecefa, type: 3}
+    Picture: {fileID: -445534156, guid: 2303550c80c864e228168967a8063af8, type: 3}
+  - Emotion: Scared
+    Picture: {fileID: 1805248680, guid: 2303550c80c864e228168967a8063af8, type: 3}
+  - Emotion: Angry
+    Picture: {fileID: 1500465122, guid: 2303550c80c864e228168967a8063af8, type: 3}
   Neutral: {fileID: 0}
-  Sad: {fileID: 0}
-  Happy: {fileID: 0}
-  Angry: {fileID: 0}
-  SpecialA: {fileID: 0}
-  SpecialB: {fileID: 0}

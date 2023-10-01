@@ -134,6 +134,10 @@ title: ConmutatorWest
     Casey: "Looks like Phoebe is at class.."
     Casey: "Should check some other place for now"
     <<jump ConmutatorWest>>
+    <<elseif $VisitedDorm1 is true>>
+    Casey: "Looks like Phoebe is at class.."
+    Casey: "Should check some other place for now"
+    <<jump ConmutatorWest>>
     <<elseif $LetSieggyHanging is true>>
     <<jump Intervention>>
     <<elseif $BayleyQuestDone is true>>

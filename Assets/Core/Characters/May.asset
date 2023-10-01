@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: May
   m_EditorClassIdentifier: 
   Name: May
-  Position: 
-  Emotion: 
+  Position: Right
+  Emotion: Happy
   CharacterFrames:
   - Emotion: Neutral
     Picture: {fileID: 1575686685, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
@@ -28,4 +28,12 @@ MonoBehaviour:
     Picture: {fileID: 1671851737, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
   - Emotion: Angry
     Picture: {fileID: 1137984085, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
+  - Emotion: GuitarRainbow
+    Picture: {fileID: 21300000, guid: 654b4a57ed0c145ca8d8f5cbe2d2a6b8, type: 3}
+  - Emotion: ColourAngry
+    Picture: {fileID: 1644340338, guid: 8ae926ac5662b4a6e8f3d84d81be0025, type: 3}
+  - Emotion: ColourHappy
+    Picture: {fileID: -70083784, guid: 8ae926ac5662b4a6e8f3d84d81be0025, type: 3}
+  - Emotion: ColourNeutral
+    Picture: {fileID: -729191353, guid: 8ae926ac5662b4a6e8f3d84d81be0025, type: 3}
   Neutral: {fileID: 1575686685, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}

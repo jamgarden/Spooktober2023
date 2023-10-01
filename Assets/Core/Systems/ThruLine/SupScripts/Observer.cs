@@ -16,15 +16,12 @@ public class CharacterFrame
 
 public partial class GameManager 
 {
-    // This is the Observer
-    // Treat this as the input layer for the GameManager
+    [SerializeField]
+    EventReference Event;
 
-    // // public void E_ChangeBackdrops(){} // Feeds to director, smoothly transitioning backdrops.
+    private int previousTrack = 0;
 
-    // // public void E_SwapCharacter(){} // Feeds to director, which smoothly transitions characters
-
-    // public void E_ChangeLocale(){}
-
+    EventInstance sfxInstance;
 
     [YarnCommand("Place")]
     public void Place_Event(string characterName = "TestDude", string emotion = "Neutral", string position = "Left")
@@ -122,8 +119,45 @@ public partial class GameManager
     public void ChangeLocale_Event(string localeName = "MainMenu", int index = 0)
     {
 
+        LocaleSO locale = GetLocaleSO(localeName);
+        ChangeLocale_Emit(locale, index);
+        if(previousTrack == locale.songIndex)
+        {
+            UnityEngine.Debug.Log("This is the current track");
+        }
+        else
+        {
+            previousTrack = locale.songIndex;
+            ShiftMusic(locale.songIndex);
+        }
+    }
+
+    [YarnCommand("PhoebeSpecial")]
+    public void PhoebeSpecial()
+    {
+        CharacterSO Phoebe = new CharacterSO();
+
+        foreach(CharacterSO chara in StagedCharacters)
+        {
+            if(chara.Name == "Phoebe")
+            {
+                Phoebe = chara;
+            }
+        }
+
+        StartCoroutine(CycleFrames(Phoebe));
         
-        ChangeLocale_Emit(GetLocaleSO(localeName), index);
+    }
+
+    IEnumerator CycleFrames(CharacterSO chara)
+    {
+        foreach (Sprite sprite in chara.OneOffs)
+        {
+            Positions[2].sprite = sprite;
+            yield return new WaitForSeconds(0.1f);
+
+        }
+
     }
 
     [YarnCommand("LocaleList")]
@@ -139,4 +173,29 @@ public partial class GameManager
         // This needs to be moved to the director!
        FMODUnity.RuntimeManager.StudioSystem.setParameterByNameWithLabel("MusicSwitch", songNames[val]);
     }
+
+
+    [YarnCommand("sfx")]
+    public void SFX_Event(string sfxName)
+    {
+
+        
+        // Create a throwaway instance to hold the current 'sfxInstance'
+        FMOD.Studio.EventInstance throwAway = sfxInstance;
+
+        // Stop the current event immediately
+        throwAway.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+
+
+        // Create a new instance with the mapped event reference
+        sfxInstance = RuntimeManager.CreateInstance(Event);
+
+        sfxInstance.setParameterByNameWithLabel("SFXSwitch", sfxName);
+
+        // Start the new event
+        sfxInstance.start();
+
+        
+    }
+
 }

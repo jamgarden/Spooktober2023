@@ -209,7 +209,7 @@ Tourist: "You ARE a good boy, aren't you?"
     <<Place ThruLine Casey Angry FarRight>>
     <<Place ThruLine Crowd Neutral Left>>
     Crowd: "GOOD DOG! GOOD DOG!! GOOD DOG!!!"
--> You aren't scared?
+-> Aren't you scared?
     <<Place ThruLine NPC0 Neutral Center>>
     <<Place ThruLine NPC1 Neutral Left>>
     <<Place ThruLine NPC2 Neutral FarLeft>>
