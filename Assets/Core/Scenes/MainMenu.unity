@@ -581,7 +581,7 @@ MonoBehaviour:
       Data2: 1213477615
       Data3: -269712229
       Data4: 922861512
-    Path: event:/MusicSwitches
+    Path: event:/Music/MusicSwitches
   Event: 
   PlayEvent: 1
   StopEvent: 0
