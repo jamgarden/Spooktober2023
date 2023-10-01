@@ -41,6 +41,7 @@ May: "Oh, I see you have a good eye kid!"
     May: "Ah well..."
 -> "Is this for your new record?"
     May: "How did you know, am I that obvious?"
+    <<Place ThruLine Casey Sad Right>>
     Casey: "Oh no, it just looks so..."
     <<Place ThruLine May Happy Left>>
     May: "So MAY, ain't it?!"#line:313
@@ -64,6 +65,7 @@ May: "Yeah, you can go now, I just wanted you to see it!"#line:316
 <<Place ThruLine Casey Tired Right>>
 Casey: "Uhm..."
 <<Place ThruLine May Happy Left>>
+<<Place ThruLine Casey Neutral Right>>
 May: "Nah, just joking. Come on, open that courtain!"#line:317
 //sound of courtain opening
 <<Place ThruLine Nobody>>
@@ -74,10 +76,11 @@ What happens next, makes you scream in terror...
 -> AAAAAAAAAAAAAAAAAAAAAAAAAAAA
 -> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 <<Place ThruLine Casey Shocked Right>>
-May rushes to close the window.
+May rushes to close the window.#line:290g
 <<Travel ThruLine MaysLab>>
 <<Place ThruLine May Neutral Left>>
 May: "Woops, I think ya' weren't ready for that."#line:318
+<<Place ThruLine Casey Tired Right>>
 You try to compose yourself. WHAT WAS THAT?
 -> "That's... not black... nor white..."
     <<Place ThruLine May Happy Left>>
@@ -93,6 +96,7 @@ May: "You just saw the truth of this world!"#line:319
 Casey: "The... what..."
 <<Place ThruLine May Angry Left>>
 May: "BLACK AND WHITE AIN'T THE ONLY COLOURS IN THIS WORLD, KIDDO!"#line:320
+<<Place ThruLine Casey Shocked Right>>
 Casey: "..."
 <<Place ThruLine Nobody>>
 You faint.
@@ -150,7 +154,7 @@ May: "I got to convince them to let me read the ancient texts!"#line:331
     <<Place ThruLine Casey Angry Right>>
     <<Place ThruLine May Happy Left>>
     May: "Then I'll have to ask your friend to do it!"
-    <<Place ThruLine Casey Neutral Right>>
+    <<Place ThruLine Casey Happy Right>>
     Casey: "I mean, I'm totally in!"
     <<Place ThruLine May Neutral Left>>
     May: "Thought so!"
@@ -159,6 +163,7 @@ May: "I got to convince them to let me read the ancient texts!"#line:331
     May: "Alrighty!"
 -> "Do I even have a say on this?"
     <<Place ThruLine May Happy Left>>
+    <<Place ThruLine Casey Tired Right>>
     May: "Nah, come on, let me teach you how to operate it!"
 <<Place ThruLine Casey Neutral Right>>
 <<Place ThruLine May Neutral Left>>
@@ -169,7 +174,7 @@ You begin to tweak a knob.
 <<Place ThruLine May Angry Left>>
 May: "NOT SO MUCH!"#line:333
 <<Place ThruLine Casey Shocked Right>>
-Casey: "AAAAAAAAA"
+Casey: "AAAAAAAAA"#line:290f
 A screw goes flying away, and stabs itself in the wall.
 The remaining steam coming out at high pressure makes you sweat your face off!
 <<Place ThruLine May Neutral Left>>
@@ -199,6 +204,7 @@ May: "Allrighty, go get that screw and let's put it back in!"
 ===
 title: knobcombination
 ---
+<<Travel ThruLine MaysLab>>
 <<Place ThruLine Casey Neutral Right>>
 <<Place ThruLine May Neutral Left>>
 <<declare $keyknobs = false as bool>>
@@ -218,14 +224,17 @@ May: "Nevermind, not talking to you Cassius!"#line:340
 Casey: "...?"
 <<Place ThruLine May Happy Left>>
 May: "Alright, do ask me to repeat it again if you need to."
-    -> Repeat the combination
-        <<set $keyknobs to true>>
-        <<jump knobcombination>>
-    -> You're fine, your memory is great!
-    <<if $keyknobs is true>>
-    -> Yeah, I noted it down this time!
-        May: "Great! Counting on you!"
-    <<endif>>
+<<if $keyknobs is false>>
+-> Repeat the combination
+    <<set $keyknobs to true>>
+    <<jump knobcombination>>
+-> You're fine, your memory is great!
+<<elseif $keyknobs is true>>
+-> Repeat the combination
+    <<jump knobcombination>>
+-> Yeah, I noted it down this time!
+    May: "Great! Counting on you!"
+<<endif>>
 <<Place ThruLine May Neutral Left>>
 May: "Well, I'll leave you to it. I'm gonna go practice for our show!"#line:341
 //door slam
@@ -235,8 +244,9 @@ At the risk of being murdered by a flying screw... isn't it exciting?!
 //fade to black
 //funny guitar music
 //fade back in
-<<Place ThruLine Casey Neutral Center>>
+<<Place ThruLine Casey Happy Center>>
 Casey: "Well... I better get going now. Feels like the gears are starting to move..."
+<<Place ThruLine Casey Neutral Center>>
 Casey: "I wonder how will this affect others...?"
 <<Place ThruLine Nobody>>
 You take off!

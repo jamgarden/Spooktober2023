@@ -28,4 +28,6 @@ MonoBehaviour:
     Picture: {fileID: 1671851737, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
   - Emotion: Angry
     Picture: {fileID: 1137984085, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
+  - Emotion: GuitarRainbw
+    Picture: {fileID: 1137984085, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}
   Neutral: {fileID: 1575686685, guid: f4270b4d1b94ef64990bf502a50b13b5, type: 3}

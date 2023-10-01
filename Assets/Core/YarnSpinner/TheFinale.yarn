@@ -48,7 +48,7 @@ Gee: "What? Are you calling me a knockoff?"#line:237
 Crowd: "As if it were made of human veins, come on haha..."
 <<Place ThruLine Bayley Neutral FarLeft>>
 Bayley: "Gee, no!"#line:238
-<<Place ThruLine Gee Brains Left>>
+<<Place ThruLine Gee Brains Center>>
 Gee: "MIND YOU, I GREW THEM MYSELF WITH NECROTIC TISSUE IN THE LAB, YOU AIRHEADED HUMAN!"#line:239
 Crowd: "...what?"
 Gee: "WHAT, DID YOU THINK I'D GO SEARCH A GRAVEYARD OR SOMETHING?"#line:240
@@ -60,13 +60,13 @@ Bayley: "GEE NO!!!"#line:241
 Gee: "OF COURSE I AM, NO ONE MOCKS MY WORK AND LIVES TO TELL!"#line:242
 Crowd: "DDDIIAGGAGGG" They begin to puke.
 Crowd: "YOU SICK FREAK, TAKE THIS!"
-<<Place ThruLine Gee Angry Left>>
-<<Place ThruLine Bayley Angry Center>>
+<<Place ThruLine Gee Angry Center>>
+<<Place ThruLine Bayley Angry FarLeft>>
 The moment they throw the punch, Bayley stops it midway.
 Bayley: "THAT'S IT, I'M GOING IN..."#line:243
 <<Place ThruLine Bayley Bark FarLeft>>
 Bayley: "AWOOOOOO!!!!"#line:044a
-<<Place ThruLine Gee Brains Left>>
+<<Place ThruLine Gee Brains Center>>
 Gee: "TAKE THIS, AND THAT, AND SOME MORE OF THIS!!!!"#line:244
 <<Place ThruLine Nobody>>
 Meanwhile... somewhere else...
@@ -104,10 +104,10 @@ Albatros: "Haha... those kids did it!"#line:248
 <<Place ThruLine Principal Happy Right>>
 Principal: "Oh, that's it, I'm going in!"
 <<Place ThruLine Nobody>>
-<<Place ThruLine ElSpooky Ghosts Center>>
+<<Place ThruLine ElSpooky Ghosts Right>>
 Albatros: "About time, you old freak! Come on Ghosties, let's show'em!"#line:249
 The ghosts begin to swawm the place, with the Principal leading them like a mad goat!
-<<Place ThruLine Principal Angry Right>>
+<<Place ThruLine Principal Angry Center>>
 Principal: "HAHAHAHAHAHAHA KISS YOUR MOMS GOODBYE!!!!"#line:250
 Meanwhile, somewhere else...
 <<Place ThruLine Nobody>>
@@ -158,10 +158,12 @@ Casey: "RUUUUN!!!!!!!!!!"#line:255
 <<Place ThruLine Phoebe Happy FarRight>>
 Phoebe: "Sure why not?"
 <<Place ThruLine Nobody>>
+<<shiftmusic ThruLine 2>>
 Meanwhile... at the stage...
 Vocalist: "COME ON MAY!"#line:256
 <<Place ThruLine May Guitar Center>>
 May begins a riff on her guitar in an incredible solo!
+<<Place ThruLine May GuitarRainbow Center>>
 Behind her, the rainbow begins to form!
 Crowd: "W...wha....WHA....WHAT'S THAT?!!!!"
 Crowd: "IT'S NOT BLACK..."

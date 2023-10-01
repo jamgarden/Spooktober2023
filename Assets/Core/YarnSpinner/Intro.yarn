@@ -24,7 +24,7 @@ tags:
 <<set $AllQuests5 = false>>
 <<set $AllQuests6 = false>>
 <<set $Princpalsquest = false>>
-<<set $PhoebeExplodeVar1 = false>>
+<<set $PhoebeExplodeVar1 = true>>
 <<set $PhoebeExplodeVar2 = false>>
 <<set $PhoebeExplodeVar3 = false>>
 <<set $PhoebeExplodeVar4 = false>>
@@ -36,6 +36,7 @@ tags:
 <<set $TheSongWillPlay2 = false>>
 <<set $TheSongWillPlay3 = false>>
 <<set $TheSongWontPlay = false>>
+<<jump Dorm>>
 <<shiftmusic ThruLine 2>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
@@ -1282,7 +1283,7 @@ Knock Knock
 <<Place ThruLine Principal Neutral Right>>
 Principal: "Huh?"#line:172
 <<Place ThruLine May Neutral Left>>
-May: "Heyoooo my dudes an dudettes!"#line:173
+May: "Heyoooo my dudes and dudettes!"#line:173
 Everyone: "Professor May!!!"
 Principal: "May what are you doing here?!"
 <<Place ThruLine May Happy Left>>

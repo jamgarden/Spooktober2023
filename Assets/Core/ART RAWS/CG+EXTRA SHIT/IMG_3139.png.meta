@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 654b4a57ed0c145ca8d8f5cbe2d2a6b8
+guid: 83e7cacc0446d0e46b6e392821d95cd5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,10 +43,10 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 7
+  alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 130
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -108,7 +108,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UiPompous
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 8
+        width: 1505
+        height: 358
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92df6f59c6bb5f54d8f1632baa4f816b
+      internalID: -969140702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      UiPompous: -969140702
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

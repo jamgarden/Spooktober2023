@@ -81,7 +81,7 @@ Cult: "Hahahahahahaha you're so funny!"
     <<Place ThruLine Casey Happy Left>>
     Gee: "RAAAAARRRRRRRR BRAAAAIIINNNNSSSSS"#line:555a
     Casey: "...boo!"#line:565
-    Phoebe seems to far away to make it in time...
+    Phoebe seems too far away to make it in time...
     The crowd looks, perplexed and confused.
     <<Place ThruLine Bee Think Right>>
     Bee: "Hey, what's going on?"#line:055a
@@ -130,7 +130,7 @@ Crowd: "Ohhhhhh!!!"
 -> Wait
 <<Place ThruLine Bee Think Left>>
 <<Place ThruLine Crowd Neutral Center>>
-Bee: "Also, I'm pretty something's been going on lately..."
+Bee: "Also, I'm pretty sure something's been going on lately..."
 Crowd: "How so?"
 Bee: "Well, some of my plants are missing..."#line:572
 <<Place ThruLine Bee Neutral Left>>
@@ -290,7 +290,8 @@ Bayley: "I think I can fix that!"
 <<Place ThruLine Phoebe Sass FarLeft>>
 Casey: "But she didn't say-"
 <<Place ThruLine Phoebe Buff FarLeft>>
-Phoebe grabs Casey by the collar, and pulls hims away.
+<<Place ThruLine Casey Shocked Left>>
+Phoebe grabs Casey by the collar, and pulls them away.
 <<Place ThruLine Nobody>>
 <<Place ThruLine Gee Sad Center>>
 Phoebe: "Let it play out!"
