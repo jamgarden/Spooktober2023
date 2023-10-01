@@ -36,11 +36,8 @@ tags:
 <<set $TheSongWillPlay2 = false>>
 <<set $TheSongWillPlay3 = false>>
 <<set $TheSongWontPlay = false>>
-<<<<<<< HEAD
-//<<jump TheFinale>>
+
 <<shiftmusic ThruLine 2>>
-=======
->>>>>>> ab07f86ef4300e5758c32ae63c844cc785491618
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
 <<Place ThruLine "Test string with spaces here" Happy Center>>
