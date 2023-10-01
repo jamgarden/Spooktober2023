@@ -153,6 +153,7 @@ public partial class GameManager
         PlayerPrefs.Save();
 
         testerX.nodeName = dialogueRunner.CurrentNodeName;
+        testerX.trackIndex = previousTrack;
 
         XmlSerializer xSerialize = new XmlSerializer(typeof(SaveData));
 
@@ -201,4 +202,6 @@ public class SaveData
     public List<SerializableKeyValuePair<string, float>> floatVars { get; set; } = new List<SerializableKeyValuePair<string, float>>();
     public List<SerializableKeyValuePair<string, string>> stringVars { get; set; } = new List<SerializableKeyValuePair<string, string>>();
     public string nodeName { get; set; }
+
+    public int trackIndex { get; set; }
 }

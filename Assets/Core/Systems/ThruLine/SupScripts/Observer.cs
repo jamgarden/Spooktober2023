@@ -127,7 +127,7 @@ public partial class GameManager
         }
         else
         {
-
+            previousTrack = locale.songIndex;
             ShiftMusic(locale.songIndex);
         }
     }
