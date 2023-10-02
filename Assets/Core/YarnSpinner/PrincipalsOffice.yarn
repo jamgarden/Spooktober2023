@@ -3,6 +3,7 @@ tags:
 ---
 <<Travel ThruLine PrincipalsOffice>>
 <<if $SarcophachefQuestDone is false>>
+<<shiftmusic ThruLine 00>>
 You enter the Principal's office...
 <<Place ThruLine Principal Angry Center>>
 Principal: "GET OUT!"
@@ -13,6 +14,7 @@ Looks like those herbs are not kicking in yet... maybe try again later?
 Not much to do here...
 <<jump ConmutatorWest>>
 <<elseif $SarcophachefQuestDone is true>>
+<<shiftmusic ThruLine 00>>
 You enter the Principal's office...
 <<Place ThruLine Principal Happy Center>>
 Principal: "Oh, come on in Casey."

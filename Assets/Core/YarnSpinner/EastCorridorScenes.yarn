@@ -108,6 +108,7 @@ Casey: "...Damn Bayley, you have a real point there."
 <<Place ThruLine Bayley Happy Right>>
 Bayley: "Got my moments! Now, go! Roam around like a twat!"
 <<Place ThruLine Nobody>>
+<<shiftmusic ThruLine 01>>
 Bayley's idea was far too good for you to disregard it... and so, it was time to put those theater classes to good use!
 You begin to walk around the place, looking as pompous as you can.
 <<Place ThruLine Casey Neutral Left>>
@@ -263,6 +264,7 @@ He barks Ursula to the ground instantly! The people around the place run away sc
 <<Place ThruLine Casey Neutral FarRight>>
 Casey: "...dammit I didn't film it! But YEAH YOU DID IT BAYLS!"#line:389
 <<Place ThruLine Ursula Neutral Left>>
+<<shiftmusic ThruLine 02>>
 Ursula: "I... uhm... you'll.... you'll pay...."#line:390
 <<Place ThruLine Bayley Think Right>>
 Bayley: "You don't want to hurt us, do you?"#line:391

@@ -13,6 +13,7 @@ tags:
 title: Ambush
 ---
 <<Travel ThruLine Courtyard>>
+<<shiftmusic ThruLine 01>>
 <<Place ThruLine Gee Neutral Center>>
 There she was, Gee waiting behind a tree. You decide to approach.
 <<Place ThruLine Gee Neutral Right>>
@@ -59,6 +60,7 @@ You run to the trees
 title: ScaringMiniGame
 ---
 <<Travel ThruLine Courtyard>>
+<<shiftmusic ThruLine 01>>
 <<Place ThruLine Nobody>>
 <<Place ThruLine Bee Neutral Right>>
 <<Place ThruLine Crowd Neutral FarRight>>
@@ -181,6 +183,7 @@ Bee: "I just like brainspaghetti and potions, maaan!"#line:575
 title: ambushfinale
 ---
 <<Travel ThruLine Courtyard>>
+<<shiftmusic ThruLine 01>>
 <<Place ThruLine Phoebe Neutral FarLeft>>
 <<Place ThruLine Bee Neutral Left>>
 Gee: "BOO!? What do you think this is? Some 1930's horror movie?!"#line:579
@@ -211,6 +214,7 @@ Bee: "Wha-"
 <<sfx ThruLine 06>>
 KBOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMMMMM
 <<Place ThruLine Nobody>>
+<<shiftmusic ThruLine 02>>
 <<Place ThruLine Casey Shocked Right>>
 You jumped just in time away from the explosion.
 <<Place ThruLine Phoebe Neutral Center>>
@@ -233,6 +237,7 @@ Crowd: "Oh, so wise!!!"
 They begin to take him away.
 <<Place ThruLine Bee Happy FarLeft>>
 Bee: "See you guys!!!!"#line:587
+<<shiftmusic ThruLine 00>>
 <<Place ThruLine Nobody>>
 <<Place ThruLine Gee Sad Right>>
 <<Place ThruLine Casey Neutral Center>>

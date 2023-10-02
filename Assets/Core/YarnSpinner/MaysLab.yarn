@@ -8,7 +8,7 @@ The door is closed... it reads...
 Casey: "Looks like she isn't around..."
     <<if $GeeExplained is true>>
     Casey: "Uhm... What was it that Gee said?..."
-    Casey: "She's never in her office, but when she is, you can hear her from every area around it..."
+    Casey: "She's never in her office, but when she is, you can hear you can hear the music changing from all sorrounding areas..."
     <<elseif $GeeExplained is false>>
     <<endif>>
 -> Back to Courtyard/Garden

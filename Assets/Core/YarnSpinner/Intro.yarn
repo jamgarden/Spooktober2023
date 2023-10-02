@@ -36,8 +36,6 @@ tags:
 <<set $TheSongWillPlay2 = false>>
 <<set $TheSongWillPlay3 = false>>
 <<set $TheSongWontPlay = false>>
-
-// <<jump Intervention>>
 <<Travel ThruLine CorridorWest>>
 <<Place ThruLine Casey Happy Center>>
 <<Place ThruLine "Test string with spaces here" Happy Center>>

@@ -140,6 +140,7 @@ Bayley: "If you say so."#line:457
 <<Place ThruLine Nobody>>
 <<Place ThruLine Crowd Neutral Center>>
 <<Place ThruLine Bayley Angry FarLeft>>
+<<shiftmusic ThruLine 01>>
 Bayley sneaks over towards the humans, careful not to be noticed. 
 He looks towards you, and you press record on your phone, giving him a thumbs up.
 <<Place ThruLine Bayley Bark Left>>
@@ -234,6 +235,7 @@ Tourist: "You ARE a good boy, aren't you?"
 <<Place ThruLine Casey Angry FarRight>>
 Casey: "Okayyyyyyyy… We'll be leaving now."
 <<Place ThruLine Nobody>>
+<<shiftmusic ThruLine 02>>
 You grab Bayley's arm and run away, hiding out of sight.
 <<Place ThruLine Casey Sad Left>>
 <<Place ThruLine Bayley Sad Right>>
@@ -272,6 +274,7 @@ Bayley: "Freak yeah!"
 title: CourtyardQuestBayley
 ---
 <<Travel ThruLine Courtyard>>
+<<shiftmusic ThruLine 01>>
 You both sneak into the courtyard, and look around.
 There's only one guy here, and he hasn't noticed you yet.
 <<Place ThruLine Casey Neutral Left>>
@@ -294,6 +297,7 @@ Bayley and Casey look at each other in confusion. This guy is utterly unfazed.
 <<Place ThruLine Bayley Sad Left>>
 Bayley: "Did I even scare you?"
 Aussie: "Nah mate, you'll have to do better than that to scare me."
+<<shiftmusic ThruLine 02>>
 Bayley: "That was my best bark yet…"
 <<Place ThruLine Aussie Happy Right>>
 <<Place ThruLine Casey Neutral FarLeft>>
