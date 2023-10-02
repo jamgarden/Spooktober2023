@@ -18,6 +18,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3343f30ef43f57c4aacc8c62f384d14e, type: 3}
   - {fileID: 21300000, guid: 64d1da758696d4a70b4c13743c441b7e, type: 3}
   - {fileID: 21300000, guid: ff7ddee8a5e424b079b4e0db37adc567, type: 3}
+  - {fileID: 21300000, guid: e1d21ad256e4165408077cd2cfbe164b, type: 3}
   canTravelTo: 0
   linkedLocations: []
   WhoIsHere: []
