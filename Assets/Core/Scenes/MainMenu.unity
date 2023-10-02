@@ -1950,7 +1950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1977197803
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1986,6 +1986,7 @@ MonoBehaviour:
   SplashFrames:
   - {fileID: 21300000, guid: 4a4d8e67c60ef0d43891b8b3869c5745, type: 3}
   - {fileID: 21300000, guid: 290bba8f5191cf34d8b4af06b69a7ca2, type: 3}
+  - {fileID: 21300000, guid: 80b842595464cef4c91bb1cea8425f70, type: 3}
   mask: {fileID: 605581997}
   splash: {fileID: 1977197805}
   seconds: 2
