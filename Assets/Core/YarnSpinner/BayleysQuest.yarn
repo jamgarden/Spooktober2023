@@ -121,7 +121,7 @@ Bayley: "TOO good…"
 <<Place ThruLine Casey Happy Left>>
 Casey: "C'mon, nothing that the MVP of the soccer team can't beat!"#line:454
 <<Place ThruLine Bayley Sad Right>>
-Bayley: "Case, you do remember that we lost, right?"#line:455
+Bayley: "Case', you do remember that we lost, right?"#line:455
 <<Place ThruLine Casey Neutral Left>>
 Casey: "You were still the MVP."
 <<Place ThruLine Bayley Think Right>>
