@@ -425,7 +425,7 @@ Bayley: "I told you Case', I just don't think I'm scary enough."#line:469
     Casey: "You are scary!" 
     Casey: "Don't you remember how freaked out I was when we first met!?"
     <<Place ThruLine Bayley Blush Right>>
-    Bayley: "Yeahh… You thought I was going to eat you."
+    Bayley: "Yeahhh… You thought I was going to eat you."
     <<Place ThruLine Casey Neutral Left>>
     Casey: "And remember how you scared away that pesky El Spooky from the kitchen last year?"
     <<Place ThruLine Bayley Neutral Right>>

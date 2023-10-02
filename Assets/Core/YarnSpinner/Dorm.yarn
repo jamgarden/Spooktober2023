@@ -334,7 +334,7 @@ Bayley: "FAST, WE GOTTA DO SOMETHING!!!"#line:287
     You and Bayley grab Phoebe and begin to approach the window.
     <<Place ThruLine Casey Shocked Right>>
     <<Place ThruLine Bayley Bark Center>>
-    She's begining to boil...
+    She's beginning to boil...
     <<Place ThruLine Casey Shocked Center>>
     <<Place ThruLine Bayley Bark Left>>
     <<sfx ThruLine 02>>
@@ -550,7 +550,7 @@ title: DormroomUrsy
 //fade back in
 After that last explosion, you all went on a fun trip around the castle and had a great time.
 Turns out, Ursula was just like Phoebe - just shy and insecure!
-All she needed, was just to be welcomed to the family.
+All she needed was just to be welcomed to the family.
 <<Place ThruLine Casey Neutral Right>>
 <<Place ThruLine Ursula Neutral Left>>
 <<Place ThruLine Bayley Neutral FarRight>>
@@ -582,10 +582,10 @@ And Phoebe pushes everyone out...
 //fade to black
 <<Travel ThruLine Courtyard>>
 //fade back in
-You take a seat on one of the chairs. It's been a long couple of days...
+You take a seat at your desk. It's been a long couple of days...
 And you haven't filmed anything good yet. Heck, you haven't checked your phone in this entire time!
 And you don't feel like doing it either...
-However, the sense of dispair hasn't quite gotten away yet.
+However, the sense of despair hasn't quite gotten away yet.
 Despite your little achievements, feels like this year, you all failed...
 And you can tell Bayley, Phoebe and the others all felt the same way at some point.
 Maybe they still do... so, you decide on inviting them all to the dorm tonight, before the concert.
